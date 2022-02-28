@@ -23,7 +23,7 @@ class Reader:
 		print("sucess: please connect")
 		logging.info("connected to reader @ {}".format(date.today()))
 	#-------------------------------------------------------------
-	def scan_tag_capture(self):
+	def scan_tag_capture(self): #stage 2
 		data=[]
 		reader = RFIDReader('socket',host=self.host,port=self.port,addr="00")
 		reader.connect()
@@ -33,7 +33,7 @@ class Reader:
 		reader.disconnect()
 		return [set(tags)]
 	#-------------------------------------------------------------
-	def reader_status(self):
+	def reader_status(self): #stage 1
 		host=self.host
 		parameter = '-n' if platform.system().lower()=='windows' else '-c'
 		command = ['ping',parameter,'1',host]
@@ -43,11 +43,11 @@ class Reader:
 		else:
 			return "disconnected"
 	#-------------------------------------------------------------
-	def check_approve_status(self):
+	def check_approve_status(self): 
 		pass
 		#this is for database code
 	#-------------------------------------------------------------
-	def insert_into_activity(self):
+	def insert_into_activity(self): #stage 3
 		pass
 		#this is for database code
 	#-------------------------------------------------------------
