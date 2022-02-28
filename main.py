@@ -61,5 +61,9 @@ class Reader:
 		client.on_connect = on_connect
 		client.on_message = on_message
 		client.connect(self.mqtt_ip, 1883, 60)
+		data = hex_to_string(scan_tag_capture())
 		client.publish(self.reader_id+"/data",data,qos=0,retain=False)
 		client.loop_forever()
+	def hex_to_string(self,value):
+		value=bytes.fromhex(value)
+		return value.decode()
