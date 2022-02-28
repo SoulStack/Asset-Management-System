@@ -1,7 +1,17 @@
 # UHFReader18
 
+## File Details:
+folder "testing": all testing and sample files.
+folder "rfid_reader": Library package for reader.
+
+Master file: main.py
+ - The master file is a class, contain scan,tag approval, sending data via mqtt, reader status and many more. 
+
+## Run Method:
+object = Reader1("192.168.0.250",27011,"127.0.0.1","reader/library")
+
 ## Simple Usage
-First, Import Library to your project
+First, Import Library to your project 
 ```
 from rfid-reader import RFIDReader
 
@@ -12,8 +22,8 @@ reader = RFIDReader('socket', host="10.5.50.200", port=6000, addr="00")
 reader.connect()
 ```
 
-- Get Reader Information  
-for get reader information such as type, max freq, etc 
+- Get Reader Information
+for get reader information such as type, max freq, etc
 ```
 info = reader.getInfo()
 print("INFO ", info)
