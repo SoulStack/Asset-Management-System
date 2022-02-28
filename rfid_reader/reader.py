@@ -116,7 +116,7 @@ class RFIDReader:
                 return tag
                 
             tag = rawtag[index_awal:(len(rawtag)-sisa)]
-            tags = re.findall("73\w{22}", tag)
+            tags = re.findall("73\w{26}", tag)
             return tags
         except Exception:
             return tags if parse_all else None
