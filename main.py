@@ -31,7 +31,7 @@ class Reader:
 		info=reader.getInfo()
 		tags=reader.scantags()
 		reader.disconnect()
-		return set(tags)
+		return [set(tags)]
 	#-------------------------------------------------------------
 	def reader_status(self):
 		host=self.host
@@ -65,5 +65,12 @@ class Reader:
 		client.publish(self.reader_id+"/data",data,qos=0,retain=False)
 		client.loop_forever()
 	def hex_to_string(self,value):
-		value=bytes.fromhex(value)
-		return value.decode()
+		if value[0]==set():
+			pass
+		else:
+			filter1=value[0]
+			ss=str(filter1)
+			cc=ss[2:-2]
+			print(cc)
+			b=bytes.fromhex(cc)
+			return b.decode()
