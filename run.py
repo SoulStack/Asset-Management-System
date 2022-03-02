@@ -1,31 +1,45 @@
-from multiprocessing import multiprocessing
+from multiprocessing import Process
 import main
 import time
 
-reader1 = main.Reader("192.168.0.250",27011,"13.76.182.251","reader1")
+reader1 = main.Reader("192.168.0.250",27011,"13.76.182.251","reader1","reader1_log")
 
-if __name__ =="__main__":
-	while True:
-		try:
-			if reader1.reader_status() =="Connected":
-				print("Connecting")
-			else:
-				print("Reader not connected")
-				time.sleep(2)
-				print("Waiting... please connect in 30s")
-				time.sleep(30)
-		except Exception as e:
-			raise
-		else:
-			print("error on connecting reader")
-		finally:
-			a = Process(target = reader1.reader_status)
-			b = Process(target = reader1.scan_tag_capture)
-			c = Process(target = reader1.insert_into_activity)
+def f1() :
+	while True :
+		try :
+			data1 = reader1.reader_status()            #check the reader status and send the result as mqtt to broker
+			reader1.reader_status_mqtt(data1)
+		except :
+			print("error on connecting reader")       
 
-			a.start()
-			b.start()
-			c.start()
-			a.join()
-			b.join()
-			c.join()
+def f2() :
+	while True :
+		try :
+			tag = reader1.scan_tag_capture()                 #scan the tags
+			tag1 = map(reader1.hex_to_string,tag)            #covert to string
+			approval = reader1.check_approve_status(tag1)    #check the approval status for the tag    
+			reader1.approval_status_mqtt(approval)   #send mqtt to broker
+		except :
+			pass
+def f3() :
+	while True :
+		try :
+			reader1.insert_into_activity()             #records will be inserted into activity table
+		except :
+			pass
+
+
+if __name__ == "__main__" :
+	a = Process(target = f1) 
+	b = Process(target = f2)
+	c = Process(target = f3)
+
+
+	a.start()               #To start the process
+	b.start()
+	c.start()
+
+
+	a.join()              #In order to stop execution of current program until a process is complete, we use join method.
+	b.join()
+	c.join()
