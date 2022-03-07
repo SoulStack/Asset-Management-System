@@ -1,5 +1,5 @@
 import logging
-import pyodbc
+import pyodbc as py
 import time
 from datetime import date
 import requests
@@ -12,20 +12,18 @@ import logging
 import datetime
 class Reader:
 	"""docstring for Reader"""
-	def __init__(self,host,port,mqtt_ip,reader_id,log_name):
+	def __init__(self,host,port,mqtt_ip,reader_id):
 		self.host = host
 		self.port = port
 		self.mqtt_ip =mqtt_ip
 		self.reader_id =  reader_id
-		self.log_name = log_name
-		logging.basicConfig(filename=self.log_name+".log", filemode='a', format='%(name)s - %(levelname)s - %(message)s')
+		logging.basicConfig(filename=self.reader_id+".log",filemode='w', format='%(name)s - %(levelname)s - %(message)s')
 		logging.info('This will get logged to a file')
 		if type(self.reader_id) == str:
 			pass
 		else:
 			print("please enter string type for topic")
-			logging.warning("Enetered topic is not in string format")
-			logging.error("error in topic "+str(datetime.datetime.now))
+			logging.error("error in topic not str"+str(datetime.datetime.now))
 			pass
 		print("sucess")
 		logging.info("connected to reader @ {}".format(date.today()))
@@ -54,9 +52,16 @@ class Reader:
 			logging.info(self.reader_id+" disconnected "+str(datetime.datetime.now))
 	#-------------------------------------------------------------
 	def check_approve_status(self,tag_uuid):
-		#------------code------------ 
-		return "sample_approved"
+		server = 'soulasset.database.windows.net'
+		database = "asset"
+		username = 'assetadmin'
+		password = 'Soulsvciot01'
+		cnxn = py.connect('DRIVER={ODBC Driver 17 for SQL Server};SERVER='+server+';DATABASE='+database+';UID='+username+';PWD='+ password)
+		cursor = cnxn.cursor()
+		cursor.execute("""SELECT tags.tag_uuid, History.approve_status FROM tags INNER JOIN History ON History.tag_id=tags.tag_id WHERE tag_uuid=(?) """,tag_uuid)
+		row= cursor.fetchone()
 		logging.info("approval status "+str(datetime.datetime.now))
+		return (row[1])
 	#-------------------------------------------------------------
 	def insert_into_activity(self): #stage 3
 		pass
@@ -76,7 +81,6 @@ class Reader:
 		logging.info("connected to mqtt server "+str(datetime.datetime.now))
 		client.publish(self.reader_id+"/data",data,qos=0,retain=False)
 		logging.info("published data:mqtt/"+data+str(datetime.datetime.now))
-		client.loop_forever()
 		logging.info("mqtt running "+str(datetime.datetime.now))
 	def hex_to_string(self,value):
 		if value[0]==set():
@@ -102,4 +106,3 @@ class Reader:
 		logging.info("connected to mqtt server for sending approval "+str(datetime.datetime.now))
 		client.publish(self.reader_id+"/approval_status",approve_data,qos=0,retain=False)
 		logging.info("connected to mqtt server for sending approval "+str(datetime.datetime.now))
-		client.loop_forever()
