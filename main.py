@@ -11,14 +11,23 @@ import subprocess
 import logging
 import datetime
 class Reader:
+
+		
 	"""docstring for Reader"""
-	def __init__(self,host,port,mqtt_ip,reader_id):
+	def __init__(self,host,port,mqtt_ip,reader_id,db_servername,db_username,db_password,db_database,cnxn=0):
 		self.host = host
 		self.port = port
+		self.db_username = db_username
+		self.db_database = db_database
+		self.db_password = db_password
+		self.db_servername = db_servername
 		self.mqtt_ip =mqtt_ip
 		self.reader_id =  reader_id
+		self.cnxn = cnxn
 		logging.basicConfig(filename=self.reader_id+".log",filemode='w', format='%(name)s - %(levelname)s - %(message)s')
 		logging.info('This will get logged to a file')
+		self.cnxn = py.connect('DRIVER={ODBC Driver 17 for SQL Server};SERVER='+db_servername+';DATABASE='+db_database+';UID='+db_username+';PWD='+db_password)
+
 		if type(self.reader_id) == str:
 			pass
 		else:
@@ -52,20 +61,14 @@ class Reader:
 			logging.info(self.reader_id+" disconnected "+str(datetime.datetime.now))
 	#-------------------------------------------------------------
 	def check_approve_status(self,tag_uuid):
-		server = 'soulasset.database.windows.net'
-		database = "asset"
-		username = 'assetadmin'
-		password = 'Soulsvciot01'
-		cnxn = py.connect('DRIVER={ODBC Driver 17 for SQL Server};SERVER='+server+';DATABASE='+database+';UID='+username+';PWD='+ password)
-		cursor = cnxn.cursor()
+		cursor = self.cnxn.cursor()
 		cursor.execute("""SELECT tags.tag_uuid, History.approve_status FROM tags INNER JOIN History ON History.tag_id=tags.tag_id WHERE tag_uuid=(?) """,tag_uuid)
 		row= cursor.fetchone()
 		logging.info("approval status "+str(datetime.datetime.now))
 		return (row[1])
 	#-------------------------------------------------------------
 	def insert_into_activity(self): #stage 3
-		pass
-		#this is for database code
+		
 		logging.info("activity log for tags: "+str(datetime.datetime.now))
 	#-------------------------------------------------------------
 	def reader_status_mqtt(self,data):
