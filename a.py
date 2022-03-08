@@ -7,6 +7,6 @@ while True :
 	 rdr_sts = reader1.reader_status()
 	 sleep(5)
 	 print(rdr_sts)
-	 sleep(10)
+	 
 	 reader1.reader_status_mqtt(rdr_sts) #send the mqtt to the broker whether the reader is connected or disconnected
 

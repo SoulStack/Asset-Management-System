@@ -67,9 +67,14 @@ class Reader:
 		logging.info("approval status "+str(datetime.datetime.now))
 		return (row[1])
 	#-------------------------------------------------------------
-	def insert_into_activity(self): #stage 3
-		
-		logging.info("activity log for tags: "+str(datetime.datetime.now))
+	def insert_into_activity(self,value,tag):
+		cursor = cnxn.cursor()
+		t=str(datetime.now())
+		approve = value
+		reader = self.reader_id
+		taguuid = tag 
+		cursor.execute("""INSERT INTO Activity(tag_uuid,reader_id,date,time,approval_status)values(taguuid,reader,t,t,approve) """)
+		logging.info("activity log for tags: "+str(datetime.datetime.now)+" "+str(taguuid))
 	#-------------------------------------------------------------
 	def reader_status_mqtt(self,data):
 		def on_connect(client,userdata,flags,rc):
