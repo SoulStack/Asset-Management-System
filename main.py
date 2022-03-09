@@ -9,6 +9,7 @@ import json
 import platform
 import subprocess
 import logging
+from pytz import timezone
 import datetime
 class Reader:
 
@@ -87,12 +88,15 @@ class Reader:
 			pass
 		else:
 			cursor = self.cnxn.cursor()
-			t=str(datetime.datetime.now())
+			date = datetime.date.today()
+			t = datetime.datetime.now(timezone("Asia/Kolkata"))
+			current_time = t.strftime("%H:%M:%S")
 			approve = value
 			reader = self.reader_id
 			taguuid = tag 
-			cursor.execute("""INSERT INTO Activity(tag_uuid,reader_id,date,time,approval_status)values(?,?,?,?,?) """,(taguuid,reader,t,t,approve))
+			cursor.execute("""INSERT INTO Activity(tag_uuid,reader_id,date,time,approval_status)values(?,?,?,?,?) """,(taguuid,reader,date,current_time,approve))
 			logging.info("activity log for tags: "+str(datetime.datetime.now)+" "+str(taguuid))
+			self.cnxn.commit()
 	#-------------------------------------------------------------
 	def reader_status_mqtt(self,data):
 		logging.info("connected to mqtt server "+str(datetime.datetime.now))
@@ -128,4 +132,3 @@ class Reader:
 				logging.info("checking for tags reached destination: "+str(datetime.datetime.now)+" "+str(taguuid))
 			else:
 				cursor.execute()# fill the sql command to insert true into sepecific tag uuid where the movement status = false
-

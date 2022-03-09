@@ -6,7 +6,7 @@ reader1 = main.Reader("10.0.175.250",27011,"13.76.182.251","reader1",'10.0.175.1
 @lru_cache(maxsize = 100)
 def f1() :
 	while True :
-		sleep(1 - time() % 1)
+		sleep(3)
 		tag = reader1.scan_tag_capture()
 		if tag == None :
 			pass
