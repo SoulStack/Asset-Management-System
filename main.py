@@ -25,6 +25,7 @@ class Reader:
 		self.reader_id =  reader_id
 		self.cnxn = cnxn
 		self.client = client
+	#------------------------------------------------------------
 		def on_connect(client,userdata,flags,rc):
 			print("Connected with result code"+str(rc))
 			#client.subscribe("topic")
@@ -82,20 +83,23 @@ class Reader:
 			return (row[1])
 	#-------------------------------------------------------------
 	def insert_into_activity(self,value,tag):
-		cursor = self.cnxn.cursor()
-		t=str(datetime.datetime.now())
-		approve = value
-		reader = self.reader_id
-		taguuid = tag 
-		cursor.execute("""INSERT INTO Activity(tag_uuid,reader_id,date,time,approval_status)value(?,?,?,?,?) """,(taguuid,reader,t,t,approve))
-		logging.info("activity log for tags: "+str(datetime.datetime.now)+" "+str(taguuid))
+		if tag == None:
+			pass
+		else:
+			cursor = self.cnxn.cursor()
+			t=str(datetime.datetime.now())
+			approve = value
+			reader = self.reader_id
+			taguuid = tag 
+			cursor.execute("""INSERT INTO Activity(tag_uuid,reader_id,date,time,approval_status)values(?,?,?,?,?) """,(taguuid,reader,t,t,approve))
+			logging.info("activity log for tags: "+str(datetime.datetime.now)+" "+str(taguuid))
 	#-------------------------------------------------------------
 	def reader_status_mqtt(self,data):
 		logging.info("connected to mqtt server "+str(datetime.datetime.now))
 		self.client.publish(self.reader_id+"/data",data,qos=0,retain=False)
 		logging.info("published data:mqtt/"+data+str(datetime.datetime.now))
 		logging.info("mqtt running "+str(datetime.datetime.now))
-		#----------------------------------------------------------
+	#----------------------------------------------------------
 	def hex_to_string(self,value):
 		if value[0]==set():
 			pass
@@ -124,5 +128,4 @@ class Reader:
 				logging.info("checking for tags reached destination: "+str(datetime.datetime.now)+" "+str(taguuid))
 			else:
 				cursor.execute()# fill the sql command to insert true into sepecific tag uuid where the movement status = false
-
 
