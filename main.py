@@ -97,7 +97,7 @@ class Reader:
 
     def approval_status_mqtt(self, approve_data):
         logging.info("connected to mqtt server for sending approval " + str(datetime.datetime.now))
-        self.client.publish(self.reader_id + "/approval_status", approve_data, qos=1, retain=False)
+        self.client.publish(self.reader_id + "/approval_status", approve_data, qos=0, retain=False)
         logging.info("connected to mqtt server for sending approval " + str(datetime.datetime.now))
 
     # ----------------------------------------------------------------
