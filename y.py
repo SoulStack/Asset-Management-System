@@ -1,7 +1,7 @@
 import main
 from time import time ,sleep
 from functools import lru_cache
-reader1 = main.Reader("10.0.175.250",27011,"10.0.175.122","reader1",'10.0.175.122','SA','Soulsvciot01',"asset")
+reader1 = main.Reader("10.0.175.250",27011,"10.0.175.122","reader1",'10.0.175.122','SA','Soulsvciot01',"asset","71013")
 
 @lru_cache(maxsize=100)
 def f1() :
@@ -20,8 +20,10 @@ def f1() :
             print(type(tag1))
             approve = reader1.check_approve_status(tag1)
             print(approve)
-            reader1.insert_into_activity(approve, tag1)
+            reader1.insert_into_Log(approve, tag1)
             reader1.approval_status_mqtt(approve)
+            reader1.check_tag_destination(tag1,approve) #it will change the movement status and approval status of the tag to false/0 if the destination is same as destination reader location.
 
 if __name__ == "__main__" :
     f1()
+

@@ -15,7 +15,7 @@ class Reader:
 
 		
 	"""docstring for Reader"""
-	def __init__(self,host,port,mqtt_ip,reader_id,db_servername,db_username,db_password,db_database,cnxn=0,client=0):
+	def __init__(self,host,port,mqtt_ip,reader_id,db_servername,db_username,db_password,db_database,location,cnxn=0,client=0):
 		self.host = host
 		self.port = port
 		self.db_username = db_username
@@ -26,6 +26,7 @@ class Reader:
 		self.reader_id =  reader_id
 		self.cnxn = cnxn
 		self.client = client
+		self.location = location
 	#------------------------------------------------------------
 		def on_connect(client,userdata,flags,rc):
 			print("Connected with result code"+str(rc))
@@ -78,12 +79,12 @@ class Reader:
 			pass
 		else :
 			
-			cursor.execute("""SELECT tags.tag_uuid, History.approve_status FROM tags INNER JOIN History ON History.tag_id=tags.tag_id WHERE tag_uuid=(?) """,tag_uuid)
+			cursor.execute("""SELECT tags.tag_uuid, Activity.approve_status FROM tags INNER JOIN Activity ON Activity.tag_id=tags.tag_id WHERE tag_uuid=(?) """,tag_uuid)
 			row= cursor.fetchone()
 			logging.info("approval status "+str(datetime.datetime.now))
 			return (row[1])
 	#-------------------------------------------------------------
-	def insert_into_activity(self,value,tag):
+	def insert_into_Log(self,value,tag):
 		if tag == None:
 			pass
 		else:
@@ -94,13 +95,13 @@ class Reader:
 			approve = value
 			reader = self.reader_id
 			taguuid = tag 
-			cursor.execute("""INSERT INTO Activity(tag_uuid,reader_id,date,time,approval_status)values(?,?,?,?,?) """,(taguuid,reader,date,current_time,approve))
+			cursor.execute("""INSERT INTO Logs(tag_uuid,reader_id,date,time,approval_status)values(?,?,?,?,?) """,(taguuid,reader,date,current_time,approve))
 			logging.info("activity log for tags: "+str(datetime.datetime.now)+" "+str(taguuid))
 			self.cnxn.commit()
 	#-------------------------------------------------------------
 	def reader_status_mqtt(self,data):
 		logging.info("connected to mqtt server "+str(datetime.datetime.now))
-		self.client.publish(self.reader_id+"/data",data,qos=0,retain=False)
+		self.client.publish(self.reader_id+"/data",data,qos=2,retain=False)
 		logging.info("published data:mqtt/"+data+str(datetime.datetime.now))
 		logging.info("mqtt running "+str(datetime.datetime.now))
 	#----------------------------------------------------------
@@ -118,17 +119,20 @@ class Reader:
 	#----------------------------------------------------------------
 	def approval_status_mqtt(self,approve_data):
 		logging.info("connected to mqtt server for sending approval "+str(datetime.datetime.now))
-		self.client.publish(self.reader_id+"/approval_status",approve_data,qos=0,retain=False)
+		self.client.publish(self.reader_id+"/approval_status",approve_data,qos=2,retain=False)
 		logging.info("connected to mqtt server for sending approval "+str(datetime.datetime.now))
-	def check_tag_destination(self,tag_uuid):
+	def check_tag_destination(self,tag_uuid,approve_status_data):
 		tag = tag_uuid
+		approve = approve_status_data
 		if tag == None or set():
 			pass
 		else:
+			cursor = self.cnxn.cursor()# movement status of that particular tag_id
+			move = cursor.execute("""SELECT Activity.movement_status from Activity INNER JOIN tags ON tags.tag_id=Activity.tag_id WHERE tag_uuid=(?)""",tag)#check the tag_id's movement status\
+			destination = cursor.execute("""SELECT Activity.destination from Activity INNER JOIN tags ON tags.tag_id=Activity.tag_id WHERE tag_uuid=(?)""",tag)# check from the history as per the tag_uuid 
+
+		if approve_status_data == True and move == True and destination == self.location:
 			cursor = self.cnxn.cursor()
-			check=cursor.execute("""SELECT tags.tag_uuid, History.movement_status FROM tags INNER JOIN History ON History.tag_id=tags.tag_id WHERE tag_uuid=(?) """,tag_uuid)
-			if check == True:
-				cursor.execute()# fill the sql command to insert false into sepecific tag uuid where the movement status = true
-				logging.info("checking for tags reached destination: "+str(datetime.datetime.now)+" "+str(taguuid))
-			else:
-				cursor.execute()# fill the sql command to insert true into sepecific tag uuid where the movement status = false
+			cursor.execute("""UPDATE Activity SET Activity.movement_status=0 from Activity UPDATE Activity SET Activity.approve_status=0 from Activity""")
+		else:
+			pass
