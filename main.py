@@ -42,7 +42,7 @@ class Reader:
         self.client.on_message = on_message
         self.client.connect(self.mqtt_ip, 1883, 60)
 
-        logging.basicConfig(filename=self.reader_id + ".log", filemode='w',
+        logging.basicConfig(filename=str(self.reader_id) + ".log", filemode='w',
                             format='%(name)s - %(levelname)s - %(message)s')
         logging.info('This will get logged to a file')
         self.cnxn = py.connect(
@@ -97,7 +97,7 @@ class Reader:
 
     def approval_status_mqtt(self, approve_data):
         logging.info("connected to mqtt server for sending approval " + str(datetime.datetime.now))
-        self.client.publish(self.reader_id + "/approval_status", approve_data, qos=0, retain=False)
+        self.client.publish(str(self.reader_id) + "/approval_status", approve_data, qos=0, retain=False)
         logging.info("connected to mqtt server for sending approval " + str(datetime.datetime.now))
 
     # ----------------------------------------------------------------
@@ -112,7 +112,7 @@ class Reader:
             approve = value
             reader = self.reader_id
             taguuid = tag
-            cursor.execute("""INSERT INTO Logs(tag_uuid,reader_id,date,time,approval_status)values(?,?,?,?,?) """,
+            cursor.execute("""INSERT INTO Logs(tag_uuid,reader_id,date,time,approve_status)values(?,?,?,?,?) """,
                            (taguuid, reader, date, current_time, approve))
             logging.info("activity log for tags: " + str(datetime.datetime.now) + " " + str(taguuid))
             self.cnxn.commit()
