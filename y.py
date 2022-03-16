@@ -1,7 +1,7 @@
 import main
 from time import time ,sleep
 from functools import lru_cache
-reader1 = main.Reader("10.0.175.250",27011,"10.0.175.122",2035705,'10.0.175.122','SA','Soulsvciot01',"asset",639013)
+reader1 = main.Reader("10.0.175.250",27011,"10.0.175.122",1357137,'10.0.175.122','SA','Soulsvciot01',"asset",213013)
 
 @lru_cache(maxsize=400)
 def f1() :

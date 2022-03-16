@@ -45,8 +45,7 @@ class Reader:
         logging.basicConfig(filename=str(self.reader_id) + ".log", filemode='w',
                             format='%(name)s - %(levelname)s - %(message)s')
         logging.info('This will get logged to a file')
-        self.cnxn = py.connect(
-            'DRIVER={ODBC Driver 17 for SQL Server};SERVER=' + db_servername + ';DATABASE=' + db_database + ';UID=' + db_username + ';PWD=' + db_password)
+        self.cnxn = py.connect('DRIVER={ODBC Driver 17 for SQL Server};SERVER=' + db_servername + ';DATABASE=' + db_database + ';UID=' + db_username + ';PWD=' + db_password)
         if type(self.reader_id) == str:
             pass
         else:
@@ -97,7 +96,7 @@ class Reader:
 
     def approval_status_mqtt(self, approve_data):
         logging.info("connected to mqtt server for sending approval " + str(datetime.datetime.now))
-        self.client.publish(str(self.reader_id) + "/approval_status", approve_data, qos=0, retain=False)
+        self.client.publish(str(self.reader_id) + "/approval_status", approve_data, qos=2, retain=False)
         logging.info("connected to mqtt server for sending approval " + str(datetime.datetime.now))
 
     # ----------------------------------------------------------------
@@ -123,7 +122,8 @@ class Reader:
 
         approve = approve_status_data
         if tag == None or set():
-             pass
+
+            pass
         else:
             cursor = self.cnxn.cursor()  # movement status of that particular tag_id
             cursor.execute("""SELECT Activity.movement_status from Activity INNER JOIN tags ON tags.tag_id=Activity.tag_id WHERE tag_uuid=(?)""",tag)  # check the tag_id's movement status\
@@ -136,10 +136,17 @@ class Reader:
             print(destination)
             print(type(destination))
 
-        if approve_status_data == True and move == True and destination == self.location:
-            cursor = self.cnxn.cursor()
-            cursor.execute("""UPDATE Activity SET movement_status=0 WHERE destination = (?) """,destination)
-            cursor.execute("""UPDATE Activity SET approve_status=0 WHERE destination = (?)""",destination)
-            self.cnxn.commit()# update the movement status as reached
-        else:
-            pass
+            if approve_status_data == "True" and move == "True" :
+                if self.location == destination :
+                    cursor = self.cnxn.cursor()
+                    print("executing if block")
+                    cursor.execute("""UPDATE Activity SET movement_status=(?) WHERE destination = (?) """, ("False",destination))
+                    cursor.execute("""UPDATE Activity SET approve_status=(?) WHERE destination = (?)""", ("False",destination))
+                    self.cnxn.commit()  # update the movement status as reached
+                else :
+                    print("wrong destination")
+            else :
+                print("location cannot detected")
+                pass
+
+
