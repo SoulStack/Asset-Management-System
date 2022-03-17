@@ -1,0 +1,234 @@
+Status - INFO - #################################################################################################___New Reader Log___######################################################################################
+Status - INFO - connected to reader @ 2022-03-16
+Status - INFO - #################################################################################################___New Reader Log___######################################################################################
+Status - INFO - connected to reader @ 2022-03-16
+Status - INFO - tagged scanned 2022-03-16 17:10:47.415300+05:30
+Status - INFO - connected to mqtt server for sending approval @ 2022-03-16 17:10:47.415461+05:30
+Status - INFO - tagged scanned 2022-03-16 17:10:50.166681+05:30
+Status - INFO - connected to mqtt server for sending approval @ 2022-03-16 17:10:50.167313+05:30
+Status - INFO - tagged scanned 2022-03-16 17:10:52.625814+05:30
+Status - INFO - connected to mqtt server for sending approval @ 2022-03-16 17:10:52.626442+05:30
+Status - INFO - tagged scanned 2022-03-16 17:10:55.184143+05:30
+Status - INFO - connected to mqtt server for sending approval @ 2022-03-16 17:10:55.184775+05:30
+Status - INFO - tagged scanned 2022-03-16 17:10:57.847385+05:30
+Status - INFO - connected to mqtt server for sending approval @ 2022-03-16 17:10:57.848020+05:30
+Status - INFO - tagged scanned 2022-03-16 17:10:59.859089+05:30
+root - INFO - tags are converted to string @ 2022-03-16 17:10:59.859601+05:30
+Status - INFO - #################################################################################################___New Reader Log___######################################################################################
+Status - INFO - connected to reader @ 2022-03-16
+Status - INFO - tagged scanned 2022-03-16 17:12:00.473950+05:30
+root - INFO - tags are converted to string @ 2022-03-16 17:12:00.474080+05:30
+Status - INFO - approval status checked @ 2022-03-16 17:12:00.474629+05:30
+Status - INFO - connected to mqtt server for sending approval @ 2022-03-16 17:12:00.474890+05:30
+Status - INFO - Inserted info of tag soul/ast/00001 in Logs table @ 2022-03-16 17:12:00.475386+05:30
+Status - INFO - Destination of tag 213013 is soul/ast/00001
+Status - INFO - tagged scanned 2022-03-16 17:12:02.947166+05:30
+Status - INFO - connected to mqtt server for sending approval @ 2022-03-16 17:12:02.947848+05:30
+Status - INFO - tagged scanned 2022-03-16 17:12:05.531175+05:30
+Status - INFO - connected to mqtt server for sending approval @ 2022-03-16 17:12:05.531417+05:30
+Status - INFO - tagged scanned 2022-03-16 17:12:07.965706+05:30
+root - INFO - tags are converted to string @ 2022-03-16 17:12:07.966260+05:30
+Status - INFO - approval status checked @ 2022-03-16 17:12:07.967659+05:30
+Status - INFO - connected to mqtt server for sending approval @ 2022-03-16 17:12:07.968503+05:30
+Status - INFO - Inserted info of tag soul/ast/00001 in Logs table @ 2022-03-16 17:12:07.970069+05:30
+Status - INFO - Destination of tag 213013 is soul/ast/00001
+Status - INFO - tagged scanned 2022-03-16 17:12:10.018935+05:30
+root - INFO - tags are converted to string @ 2022-03-16 17:12:10.019109+05:30
+Status - INFO - approval status checked @ 2022-03-16 17:12:10.019618+05:30
+Status - INFO - connected to mqtt server for sending approval @ 2022-03-16 17:12:10.019931+05:30
+Status - INFO - Inserted info of tag soul/ast/00001 in Logs table @ 2022-03-16 17:12:10.020423+05:30
+Status - INFO - Destination of tag 213013 is soul/ast/00001
+Status - INFO - tagged scanned 2022-03-16 17:12:12.676657+05:30
+Status - INFO - connected to mqtt server for sending approval @ 2022-03-16 17:12:12.677286+05:30
+Status - INFO - tagged scanned 2022-03-16 17:12:15.156447+05:30
+Status - INFO - connected to mqtt server for sending approval @ 2022-03-16 17:12:15.157107+05:30
+Status - INFO - tagged scanned 2022-03-16 17:12:17.722360+05:30
+Status - INFO - connected to mqtt server for sending approval @ 2022-03-16 17:12:17.722996+05:30
+Status - INFO - #################################################################################################___New Reader Log___######################################################################################
+Status - INFO - connected to reader @ 2022-03-16
+Status - INFO - tagged scanned 2022-03-16 17:13:13.297193+05:30
+Status - INFO - connected to mqtt server for sending approval @ 2022-03-16 17:13:13.297377+05:30
+Status - INFO - tagged scanned 2022-03-16 17:13:15.374951+05:30
+Status - INFO - connected to mqtt server for sending approval @ 2022-03-16 17:13:15.375635+05:30
+Status - INFO - tagged scanned 2022-03-16 17:13:17.452863+05:30
+Status - INFO - connected to mqtt server for sending approval @ 2022-03-16 17:13:17.453610+05:30
+Status - INFO - tagged scanned 2022-03-16 17:13:19.467385+05:30
+root - INFO - tags are converted to string @ 2022-03-16 17:13:19.467943+05:30
+Status - INFO - approval status checked @ 2022-03-16 17:13:19.469432+05:30
+Status - INFO - connected to mqtt server for sending approval @ 2022-03-16 17:13:19.470375+05:30
+Status - INFO - Inserted info of tag soul/ast/00001 in Logs table @ 2022-03-16 17:13:19.471924+05:30
+Status - INFO - Destination of tag 213013 is soul/ast/00001
+Status - INFO - tagged scanned 2022-03-16 17:13:21.599841+05:30
+Status - INFO - connected to mqtt server for sending approval @ 2022-03-16 17:13:21.600464+05:30
+Status - INFO - tagged scanned 2022-03-16 17:13:23.697205+05:30
+Status - INFO - connected to mqtt server for sending approval @ 2022-03-16 17:13:23.697869+05:30
+Status - INFO - #################################################################################################___New Reader Log___######################################################################################
+Status - INFO - connected to reader @ 2022-03-17
+Status - INFO - tagged scanned 2022-03-17 10:07:25.953547+05:30
+Status - INFO - connected to mqtt server for sending approval @ 2022-03-17 10:07:25.953706+05:30
+Status - INFO - tagged scanned 2022-03-17 10:07:28.016642+05:30
+Status - INFO - connected to mqtt server for sending approval @ 2022-03-17 10:07:28.017270+05:30
+Status - INFO - tagged scanned 2022-03-17 10:07:30.087974+05:30
+Status - INFO - connected to mqtt server for sending approval @ 2022-03-17 10:07:30.088607+05:30
+Status - INFO - tagged scanned 2022-03-17 10:07:32.161808+05:30
+Status - INFO - connected to mqtt server for sending approval @ 2022-03-17 10:07:32.162434+05:30
+Status - INFO - tagged scanned 2022-03-17 10:07:34.234825+05:30
+Status - INFO - connected to mqtt server for sending approval @ 2022-03-17 10:07:34.235521+05:30
+Status - INFO - tagged scanned 2022-03-17 10:07:36.309447+05:30
+Status - INFO - connected to mqtt server for sending approval @ 2022-03-17 10:07:36.310076+05:30
+Status - INFO - tagged scanned 2022-03-17 10:07:38.381719+05:30
+Status - INFO - connected to mqtt server for sending approval @ 2022-03-17 10:07:38.382445+05:30
+Status - INFO - tagged scanned 2022-03-17 10:07:40.454566+05:30
+Status - INFO - connected to mqtt server for sending approval @ 2022-03-17 10:07:40.455262+05:30
+Status - INFO - tagged scanned 2022-03-17 10:07:42.527235+05:30
+Status - INFO - connected to mqtt server for sending approval @ 2022-03-17 10:07:42.527469+05:30
+Status - INFO - tagged scanned 2022-03-17 10:07:44.604065+05:30
+Status - INFO - connected to mqtt server for sending approval @ 2022-03-17 10:07:44.604774+05:30
+Status - INFO - tagged scanned 2022-03-17 10:07:46.676328+05:30
+Status - INFO - connected to mqtt server for sending approval @ 2022-03-17 10:07:46.677030+05:30
+Status - INFO - tagged scanned 2022-03-17 10:07:48.748188+05:30
+Status - INFO - connected to mqtt server for sending approval @ 2022-03-17 10:07:48.748908+05:30
+Status - INFO - tagged scanned 2022-03-17 10:07:50.821830+05:30
+Status - INFO - connected to mqtt server for sending approval @ 2022-03-17 10:07:50.822454+05:30
+Status - INFO - tagged scanned 2022-03-17 10:07:52.894057+05:30
+Status - INFO - connected to mqtt server for sending approval @ 2022-03-17 10:07:52.894796+05:30
+Status - INFO - tagged scanned 2022-03-17 10:07:54.968733+05:30
+Status - INFO - connected to mqtt server for sending approval @ 2022-03-17 10:07:54.969390+05:30
+Status - INFO - tagged scanned 2022-03-17 10:07:57.041743+05:30
+Status - INFO - connected to mqtt server for sending approval @ 2022-03-17 10:07:57.042452+05:30
+Status - INFO - tagged scanned 2022-03-17 10:07:59.115831+05:30
+Status - INFO - connected to mqtt server for sending approval @ 2022-03-17 10:07:59.116570+05:30
+Status - INFO - tagged scanned 2022-03-17 10:08:01.188727+05:30
+Status - INFO - connected to mqtt server for sending approval @ 2022-03-17 10:08:01.189487+05:30
+Status - INFO - tagged scanned 2022-03-17 10:08:03.262584+05:30
+Status - INFO - connected to mqtt server for sending approval @ 2022-03-17 10:08:03.263279+05:30
+Status - INFO - tagged scanned 2022-03-17 10:08:05.333808+05:30
+Status - INFO - connected to mqtt server for sending approval @ 2022-03-17 10:08:05.334515+05:30
+Status - INFO - tagged scanned 2022-03-17 10:08:07.410562+05:30
+Status - INFO - connected to mqtt server for sending approval @ 2022-03-17 10:08:07.411251+05:30
+Status - INFO - tagged scanned 2022-03-17 10:08:09.480694+05:30
+Status - INFO - connected to mqtt server for sending approval @ 2022-03-17 10:08:09.481472+05:30
+Status - INFO - tagged scanned 2022-03-17 10:08:11.552513+05:30
+Status - INFO - connected to mqtt server for sending approval @ 2022-03-17 10:08:11.552877+05:30
+Status - INFO - tagged scanned 2022-03-17 10:08:13.628131+05:30
+Status - INFO - connected to mqtt server for sending approval @ 2022-03-17 10:08:13.628760+05:30
+Status - INFO - tagged scanned 2022-03-17 10:08:15.702229+05:30
+Status - INFO - connected to mqtt server for sending approval @ 2022-03-17 10:08:15.702844+05:30
+Status - INFO - tagged scanned 2022-03-17 10:08:17.773252+05:30
+Status - INFO - connected to mqtt server for sending approval @ 2022-03-17 10:08:17.773915+05:30
+Status - INFO - tagged scanned 2022-03-17 10:08:19.848031+05:30
+Status - INFO - connected to mqtt server for sending approval @ 2022-03-17 10:08:19.848657+05:30
+Status - INFO - tagged scanned 2022-03-17 10:08:21.920264+05:30
+Status - INFO - connected to mqtt server for sending approval @ 2022-03-17 10:08:21.920885+05:30
+Status - INFO - tagged scanned 2022-03-17 10:08:23.994961+05:30
+Status - INFO - connected to mqtt server for sending approval @ 2022-03-17 10:08:23.995593+05:30
+Status - INFO - tagged scanned 2022-03-17 10:08:26.068533+05:30
+Status - INFO - connected to mqtt server for sending approval @ 2022-03-17 10:08:26.069159+05:30
+Status - INFO - tagged scanned 2022-03-17 10:08:28.140111+05:30
+Status - INFO - connected to mqtt server for sending approval @ 2022-03-17 10:08:28.140737+05:30
+Status - INFO - tagged scanned 2022-03-17 10:08:30.213808+05:30
+Status - INFO - connected to mqtt server for sending approval @ 2022-03-17 10:08:30.214439+05:30
+Status - INFO - tagged scanned 2022-03-17 10:08:32.286742+05:30
+Status - INFO - connected to mqtt server for sending approval @ 2022-03-17 10:08:32.287381+05:30
+Status - INFO - tagged scanned 2022-03-17 10:08:34.359686+05:30
+Status - INFO - connected to mqtt server for sending approval @ 2022-03-17 10:08:34.360301+05:30
+Status - INFO - tagged scanned 2022-03-17 10:08:36.433781+05:30
+Status - INFO - connected to mqtt server for sending approval @ 2022-03-17 10:08:36.434418+05:30
+Status - INFO - tagged scanned 2022-03-17 10:08:38.508137+05:30
+Status - INFO - connected to mqtt server for sending approval @ 2022-03-17 10:08:38.508352+05:30
+Status - INFO - tagged scanned 2022-03-17 10:08:40.580482+05:30
+Status - INFO - connected to mqtt server for sending approval @ 2022-03-17 10:08:40.581098+05:30
+Status - INFO - tagged scanned 2022-03-17 10:08:42.653405+05:30
+Status - INFO - connected to mqtt server for sending approval @ 2022-03-17 10:08:42.654022+05:30
+Status - INFO - tagged scanned 2022-03-17 10:08:44.727466+05:30
+Status - INFO - connected to mqtt server for sending approval @ 2022-03-17 10:08:44.728092+05:30
+Status - INFO - tagged scanned 2022-03-17 10:08:46.799429+05:30
+Status - INFO - connected to mqtt server for sending approval @ 2022-03-17 10:08:46.800056+05:30
+Status - INFO - tagged scanned 2022-03-17 10:08:48.874902+05:30
+Status - INFO - connected to mqtt server for sending approval @ 2022-03-17 10:08:48.875557+05:30
+Status - INFO - tagged scanned 2022-03-17 10:08:50.948195+05:30
+Status - INFO - connected to mqtt server for sending approval @ 2022-03-17 10:08:50.948822+05:30
+Status - INFO - tagged scanned 2022-03-17 10:08:53.019213+05:30
+Status - INFO - connected to mqtt server for sending approval @ 2022-03-17 10:08:53.019840+05:30
+Status - INFO - tagged scanned 2022-03-17 10:08:55.095937+05:30
+Status - INFO - connected to mqtt server for sending approval @ 2022-03-17 10:08:55.096571+05:30
+Status - INFO - tagged scanned 2022-03-17 10:08:57.168620+05:30
+Status - INFO - connected to mqtt server for sending approval @ 2022-03-17 10:08:57.169236+05:30
+Status - INFO - tagged scanned 2022-03-17 10:08:59.238975+05:30
+Status - INFO - connected to mqtt server for sending approval @ 2022-03-17 10:08:59.239613+05:30
+Status - INFO - tagged scanned 2022-03-17 10:09:01.313621+05:30
+Status - INFO - connected to mqtt server for sending approval @ 2022-03-17 10:09:01.314259+05:30
+Status - INFO - tagged scanned 2022-03-17 10:09:03.385648+05:30
+Status - INFO - connected to mqtt server for sending approval @ 2022-03-17 10:09:03.386264+05:30
+Status - INFO - tagged scanned 2022-03-17 10:09:05.459806+05:30
+Status - INFO - connected to mqtt server for sending approval @ 2022-03-17 10:09:05.460432+05:30
+Status - INFO - tagged scanned 2022-03-17 10:09:07.531622+05:30
+Status - INFO - connected to mqtt server for sending approval @ 2022-03-17 10:09:07.531848+05:30
+Status - INFO - tagged scanned 2022-03-17 10:09:09.607182+05:30
+Status - INFO - connected to mqtt server for sending approval @ 2022-03-17 10:09:09.607811+05:30
+Status - INFO - tagged scanned 2022-03-17 10:09:11.679620+05:30
+Status - INFO - connected to mqtt server for sending approval @ 2022-03-17 10:09:11.680253+05:30
+Status - INFO - tagged scanned 2022-03-17 10:09:13.788470+05:30
+Status - INFO - connected to mqtt server for sending approval @ 2022-03-17 10:09:13.789112+05:30
+Status - INFO - tagged scanned 2022-03-17 10:09:16.172284+05:30
+Status - INFO - connected to mqtt server for sending approval @ 2022-03-17 10:09:16.172906+05:30
+Status - INFO - tagged scanned 2022-03-17 10:09:18.837806+05:30
+Status - INFO - connected to mqtt server for sending approval @ 2022-03-17 10:09:18.838439+05:30
+Status - INFO - tagged scanned 2022-03-17 10:09:21.394152+05:30
+Status - INFO - connected to mqtt server for sending approval @ 2022-03-17 10:09:21.394795+05:30
+Status - INFO - tagged scanned 2022-03-17 10:09:23.955831+05:30
+Status - INFO - connected to mqtt server for sending approval @ 2022-03-17 10:09:23.956456+05:30
+Status - INFO - tagged scanned 2022-03-17 10:09:26.719060+05:30
+Status - INFO - connected to mqtt server for sending approval @ 2022-03-17 10:09:26.719692+05:30
+Status - INFO - tagged scanned 2022-03-17 10:09:29.176907+05:30
+Status - INFO - connected to mqtt server for sending approval @ 2022-03-17 10:09:29.177581+05:30
+Status - INFO - tagged scanned 2022-03-17 10:09:31.737573+05:30
+Status - INFO - connected to mqtt server for sending approval @ 2022-03-17 10:09:31.738219+05:30
+Status - INFO - tagged scanned 2022-03-17 10:09:34.401165+05:30
+Status - INFO - connected to mqtt server for sending approval @ 2022-03-17 10:09:34.401831+05:30
+Status - INFO - tagged scanned 2022-03-17 10:09:36.958812+05:30
+Status - INFO - connected to mqtt server for sending approval @ 2022-03-17 10:09:36.959453+05:30
+Status - INFO - tagged scanned 2022-03-17 10:09:39.628255+05:30
+Status - INFO - connected to mqtt server for sending approval @ 2022-03-17 10:09:39.628888+05:30
+Status - INFO - tagged scanned 2022-03-17 10:09:41.811546+05:30
+Status - INFO - connected to mqtt server for sending approval @ 2022-03-17 10:09:41.812189+05:30
+Status - INFO - tagged scanned 2022-03-17 10:09:44.231352+05:30
+Status - INFO - connected to mqtt server for sending approval @ 2022-03-17 10:09:44.231994+05:30
+Status - INFO - tagged scanned 2022-03-17 10:09:46.584377+05:30
+Status - INFO - connected to mqtt server for sending approval @ 2022-03-17 10:09:46.585018+05:30
+Status - INFO - tagged scanned 2022-03-17 10:09:49.253138+05:30
+Status - INFO - connected to mqtt server for sending approval @ 2022-03-17 10:09:49.253834+05:30
+Status - INFO - tagged scanned 2022-03-17 10:09:51.813217+05:30
+Status - INFO - connected to mqtt server for sending approval @ 2022-03-17 10:09:51.813898+05:30
+Status - INFO - tagged scanned 2022-03-17 10:09:54.470989+05:30
+Status - INFO - connected to mqtt server for sending approval @ 2022-03-17 10:09:54.471641+05:30
+Status - INFO - tagged scanned 2022-03-17 10:09:56.927158+05:30
+Status - INFO - connected to mqtt server for sending approval @ 2022-03-17 10:09:56.927799+05:30
+Status - INFO - tagged scanned 2022-03-17 10:09:59.487718+05:30
+Status - INFO - connected to mqtt server for sending approval @ 2022-03-17 10:09:59.488372+05:30
+Status - INFO - tagged scanned 2022-03-17 10:10:02.155720+05:30
+Status - INFO - connected to mqtt server for sending approval @ 2022-03-17 10:10:02.156363+05:30
+Status - INFO - #################################################################################################___New Reader Log___######################################################################################
+Status - INFO - connected to reader @ 2022-03-17
+Status - INFO - Scanning Started at 2022-03-17 10:14:03.619029+05:30
+Status - INFO - Scanning Started at 2022-03-17 10:14:06.270715+05:30
+Status - INFO - Scanning Started at 2022-03-17 10:14:08.831260+05:30
+Status - INFO - Scanning Started at 2022-03-17 10:14:11.390547+05:30
+Status - INFO - Scanning Started at 2022-03-17 10:14:13.956367+05:30
+Status - INFO - Scanning Started at 2022-03-17 10:14:16.025467+05:30
+Status - INFO - Scanning Started at 2022-03-17 10:14:18.099943+05:30
+Status - INFO - Scanning Started at 2022-03-17 10:14:20.172319+05:30
+Status - INFO - Scanning Started at 2022-03-17 10:14:22.245251+05:30
+Status - INFO - Scanning Started at 2022-03-17 10:14:24.312864+05:30
+Status - INFO - Scanning Started at 2022-03-17 10:14:26.385174+05:30
+Status - INFO - Scanning Started at 2022-03-17 10:14:28.905892+05:30
+Status - INFO - Scanning Started at 2022-03-17 10:14:31.561777+05:30
+Status - INFO - Scanning Started at 2022-03-17 10:14:34.020768+05:30
+Status - INFO - Scanning Started at 2022-03-17 10:14:36.581730+05:30
+Status - INFO - Scanning Started at 2022-03-17 10:14:39.142610+05:30
+Status - INFO - #################################################################################################___New Reader Log___######################################################################################
+Status - INFO - connected to reader @ 2022-03-17
+Status - INFO - Scanning started
+Status - INFO - #################################################################################################___New Reader Log___######################################################################################
+Status - INFO - connected to reader @ 2022-03-17
+Status - INFO - Scanning started at 2022-03-17 10:18:58.606510+05:30
