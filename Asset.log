@@ -235,3 +235,65 @@ Status - INFO - Scanning started at 2022-03-17 10:18:58.606510+05:30
 Status - INFO - #################################################################################################___New Reader Log___######################################################################################
 Status - INFO - connected to reader @ 2022-03-17
 Status - INFO - Scanning started at 2022-03-17 13:05:29.182156+05:30
+Status - INFO - #################################################################################################___New Reader Log___######################################################################################
+Status - INFO - connected to reader @ 2022-03-18
+Status - INFO - Scanning started at 2022-03-18 10:28:32.504999+05:30
+Status - INFO - #################################################################################################___New Reader Log___######################################################################################
+Status - INFO - connected to reader @ 2022-03-18
+Status - INFO - Scanning started at 2022-03-18 10:31:03.954272+05:30
+Status - INFO - #################################################################################################___New Reader Log___######################################################################################
+Status - INFO - connected to reader @ 2022-03-18
+Status - INFO - Scanning started at 2022-03-18 10:33:50.861487+05:30
+Status - INFO - #################################################################################################___New Reader Log___######################################################################################
+Status - INFO - connected to reader 1357137 @ 2022-03-18
+Status - INFO - Scanning started at 2022-03-18 10:57:58.195564+05:30
+Status - INFO - #################################################################################################___New Reader Log___######################################################################################
+Status - INFO - connected to reader 1357137 @ 2022-03-18
+Status - INFO - Scanning started at 2022-03-18 10:58:55.337556+05:30
+Status - INFO - #################################################################################################___New Reader Log___######################################################################################
+Status - INFO - connected to reader 1357137 @ 2022-03-18
+Status - INFO - Scanning started at 2022-03-18 11:02:43.802643+05:30
+Status - INFO - #################################################################################################___New Reader Log___######################################################################################
+Status - INFO - connected to reader 1357137 @ 2022-03-18
+Status - INFO - Scanning started at 2022-03-18 11:03:34.389322+05:30
+root - INFO - tags are converted to string @ 2022-03-18 11:04:02.832601+05:30
+Status - INFO - approval status checked @ 2022-03-18 11:04:02.838967+05:30
+Status - INFO - connected to mqtt server for sending approval @ 2022-03-18 11:04:02.839196+05:30
+Status - INFO - Inserted info of tag soul/ast/00001 in Logs table @ 2022-03-18 11:04:02.840174+05:30
+Status - INFO - Destination of tag 213013 is soul/ast/00001
+Status - INFO - #################################################################################################___New Reader Log___######################################################################################
+Status - INFO - connected to reader 1357137 @ 2022-03-18
+Status - INFO - Scanning started at 2022-03-18 11:06:14.946878+05:30
+root - INFO - tags are converted to string @ 2022-03-18 11:06:27.022045+05:30
+Status - INFO - approval status checked @ 2022-03-18 11:06:27.023528+05:30
+Status - INFO - connected to mqtt server for sending approval @ 2022-03-18 11:06:27.024398+05:30
+Status - INFO - Inserted info of tag soul/ast/00001 in Logs table @ 2022-03-18 11:06:27.028792+05:30
+Status - INFO - Destination of tag 213013 is soul/ast/00001
+root - INFO - tags are converted to string @ 2022-03-18 11:06:29.072510+05:30
+Status - INFO - approval status checked @ 2022-03-18 11:06:29.073955+05:30
+Status - INFO - connected to mqtt server for sending approval @ 2022-03-18 11:06:29.074784+05:30
+Status - INFO - Inserted info of tag soul/ast/00001 in Logs table @ 2022-03-18 11:06:29.076280+05:30
+Status - INFO - Destination of tag 213013 is soul/ast/00001
+Status - INFO - #################################################################################################___New Reader Log___######################################################################################
+Status - INFO - connected to reader 1357137 @ 2022-03-18
+Status - INFO - Scanning started at 2022-03-18 11:12:20.029074+05:30
+root - INFO - tags are converted to string @ 2022-03-18 11:12:38.173938+05:30
+Status - INFO - approval status checked @ 2022-03-18 11:12:38.174549+05:30
+Status - INFO - connected to mqtt server for sending approval @ 2022-03-18 11:12:38.174909+05:30
+Status - INFO - Inserted info of tag soul/ast/00001 in Logs table @ 2022-03-18 11:12:38.176317+05:30
+Status - INFO - Destination of tag 213013 is soul/ast/00001
+Status - INFO - #################################################################################################___New Reader Log___######################################################################################
+Status - INFO - connected to reader 1357137 @ 2022-03-18
+Status - INFO - Scanning started at 2022-03-18 11:22:33.818358+05:30
+root - INFO - tags are converted to string @ 2022-03-18 11:22:50.057265+05:30
+Status - INFO - approval status checked @ 2022-03-18 11:22:50.058772+05:30
+Status - INFO - connected to mqtt server for sending approval @ 2022-03-18 11:22:50.059609+05:30
+Status - INFO - Inserted info of tag soul/ast/00001 in Logs table @ 2022-03-18 11:22:50.061197+05:30
+Status - INFO - Destination of tag 213013 is soul/ast/00001
+Status - INFO - Updated approve status and movement status in Activity table for tag soul/ast/00001 @ 2022-03-18 11:22:50.125321+05:30
+Status - INFO - Process completed @ 2022-03-18 11:22:50.125672+05:30
+root - INFO - tags are converted to string @ 2022-03-18 11:22:52.146987+05:30
+Status - INFO - approval status checked @ 2022-03-18 11:22:52.148503+05:30
+Status - INFO - connected to mqtt server for sending approval @ 2022-03-18 11:22:52.149342+05:30
+Status - INFO - Inserted info of tag soul/ast/00001 in Logs table @ 2022-03-18 11:22:52.150821+05:30
+Status - INFO - Destination of tag 213013 is soul/ast/00001

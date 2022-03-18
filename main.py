@@ -44,7 +44,7 @@ class Reader:
         self.client.connect(self.mqtt_ip, 1883, 60)
         self.cnxn = py.connect('DRIVER={ODBC Driver 17 for SQL Server};SERVER=' + db_servername + ';DATABASE=' + db_database + ';UID=' + db_username + ';PWD=' + db_password)
         logger.info("#################################################################################################___New Reader Log___######################################################################################")
-        logger.info("connected to reader @ {}".format(date.today()))
+        logger.info("connected to reader {} @ {}".format(self.reader_id,date.today()))
         logger.info("Scanning started at {}".format(datetime.datetime.now(timezone("Asia/Kolkata"))))
 
     # -------------------------------------------------------------
@@ -53,10 +53,7 @@ class Reader:
         reader = RFIDReader('socket', host=self.host, port=self.port, addr="00")
         reader.connect()
         n = True
-        info = reader.getInfo()
         tags = reader.scantags()
-        #logger.info("Scanning Started at {}".format(datetime.datetime.now(timezone("Asia/Kolkata"))))
-        # reader.disconnect()
         return [set(tags)]
 
     # ----------------------------------------------------------
