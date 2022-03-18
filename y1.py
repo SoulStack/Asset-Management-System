@@ -12,7 +12,7 @@ reader1 = main.Reader(reader_ip,port,mqtt_ip,reader_id,'10.0.175.122','SA','Soul
 @lru_cache(maxsize=400)
 def f1() :
     while True :
-        sleep(1)
+        sleep(2)
         tag = reader1.scan_tag_capture()
         if tag == None:
             pass
