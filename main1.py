@@ -8,6 +8,7 @@ import paho.mqtt.client as mqtt
 from rfid_reader import RFIDReader
 import json
 import platform
+import subprocess
 import logging
 from pytz import timezone
 import datetime
