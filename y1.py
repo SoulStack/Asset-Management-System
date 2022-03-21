@@ -5,14 +5,14 @@ reader_ip = input("enter reader ip : ")
 port =int(input("enter port : "))
 mqtt_ip = input("enter mqtt ip : ")
 reader_id = input("enter reader id : ")
-reader_location = int(input("enter reader location : "))
+reader_location = input("enter reader location : ")
 
 reader1 = main.Reader(reader_ip,port,mqtt_ip,reader_id,'10.0.175.122','SA','Soulsvciot01',"asset",reader_location)
 
 @lru_cache(maxsize=400)
 def f1() :
     while True :
-        sleep(2)
+        sleep(4)
         tag = reader1.scan_tag_capture()
         if tag == None:
             pass

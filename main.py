@@ -18,7 +18,7 @@ logging.basicConfig(filename="Asset.log", filemode='a',format='%(name)s - %(leve
 class Reader:
     """docstring for Reader"""
 
-    def __init__(self, host, port, mqtt_ip, reader_id, db_servername, db_username, db_password, db_database,location, cnxn=0, client=0):
+    def __init__(self, host, port, mqtt_ip, reader_id, db_servername, db_username, db_password, db_database,room_name, cnxn=0, client=0):
         self.host = host
         self.port = port
         self.db_username = db_username
@@ -29,7 +29,7 @@ class Reader:
         self.reader_id = reader_id
         self.cnxn = cnxn
         self.client = client
-        self.location = location
+        self.room_name = room_name
         # ------------------------------------------------------------
         def on_connect(client, userdata, flags, rc):
             print("Connected with result code" + str(rc))
@@ -48,13 +48,17 @@ class Reader:
         logger.info("Scanning started at {}".format(datetime.datetime.now(timezone("Asia/Kolkata"))))
 
     # -------------------------------------------------------------
-    def scan_tag_capture(self):  # stage 2
-        data = []
-        reader = RFIDReader('socket', host=self.host, port=self.port, addr="00")
-        reader.connect()
-        n = True
-        tags = reader.scantags()
-        return [set(tags)]
+    def scan_tag_capture(self):
+        try :
+            # stage 2
+            data = []
+            reader = RFIDReader('socket', host=self.host, port=self.port, addr="00")
+            reader.connect()
+            n = True
+            tags = reader.scantags()
+            return [set(tags)]
+        except :
+            print("Oh...No...READER DISCONNECTED!!!!!!!!!!!")
 
     # ----------------------------------------------------------
     def hex_to_string(self, value):
@@ -127,10 +131,10 @@ class Reader:
             destination = row1[0]
             print(destination)
             print(type(destination))
-            logger.info("Destination of tag {} is {}".format(tag,destination))
+            logger.info("Destination of tag {} is {}".format(destination,tag))
 
             if approve_status_data == "True" and move == "True" :
-                if self.location == destination :
+                if self.room_name == destination :
                     cursor = self.cnxn.cursor()
                     print("executing if block")
                     cursor.execute("""UPDATE Activity SET movement_status=(?) WHERE destination = (?) """, ("False",destination))
@@ -140,8 +144,15 @@ class Reader:
                     logger.info("Process completed @ {}".format(datetime.datetime.now(timezone("Asia/Kolkata"))))
                 else :
                     print("wrong destination")
+
             else :
-                print("Asset is not moving")
-                pass
-
-
+                cursor.execute("""SELECT location_name from location INNER JOIN rooms ON rooms.location_id=location.location_id INNER JOIN reader ON reader.room_name=rooms.room_name where reader_id=(?)""",self.reader_id)
+                row1 = cursor.fetchone()
+                location_name = row1[0]
+                print(location_name)
+                alert = "Alert"
+                reader_id = self.reader_id
+                room_name =self.room_name
+                cursor.execute("""INSERT INTO Alert(reader_id,tag_uuid,location_name,approval_status,alert,room_name)values(?,?,?,?,?,?) """,
+                               (reader_id,tag,location_name, approve,alert,room_name))
+                self.cnxn.commit()
