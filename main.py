@@ -131,7 +131,7 @@ class Reader:
             destination = row1[0]
             print(destination)
             print(type(destination))
-            logger.info("Destination of tag {} is {}".format(destination,tag))
+            logger.info("Destination of tag {} is {}".format(tag,destination))
 
             if approve_status_data == "True" and move == "True" :
                 if self.room_name == destination :
