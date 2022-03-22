@@ -44,12 +44,12 @@ class RFIDReader:
     baudrate = BAUDRATE[5600]
     buffer_size = 8192
     connection = None
-    timeout = 120.0
+    timeout = 10.0
     host = None
-    port = 6000
+    port = 27011
     config = {
-        'read_interval_timeout': 10,
-        'read_total_timeout_constant': 10,
+        'read_interval_timeout':10 ,
+        'read_total_timeout_constant':20 ,
         'read_total_timeout_multiplier': 20,
         'write_total_timeout_constant': 20,
         'write_total_timeout_multiplier': 20

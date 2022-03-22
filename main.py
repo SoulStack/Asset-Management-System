@@ -5,11 +5,8 @@ from datetime import date
 import datetime
 import requests
 import paho.mqtt.client as mqtt
-from rfid_reader import RFIDReader
-import json
-import platform
-import logging
-from pytz import timezone
+from rfid_reader import RFIDReader               #used to retrieve system information
+from pytz import timezone      #all time zones are available in this module
 import datetime
 
 logger = logging.getLogger("Status")
@@ -156,3 +153,6 @@ class Reader:
                 cursor.execute("""INSERT INTO Alert(reader_id,tag_uuid,location_name,approval_status,alert,room_name)values(?,?,?,?,?,?) """,
                                (reader_id,tag,location_name, approve,alert,room_name))
                 self.cnxn.commit()
+
+
+

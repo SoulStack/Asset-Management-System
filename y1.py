@@ -1,18 +1,18 @@
 import main
 from time import time ,sleep
 from functools import lru_cache
-reader_ip = input("enter reader ip : ")
-port =int(input("enter port : "))
-mqtt_ip = input("enter mqtt ip : ")
-reader_id = input("enter reader id : ")
-reader_location = input("enter reader location : ")
+reader_ip = input("Enter Reader ip : ")
+port = input("Enter Port : ")
+mqtt_ip = input("Enter mqtt ip : ")
+reader_id = input("Enter Reader id : ")
+reader_location = input("Enter Reader Location : ")
 
-reader1 = main.Reader(reader_ip,port,mqtt_ip,reader_id,'10.0.175.122','SA','Soulsvciot01',"asset",reader_location)
+reader1 = main.Reader(reader_ip,int(port),mqtt_ip,reader_id,'10.0.175.122','SA','Soulsvciot01',"asset",reader_location)
 
-@lru_cache(maxsize=400)
+@lru_cache(maxsize=300)
 def f1() :
     while True :
-        sleep(4)
+        sleep(3)
         tag = reader1.scan_tag_capture()
         if tag == None:
             pass
@@ -26,5 +26,4 @@ def f1() :
             reader1.check_tag_destination(tag1,approve) #it will change the movement status and approval status of the tag
 if __name__ == "__main__" :
     f1()
-
 
