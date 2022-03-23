@@ -6,8 +6,7 @@ import datetime
 import requests
 import paho.mqtt.client as mqtt
 from rfid_reader import RFIDReader               #used to retrieve system information
-from pytz import timezone      #all time zones are available in this module
-import datetime
+from pytz import timezone      #all time zones are available in this modu
 
 logger = logging.getLogger("Status")
 logging.basicConfig(filename="Asset.log", filemode='a',format='%(name)s - %(levelname)s - %(message)s',level = logging.DEBUG )
@@ -46,22 +45,23 @@ class Reader:
 
     # -------------------------------------------------------------
     def scan_tag_capture(self):
-        try :
-            # stage 2
-            data = []
-            reader = RFIDReader('socket', host=self.host, port=self.port, addr="00")
-            reader.connect()
-            n = True
-            tags = reader.scantags()
-            return [set(tags)]
-        except :
-            print("Oh...No...READER DISCONNECTED!!!!!!!!!!!")
+        data = []
+        reader = RFIDReader('socket', host=self.host, port=self.port, addr="00")
+        reader.connect()
+
+        n = True
+        info = reader.getInfo()
+        tags = reader.scantags()
+        # logger.info("Scanning Started at {}".format(datetime.datetime.now(timezone("Asia/Kolkata"))))
+        # reader.disconnect()
+        return [set(tags)]
 
     # ----------------------------------------------------------
     def hex_to_string(self, value):
         if value[0] == set():
             pass
         else:
+
             filter1 = value[0]
             ss = str(filter1)
             cc = ss[2:-2]
@@ -153,6 +153,5 @@ class Reader:
                 cursor.execute("""INSERT INTO Alert(reader_id,tag_uuid,location_name,approval_status,alert,room_name)values(?,?,?,?,?,?) """,
                                (reader_id,tag,location_name, approve,alert,room_name))
                 self.cnxn.commit()
-
 
 
