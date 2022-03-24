@@ -1,4 +1,7 @@
 import logging
+import smtplib,ssl
+from email.mime.text import MIMEText
+from email.mime.multipart import MIMEMultipart
 import pyodbc as py
 import time
 from datetime import date
@@ -8,13 +11,14 @@ import paho.mqtt.client as mqtt
 from rfid_reader import RFIDReader               #used to retrieve system information
 from pytz import timezone      #all time zones are available in this modu
 
+
 logger = logging.getLogger("Status")
 logging.basicConfig(filename="Asset.log", filemode='a',format='%(name)s - %(levelname)s - %(message)s',level = logging.DEBUG )
 
 class Reader:
     """docstring for Reader"""
 
-    def __init__(self, host, port, mqtt_ip, reader_id, db_servername, db_username, db_password, db_database,room_name, cnxn=0, client=0):
+    def __init__(self, host, port, mqtt_ip, reader_id, db_servername, db_username, db_password, db_database,room_name, cnxn=0, client=0,reader = 0):
         self.host = host
         self.port = port
         self.db_username = db_username
@@ -26,6 +30,9 @@ class Reader:
         self.cnxn = cnxn
         self.client = client
         self.room_name = room_name
+        self.reader = RFIDReader('socket', host=self.host, port=self.port, addr="00")
+        self.reader.connect()
+
         # ------------------------------------------------------------
         def on_connect(client, userdata, flags, rc):
             print("Connected with result code" + str(rc))
@@ -42,19 +49,19 @@ class Reader:
         logger.info("#################################################################################################___New Reader Log___######################################################################################")
         logger.info("connected to reader {} @ {}".format(self.reader_id,date.today()))
         logger.info("Scanning started at {}".format(datetime.datetime.now(timezone("Asia/Kolkata"))))
-
-    # -------------------------------------------------------------
+# -------------------------------------------------------------
     def scan_tag_capture(self):
-        data = []
-        reader = RFIDReader('socket', host=self.host, port=self.port, addr="00")
-        reader.connect()
-
-        n = True
-        info = reader.getInfo()
-        tags = reader.scantags()
-        # logger.info("Scanning Started at {}".format(datetime.datetime.now(timezone("Asia/Kolkata"))))
-        # reader.disconnect()
-        return [set(tags)]
+        try :
+            data = []
+            # reader = RFIDReader('socket', host=self.host, port=self.port, addr="00")
+            # reader.connect()
+            info = self.reader.getInfo()
+            tags = self.reader.scantags()
+            # logger.info("Scanning Started at {}".format(datetime.datetime.now(timezone("Asia/Kolkata"))))
+            # reader.disconnect()
+            return [set(tags)]
+        except :
+            print("Oops!..... Something occurred.")
 
     # ----------------------------------------------------------
     def hex_to_string(self, value):
@@ -65,6 +72,7 @@ class Reader:
             filter1 = value[0]
             ss = str(filter1)
             cc = ss[2:-2]
+
             print(cc)
             b = bytes.fromhex(cc)
             logging.info("tags are converted to string @ {}".format(datetime.datetime.now(timezone("Asia/Kolkata"))))
@@ -136,6 +144,8 @@ class Reader:
                     print("executing if block")
                     cursor.execute("""UPDATE Activity SET movement_status=(?) WHERE destination = (?) """, ("False",destination))
                     cursor.execute("""UPDATE Activity SET approve_status=(?) WHERE destination = (?)""", ("False",destination))
+                    cursor.execute("""UPDATE Activity SET reach_time = (?) WHERE destination = (?)""",
+                                   (datetime.datetime.now(timezone("Asia/Kolkata")), destination))
                     self.cnxn.commit()  # update the movement status as reached
                     logger.info("Updated approve status and movement status in Activity table for tag {} @ {}".format(tag,datetime.datetime.now(timezone("Asia/Kolkata"))))
                     logger.info("Process completed @ {}".format(datetime.datetime.now(timezone("Asia/Kolkata"))))
@@ -154,4 +164,41 @@ class Reader:
                                (reader_id,tag,location_name, approve,alert,room_name))
                 self.cnxn.commit()
 
+    #___________________________________________________
 
+    def tag_alert_email(self,tag,approve_status):
+        if tag == None :
+            pass
+        else :
+            if approve_status == "False" :
+                server = smtplib.SMTP_SSL('smtp.gmail.com', 465)
+                server.login("sarthak.srath@soulunileaders.com", "Roman@35")
+                server.sendmail(
+                    "sarthak.srath@soulunileaders.com",
+                    "sarthak.srath@soulunileaders.com",
+                    "the tag {} is not approved".format(tag))
+                server.quit()
+
+            else :
+                pass
+
+    #____________________________________________________________
+    def change_movement_status(self, tag, approve_status):
+        if tag == None:
+            pass
+        else:
+            cursor = self.cnxn.cursor()
+            cursor.execute(
+                """SELECT Activity.starting_point from Activity INNER JOIN tags ON tags.tag_id=Activity.tag_id WHERE tag_uuid=(?)""",
+                tag)  # check from the history as per the tag_uuid
+            row1 = cursor.fetchone()
+            starting_point = row1[0]
+            if approve_status == "True" and starting_point == self.room_name:
+                cursor = self.cnxn.cursor()
+                cursor.execute("""UPDATE Activity SET movement_status=(?) WHERE starting_point = (?) """,
+                               ("True", starting_point))
+                cursor.execute("""UPDATE Activity SET movement_time = (?) WHERE starting_point = (?)""",(datetime.datetime.now(timezone("Asia/Kolkata")),starting_point))
+                self.cnxn.commit()
+                logger.info("Updated movement status in Activity table for tag {} @ {}".format(tag,datetime.datetime.now(timezone("Asia/Kolkata"))))
+            else:
+                pass
