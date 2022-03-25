@@ -2200,3 +2200,18 @@ Status - INFO - connected to mqtt server for sending approval @ 2022-03-24 16:03
 Status - INFO - Inserted info of tag soul/ast/00002 in Logs table @ 2022-03-24 16:03:22.883682+05:30
 Status - INFO - Updated movement status in Activity table for tag soul/ast/00002 @ 2022-03-24 16:03:22.966754+05:30
 Status - INFO - Destination of tag soul/ast/00002 is campus4_room2
+Status - INFO - #################################################################################################___New Reader Log___######################################################################################
+Status - INFO - connected to reader 1357137 @ 2022-03-25
+Status - INFO - Scanning started at 2022-03-25 10:47:37.943697+05:30
+root - INFO - tags are converted to string @ 2022-03-25 10:48:01.507532+05:30
+Status - INFO - approval status checked @ 2022-03-25 10:48:01.509107+05:30
+Status - INFO - connected to mqtt server for sending approval @ 2022-03-25 10:48:01.509949+05:30
+Status - INFO - Inserted info of tag soul/ast/00001 in Logs table @ 2022-03-25 10:48:01.511552+05:30
+Status - INFO - Destination of tag soul/ast/00001 is campus3_room3
+Status - INFO - Updated approve status and movement status in Activity table for tag soul/ast/00001 @ 2022-03-25 10:48:01.629116+05:30
+Status - INFO - Process completed @ 2022-03-25 10:48:01.629461+05:30
+root - INFO - tags are converted to string @ 2022-03-25 10:48:34.735950+05:30
+Status - INFO - approval status checked @ 2022-03-25 10:48:34.737568+05:30
+Status - INFO - connected to mqtt server for sending approval @ 2022-03-25 10:48:34.738406+05:30
+Status - INFO - Inserted info of tag soul/ast/00001 in Logs table @ 2022-03-25 10:48:34.739925+05:30
+Status - INFO - Destination of tag soul/ast/00001 is campus3_room3
