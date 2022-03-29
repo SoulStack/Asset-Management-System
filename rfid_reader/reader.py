@@ -47,7 +47,7 @@ class RFIDReader:
     connection = None
     timeout = 1.0
     host = None
-    port = 27011
+    port =6000 
     config = {
         'read_interval_timeout': 10,
         'read_total_timeout_constant': 20,

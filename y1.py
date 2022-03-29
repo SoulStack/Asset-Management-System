@@ -2,13 +2,13 @@ import main
 from time import time ,sleep
 from cachetools import cached, TTLCache
 # from functools import lru_cache
-reader_ip = input("Enter Reader ip : ")
-port = input("Enter Port : ")
-mqtt_ip = input("Enter mqtt ip : ")
+# reader_ip = input("Enter Reader ip : ")
+# port = input("Enter Port : ")
+# mqtt_ip = input("Enter mqtt ip : ")
 reader_id = input("Enter Reader id : ")
 reader_location = input("Enter Reader Location : ")
 
-reader1 = main.Reader(reader_ip,int(port),mqtt_ip,reader_id,'10.0.175.122','SA','Soulsvciot01',"asset",reader_location)
+reader1 = main.Reader("10.0.175.250",27011,"10.0.175.122",reader_id,'10.0.175.122','SA','Soulsvciot01',"asset",reader_location)
 
 # @lru_cache(maxsize=1000)
 cache = TTLCache(maxsize=100, ttl=86400)

@@ -9,7 +9,8 @@ import datetime
 import requests
 import paho.mqtt.client as mqtt
 from rfid_reader import RFIDReader               #used to retrieve system information
-from pytz import timezone      #all time zones are available in this modu
+from pytz import timezone
+import string #all time zones are available in this modu
 
 
 logger = logging.getLogger("Status")
@@ -72,12 +73,16 @@ class Reader:
             filter1 = value[0]
             ss = str(filter1)
             cc = ss[2:-2]
-
             print(cc)
-            b = bytes.fromhex(cc)
-            logging.info("tags are converted to string @ {}".format(datetime.datetime.now(timezone("Asia/Kolkata"))))
-            return b.decode()
+            if (all(c in string.hexdigits for c in cc) == True) :
 
+            # print(cc)
+
+                b = bytes.fromhex(cc)
+                logging.info("tags are converted to string @ {}".format(datetime.datetime.now(timezone("Asia/Kolkata"))))
+                return b.decode()
+            else :
+                pass
     # ----------------------------------------------------------
     def check_approve_status(self, tag_uuid):
         cursor = self.cnxn.cursor()
