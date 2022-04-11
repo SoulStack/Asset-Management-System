@@ -1,0 +1,129 @@
+Status - INFO - #################################################################################################___New Reader Log___######################################################################################
+Status - INFO - connected to reader 1357137 @ 2022-03-31
+Status - INFO - Scanning started at 2022-03-31 09:54:58.948129+05:30
+root - INFO - tags are converted to string @ 2022-03-31 09:54:59.954293+05:30
+Status - INFO - approval status checked @ 2022-03-31 09:54:59.961109+05:30
+Status - INFO - connected to mqtt server for sending approval @ 2022-03-31 09:54:59.961449+05:30
+Status - INFO - Inserted info of tag soul/ast/00008 in Logs table @ 2022-03-31 09:54:59.962574+05:30
+Status - INFO - Destination of tag soul/ast/00008 is campus4_room2
+Status - INFO - #################################################################################################___New Reader Log___######################################################################################
+Status - INFO - connected to reader 1357137 @ 2022-04-06
+Status - INFO - Scanning started at 2022-04-06 09:38:25.492121+05:30
+root - INFO - tags are converted to string @ 2022-04-06 09:38:26.497686+05:30
+Status - INFO - approval status checked @ 2022-04-06 09:38:26.503923+05:30
+Status - INFO - connected to mqtt server for sending approval @ 2022-04-06 09:38:26.504175+05:30
+Status - INFO - Inserted info of tag soul/ast/00003 in Logs table @ 2022-04-06 09:38:26.504650+05:30
+Status - INFO - Destination of tag soul/ast/00003 is campus4_room2
+root - INFO - tags are converted to string @ 2022-04-06 09:38:27.667176+05:30
+Status - INFO - approval status checked @ 2022-04-06 09:38:27.668684+05:30
+Status - INFO - connected to mqtt server for sending approval @ 2022-04-06 09:38:27.669556+05:30
+Status - INFO - Inserted info of tag soul/ast/00008 in Logs table @ 2022-04-06 09:38:27.671072+05:30
+Status - INFO - Destination of tag soul/ast/00008 is campus4_room2
+root - INFO - tags are converted to string @ 2022-04-06 09:38:52.249905+05:30
+Status - INFO - approval status checked @ 2022-04-06 09:38:52.251406+05:30
+Status - INFO - connected to mqtt server for sending approval @ 2022-04-06 09:38:52.252257+05:30
+Status - INFO - Inserted info of tag soul/ast/00001 in Logs table @ 2022-04-06 09:38:52.253799+05:30
+Status - INFO - Destination of tag soul/ast/00001 is campus4_room2
+root - INFO - tags are converted to string @ 2022-04-06 09:38:53.363000+05:30
+Status - INFO - approval status checked @ 2022-04-06 09:38:53.364541+05:30
+Status - INFO - connected to mqtt server for sending approval @ 2022-04-06 09:38:53.365387+05:30
+Status - INFO - Inserted info of tag soul/ast/00001 in Logs table @ 2022-04-06 09:38:53.366870+05:30
+Status - INFO - Destination of tag soul/ast/00001 is campus4_room2
+root - INFO - tags are converted to string @ 2022-04-06 09:39:06.187735+05:30
+Status - INFO - approval status checked @ 2022-04-06 09:39:06.189259+05:30
+Status - INFO - connected to mqtt server for sending approval @ 2022-04-06 09:39:06.190132+05:30
+Status - INFO - Inserted info of tag soul/ast/00008 in Logs table @ 2022-04-06 09:39:06.191622+05:30
+Status - INFO - Destination of tag soul/ast/00008 is campus4_room2
+root - INFO - tags are converted to string @ 2022-04-06 09:39:17.987000+05:30
+Status - INFO - approval status checked @ 2022-04-06 09:39:17.988493+05:30
+Status - INFO - connected to mqtt server for sending approval @ 2022-04-06 09:39:17.989361+05:30
+Status - INFO - Inserted info of tag soul/ast/00003 in Logs table @ 2022-04-06 09:39:17.990883+05:30
+Status - INFO - Destination of tag soul/ast/00003 is campus4_room2
+root - INFO - tags are converted to string @ 2022-04-06 09:39:29.744849+05:30
+Status - INFO - approval status checked @ 2022-04-06 09:39:29.746334+05:30
+Status - INFO - connected to mqtt server for sending approval @ 2022-04-06 09:39:29.747162+05:30
+Status - INFO - Inserted info of tag soul/ast/00008 in Logs table @ 2022-04-06 09:39:29.748713+05:30
+Status - INFO - Destination of tag soul/ast/00008 is campus4_room2
+root - INFO - tags are converted to string @ 2022-04-06 09:39:40.379801+05:30
+Status - INFO - approval status checked @ 2022-04-06 09:39:40.381332+05:30
+Status - INFO - connected to mqtt server for sending approval @ 2022-04-06 09:39:40.382176+05:30
+Status - INFO - Inserted info of tag soul/ast/00003 in Logs table @ 2022-04-06 09:39:40.383681+05:30
+Status - INFO - Destination of tag soul/ast/00003 is campus4_room2
+root - INFO - tags are converted to string @ 2022-04-06 09:39:54.331755+05:30
+Status - INFO - approval status checked @ 2022-04-06 09:39:54.333264+05:30
+Status - INFO - connected to mqtt server for sending approval @ 2022-04-06 09:39:54.334145+05:30
+Status - INFO - Inserted info of tag soul/ast/00001 in Logs table @ 2022-04-06 09:39:54.335651+05:30
+Status - INFO - Destination of tag soul/ast/00001 is campus4_room2
+root - INFO - tags are converted to string @ 2022-04-06 09:39:56.534672+05:30
+Status - INFO - approval status checked @ 2022-04-06 09:39:56.536169+05:30
+Status - INFO - connected to mqtt server for sending approval @ 2022-04-06 09:39:56.537032+05:30
+Status - INFO - Inserted info of tag soul/ast/00001 in Logs table @ 2022-04-06 09:39:56.538571+05:30
+Status - INFO - Destination of tag soul/ast/00001 is campus4_room2
+Status - INFO - #################################################################################################___New Reader Log___######################################################################################
+Status - INFO - connected to reader 1357137 @ 2022-04-06
+Status - INFO - Scanning started at 2022-04-06 09:52:31.541293+05:30
+root - INFO - tags are converted to string @ 2022-04-06 09:53:11.216539+05:30
+Status - INFO - approval status checked @ 2022-04-06 09:53:11.218090+05:30
+Status - INFO - connected to mqtt server for sending approval @ 2022-04-06 09:53:11.218944+05:30
+Status - INFO - Inserted info of tag soul/ast/00003 in Logs table @ 2022-04-06 09:53:11.220674+05:30
+Status - INFO - Destination of tag soul/ast/00003 is campus4_room2
+root - INFO - tags are converted to string @ 2022-04-06 09:53:16.525041+05:30
+Status - INFO - approval status checked @ 2022-04-06 09:53:16.526567+05:30
+Status - INFO - connected to mqtt server for sending approval @ 2022-04-06 09:53:16.527423+05:30
+Status - INFO - Inserted info of tag soul/ast/00003 in Logs table @ 2022-04-06 09:53:16.528913+05:30
+Status - INFO - Destination of tag soul/ast/00003 is campus4_room2
+root - INFO - tags are converted to string @ 2022-04-06 09:53:21.851171+05:30
+Status - INFO - approval status checked @ 2022-04-06 09:53:21.852741+05:30
+Status - INFO - connected to mqtt server for sending approval @ 2022-04-06 09:53:21.853618+05:30
+Status - INFO - Inserted info of tag soul/ast/00003 in Logs table @ 2022-04-06 09:53:21.855125+05:30
+Status - INFO - Destination of tag soul/ast/00003 is campus4_room2
+root - INFO - tags are converted to string @ 2022-04-06 09:53:26.133248+05:30
+Status - INFO - approval status checked @ 2022-04-06 09:53:26.134823+05:30
+Status - INFO - connected to mqtt server for sending approval @ 2022-04-06 09:53:26.135676+05:30
+Status - INFO - Inserted info of tag soul/ast/00003 in Logs table @ 2022-04-06 09:53:26.137187+05:30
+Status - INFO - Destination of tag soul/ast/00003 is campus4_room2
+root - INFO - tags are converted to string @ 2022-04-06 09:53:30.372169+05:30
+Status - INFO - approval status checked @ 2022-04-06 09:53:30.373676+05:30
+Status - INFO - connected to mqtt server for sending approval @ 2022-04-06 09:53:30.374505+05:30
+Status - INFO - Inserted info of tag soul/ast/00003 in Logs table @ 2022-04-06 09:53:30.375972+05:30
+Status - INFO - Destination of tag soul/ast/00003 is campus4_room2
+root - INFO - tags are converted to string @ 2022-04-06 09:53:34.618842+05:30
+Status - INFO - approval status checked @ 2022-04-06 09:53:34.620335+05:30
+Status - INFO - connected to mqtt server for sending approval @ 2022-04-06 09:53:34.621178+05:30
+Status - INFO - Inserted info of tag soul/ast/00003 in Logs table @ 2022-04-06 09:53:34.622677+05:30
+Status - INFO - Destination of tag soul/ast/00003 is campus4_room2
+root - INFO - tags are converted to string @ 2022-04-06 09:53:39.898511+05:30
+Status - INFO - approval status checked @ 2022-04-06 09:53:39.900049+05:30
+Status - INFO - connected to mqtt server for sending approval @ 2022-04-06 09:53:39.900886+05:30
+Status - INFO - Inserted info of tag soul/ast/00003 in Logs table @ 2022-04-06 09:53:39.902405+05:30
+Status - INFO - Destination of tag soul/ast/00003 is campus4_room2
+root - INFO - tags are converted to string @ 2022-04-06 09:53:47.363601+05:30
+Status - INFO - approval status checked @ 2022-04-06 09:53:47.364265+05:30
+Status - INFO - connected to mqtt server for sending approval @ 2022-04-06 09:53:47.364536+05:30
+Status - INFO - Inserted info of tag soul/ast/00008 in Logs table @ 2022-04-06 09:53:47.364963+05:30
+Status - INFO - Destination of tag soul/ast/00008 is campus4_room2
+root - INFO - tags are converted to string @ 2022-04-06 09:53:51.643728+05:30
+Status - INFO - approval status checked @ 2022-04-06 09:53:51.645236+05:30
+Status - INFO - connected to mqtt server for sending approval @ 2022-04-06 09:53:51.646103+05:30
+Status - INFO - Inserted info of tag soul/ast/00008 in Logs table @ 2022-04-06 09:53:51.647653+05:30
+Status - INFO - Destination of tag soul/ast/00008 is campus4_room2
+root - INFO - tags are converted to string @ 2022-04-06 09:53:55.940130+05:30
+Status - INFO - approval status checked @ 2022-04-06 09:53:55.941663+05:30
+Status - INFO - connected to mqtt server for sending approval @ 2022-04-06 09:53:55.942514+05:30
+Status - INFO - Inserted info of tag soul/ast/00008 in Logs table @ 2022-04-06 09:53:55.944010+05:30
+Status - INFO - Destination of tag soul/ast/00008 is campus4_room2
+root - INFO - tags are converted to string @ 2022-04-06 17:21:31.071097+05:30
+Status - INFO - approval status checked @ 2022-04-06 17:21:31.072597+05:30
+Status - INFO - connected to mqtt server for sending approval @ 2022-04-06 17:21:31.073453+05:30
+Status - INFO - Inserted info of tag soul/ast/00001 in Logs table @ 2022-04-06 17:21:31.074922+05:30
+Status - INFO - Destination of tag soul/ast/00001 is campus4_room2
+root - INFO - tags are converted to string @ 2022-04-06 17:21:32.165070+05:30
+Status - INFO - approval status checked @ 2022-04-06 17:21:32.166601+05:30
+Status - INFO - connected to mqtt server for sending approval @ 2022-04-06 17:21:32.167454+05:30
+Status - INFO - Inserted info of tag soul/ast/00001 in Logs table @ 2022-04-06 17:21:32.168967+05:30
+Status - INFO - Destination of tag soul/ast/00001 is campus4_room2
+root - INFO - tags are converted to string @ 2022-04-06 17:21:34.288586+05:30
+Status - INFO - approval status checked @ 2022-04-06 17:21:34.290083+05:30
+Status - INFO - connected to mqtt server for sending approval @ 2022-04-06 17:21:34.290923+05:30
+Status - INFO - Inserted info of tag soul/ast/00001 in Logs table @ 2022-04-06 17:21:34.292252+05:30
+Status - INFO - Destination of tag soul/ast/00001 is campus4_room2

@@ -29,7 +29,7 @@ def f1() :
             reader1.insert_into_Log(approve, tag1)
             reader1.change_movement_status(tag1,approve)
             reader1.check_tag_destination(tag1,approve) #it will change the movement status and approval status of the tag
-            reader1.tag_alert_email(tag1,approve)
+           # reader1.tag_alert_email(tag1,approve)
 
 if __name__ == "__main__" :
     f1()
