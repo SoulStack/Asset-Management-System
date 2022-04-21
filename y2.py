@@ -2,18 +2,18 @@ import main
 from time import time ,sleep
 from cachetools import cached, TTLCache
 # from functools import lru_cache
-# reader_ip = input("Enter Reader ip : ")
-# port = input("Enter Port : ")
+#reader_ip = input("Enter Reader ip : ")
+#port = input("Enter Port : ")
 # mqtt_ip = input("Enter mqtt ip : ")
-reader_id = input("Enter Reader id : ")
-reader_location = input("Enter Reader Location : ")
+#reader_id = input("Enter Reader id : ")
+#reader_location = input("Enter Reader Location : ")
 
-reader1 = main.Reader("10.0.166.20",6000,"10.0.175.122",reader_id,'10.0.175.122','SA','Soulsvciot01',"asset",reader_location)
+reader1 = main.Reader("10.0.175.250",27011,"10.0.175.122",1357137,'10.0.175.122','SA','Soulsvciot01',"asset","campus3_room3")
 
 # @lru_cache(maxsize=1000)
-cache = TTLCache(maxsize=100, ttl=86400)
+#cache = TTLCache(maxsize=100, ttl=86400)
 
-@cached(cache)
+#@cached(cache)
 def f1() :
     while True :
         sleep(1)
@@ -29,7 +29,7 @@ def f1() :
             reader1.insert_into_Log(approve, tag1)
             reader1.change_movement_status(tag1,approve)
             reader1.check_tag_destination(tag1,approve) #it will change the movement status and approval status of the tag
-            reader1.tag_alert_email(tag1,approve)
+           # reader1.tag_alert_email(tag1,approve)
 
 if __name__ == "__main__" :
     f1()
