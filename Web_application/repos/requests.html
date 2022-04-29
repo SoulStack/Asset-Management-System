@@ -1,0 +1,109 @@
+ <!DOCTYPE html>
+ <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>AMS | Request</title>
+        <link rel="stylesheet" href="./requestsStyle.css"> <!-- style file-->
+        <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+        <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'> <!--icons link-->
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script> <!--jquery link--> 
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script> <!--chart js link-->
+     </head>
+ <body>
+    <section class="sidebar">
+        <section class="imageSet">
+            <img src="./images/soulLogo.png" alt="" class="logo">
+        </section>
+        <nav class="sideNav">
+            <ul>
+                <li>
+                    <a href="./dashboard.html"><i class='bx bxs-dashboard'></i></a> <!--Dashboard -->
+                </li>
+                <li>
+                    <a href="./alerts.html"><i class='bx bxs-bell' ></i></a> <!--Alert -->
+                </li>
+                <li>
+                    <a href="./requests.html"><i class='bx bxs-layer' ></i></a> <!--Request -->
+                </li>
+            </ul>
+        </nav>
+        <section class="sideOpts">
+            <span class="toggleBtn">
+                <input type="checkbox" name="switch" id="switch">
+                <label for="switch"></label>
+            </span>
+            <a href="./settings.html" class="settingsBtn"><i class='bx bxs-cog'></i></a>
+            <a href="./index.html" class="logoutBtn"><i class='bx bx-log-out-circle' ></i></a>
+        </section>
+     </section>
+    <section class="mainBody">
+        <header>
+            <span class="pageName">Request</span>
+            <section class="headerBtnSet">
+                <button class="requestsButton"><i class='bx bxs-layer' ></i></button>
+                <button class="alertButton"><i class='bx bx-shape-square'></i></button>
+            </section>
+        </header>
+         <main>
+             <section class="cardsPanel">
+                 <section class="cardGroup movementsCardGroup">
+                    <div class="cardHeader">Movement Requests</div>
+                    <section class="cardBody">
+                        <section class="subSec mTotal" id="mTotal">
+                            <div class="subSecTitle">Total Requests</div>
+                            <div class="subSecValue" id="mTotalRequests">100</div>
+                        </section>
+                        <section class="subSec mPending" id="mPending">
+                            <div class="subSecTitle">Pending Requests</div>
+                            <div class="subSecValue" id="mPendingRequests">100</div>
+                        </section>
+                        <section class="subSec mApproved" id="mApproved">
+                            <div class="subSecTitle">Approved Requests</div>
+                            <div class="subSecValue" id="mApprovedRequests">100</div>
+                        </section>
+                        <section class="subSec mDenied" id="mDenied">
+                            <div class="subSecTitle">Denied Requests</div>
+                            <div class="subSecValue" id="mDeniedRequests">100</div>
+                        </section>
+                    </section>
+                 </section>
+
+
+                 <section class="cardGroup accessCardGroup">
+                    <div class="cardHeader">Access Requests</div>
+                    <section class="cardBody">
+                        <section class="subSec aTotal" id="aTotal">
+                            <div class="subSecTitle">Total Requests</div>
+                            <div class="subSecValue" id="aTotalRequests">100</div>
+                        </section>
+                        <section class="subSec aPending" id="aPending">
+                            <div class="subSecTitle">Pending Requests</div>
+                            <div class="subSecValue" id="aPendingRequests">100</div>
+                        </section>
+                        <section class="subSec aApproved" id="aApproved">
+                            <div class="subSecTitle">Approved Requests</div>
+                            <div class="subSecValue" id="aApprovedRequests">100</div>
+                        </section>
+                        <section class="subSec aDenied" id="aDenied">
+                            <div class="subSecTitle">Denied Requests</div>
+                            <div class="subSecValue" id="aDeniedRequests">100</div>
+                        </section>
+                    </section>
+                 </section>
+             </section>
+
+             <section class="tableContainer">
+                 <section class="tableOpts"></section>
+                 <section class="tableHolder" id="tableHolder">
+                    <table>
+                     </table>
+                 </section>
+             </section>
+         </main>
+         <footer></footer>
+    </section> 
+    <script src="./request.js"></script>
+ </body>
+ </html>

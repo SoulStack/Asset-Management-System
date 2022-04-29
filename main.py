@@ -32,13 +32,8 @@ class Reader:
         self.client = client
         self.room_name = room_name
         self.reader = RFIDReader('socket', host=self.host, port=self.port, addr="00")
-        try :
-            self.reader.connect()
-        except :
-            print("trying to reconnect........")
-            sleep(5)
-            # self.reader = RFIDReader('socket', host=self.host, port=self.port, addr="00")
-            # self.reader.connect()
+        self.reader.connect()
+
         # ------------------------------------------------------------
         def on_connect(client, userdata, flags, rc):
             print("Connected with result code" + str(rc))
@@ -65,13 +60,9 @@ class Reader:
             tags = self.reader.scantags()
             # logger.info("Scanning Started at {}".format(datetime.datetime.now(timezone("Asia/Kolkata"))))
             # reader.disconnect()
-            # print("tags is ....",tags)
             return [set(tags)]
         except :
-            print("trying ...to reconnect....")
-            self.reader = RFIDReader('socket', host=self.host, port=self.port, addr="00")
-
-            self.reader.connect()
+            print("Oops!..... Something occurred.")
 
     # ----------------------------------------------------------
     def hex_to_string(self, value):
@@ -80,13 +71,12 @@ class Reader:
         else:
 
             filter1 = value[0]
-            print(filter1)
             ss = str(filter1)
             cc = ss[2:-2]
             print(cc)
             if (all(c in string.hexdigits for c in cc) == True) :
 
-                # print(cc)
+            # print(cc)
 
                 b = bytes.fromhex(cc)
                 logging.info("tags are converted to string @ {}".format(datetime.datetime.now(timezone("Asia/Kolkata"))))
@@ -108,15 +98,10 @@ class Reader:
     # -------------------------------------------------------------
 
     def approval_status_mqtt(self, approve_data):
-        # if self.client.connect(self.mqtt_ip, 1883, 60)== True :
-        #     pass
-        # else :
-        self.client.connect(self.mqtt_ip, 1883, 60)
-            # print("mqtt alarm server disconnected")
-
         if approve_data == None :
             pass
         else :
+
             logger.info("connected to mqtt server for sending approval @ {}".format(datetime.datetime.now(timezone("Asia/Kolkata"))))
             self.client.publish(str(self.reader_id) + "/approval_status", approve_data, qos=0, retain=False)
 
@@ -222,3 +207,9 @@ class Reader:
                 logger.info("Updated movement status in Activity table for tag {} @ {}".format(tag,datetime.datetime.now(timezone("Asia/Kolkata"))))
             else:
                 pass
+    #_________________________________________________________________
+    def latest_from_logs(self):
+        cursor = self.cnxn.cursor()
+        cursor.execute("""SELECT TOP 1 * FROM Logs ORDER BY ID DESC""")
+        row = cursor.fetchone()
+        return (row[1])
