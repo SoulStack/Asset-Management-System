@@ -22,7 +22,7 @@ def f1() :
         tag = reader1.scan_tag_capture()
         if tag == None:
             pass
-        elif tag == latest_from_logs():
+        elif tag == reader1.latest_from_logs():
             pass
         else:
             tag1 = reader1.hex_to_string(tag)

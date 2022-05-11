@@ -49,7 +49,7 @@ class Reader:
         self.cnxn = py.connect('DRIVER={ODBC Driver 17 for SQL Server};SERVER=' + db_servername + ';DATABASE=' + db_database + ';UID=' + db_username + ';PWD=' + db_password)
         logger.info("#################################################################################################___New Reader Log___######################################################################################")
         logger.info("connected to reader {} @ {}".format(self.reader_id,date.today()))
-        logger.info("Scanning started at {}".format(datetime.datetime.now(timezone("Asia/Kolkata"))))
+        logger.info("Scanning started at {}".format(datetime.datetime.now(timezone("Asia/Kolkata")).strftime("%d/%m/%Y %H:%M:%S")))
 # -------------------------------------------------------------
     def scan_tag_capture(self):
         try :
@@ -79,7 +79,7 @@ class Reader:
             # print(cc)
 
                 b = bytes.fromhex(cc)
-                logging.info("tags are converted to string @ {}".format(datetime.datetime.now(timezone("Asia/Kolkata"))))
+                logging.info("tags are converted to string @ {}".format(datetime.datetime.now(timezone("Asia/Kolkata")).strftime("%d/%m/%Y %H:%M:%S")))
                 return b.decode()
             else :
                 pass
@@ -92,7 +92,7 @@ class Reader:
 
             cursor.execute("""SELECT tags.tag_uuid, Activity.approve_status FROM tags INNER JOIN Activity ON Activity.tag_id=tags.tag_id WHERE tag_uuid=(?) """,tag_uuid)
             row = cursor.fetchone()
-            logger.info("approval status checked @ {}".format(datetime.datetime.now(timezone("Asia/Kolkata"))))
+            logger.info("approval status checked @ {}".format(datetime.datetime.now(timezone("Asia/Kolkata")).strftime("%d/%m/%Y %H:%M:%S")))
             return (row[1])
 
     # -------------------------------------------------------------
@@ -102,7 +102,7 @@ class Reader:
             pass
         else :
 
-            logger.info("connected to mqtt server for sending approval @ {}".format(datetime.datetime.now(timezone("Asia/Kolkata"))))
+            logger.info("connected to mqtt server for sending approval @ {}".format(datetime.datetime.now(timezone("Asia/Kolkata")).strftime("%d/%m/%Y %H:%M:%S")))
             self.client.publish(str(self.reader_id) + "/approval_status", approve_data, qos=0, retain=False)
 
     # ----------------------------------------------------------------
@@ -119,7 +119,7 @@ class Reader:
             taguuid = tag
             cursor.execute("""INSERT INTO Logs(tag_uuid,reader_id,date,time,approve_status)values(?,?,?,?,?) """,
                            (taguuid, reader, date, current_time, approve))
-            logger.info("Inserted info of tag {} in Logs table @ {}".format(taguuid,datetime.datetime.now(timezone("Asia/Kolkata"))))
+            logger.info("Inserted info of tag {} in Logs table @ {}".format(taguuid,datetime.datetime.now(timezone("Asia/Kolkata")).strftime("%d/%m/%Y %H:%M:%S")))
             self.cnxn.commit()
 
     # ----------------------------------------------------------------
@@ -150,10 +150,10 @@ class Reader:
                     cursor.execute("""UPDATE Activity SET movement_status=(?) WHERE destination = (?) """, ("False",destination))
                     cursor.execute("""UPDATE Activity SET approve_status=(?) WHERE destination = (?)""", ("False",destination))
                     cursor.execute("""UPDATE Activity SET reach_time = (?) WHERE destination = (?)""",
-                                   (datetime.datetime.now(timezone("Asia/Kolkata")), destination))
+                                   (datetime.datetime.now(timezone("Asia/Kolkata")).strftime("%d/%m/%Y %H:%M:%S"), destination))
                     self.cnxn.commit()  # update the movement status as reached
-                    logger.info("Updated approve status and movement status in Activity table for tag {} @ {}".format(tag,datetime.datetime.now(timezone("Asia/Kolkata"))))
-                    logger.info("Process completed @ {}".format(datetime.datetime.now(timezone("Asia/Kolkata"))))
+                    logger.info("Updated approve status and movement status in Activity table for tag {} @ {}".format(tag,datetime.datetime.now(timezone("Asia/Kolkata")).strftime("%d/%m/%Y %H:%M:%S")))
+                    logger.info("Process completed @ {}".format(datetime.datetime.now(timezone("Asia/Kolkata")).strftime("%d/%m/%Y %H:%M:%S")))
                 else :
                     print("wrong destination")
 
@@ -176,12 +176,13 @@ class Reader:
             pass
         else :
             if approve_status == "False" :
+                room_name = self.room_name
                 server = smtplib.SMTP_SSL('smtp.gmail.com', 465)
-                server.login("sarthak.srath@soulunileaders.com", "Roman@35")
+                server.login("assetmanagement.soul@gmail.com", "Soulsvciot01")
                 server.sendmail(
-                    "sarthak.srath@soulunileaders.com",
-                    "sarthak.srath@soulunileaders.com",
-                    "the tag {} is not approved".format(tag))
+                    "assetmanagement.soul@gmail.com",
+                    "assetmangement.soul@gmail.com",
+                    "the tag {} is not approved and moving from {}".format(tag,room_name))
                 server.quit()
 
             else :
@@ -202,14 +203,14 @@ class Reader:
                 cursor = self.cnxn.cursor()
                 cursor.execute("""UPDATE Activity SET movement_status=(?) WHERE starting_point = (?) """,
                                ("True", starting_point))
-                cursor.execute("""UPDATE Activity SET movement_time = (?) WHERE starting_point = (?)""",(datetime.datetime.now(timezone("Asia/Kolkata")),starting_point))
+                cursor.execute("""UPDATE Activity SET movement_time = (?) WHERE starting_point = (?)""",(datetime.datetime.now(timezone("Asia/Kolkata")).strftime("%d/%m/%Y %H:%M:%S"),starting_point))
                 self.cnxn.commit()
-                logger.info("Updated movement status in Activity table for tag {} @ {}".format(tag,datetime.datetime.now(timezone("Asia/Kolkata"))))
+                logger.info("Updated movement status in Activity table for tag {} @ {}".format(tag,datetime.datetime.now(timezone("Asia/Kolkata")).strftime("%d/%m/%Y %H:%M:%S")))
             else:
                 pass
     #_________________________________________________________________
     def latest_from_logs(self):
         cursor = self.cnxn.cursor()
-        cursor.execute("""SELECT TOP 1 * FROM Logs ORDER BY ID DESC""")
+        cursor.execute("""SELECT TOP 1 * FROM Logs ORDER BY log_id DESC""")
         row = cursor.fetchone()
         return (row[1])

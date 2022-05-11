@@ -847,3 +847,25 @@ Status - INFO - Scanning started at 2022-04-13 15:18:01.017392+05:30
 Status - INFO - #################################################################################################___New Reader Log___######################################################################################
 Status - INFO - connected to reader 1357137 @ 2022-04-28
 Status - INFO - Scanning started at 2022-04-28 09:47:42.750303+05:30
+Status - INFO - #################################################################################################___New Reader Log___######################################################################################
+Status - INFO - connected to reader 1357137 @ 2022-05-02
+Status - INFO - Scanning started at 2022-05-02 10:41:37.966286+05:30
+Status - INFO - #################################################################################################___New Reader Log___######################################################################################
+Status - INFO - connected to reader 1357137 @ 2022-05-02
+Status - INFO - Scanning started at 2022-05-02 10:47:31.752817+05:30
+Status - INFO - #################################################################################################___New Reader Log___######################################################################################
+Status - INFO - connected to reader 1357137 @ 2022-05-02
+Status - INFO - Scanning started at 2022-05-02 10:48:54.084223+05:30
+root - INFO - tags are converted to string @ 2022-05-02 15:40:46.454189+05:30
+Status - INFO - approval status checked @ 2022-05-02 15:40:46.455756+05:30
+Status - INFO - connected to mqtt server for sending approval @ 2022-05-02 15:40:46.455985+05:30
+Status - INFO - Inserted info of tag soul/ast/00009 in Logs table @ 2022-05-02 15:40:46.457053+05:30
+Status - INFO - Destination of tag soul/ast/00009 is campus4_room2
+Status - INFO - #################################################################################################___New Reader Log___######################################################################################
+Status - INFO - connected to reader 1357137 @ 2022-05-02
+Status - INFO - Scanning started at 2022-05-02 15:42:05.185959+05:30
+root - INFO - tags are converted to string @ 2022-05-02 15:42:06.189590+05:30
+Status - INFO - approval status checked @ 2022-05-02 15:42:06.189960+05:30
+Status - INFO - connected to mqtt server for sending approval @ 2022-05-02 15:42:06.190218+05:30
+Status - INFO - Inserted info of tag soul/ast/00009 in Logs table @ 2022-05-02 15:42:06.190701+05:30
+Status - INFO - Destination of tag soul/ast/00009 is campus4_room2
