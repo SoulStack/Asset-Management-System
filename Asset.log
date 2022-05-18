@@ -869,3 +869,798 @@ Status - INFO - approval status checked @ 2022-05-02 15:42:06.189960+05:30
 Status - INFO - connected to mqtt server for sending approval @ 2022-05-02 15:42:06.190218+05:30
 Status - INFO - Inserted info of tag soul/ast/00009 in Logs table @ 2022-05-02 15:42:06.190701+05:30
 Status - INFO - Destination of tag soul/ast/00009 is campus4_room2
+Status - INFO - #################################################################################################___New Reader Log___######################################################################################
+Status - INFO - connected to reader 1357137 @ 2022-05-13
+Status - INFO - Scanning started at 13/05/2022 12:23:18
+Status - INFO - #################################################################################################___New Reader Log___######################################################################################
+Status - INFO - connected to reader 1357137 @ 2022-05-13
+Status - INFO - Scanning started at 13/05/2022 12:46:14
+Status - INFO - #################################################################################################___New Reader Log___######################################################################################
+Status - INFO - connected to reader 1357137 @ 2022-05-13
+Status - INFO - Scanning started at 13/05/2022 12:46:27
+root - INFO - tags are converted to string @ 13/05/2022 12:46:42
+Status - INFO - approval status checked @ 13/05/2022 12:46:42
+root - INFO - tags are converted to string @ 13/05/2022 12:49:11
+Status - INFO - approval status checked @ 13/05/2022 12:49:11
+Status - INFO - #################################################################################################___New Reader Log___######################################################################################
+Status - INFO - connected to reader 1357137 @ 2022-05-16
+Status - INFO - Scanning started at 16/05/2022 11:34:27
+Status - INFO - #################################################################################################___New Reader Log___######################################################################################
+Status - INFO - connected to reader 1357137 @ 2022-05-16
+Status - INFO - Scanning started at 16/05/2022 11:42:12
+Status - INFO - #################################################################################################___New Reader Log___######################################################################################
+Status - INFO - connected to reader 1357137 @ 2022-05-16
+Status - INFO - Scanning started at 16/05/2022 11:42:43
+Status - INFO - #################################################################################################___New Reader Log___######################################################################################
+Status - INFO - connected to reader 1357137 @ 2022-05-16
+Status - INFO - Scanning started at 16/05/2022 11:53:08
+Status - INFO - #################################################################################################___New Reader Log___######################################################################################
+Status - INFO - connected to reader 678569 @ 2022-05-16
+Status - INFO - Scanning started at 16/05/2022 11:53:13
+Status - INFO - #################################################################################################___New Reader Log___######################################################################################
+Status - INFO - connected to reader 678569 @ 2022-05-16
+Status - INFO - Scanning started at 16/05/2022 11:59:14
+root - INFO - tags are converted to string @ 16/05/2022 12:02:40
+Status - INFO - approval status checked @ 16/05/2022 12:02:40
+Status - INFO - #################################################################################################___New Reader Log___######################################################################################
+Status - INFO - connected to reader 1357137 @ 2022-05-16
+Status - INFO - Scanning started at 16/05/2022 12:05:39
+root - INFO - tags are converted to string @ 16/05/2022 12:08:43
+Status - INFO - #################################################################################################___New Reader Log___######################################################################################
+Status - INFO - connected to reader 1357137 @ 2022-05-16
+Status - INFO - Scanning started at 16/05/2022 12:11:02
+Status - INFO - #################################################################################################___New Reader Log___######################################################################################
+Status - INFO - connected to reader 678569 @ 2022-05-16
+Status - INFO - Scanning started at 16/05/2022 12:11:18
+root - INFO - tags are converted to string @ 16/05/2022 12:19:04
+Status - INFO - approval status checked @ 16/05/2022 12:19:04
+Status - INFO - connected to mqtt server for sending approval @ 16/05/2022 12:19:04
+Status - INFO - Inserted info of tag SA/ele/a2/0003 in Logs table @ 16/05/2022 12:19:04
+Status - INFO - Destination of tag SA/ele/a2/0003 is None
+Status - INFO - #################################################################################################___New Reader Log___######################################################################################
+Status - INFO - connected to reader 1357137 @ 2022-05-16
+Status - INFO - Scanning started at 16/05/2022 12:19:33
+root - INFO - tags are converted to string @ 16/05/2022 12:19:34
+Status - INFO - approval status checked @ 16/05/2022 12:19:34
+Status - INFO - connected to mqtt server for sending approval @ 16/05/2022 12:19:34
+Status - INFO - Inserted info of tag SA/ele/a2/0001 in Logs table @ 16/05/2022 12:19:34
+Status - INFO - Destination of tag SA/ele/a2/0001 is None
+Status - INFO - #################################################################################################___New Reader Log___######################################################################################
+Status - INFO - connected to reader 1357137 @ 2022-05-16
+Status - INFO - Scanning started at 16/05/2022 12:21:15
+root - INFO - tags are converted to string @ 16/05/2022 12:25:04
+Status - INFO - approval status checked @ 16/05/2022 12:25:04
+Status - INFO - connected to mqtt server for sending approval @ 16/05/2022 12:25:04
+Status - INFO - Inserted info of tag SA/ele/a2/0001 in Logs table @ 16/05/2022 12:25:04
+Status - INFO - Destination of tag SA/ele/a2/0001 is None
+root - INFO - tags are converted to string @ 16/05/2022 12:25:34
+Status - INFO - approval status checked @ 16/05/2022 12:25:34
+Status - INFO - connected to mqtt server for sending approval @ 16/05/2022 12:25:34
+Status - INFO - Inserted info of tag SA/ele/a2/0001 in Logs table @ 16/05/2022 12:25:34
+Status - INFO - Destination of tag SA/ele/a2/0001 is None
+root - INFO - tags are converted to string @ 16/05/2022 12:25:37
+Status - INFO - approval status checked @ 16/05/2022 12:25:37
+Status - INFO - connected to mqtt server for sending approval @ 16/05/2022 12:25:37
+Status - INFO - Inserted info of tag SA/ele/a2/0001 in Logs table @ 16/05/2022 12:25:37
+Status - INFO - Destination of tag SA/ele/a2/0001 is None
+Status - INFO - #################################################################################################___New Reader Log___######################################################################################
+Status - INFO - connected to reader 678569 @ 2022-05-16
+Status - INFO - Scanning started at 16/05/2022 12:28:05
+Status - INFO - #################################################################################################___New Reader Log___######################################################################################
+Status - INFO - connected to reader 1357137 @ 2022-05-16
+Status - INFO - Scanning started at 16/05/2022 12:28:40
+root - INFO - tags are converted to string @ 16/05/2022 12:31:18
+Status - INFO - approval status checked @ 16/05/2022 12:31:18
+Status - INFO - connected to mqtt server for sending approval @ 16/05/2022 12:31:18
+Status - INFO - Inserted info of tag SA/ele/a6/0001 in Logs table @ 16/05/2022 12:31:18
+Status - INFO - Destination of tag SA/ele/a6/0001 is None
+Status - INFO - #################################################################################################___New Reader Log___######################################################################################
+Status - INFO - connected to reader 1357137 @ 2022-05-16
+Status - INFO - Scanning started at 16/05/2022 12:37:19
+Status - INFO - #################################################################################################___New Reader Log___######################################################################################
+Status - INFO - connected to reader 678569 @ 2022-05-16
+Status - INFO - Scanning started at 16/05/2022 12:37:45
+root - INFO - tags are converted to string @ 16/05/2022 12:38:04
+Status - INFO - approval status checked @ 16/05/2022 12:38:04
+Status - INFO - connected to mqtt server for sending approval @ 16/05/2022 12:38:04
+Status - INFO - Inserted info of tag SA/ele/a6/0001 in Logs table @ 16/05/2022 12:38:04
+Status - INFO - Destination of tag SA/ele/a6/0001 is None
+root - INFO - tags are converted to string @ 16/05/2022 12:38:07
+Status - INFO - approval status checked @ 16/05/2022 12:38:07
+Status - INFO - connected to mqtt server for sending approval @ 16/05/2022 12:38:07
+Status - INFO - Inserted info of tag SA/ele/a6/0001 in Logs table @ 16/05/2022 12:38:07
+Status - INFO - Destination of tag SA/ele/a6/0001 is None
+root - INFO - tags are converted to string @ 16/05/2022 12:38:08
+Status - INFO - approval status checked @ 16/05/2022 12:38:08
+Status - INFO - connected to mqtt server for sending approval @ 16/05/2022 12:38:08
+Status - INFO - Inserted info of tag SA/ele/a6/0001 in Logs table @ 16/05/2022 12:38:08
+Status - INFO - Destination of tag SA/ele/a6/0001 is None
+root - INFO - tags are converted to string @ 16/05/2022 12:39:36
+Status - INFO - approval status checked @ 16/05/2022 12:39:36
+Status - INFO - connected to mqtt server for sending approval @ 16/05/2022 12:39:36
+Status - INFO - Inserted info of tag SA/ele/a6/0001 in Logs table @ 16/05/2022 12:39:36
+Status - INFO - Destination of tag SA/ele/a6/0001 is None
+root - INFO - tags are converted to string @ 16/05/2022 12:39:47
+Status - INFO - approval status checked @ 16/05/2022 12:39:47
+Status - INFO - connected to mqtt server for sending approval @ 16/05/2022 12:39:47
+Status - INFO - Inserted info of tag SA/ele/a6/0001 in Logs table @ 16/05/2022 12:39:47
+Status - INFO - Destination of tag SA/ele/a6/0001 is None
+root - INFO - tags are converted to string @ 16/05/2022 12:39:48
+Status - INFO - approval status checked @ 16/05/2022 12:39:48
+Status - INFO - connected to mqtt server for sending approval @ 16/05/2022 12:39:48
+Status - INFO - Inserted info of tag SA/ele/a6/0001 in Logs table @ 16/05/2022 12:39:48
+Status - INFO - Destination of tag SA/ele/a6/0001 is None
+root - INFO - tags are converted to string @ 16/05/2022 12:39:51
+Status - INFO - approval status checked @ 16/05/2022 12:39:51
+Status - INFO - connected to mqtt server for sending approval @ 16/05/2022 12:39:51
+Status - INFO - Inserted info of tag SA/ele/a6/0001 in Logs table @ 16/05/2022 12:39:51
+Status - INFO - Destination of tag SA/ele/a6/0001 is None
+root - INFO - tags are converted to string @ 16/05/2022 12:40:13
+Status - INFO - approval status checked @ 16/05/2022 12:40:13
+Status - INFO - connected to mqtt server for sending approval @ 16/05/2022 12:40:13
+Status - INFO - Inserted info of tag SA/ele/a6/0001 in Logs table @ 16/05/2022 12:40:13
+Status - INFO - Destination of tag SA/ele/a6/0001 is None
+root - INFO - tags are converted to string @ 16/05/2022 12:40:14
+Status - INFO - approval status checked @ 16/05/2022 12:40:14
+Status - INFO - connected to mqtt server for sending approval @ 16/05/2022 12:40:14
+Status - INFO - Inserted info of tag SA/ele/a6/0001 in Logs table @ 16/05/2022 12:40:14
+Status - INFO - Destination of tag SA/ele/a6/0001 is None
+root - INFO - tags are converted to string @ 16/05/2022 12:40:19
+Status - INFO - approval status checked @ 16/05/2022 12:40:19
+Status - INFO - connected to mqtt server for sending approval @ 16/05/2022 12:40:19
+Status - INFO - Inserted info of tag SA/ele/a6/0001 in Logs table @ 16/05/2022 12:40:19
+Status - INFO - Destination of tag SA/ele/a6/0001 is None
+root - INFO - tags are converted to string @ 16/05/2022 12:40:20
+Status - INFO - approval status checked @ 16/05/2022 12:40:20
+Status - INFO - connected to mqtt server for sending approval @ 16/05/2022 12:40:20
+Status - INFO - Inserted info of tag SA/ele/a6/0001 in Logs table @ 16/05/2022 12:40:20
+Status - INFO - Destination of tag SA/ele/a6/0001 is None
+root - INFO - tags are converted to string @ 16/05/2022 12:40:23
+Status - INFO - approval status checked @ 16/05/2022 12:40:23
+Status - INFO - connected to mqtt server for sending approval @ 16/05/2022 12:40:23
+Status - INFO - Inserted info of tag SA/ele/a6/0001 in Logs table @ 16/05/2022 12:40:23
+Status - INFO - Destination of tag SA/ele/a6/0001 is None
+root - INFO - tags are converted to string @ 16/05/2022 12:40:25
+Status - INFO - approval status checked @ 16/05/2022 12:40:25
+Status - INFO - connected to mqtt server for sending approval @ 16/05/2022 12:40:25
+Status - INFO - Inserted info of tag SA/ele/a6/0001 in Logs table @ 16/05/2022 12:40:25
+Status - INFO - Destination of tag SA/ele/a6/0001 is None
+root - INFO - tags are converted to string @ 16/05/2022 12:40:26
+Status - INFO - approval status checked @ 16/05/2022 12:40:26
+Status - INFO - connected to mqtt server for sending approval @ 16/05/2022 12:40:26
+Status - INFO - Inserted info of tag SA/ele/a6/0001 in Logs table @ 16/05/2022 12:40:26
+Status - INFO - Destination of tag SA/ele/a6/0001 is None
+root - INFO - tags are converted to string @ 16/05/2022 12:40:28
+Status - INFO - approval status checked @ 16/05/2022 12:40:28
+Status - INFO - connected to mqtt server for sending approval @ 16/05/2022 12:40:28
+Status - INFO - Inserted info of tag SA/ele/a6/0001 in Logs table @ 16/05/2022 12:40:28
+Status - INFO - Destination of tag SA/ele/a6/0001 is None
+root - INFO - tags are converted to string @ 16/05/2022 12:40:29
+Status - INFO - approval status checked @ 16/05/2022 12:40:29
+Status - INFO - connected to mqtt server for sending approval @ 16/05/2022 12:40:29
+Status - INFO - Inserted info of tag SA/ele/a6/0001 in Logs table @ 16/05/2022 12:40:29
+Status - INFO - Destination of tag SA/ele/a6/0001 is None
+root - INFO - tags are converted to string @ 16/05/2022 12:40:30
+Status - INFO - approval status checked @ 16/05/2022 12:40:30
+Status - INFO - connected to mqtt server for sending approval @ 16/05/2022 12:40:30
+Status - INFO - Inserted info of tag SA/ele/a6/0001 in Logs table @ 16/05/2022 12:40:30
+Status - INFO - Destination of tag SA/ele/a6/0001 is None
+root - INFO - tags are converted to string @ 16/05/2022 12:40:31
+Status - INFO - approval status checked @ 16/05/2022 12:40:31
+Status - INFO - connected to mqtt server for sending approval @ 16/05/2022 12:40:31
+Status - INFO - Inserted info of tag SA/ele/a6/0001 in Logs table @ 16/05/2022 12:40:31
+Status - INFO - Destination of tag SA/ele/a6/0001 is None
+root - INFO - tags are converted to string @ 16/05/2022 12:40:34
+Status - INFO - approval status checked @ 16/05/2022 12:40:34
+Status - INFO - connected to mqtt server for sending approval @ 16/05/2022 12:40:34
+Status - INFO - Inserted info of tag SA/ele/a6/0001 in Logs table @ 16/05/2022 12:40:34
+Status - INFO - Destination of tag SA/ele/a6/0001 is None
+root - INFO - tags are converted to string @ 16/05/2022 12:40:35
+Status - INFO - approval status checked @ 16/05/2022 12:40:35
+Status - INFO - connected to mqtt server for sending approval @ 16/05/2022 12:40:35
+Status - INFO - Inserted info of tag SA/ele/a6/0001 in Logs table @ 16/05/2022 12:40:35
+Status - INFO - Destination of tag SA/ele/a6/0001 is None
+root - INFO - tags are converted to string @ 16/05/2022 12:40:36
+Status - INFO - approval status checked @ 16/05/2022 12:40:36
+Status - INFO - connected to mqtt server for sending approval @ 16/05/2022 12:40:36
+Status - INFO - Inserted info of tag SA/ele/a6/0001 in Logs table @ 16/05/2022 12:40:36
+Status - INFO - Destination of tag SA/ele/a6/0001 is None
+root - INFO - tags are converted to string @ 16/05/2022 12:40:39
+Status - INFO - approval status checked @ 16/05/2022 12:40:39
+Status - INFO - connected to mqtt server for sending approval @ 16/05/2022 12:40:39
+Status - INFO - Inserted info of tag SA/ele/a6/0001 in Logs table @ 16/05/2022 12:40:39
+Status - INFO - Destination of tag SA/ele/a6/0001 is None
+root - INFO - tags are converted to string @ 16/05/2022 12:40:41
+Status - INFO - approval status checked @ 16/05/2022 12:40:41
+Status - INFO - connected to mqtt server for sending approval @ 16/05/2022 12:40:41
+Status - INFO - Inserted info of tag SA/ele/a6/0001 in Logs table @ 16/05/2022 12:40:41
+Status - INFO - Destination of tag SA/ele/a6/0001 is None
+root - INFO - tags are converted to string @ 16/05/2022 12:40:43
+Status - INFO - approval status checked @ 16/05/2022 12:40:43
+Status - INFO - connected to mqtt server for sending approval @ 16/05/2022 12:40:43
+Status - INFO - Inserted info of tag SA/ele/a6/0001 in Logs table @ 16/05/2022 12:40:43
+Status - INFO - Destination of tag SA/ele/a6/0001 is None
+root - INFO - tags are converted to string @ 16/05/2022 12:40:44
+Status - INFO - approval status checked @ 16/05/2022 12:40:44
+Status - INFO - connected to mqtt server for sending approval @ 16/05/2022 12:40:44
+Status - INFO - Inserted info of tag SA/ele/a6/0001 in Logs table @ 16/05/2022 12:40:44
+Status - INFO - Destination of tag SA/ele/a6/0001 is None
+root - INFO - tags are converted to string @ 16/05/2022 12:42:10
+Status - INFO - approval status checked @ 16/05/2022 12:42:10
+Status - INFO - connected to mqtt server for sending approval @ 16/05/2022 12:42:10
+Status - INFO - Inserted info of tag SA/ele/a6/0002 in Logs table @ 16/05/2022 12:42:10
+Status - INFO - Destination of tag SA/ele/a6/0002 is None
+root - INFO - tags are converted to string @ 16/05/2022 12:42:57
+Status - INFO - approval status checked @ 16/05/2022 12:42:57
+Status - INFO - connected to mqtt server for sending approval @ 16/05/2022 12:42:57
+Status - INFO - Inserted info of tag SA/ele/a6/0002 in Logs table @ 16/05/2022 12:42:57
+Status - INFO - Destination of tag SA/ele/a6/0002 is None
+root - INFO - tags are converted to string @ 16/05/2022 12:42:59
+Status - INFO - approval status checked @ 16/05/2022 12:42:59
+Status - INFO - connected to mqtt server for sending approval @ 16/05/2022 12:42:59
+Status - INFO - Inserted info of tag SA/ele/a6/0002 in Logs table @ 16/05/2022 12:42:59
+Status - INFO - Destination of tag SA/ele/a6/0002 is None
+root - INFO - tags are converted to string @ 16/05/2022 12:43:01
+Status - INFO - approval status checked @ 16/05/2022 12:43:01
+Status - INFO - connected to mqtt server for sending approval @ 16/05/2022 12:43:01
+Status - INFO - Inserted info of tag SA/ele/a6/0002 in Logs table @ 16/05/2022 12:43:01
+Status - INFO - Destination of tag SA/ele/a6/0002 is None
+root - INFO - tags are converted to string @ 16/05/2022 12:43:02
+Status - INFO - approval status checked @ 16/05/2022 12:43:02
+Status - INFO - connected to mqtt server for sending approval @ 16/05/2022 12:43:02
+Status - INFO - Inserted info of tag SA/ele/a6/0002 in Logs table @ 16/05/2022 12:43:02
+Status - INFO - Destination of tag SA/ele/a6/0002 is None
+root - INFO - tags are converted to string @ 16/05/2022 12:43:03
+Status - INFO - approval status checked @ 16/05/2022 12:43:03
+Status - INFO - connected to mqtt server for sending approval @ 16/05/2022 12:43:03
+Status - INFO - Inserted info of tag SA/ele/a6/0002 in Logs table @ 16/05/2022 12:43:03
+Status - INFO - Destination of tag SA/ele/a6/0002 is None
+root - INFO - tags are converted to string @ 16/05/2022 12:43:06
+Status - INFO - approval status checked @ 16/05/2022 12:43:06
+Status - INFO - connected to mqtt server for sending approval @ 16/05/2022 12:43:06
+Status - INFO - Inserted info of tag SA/ele/a6/0002 in Logs table @ 16/05/2022 12:43:06
+Status - INFO - Destination of tag SA/ele/a6/0002 is None
+Status - INFO - #################################################################################################___New Reader Log___######################################################################################
+Status - INFO - connected to reader 1357137 @ 2022-05-16
+Status - INFO - Scanning started at 16/05/2022 12:54:37
+Status - INFO - #################################################################################################___New Reader Log___######################################################################################
+Status - INFO - connected to reader 678569 @ 2022-05-16
+Status - INFO - Scanning started at 16/05/2022 12:56:27
+Status - INFO - #################################################################################################___New Reader Log___######################################################################################
+Status - INFO - connected to reader 678569 @ 2022-05-16
+Status - INFO - Scanning started at 16/05/2022 12:59:30
+Status - INFO - #################################################################################################___New Reader Log___######################################################################################
+Status - INFO - connected to reader 1357137 @ 2022-05-16
+Status - INFO - Scanning started at 16/05/2022 12:59:51
+Status - INFO - #################################################################################################___New Reader Log___######################################################################################
+Status - INFO - connected to reader 678569 @ 2022-05-16
+Status - INFO - Scanning started at 16/05/2022 13:09:39
+root - INFO - tags are converted to string @ 16/05/2022 13:12:22
+Status - INFO - approval status checked @ 16/05/2022 13:12:22
+Status - INFO - connected to mqtt server for sending approval @ 16/05/2022 13:12:22
+Status - INFO - Inserted info of tag SA/ele/a6/0003 in Logs table @ 16/05/2022 13:12:22
+Status - INFO - Updated movement status in Activity table for tag SA/ele/a6/0003 @ 16/05/2022 13:12:22
+Status - INFO - Destination of tag SA/ele/a6/0003 is None
+root - INFO - tags are converted to string @ 16/05/2022 13:13:18
+Status - INFO - approval status checked @ 16/05/2022 13:13:18
+Status - INFO - connected to mqtt server for sending approval @ 16/05/2022 13:13:18
+Status - INFO - Inserted info of tag SA/ele/a6/0003 in Logs table @ 16/05/2022 13:13:18
+Status - INFO - Destination of tag SA/ele/a6/0003 is None
+root - INFO - tags are converted to string @ 16/05/2022 13:13:47
+Status - INFO - approval status checked @ 16/05/2022 13:13:47
+Status - INFO - connected to mqtt server for sending approval @ 16/05/2022 13:13:47
+Status - INFO - Inserted info of tag SA/ele/a6/0003 in Logs table @ 16/05/2022 13:13:47
+Status - INFO - Destination of tag SA/ele/a6/0003 is None
+Status - INFO - #################################################################################################___New Reader Log___######################################################################################
+Status - INFO - connected to reader 678569 @ 2022-05-16
+Status - INFO - Scanning started at 16/05/2022 13:18:33
+Status - INFO - #################################################################################################___New Reader Log___######################################################################################
+Status - INFO - connected to reader 1357137 @ 2022-05-16
+Status - INFO - Scanning started at 16/05/2022 13:18:45
+root - INFO - tags are converted to string @ 16/05/2022 13:23:33
+Status - INFO - approval status checked @ 16/05/2022 13:23:33
+Status - INFO - connected to mqtt server for sending approval @ 16/05/2022 13:23:33
+Status - INFO - Inserted info of tag SA/ele/a6/0002 in Logs table @ 16/05/2022 13:23:33
+Status - INFO - Updated movement status in Activity table for tag SA/ele/a6/0002 @ 16/05/2022 13:23:33
+Status - INFO - Destination of tag SA/ele/a6/0002 is campus12_lab1
+root - INFO - tags are converted to string @ 16/05/2022 13:23:34
+root - INFO - tags are converted to string @ 16/05/2022 13:23:35
+root - INFO - tags are converted to string @ 16/05/2022 13:24:10
+Status - INFO - approval status checked @ 16/05/2022 13:24:10
+Status - INFO - connected to mqtt server for sending approval @ 16/05/2022 13:24:10
+Status - INFO - Inserted info of tag SA/ele/a6/0001 in Logs table @ 16/05/2022 13:24:10
+Status - INFO - Updated movement status in Activity table for tag SA/ele/a6/0001 @ 16/05/2022 13:24:10
+Status - INFO - Destination of tag SA/ele/a6/0001 is campus12_lab1
+root - INFO - tags are converted to string @ 16/05/2022 13:24:14
+root - INFO - tags are converted to string @ 16/05/2022 13:24:15
+root - INFO - tags are converted to string @ 16/05/2022 13:24:26
+Status - INFO - approval status checked @ 16/05/2022 13:24:26
+Status - INFO - connected to mqtt server for sending approval @ 16/05/2022 13:24:26
+Status - INFO - Inserted info of tag SA/ele/a4/0006 in Logs table @ 16/05/2022 13:24:26
+Status - INFO - Updated movement status in Activity table for tag SA/ele/a4/0006 @ 16/05/2022 13:24:26
+Status - INFO - Destination of tag SA/ele/a4/0006 is campus12_lab1
+root - INFO - tags are converted to string @ 16/05/2022 13:24:31
+Status - INFO - approval status checked @ 16/05/2022 13:24:31
+Status - INFO - connected to mqtt server for sending approval @ 16/05/2022 13:24:31
+Status - INFO - Inserted info of tag SA/ele/a4/0008 in Logs table @ 16/05/2022 13:24:31
+Status - INFO - Updated movement status in Activity table for tag SA/ele/a4/0008 @ 16/05/2022 13:24:31
+Status - INFO - Destination of tag SA/ele/a4/0008 is campus12_lab1
+root - INFO - tags are converted to string @ 16/05/2022 13:24:32
+root - INFO - tags are converted to string @ 16/05/2022 13:24:33
+root - INFO - tags are converted to string @ 16/05/2022 13:24:34
+root - INFO - tags are converted to string @ 16/05/2022 13:24:35
+root - INFO - tags are converted to string @ 16/05/2022 13:24:50
+Status - INFO - approval status checked @ 16/05/2022 13:24:50
+Status - INFO - connected to mqtt server for sending approval @ 16/05/2022 13:24:50
+Status - INFO - Inserted info of tag SA/ele/a4/0005 in Logs table @ 16/05/2022 13:24:50
+Status - INFO - Updated movement status in Activity table for tag SA/ele/a4/0005 @ 16/05/2022 13:24:50
+Status - INFO - Destination of tag SA/ele/a4/0005 is campus12_lab1
+root - INFO - tags are converted to string @ 16/05/2022 13:24:59
+Status - INFO - approval status checked @ 16/05/2022 13:24:59
+Status - INFO - connected to mqtt server for sending approval @ 16/05/2022 13:24:59
+Status - INFO - Inserted info of tag SA/ele/a4/0007 in Logs table @ 16/05/2022 13:24:59
+Status - INFO - Updated movement status in Activity table for tag SA/ele/a4/0007 @ 16/05/2022 13:24:59
+Status - INFO - Destination of tag SA/ele/a4/0007 is campus12_lab1
+root - INFO - tags are converted to string @ 16/05/2022 13:25:04
+Status - INFO - approval status checked @ 16/05/2022 13:25:04
+Status - INFO - connected to mqtt server for sending approval @ 16/05/2022 13:25:04
+Status - INFO - Inserted info of tag SA/ele/a4/0009 in Logs table @ 16/05/2022 13:25:04
+Status - INFO - Updated movement status in Activity table for tag SA/ele/a4/0009 @ 16/05/2022 13:25:04
+Status - INFO - Destination of tag SA/ele/a4/0009 is campus12_lab1
+root - INFO - tags are converted to string @ 16/05/2022 13:25:05
+root - INFO - tags are converted to string @ 16/05/2022 13:25:26
+Status - INFO - approval status checked @ 16/05/2022 13:25:26
+Status - INFO - connected to mqtt server for sending approval @ 16/05/2022 13:25:26
+Status - INFO - Inserted info of tag SA/ele/a4/0010 in Logs table @ 16/05/2022 13:25:26
+Status - INFO - Updated movement status in Activity table for tag SA/ele/a4/0010 @ 16/05/2022 13:25:26
+Status - INFO - Destination of tag SA/ele/a4/0010 is campus12_lab1
+root - INFO - tags are converted to string @ 16/05/2022 13:25:39
+Status - INFO - approval status checked @ 16/05/2022 13:25:39
+Status - INFO - connected to mqtt server for sending approval @ 16/05/2022 13:25:39
+Status - INFO - Inserted info of tag SA/ele/a4/0002 in Logs table @ 16/05/2022 13:25:39
+Status - INFO - Updated movement status in Activity table for tag SA/ele/a4/0002 @ 16/05/2022 13:25:39
+Status - INFO - Destination of tag SA/ele/a4/0002 is campus12_lab1
+root - INFO - tags are converted to string @ 16/05/2022 13:25:41
+root - INFO - tags are converted to string @ 16/05/2022 13:25:42
+root - INFO - tags are converted to string @ 16/05/2022 13:25:43
+root - INFO - tags are converted to string @ 16/05/2022 13:25:54
+Status - INFO - approval status checked @ 16/05/2022 13:25:54
+Status - INFO - connected to mqtt server for sending approval @ 16/05/2022 13:25:54
+Status - INFO - Inserted info of tag SA/ele/a4/0004 in Logs table @ 16/05/2022 13:25:54
+Status - INFO - Updated movement status in Activity table for tag SA/ele/a4/0004 @ 16/05/2022 13:25:54
+Status - INFO - Destination of tag SA/ele/a4/0004 is campus12_lab1
+root - INFO - tags are converted to string @ 16/05/2022 13:25:55
+root - INFO - tags are converted to string @ 16/05/2022 13:26:25
+Status - INFO - approval status checked @ 16/05/2022 13:26:25
+Status - INFO - connected to mqtt server for sending approval @ 16/05/2022 13:26:25
+Status - INFO - Inserted info of tag SA/ele/a6/0005 in Logs table @ 16/05/2022 13:26:25
+Status - INFO - Updated movement status in Activity table for tag SA/ele/a6/0005 @ 16/05/2022 13:26:26
+Status - INFO - Destination of tag SA/ele/a6/0005 is campus12_lab1
+root - INFO - tags are converted to string @ 16/05/2022 13:26:27
+root - INFO - tags are converted to string @ 16/05/2022 13:26:47
+Status - INFO - approval status checked @ 16/05/2022 13:26:47
+Status - INFO - connected to mqtt server for sending approval @ 16/05/2022 13:26:47
+Status - INFO - Inserted info of tag SA/ele/a5/0003 in Logs table @ 16/05/2022 13:26:47
+Status - INFO - Updated movement status in Activity table for tag SA/ele/a5/0003 @ 16/05/2022 13:26:47
+Status - INFO - Destination of tag SA/ele/a5/0003 is campus12_lab1
+root - INFO - tags are converted to string @ 16/05/2022 13:27:05
+Status - INFO - approval status checked @ 16/05/2022 13:27:05
+Status - INFO - connected to mqtt server for sending approval @ 16/05/2022 13:27:05
+Status - INFO - Inserted info of tag SA/ele/a5/0001 in Logs table @ 16/05/2022 13:27:05
+Status - INFO - Updated movement status in Activity table for tag SA/ele/a5/0001 @ 16/05/2022 13:27:05
+Status - INFO - Destination of tag SA/ele/a5/0001 is campus12_lab1
+root - INFO - tags are converted to string @ 16/05/2022 13:27:25
+Status - INFO - approval status checked @ 16/05/2022 13:27:25
+Status - INFO - connected to mqtt server for sending approval @ 16/05/2022 13:27:25
+Status - INFO - Inserted info of tag SA/ele/a5/0002 in Logs table @ 16/05/2022 13:27:25
+Status - INFO - Updated movement status in Activity table for tag SA/ele/a5/0002 @ 16/05/2022 13:27:25
+Status - INFO - Destination of tag SA/ele/a5/0002 is campus12_lab1
+root - INFO - tags are converted to string @ 16/05/2022 13:27:56
+Status - INFO - approval status checked @ 16/05/2022 13:27:56
+Status - INFO - connected to mqtt server for sending approval @ 16/05/2022 13:27:56
+Status - INFO - Inserted info of tag SA/ele/a5/0010 in Logs table @ 16/05/2022 13:27:56
+Status - INFO - Updated movement status in Activity table for tag SA/ele/a5/0010 @ 16/05/2022 13:27:56
+Status - INFO - Destination of tag SA/ele/a5/0010 is campus12_lab1
+root - INFO - tags are converted to string @ 16/05/2022 13:28:15
+Status - INFO - approval status checked @ 16/05/2022 13:28:15
+Status - INFO - connected to mqtt server for sending approval @ 16/05/2022 13:28:15
+Status - INFO - Inserted info of tag SA/ele/a5/0009 in Logs table @ 16/05/2022 13:28:15
+Status - INFO - Updated movement status in Activity table for tag SA/ele/a5/0009 @ 16/05/2022 13:28:15
+Status - INFO - Destination of tag SA/ele/a5/0009 is campus12_lab1
+root - INFO - tags are converted to string @ 16/05/2022 13:28:16
+root - INFO - tags are converted to string @ 16/05/2022 13:28:28
+Status - INFO - approval status checked @ 16/05/2022 13:28:28
+Status - INFO - connected to mqtt server for sending approval @ 16/05/2022 13:28:28
+Status - INFO - Inserted info of tag SA/ele/a5/0005 in Logs table @ 16/05/2022 13:28:28
+Status - INFO - Updated movement status in Activity table for tag SA/ele/a5/0005 @ 16/05/2022 13:28:28
+Status - INFO - Destination of tag SA/ele/a5/0005 is campus12_lab1
+root - INFO - tags are converted to string @ 16/05/2022 13:28:29
+root - INFO - tags are converted to string @ 16/05/2022 13:28:45
+Status - INFO - approval status checked @ 16/05/2022 13:28:45
+Status - INFO - connected to mqtt server for sending approval @ 16/05/2022 13:28:45
+Status - INFO - Inserted info of tag SA/ele/a5/0006 in Logs table @ 16/05/2022 13:28:45
+Status - INFO - Updated movement status in Activity table for tag SA/ele/a5/0006 @ 16/05/2022 13:28:46
+Status - INFO - Destination of tag SA/ele/a5/0006 is campus12_lab1
+root - INFO - tags are converted to string @ 16/05/2022 13:28:55
+Status - INFO - approval status checked @ 16/05/2022 13:28:55
+Status - INFO - connected to mqtt server for sending approval @ 16/05/2022 13:28:55
+Status - INFO - Inserted info of tag SA/ele/a5/0008 in Logs table @ 16/05/2022 13:28:55
+Status - INFO - Updated movement status in Activity table for tag SA/ele/a5/0008 @ 16/05/2022 13:28:55
+Status - INFO - Destination of tag SA/ele/a5/0008 is campus12_lab1
+root - INFO - tags are converted to string @ 16/05/2022 13:30:28
+Status - INFO - approval status checked @ 16/05/2022 13:30:28
+Status - INFO - connected to mqtt server for sending approval @ 16/05/2022 13:30:28
+Status - INFO - Inserted info of tag SA/ele/a4/0002 in Logs table @ 16/05/2022 13:30:28
+Status - INFO - Updated movement status in Activity table for tag SA/ele/a4/0002 @ 16/05/2022 13:30:28
+Status - INFO - Destination of tag SA/ele/a4/0002 is campus12_lab1
+root - INFO - tags are converted to string @ 16/05/2022 13:31:22
+Status - INFO - approval status checked @ 16/05/2022 13:31:22
+Status - INFO - connected to mqtt server for sending approval @ 16/05/2022 13:31:22
+Status - INFO - Inserted info of tag SA/ele/a4/0001 in Logs table @ 16/05/2022 13:31:22
+Status - INFO - Destination of tag SA/ele/a4/0001 is campus12_lab1
+Status - INFO - Updated approve status and movement status in Activity table for tag SA/ele/a4/0001 @ 16/05/2022 13:31:22
+Status - INFO - Process completed @ 16/05/2022 13:31:22
+root - INFO - tags are converted to string @ 16/05/2022 13:31:32
+Status - INFO - approval status checked @ 16/05/2022 13:31:32
+Status - INFO - connected to mqtt server for sending approval @ 16/05/2022 13:31:32
+Status - INFO - Inserted info of tag SA/ele/a6/0005 in Logs table @ 16/05/2022 13:31:32
+Status - INFO - Destination of tag SA/ele/a6/0005 is campus12_lab1
+root - INFO - tags are converted to string @ 16/05/2022 13:33:53
+Status - INFO - approval status checked @ 16/05/2022 13:33:53
+Status - INFO - connected to mqtt server for sending approval @ 16/05/2022 13:33:53
+Status - INFO - Inserted info of tag SA/ele/a4/0010 in Logs table @ 16/05/2022 13:33:53
+Status - INFO - Destination of tag SA/ele/a4/0010 is campus12_lab1
+root - INFO - tags are converted to string @ 16/05/2022 13:34:18
+root - INFO - tags are converted to string @ 16/05/2022 13:34:20
+root - INFO - tags are converted to string @ 16/05/2022 13:36:02
+Status - INFO - approval status checked @ 16/05/2022 13:36:02
+Status - INFO - connected to mqtt server for sending approval @ 16/05/2022 13:36:02
+Status - INFO - Inserted info of tag SA/ele/a4/0001 in Logs table @ 16/05/2022 13:36:02
+Status - INFO - Destination of tag SA/ele/a4/0001 is campus12_lab1
+Status - INFO - #################################################################################################___New Reader Log___######################################################################################
+Status - INFO - connected to reader 678569 @ 2022-05-17
+Status - INFO - Scanning started at 17/05/2022 12:44:31
+Status - INFO - #################################################################################################___New Reader Log___######################################################################################
+Status - INFO - connected to reader 678569 @ 2022-05-17
+Status - INFO - Scanning started at 17/05/2022 12:45:33
+Status - INFO - #################################################################################################___New Reader Log___######################################################################################
+Status - INFO - connected to reader 678569 @ 2022-05-17
+Status - INFO - Scanning started at 17/05/2022 12:46:53
+Status - INFO - #################################################################################################___New Reader Log___######################################################################################
+Status - INFO - connected to reader 678569 @ 2022-05-17
+Status - INFO - Scanning started at 17/05/2022 12:48:04
+Status - INFO - #################################################################################################___New Reader Log___######################################################################################
+Status - INFO - connected to reader 1357137 @ 2022-05-17
+Status - INFO - Scanning started at 17/05/2022 12:49:28
+root - INFO - tags are converted to string @ 17/05/2022 12:55:53
+Status - INFO - approval status checked @ 17/05/2022 12:55:53
+Status - INFO - #################################################################################################___New Reader Log___######################################################################################
+Status - INFO - connected to reader 678569 @ 2022-05-17
+Status - INFO - Scanning started at 17/05/2022 12:56:31
+Status - INFO - #################################################################################################___New Reader Log___######################################################################################
+Status - INFO - connected to reader 678569 @ 2022-05-17
+Status - INFO - Scanning started at 17/05/2022 12:57:06
+Status - INFO - #################################################################################################___New Reader Log___######################################################################################
+Status - INFO - connected to reader 678569 @ 2022-05-17
+Status - INFO - Scanning started at 17/05/2022 12:58:07
+Status - INFO - #################################################################################################___New Reader Log___######################################################################################
+Status - INFO - connected to reader 678569 @ 2022-05-17
+Status - INFO - Scanning started at 17/05/2022 13:01:44
+Status - INFO - #################################################################################################___New Reader Log___######################################################################################
+Status - INFO - connected to reader 678569 @ 2022-05-17
+Status - INFO - Scanning started at 17/05/2022 13:03:29
+Status - INFO - #################################################################################################___New Reader Log___######################################################################################
+Status - INFO - connected to reader 1357137 @ 2022-05-17
+Status - INFO - Scanning started at 17/05/2022 13:06:09
+Status - INFO - #################################################################################################___New Reader Log___######################################################################################
+Status - INFO - connected to reader 678569 @ 2022-05-17
+Status - INFO - Scanning started at 17/05/2022 13:17:07
+root - INFO - tags are converted to string @ 17/05/2022 13:17:16
+Status - INFO - approval status checked @ 17/05/2022 13:17:16
+Status - INFO - #################################################################################################___New Reader Log___######################################################################################
+Status - INFO - connected to reader 678569 @ 2022-05-17
+Status - INFO - Scanning started at 17/05/2022 15:43:11
+Status - INFO - #################################################################################################___New Reader Log___######################################################################################
+Status - INFO - connected to reader 678569 @ 2022-05-17
+Status - INFO - Scanning started at 17/05/2022 15:44:13
+Status - INFO - #################################################################################################___New Reader Log___######################################################################################
+Status - INFO - connected to reader 1357137 @ 2022-05-17
+Status - INFO - Scanning started at 17/05/2022 15:47:40
+Status - INFO - #################################################################################################___New Reader Log___######################################################################################
+Status - INFO - connected to reader 678569 @ 2022-05-17
+Status - INFO - Scanning started at 17/05/2022 15:50:40
+root - INFO - tags are converted to string @ 17/05/2022 15:50:59
+root - INFO - tags are converted to string @ 17/05/2022 15:55:10
+Status - INFO - approval status checked @ 17/05/2022 15:55:10
+Status - INFO - connected to mqtt server for sending approval @ 17/05/2022 15:55:10
+Status - INFO - Inserted info of tag SA/ele/a1/0002 in Logs table @ 17/05/2022 15:55:10
+Status - INFO - Destination of tag SA/ele/a1/0002 is campus12_lab1
+root - INFO - tags are converted to string @ 17/05/2022 15:55:44
+Status - INFO - approval status checked @ 17/05/2022 15:55:44
+Status - INFO - connected to mqtt server for sending approval @ 17/05/2022 15:55:44
+Status - INFO - Inserted info of tag SA/ele/a1/0002 in Logs table @ 17/05/2022 15:55:44
+Status - INFO - Destination of tag SA/ele/a1/0002 is campus12_lab1
+root - INFO - tags are converted to string @ 17/05/2022 15:55:48
+Status - INFO - approval status checked @ 17/05/2022 15:55:48
+Status - INFO - connected to mqtt server for sending approval @ 17/05/2022 15:55:48
+Status - INFO - Inserted info of tag SA/ele/a1/0002 in Logs table @ 17/05/2022 15:55:48
+Status - INFO - Destination of tag SA/ele/a1/0002 is campus12_lab1
+root - INFO - tags are converted to string @ 17/05/2022 15:57:36
+root - INFO - tags are converted to string @ 17/05/2022 15:57:49
+root - INFO - tags are converted to string @ 17/05/2022 15:57:52
+root - INFO - tags are converted to string @ 17/05/2022 15:58:35
+Status - INFO - approval status checked @ 17/05/2022 15:58:35
+Status - INFO - connected to mqtt server for sending approval @ 17/05/2022 15:58:35
+Status - INFO - Inserted info of tag SA/ele/a4/0010 in Logs table @ 17/05/2022 15:58:35
+Status - INFO - Destination of tag SA/ele/a4/0010 is campus12_lab1
+root - INFO - tags are converted to string @ 17/05/2022 15:58:38
+Status - INFO - approval status checked @ 17/05/2022 15:58:38
+Status - INFO - connected to mqtt server for sending approval @ 17/05/2022 15:58:38
+Status - INFO - Inserted info of tag SA/ele/a4/0010 in Logs table @ 17/05/2022 15:58:38
+Status - INFO - Destination of tag SA/ele/a4/0010 is campus12_lab1
+root - INFO - tags are converted to string @ 17/05/2022 15:58:58
+Status - INFO - approval status checked @ 17/05/2022 15:58:58
+Status - INFO - connected to mqtt server for sending approval @ 17/05/2022 15:58:58
+Status - INFO - Inserted info of tag SA/ele/a5/0005 in Logs table @ 17/05/2022 15:58:58
+Status - INFO - Destination of tag SA/ele/a5/0005 is campus12_lab1
+root - INFO - tags are converted to string @ 17/05/2022 15:59:15
+root - INFO - tags are converted to string @ 17/05/2022 15:59:33
+Status - INFO - #################################################################################################___New Reader Log___######################################################################################
+Status - INFO - connected to reader 678569 @ 2022-05-17
+Status - INFO - Scanning started at 17/05/2022 16:03:20
+root - INFO - tags are converted to string @ 17/05/2022 16:05:10
+root - INFO - tags are converted to string @ 17/05/2022 16:05:13
+Status - INFO - #################################################################################################___New Reader Log___######################################################################################
+Status - INFO - connected to reader 678569 @ 2022-05-17
+Status - INFO - Scanning started at 17/05/2022 16:16:18
+root - INFO - tags are converted to string @ 17/05/2022 16:16:29
+root - INFO - tags are converted to string @ 17/05/2022 16:16:39
+root - INFO - tags are converted to string @ 17/05/2022 16:16:43
+Status - INFO - #################################################################################################___New Reader Log___######################################################################################
+Status - INFO - connected to reader 1357137 @ 2022-05-17
+Status - INFO - Scanning started at 17/05/2022 16:17:37
+root - INFO - tags are converted to string @ 17/05/2022 16:20:57
+root - INFO - tags are converted to string @ 17/05/2022 16:21:27
+root - INFO - tags are converted to string @ 17/05/2022 16:21:35
+root - INFO - tags are converted to string @ 17/05/2022 16:23:51
+root - INFO - tags are converted to string @ 17/05/2022 16:23:56
+root - INFO - tags are converted to string @ 17/05/2022 16:23:59
+root - INFO - tags are converted to string @ 17/05/2022 16:24:01
+root - INFO - tags are converted to string @ 17/05/2022 16:24:12
+root - INFO - tags are converted to string @ 17/05/2022 16:25:03
+root - INFO - tags are converted to string @ 17/05/2022 16:25:40
+root - INFO - tags are converted to string @ 17/05/2022 16:25:49
+root - INFO - tags are converted to string @ 17/05/2022 16:25:50
+root - INFO - tags are converted to string @ 17/05/2022 16:25:51
+root - INFO - tags are converted to string @ 17/05/2022 16:26:45
+root - INFO - tags are converted to string @ 17/05/2022 16:26:47
+root - INFO - tags are converted to string @ 17/05/2022 16:26:53
+root - INFO - tags are converted to string @ 17/05/2022 16:26:56
+root - INFO - tags are converted to string @ 17/05/2022 16:27:01
+root - INFO - tags are converted to string @ 17/05/2022 16:27:02
+root - INFO - tags are converted to string @ 17/05/2022 16:27:25
+root - INFO - tags are converted to string @ 17/05/2022 16:27:31
+root - INFO - tags are converted to string @ 17/05/2022 16:27:36
+root - INFO - tags are converted to string @ 17/05/2022 16:27:51
+root - INFO - tags are converted to string @ 17/05/2022 16:28:02
+root - INFO - tags are converted to string @ 17/05/2022 16:28:19
+root - INFO - tags are converted to string @ 17/05/2022 16:28:23
+root - INFO - tags are converted to string @ 17/05/2022 16:29:31
+root - INFO - tags are converted to string @ 17/05/2022 16:29:33
+root - INFO - tags are converted to string @ 17/05/2022 16:29:34
+root - INFO - tags are converted to string @ 17/05/2022 16:29:35
+root - INFO - tags are converted to string @ 17/05/2022 16:30:24
+root - INFO - tags are converted to string @ 17/05/2022 16:30:25
+root - INFO - tags are converted to string @ 17/05/2022 16:30:33
+root - INFO - tags are converted to string @ 17/05/2022 16:30:34
+root - INFO - tags are converted to string @ 17/05/2022 16:30:40
+root - INFO - tags are converted to string @ 17/05/2022 16:30:42
+root - INFO - tags are converted to string @ 17/05/2022 16:30:44
+root - INFO - tags are converted to string @ 17/05/2022 16:30:45
+root - INFO - tags are converted to string @ 17/05/2022 16:30:47
+root - INFO - tags are converted to string @ 17/05/2022 16:30:55
+root - INFO - tags are converted to string @ 17/05/2022 16:31:32
+root - INFO - tags are converted to string @ 17/05/2022 16:32:27
+root - INFO - tags are converted to string @ 17/05/2022 16:32:47
+root - INFO - tags are converted to string @ 17/05/2022 16:32:48
+root - INFO - tags are converted to string @ 17/05/2022 16:32:49
+root - INFO - tags are converted to string @ 17/05/2022 16:32:53
+root - INFO - tags are converted to string @ 17/05/2022 16:33:00
+root - INFO - tags are converted to string @ 17/05/2022 16:33:02
+Status - INFO - #################################################################################################___New Reader Log___######################################################################################
+Status - INFO - connected to reader 678569 @ 2022-05-17
+Status - INFO - Scanning started at 17/05/2022 16:59:45
+Status - INFO - #################################################################################################___New Reader Log___######################################################################################
+Status - INFO - connected to reader 678569 @ 2022-05-17
+Status - INFO - Scanning started at 17/05/2022 17:00:16
+root - INFO - tags are converted to string @ 17/05/2022 17:00:39
+root - INFO - tags are converted to string @ 17/05/2022 17:00:40
+root - INFO - tags are converted to string @ 17/05/2022 17:00:41
+root - INFO - tags are converted to string @ 17/05/2022 17:00:42
+root - INFO - tags are converted to string @ 17/05/2022 17:00:43
+root - INFO - tags are converted to string @ 17/05/2022 17:00:49
+Status - INFO - approval status checked @ 17/05/2022 17:00:49
+Status - INFO - connected to mqtt server for sending approval @ 17/05/2022 17:00:49
+Status - INFO - Inserted info of tag SA/ele/a5/0009 in Logs table @ 17/05/2022 17:00:49
+Status - INFO - Destination of tag SA/ele/a5/0009 is campus12_lab1
+root - INFO - tags are converted to string @ 17/05/2022 17:02:37
+root - INFO - tags are converted to string @ 17/05/2022 17:35:49
+Status - INFO - approval status checked @ 17/05/2022 17:35:49
+Status - INFO - connected to mqtt server for sending approval @ 17/05/2022 17:35:49
+Status - INFO - Inserted info of tag SA/ele/a7/0001 in Logs table @ 17/05/2022 17:35:49
+Status - INFO - Destination of tag SA/ele/a7/0001 is None
+root - INFO - tags are converted to string @ 17/05/2022 17:36:50
+Status - INFO - approval status checked @ 17/05/2022 17:36:50
+Status - INFO - connected to mqtt server for sending approval @ 17/05/2022 17:36:50
+Status - INFO - Inserted info of tag SA/ele/a7/0001 in Logs table @ 17/05/2022 17:36:50
+Status - INFO - Destination of tag SA/ele/a7/0001 is None
+root - INFO - tags are converted to string @ 17/05/2022 17:37:46
+Status - INFO - approval status checked @ 17/05/2022 17:37:46
+Status - INFO - connected to mqtt server for sending approval @ 17/05/2022 17:37:46
+Status - INFO - Inserted info of tag SA/ele/a7/0001 in Logs table @ 17/05/2022 17:37:46
+Status - INFO - Destination of tag SA/ele/a7/0001 is None
+root - INFO - tags are converted to string @ 17/05/2022 17:37:52
+Status - INFO - approval status checked @ 17/05/2022 17:37:52
+Status - INFO - connected to mqtt server for sending approval @ 17/05/2022 17:37:52
+Status - INFO - Inserted info of tag SA/ele/a7/0001 in Logs table @ 17/05/2022 17:37:52
+Status - INFO - Destination of tag SA/ele/a7/0001 is None
+Status - INFO - #################################################################################################___New Reader Log___######################################################################################
+Status - INFO - connected to reader 678569 @ 2022-05-17
+Status - INFO - Scanning started at 17/05/2022 17:40:09
+root - INFO - tags are converted to string @ 17/05/2022 17:40:19
+Status - INFO - approval status checked @ 17/05/2022 17:40:19
+Status - INFO - connected to mqtt server for sending approval @ 17/05/2022 17:40:19
+Status - INFO - Inserted info of tag SA/ele/a7/0001 in Logs table @ 17/05/2022 17:40:19
+Status - INFO - Destination of tag SA/ele/a7/0001 is None
+root - INFO - tags are converted to string @ 17/05/2022 17:47:35
+Status - INFO - approval status checked @ 17/05/2022 17:47:35
+Status - INFO - connected to mqtt server for sending approval @ 17/05/2022 17:47:35
+Status - INFO - Inserted info of tag SA/ele/a7/0001 in Logs table @ 17/05/2022 17:47:35
+Status - INFO - Destination of tag SA/ele/a7/0001 is None
+root - INFO - tags are converted to string @ 17/05/2022 18:42:01
+Status - INFO - approval status checked @ 17/05/2022 18:42:01
+Status - INFO - connected to mqtt server for sending approval @ 17/05/2022 18:42:01
+Status - INFO - Inserted info of tag SA/ele/a7/0001 in Logs table @ 17/05/2022 18:42:01
+Status - INFO - Updated movement status in Activity table for tag SA/ele/a7/0001 @ 17/05/2022 18:42:01
+Status - INFO - Destination of tag SA/ele/a7/0001 is campus12_lab1
+root - INFO - tags are converted to string @ 17/05/2022 18:50:29
+Status - INFO - approval status checked @ 17/05/2022 18:50:29
+Status - INFO - connected to mqtt server for sending approval @ 17/05/2022 18:50:29
+Status - INFO - Inserted info of tag SA/ele/a7/0001 in Logs table @ 17/05/2022 18:50:29
+Status - INFO - Destination of tag SA/ele/a7/0001 is campus12_lab1
+Status - INFO - #################################################################################################___New Reader Log___######################################################################################
+Status - INFO - connected to reader 1357137 @ 2022-05-17
+Status - INFO - Scanning started at 17/05/2022 19:01:02
+Status - INFO - #################################################################################################___New Reader Log___######################################################################################
+Status - INFO - connected to reader 678569 @ 2022-05-17
+Status - INFO - Scanning started at 17/05/2022 19:01:15
+Status - INFO - #################################################################################################___New Reader Log___######################################################################################
+Status - INFO - connected to reader 1357137 @ 2022-05-17
+Status - INFO - Scanning started at 17/05/2022 19:04:02
+root - INFO - tags are converted to string @ 17/05/2022 19:09:44
+Status - INFO - approval status checked @ 17/05/2022 19:09:44
+Status - INFO - connected to mqtt server for sending approval @ 17/05/2022 19:09:44
+Status - INFO - Inserted info of tag SA/ele/a7/0001 in Logs table @ 17/05/2022 19:09:44
+Status - INFO - Destination of tag SA/ele/a7/0001 is campus12_lab1
+Status - INFO - #################################################################################################___New Reader Log___######################################################################################
+Status - INFO - connected to reader 1357137 @ 2022-05-17
+Status - INFO - Scanning started at 17/05/2022 19:14:56
+root - INFO - tags are converted to string @ 17/05/2022 19:15:05
+Status - INFO - approval status checked @ 17/05/2022 19:15:05
+Status - INFO - connected to mqtt server for sending approval @ 17/05/2022 19:15:05
+Status - INFO - Inserted info of tag SA/ele/a7/0001 in Logs table @ 17/05/2022 19:15:05
+Status - INFO - Destination of tag SA/ele/a7/0001 is campus12_lab1
+Status - INFO - #################################################################################################___New Reader Log___######################################################################################
+Status - INFO - connected to reader 1357137 @ 2022-05-17
+Status - INFO - Scanning started at 17/05/2022 19:23:55
+root - INFO - tags are converted to string @ 17/05/2022 19:24:29
+Status - INFO - approval status checked @ 17/05/2022 19:24:29
+Status - INFO - connected to mqtt server for sending approval @ 17/05/2022 19:24:29
+Status - INFO - Inserted info of tag SA/ele/a7/0001 in Logs table @ 17/05/2022 19:24:29
+Status - INFO - Destination of tag SA/ele/a7/0001 is campus12_lab1
+Status - INFO - #################################################################################################___New Reader Log___######################################################################################
+Status - INFO - connected to reader 1357137 @ 2022-05-17
+Status - INFO - Scanning started at 17/05/2022 19:47:07
+Status - INFO - #################################################################################################___New Reader Log___######################################################################################
+Status - INFO - connected to reader 1357137 @ 2022-05-17
+Status - INFO - Scanning started at 17/05/2022 19:48:38
+root - INFO - tags are converted to string @ 17/05/2022 19:49:42
+Status - INFO - approval status checked @ 17/05/2022 19:49:42
+Status - INFO - connected to mqtt server for sending approval @ 17/05/2022 19:49:42
+Status - INFO - Inserted info of tag SA/ele/a7/0001 in Logs table @ 17/05/2022 19:49:42
+Status - INFO - Destination of tag SA/ele/a7/0001 is campus12_lab1
+Status - INFO - Updated approve status and movement status in Activity table for tag SA/ele/a7/0001 @ 17/05/2022 19:49:42
+Status - INFO - Process completed @ 17/05/2022 19:49:42
+root - INFO - tags are converted to string @ 17/05/2022 19:49:44
+Status - INFO - approval status checked @ 17/05/2022 19:49:44
+Status - INFO - connected to mqtt server for sending approval @ 17/05/2022 19:49:44
+Status - INFO - Inserted info of tag SA/ele/a7/0001 in Logs table @ 17/05/2022 19:49:44
+Status - INFO - Destination of tag SA/ele/a7/0001 is campus12_lab1
+Status - INFO - #################################################################################################___New Reader Log___######################################################################################
+Status - INFO - connected to reader 678569 @ 2022-05-18
+Status - INFO - Scanning started at 18/05/2022 09:23:20
+root - INFO - tags are converted to string @ 18/05/2022 09:23:46
+Status - INFO - approval status checked @ 18/05/2022 09:23:46
+Status - INFO - connected to mqtt server for sending approval @ 18/05/2022 09:23:46
+Status - INFO - Inserted info of tag SA/ele/a5/0005 in Logs table @ 18/05/2022 09:23:46
+Status - INFO - Destination of tag SA/ele/a5/0005 is campus12_lab1
+Status - INFO - #################################################################################################___New Reader Log___######################################################################################
+Status - INFO - connected to reader 678569 @ 2022-05-18
+Status - INFO - Scanning started at 18/05/2022 09:40:01
+root - INFO - tags are converted to string @ 18/05/2022 09:40:14
+Status - INFO - approval status checked @ 18/05/2022 09:40:14
+Status - INFO - connected to mqtt server for sending approval @ 18/05/2022 09:40:14
+Status - INFO - Inserted info of tag SA/ele/a5/0005 in Logs table @ 18/05/2022 09:40:14
+Status - INFO - Destination of tag SA/ele/a5/0005 is campus12_lab1
+Status - INFO - #################################################################################################___New Reader Log___######################################################################################
+Status - INFO - connected to reader 678569 @ 2022-05-18
+Status - INFO - Scanning started at 18/05/2022 11:39:51
+root - INFO - tags are converted to string @ 18/05/2022 11:40:26
+Status - INFO - approval status checked @ 18/05/2022 11:40:26
+Status - INFO - connected to mqtt server for sending approval @ 18/05/2022 11:40:26
+Status - INFO - Inserted info of tag SA/ele/a7/0001 in Logs table @ 18/05/2022 11:40:26
+Status - INFO - Destination of tag SA/ele/a7/0001 is campus12_lab1
+Status - INFO - #################################################################################################___New Reader Log___######################################################################################
+Status - INFO - connected to reader 678569 @ 2022-05-18
+Status - INFO - Scanning started at 18/05/2022 11:53:04
+root - INFO - tags are converted to string @ 18/05/2022 11:53:17
+Status - INFO - approval status checked @ 18/05/2022 11:53:17
+Status - INFO - connected to mqtt server for sending approval @ 18/05/2022 11:53:17
+Status - INFO - Inserted info of tag SA/ele/a7/0001 in Logs table @ 18/05/2022 11:53:17
+Status - INFO - Destination of tag SA/ele/a7/0001 is campus12_lab1
+Status - INFO - #################################################################################################___New Reader Log___######################################################################################
+Status - INFO - connected to reader 678569 @ 2022-05-18
+Status - INFO - Scanning started at 18/05/2022 11:54:48
+Status - INFO - #################################################################################################___New Reader Log___######################################################################################
+Status - INFO - connected to reader 1357137 @ 2022-05-18
+Status - INFO - Scanning started at 18/05/2022 12:06:21
+root - INFO - tags are converted to string @ 18/05/2022 12:06:22
+Status - INFO - approval status checked @ 18/05/2022 12:06:22
+Status - INFO - connected to mqtt server for sending approval @ 18/05/2022 12:06:22
+Status - INFO - Inserted info of tag SA/ele/a7/0001 in Logs table @ 18/05/2022 12:06:22
+Status - INFO - Destination of tag SA/ele/a7/0001 is campus12_lab1
+Status - INFO - #################################################################################################___New Reader Log___######################################################################################
+Status - INFO - connected to reader 1357137 @ 2022-05-18
+Status - INFO - Scanning started at 18/05/2022 12:06:57
+Status - INFO - #################################################################################################___New Reader Log___######################################################################################
+Status - INFO - connected to reader 678569 @ 2022-05-18
+Status - INFO - Scanning started at 18/05/2022 12:29:56
+Status - INFO - #################################################################################################___New Reader Log___######################################################################################
+Status - INFO - connected to reader 678569 @ 2022-05-18
+Status - INFO - Scanning started at 18/05/2022 12:34:27
+Status - INFO - #################################################################################################___New Reader Log___######################################################################################
+Status - INFO - connected to reader 678569 @ 2022-05-18
+Status - INFO - Scanning started at 18/05/2022 12:36:34
+Status - INFO - #################################################################################################___New Reader Log___######################################################################################
+Status - INFO - connected to reader 1357137 @ 2022-05-18
+Status - INFO - Scanning started at 18/05/2022 16:44:57
+root - INFO - tags are converted to string @ 18/05/2022 16:45:32
+Status - INFO - #################################################################################################___New Reader Log___######################################################################################
+Status - INFO - connected to reader 1357137 @ 2022-05-18
+Status - INFO - Scanning started at 18/05/2022 16:47:59
+root - INFO - tags are converted to string @ 18/05/2022 16:48:11
+Status - INFO - approval status checked @ 18/05/2022 16:48:11
+Status - INFO - connected to mqtt server for sending approval @ 18/05/2022 16:48:11
+Status - INFO - Inserted info of tag 60700007 in Logs table @ 18/05/2022 16:48:11
+Status - INFO - Destination of tag 60700007 is campus12_lab1
+root - INFO - tags are converted to string @ 18/05/2022 16:49:51
+Status - INFO - approval status checked @ 18/05/2022 16:49:51
+Status - INFO - connected to mqtt server for sending approval @ 18/05/2022 16:49:51
+Status - INFO - Inserted info of tag 60700007 in Logs table @ 18/05/2022 16:49:51
+Status - INFO - Destination of tag 60700007 is campus12_lab1
+Status - INFO - #################################################################################################___New Reader Log___######################################################################################
+Status - INFO - connected to reader 678569 @ 2022-05-18
+Status - INFO - Scanning started at 18/05/2022 16:55:57
+root - INFO - tags are converted to string @ 18/05/2022 16:56:08
+Status - INFO - approval status checked @ 18/05/2022 16:56:08
+Status - INFO - connected to mqtt server for sending approval @ 18/05/2022 16:56:08
+Status - INFO - Inserted info of tag 60700007 in Logs table @ 18/05/2022 16:56:08
+Status - INFO - Destination of tag 60700007 is campus12_lab1
+Status - INFO - #################################################################################################___New Reader Log___######################################################################################
+Status - INFO - connected to reader 678569 @ 2022-05-18
+Status - INFO - Scanning started at 18/05/2022 16:57:20
+root - INFO - tags are converted to string @ 18/05/2022 16:57:29
+Status - INFO - approval status checked @ 18/05/2022 16:57:29
+Status - INFO - connected to mqtt server for sending approval @ 18/05/2022 16:57:29
+Status - INFO - Inserted info of tag 60700007 in Logs table @ 18/05/2022 16:57:29
+Status - INFO - Destination of tag 60700007 is campus12_lab1

@@ -43,6 +43,7 @@ class Reader:
             sleep(10)
             print("trying to reconnect...........")
             sleep(10)
+            self.reader.connect()
 
 
         # ------------------------------------------------------------
@@ -75,6 +76,8 @@ class Reader:
         except :
             print("Oops!..... Something occurred.")
             sleep(10)
+            print("trying to reconnect........")
+            sleep(10)
             self.reader.connect()
 
     # ----------------------------------------------------------
@@ -97,23 +100,37 @@ class Reader:
             else :
                 pass
     #-------------------------------------------------------------------------
-    def check_tag(self, tag):
+    def check_tag_id(self, tag_uuid):
         cursor = self.cnxn.cursor()
-        cursor.execute("""SELECT tag_uuid  FROM Activity INNER JOIN tags ON tags.tag_id=Activity.tag_id where tag_uuid=(?)""", tag)
+        cursor.execute("""SELECT tag_id  FROM tags where tag_uuid=(?)""", tag_uuid)
 
         row = cursor.fetchone()
-        return row
+        if row == None :
+            pass
+        else :
+
+            return row[0]
+    #_________________________________________________________________________
+
     # ----------------------------------------------------------
-    def check_approve_status(self, tag_uuid):
+    def check_approve_status(self, tag_id):
         cursor = self.cnxn.cursor()
-        if tag_uuid == None:
+        if tag_id == None:
             pass
         else:
 
-            cursor.execute("""SELECT tags.tag_uuid, Activity.approve_status FROM tags INNER JOIN Activity ON Activity.tag_id=tags.tag_id WHERE tag_uuid=(?) """,tag_uuid)
+            #Code change starts
+            cursor.execute("""SELECT Activity.approve_status FROM Activity WHERE tag_id=(?) """,tag_id)
             row = cursor.fetchone()
+            if type(row[0]) == None:
+                returnValue = "False"
+            else :
+                returnValue = row[0]
+
+
             logger.info("approval status checked @ {}".format(datetime.datetime.now(timezone("Asia/Kolkata")).strftime("%d/%m/%Y %H:%M:%S")))
-            return (row[1])
+            return returnValue
+            #Code change ends
 
     # -------------------------------------------------------------
 
@@ -143,8 +160,8 @@ class Reader:
             self.cnxn.commit()
 
     # ----------------------------------------------------------------
-    def check_tag_destination(self, tag_uuid, approve_status_data):
-        tag = tag_uuid
+    def check_tag_destination(self, tag_id, approve_status_data):
+        tag = tag_id
 
         approve = approve_status_data
         if tag == None or set():
@@ -152,14 +169,14 @@ class Reader:
             pass
         else:
             cursor = self.cnxn.cursor()  # movement status of that particular tag_id
-            cursor.execute("""SELECT Activity.movement_status from Activity INNER JOIN tags ON tags.tag_id=Activity.tag_id WHERE tag_uuid=(?)""",tag)  # check the tag_uuid's movement status\
+            cursor.execute("""SELECT Activity.movement_status from Activity WHERE tag_id=(?)""",tag)  # check the tag_uuid's movement status\
             row = cursor.fetchone()
             move = row[0]
-            print(move)
-            cursor.execute("""SELECT Activity.destination from Activity INNER JOIN tags ON tags.tag_id=Activity.tag_id WHERE tag_uuid=(?)""",tag)  # check from the Activity as per the tag_uuid
+            print("movement status.....",move)
+            cursor.execute("""SELECT Activity.destination from Activity WHERE tag_id=(?)""",tag)  # check from the Activity as per the tag_uuid
             row1 = cursor.fetchone()
             destination = row1[0]
-            print(destination)
+            print("destination.......",destination)
             #print(type(destination))
             logger.info("Destination of tag {} is {}".format(tag,destination))
 
@@ -167,11 +184,11 @@ class Reader:
                 if self.room_name == destination :
                     cursor = self.cnxn.cursor()
                     print("executing if block")
-                    cursor.execute("""UPDATE Activity SET Activity.movement_status=(?) FROM Activity inner join tags ON tags.tag_id=Activity.tag_id WHERE Activity.destination=(?) and tags.tag_uuid=(?) """, ("False",destination,tag))
-                    cursor.execute("""UPDATE Activity SET Activity.approve_status=(?) FROM Activity inner join tags ON tags.tag_id=Activity.tag_id WHERE Activity.destination=(?) and tags.tag_uuid=(?)""", ("False",destination,tag))
-                    cursor.execute("""UPDATE Activity SET Activity.reach_time = (?) From Activity inner join tags ON tags.tag_id=Activity.tag_id WHERE Activity.destination = (?) and tags.tag_uuid = (?)""",(datetime.datetime.now(timezone("Asia/Kolkata")).strftime("%d/%m/%Y %H:%M:%S"), destination,tag))
-                    cursor.execute("""UPDATE Activity inner join tags ON tags.tag_id=Activity.tag_id SET starting_point= (?) WHERE tag_uuid= (?)""",(destination,tag))
-                    cursor.execute("""UPDATE Activity inner join tags ON tags.tag_id=Activity.tag_id SET destination= (?) WHERE tag_uuid= (?)""",("NULL", tag))
+                    cursor.execute("""UPDATE Activity SET Activity.movement_status=(?)  WHERE Activity.destination=(?) and tag_id=(?) """, ("False",destination,tag))
+                    cursor.execute("""UPDATE Activity SET Activity.approve_status=(?)  WHERE Activity.destination=(?) and tag_id=(?)""", ("False",destination,tag))
+                    cursor.execute("""UPDATE Activity SET Activity.reach_time = (?)  WHERE Activity.destination = (?) and tag_id = (?)""",(datetime.datetime.now(timezone("Asia/Kolkata")).strftime("%d/%m/%Y %H:%M:%S"), destination,tag))
+                    cursor.execute("""UPDATE Activity SET starting_point= (?) WHERE tag_id= (?)""",(destination,tag))
+                    cursor.execute("""UPDATE Activity SET destination= (?) WHERE tag_id= (?)""",("NULL", tag))
 
 
 
@@ -188,12 +205,14 @@ class Reader:
                         "alertasset9@gmail.com",
                         "the asset of tag {} is moving to wrong location".format(tag))
                     server.quit()
+                    self.client.publish(str(self.reader_id) + "/approval_status", approve_data, qos=0, retain=False)
+
 
             else :
                 cursor.execute("""SELECT location_name from location INNER JOIN rooms ON rooms.location_id=location.location_id INNER JOIN reader ON reader.room_name=rooms.room_name where reader_id=(?)""",self.reader_id)
                 row1 = cursor.fetchone()
                 location_name = row1[0]
-                print(location_name)
+                print("entering to a location....",location_name)
                 alert = "Alert"
                 reader_id = self.reader_id
                 room_name =self.room_name
@@ -228,7 +247,7 @@ class Reader:
             pass
         else:
             cursor = self.cnxn.cursor()
-            cursor.execute("""SELECT Activity.starting_point from Activity INNER JOIN tags ON tags.tag_id=Activity.tag_id WHERE tag_uuid=(?)""",tag)  # check from the history as per the tag_uuid
+            cursor.execute("""SELECT Activity.starting_point from Activity  WHERE tag_id=(?)""",tag)  # check from the history as per the tag_uuid
             row1 = cursor.fetchone()
             starting_point = row1[0]
             if approve_status == "True" and starting_point == self.room_name:

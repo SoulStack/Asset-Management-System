@@ -1,8 +1,8 @@
 import main
 from time import time ,sleep
-import main
-from time import time ,sleep
-from cachetools import cached, TTLCache
+#import main
+#from time import time ,sleep
+#from cachetools import cached, TTLCache
 # from functools import lru_cache
 #reader_ip = input("Enter Reader ip : ")
 #port = input("Enter Port : ")
@@ -10,7 +10,7 @@ from cachetools import cached, TTLCache
 #reader_id = input("Enter Reader id : ")
 #reader_location = input("Enter Reader Location : ")
 
-reader1 = main.Reader("10.0.175.250",27011,"10.0.175.122",1357137,'10.0.175.122','SA','Soulsvciot01',"asset","campus3_room3")
+reader1 = main.Reader("10.0.171.154",6000,"10.0.175.122",1357137,'10.0.175.122','SA','Soulsvciot01',"asset","campus3_room3")
 
 # @lru_cache(maxsize=1000)
 #cache = TTLCache(maxsize=100, ttl=86400)

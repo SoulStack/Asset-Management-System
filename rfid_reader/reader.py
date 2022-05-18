@@ -45,7 +45,7 @@ class RFIDReader:
     baudrate = BAUDRATE[5600]
     buffer_size = 8192
     connection = None
-    timeout = 1.0
+    timeout = 30.0
     host = None
     port =6000 
     config = {
@@ -110,14 +110,14 @@ class RFIDReader:
         rawtag = rawtag.decode('utf-8')
         tags = []
         try:
-            index_awal = rawtag.index('736f')
+            index_awal = rawtag.index('5341')
 
             if parse_all == False:
                 tag = rawtag[index_awal:(24 + index_awal)]
                 return tag
 
             tag = rawtag[index_awal:(len(rawtag) - sisa)]
-            tags = re.findall("73\w{26}", tag)
+            tags = re.findall("53\w{26}", tag)
             return tags
         except Exception:
             return tags if parse_all else None
