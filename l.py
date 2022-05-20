@@ -10,7 +10,7 @@ cursor = cnxn.cursor()
 
 def latest_from_logs():
     cursor = cnxn.cursor()
-    cursor.execute("""SELECT tag_id FROM tags  where tag_uuid='SA/ele/a6/0001'""")
+    cursor.execute("""SELECT tag_id FROM Activity WHERE EXISTS (SELECT tag_id FROM Activity WHERE tag_id =90909)""")
     
 
     row = cursor.fetchone()
