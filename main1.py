@@ -117,6 +117,19 @@ class Reader:
         else :
 
             return row[0]
+
+
+    #________________________________________________________________________
+    #Check tag Tag Location
+
+    def check_tag_location(self,tag_id):
+        cursor = self.cnxn.cursor()
+        cursor.execute("""SELECT rooms.room_name from rooms INNER JOIN assets ON assets.room_name=rooms.room_name where tag_id=(?)""",(tag_id))
+        row = cursor.fetchone()
+        if row == None :
+            pass
+        else :
+            return row[0]
     #_________________________________________________________________________
     #checking tag is present in the activity table or Not
 
@@ -142,7 +155,7 @@ class Reader:
             cursor.execute("""SELECT Activity.approve_status FROM Activity WHERE tag_id=(?) """,tag_id)
             row = cursor.fetchone()
             if type(row[0]) == None:
-                returnValue = "False"
+                returnValue = "not approved"
             else :
                 returnValue = row[0]
 
@@ -181,6 +194,7 @@ class Reader:
             logger.info("Inserted info of tag {} in Logs table @ {}".format(taguuid,datetime.datetime.now(timezone("Asia/Kolkata")).strftime("%d/%m/%Y %H:%M:%S")))
             self.cnxn.commit()
 
+
     # ----------------------------------------------------------------
     #Checking tag destination and modification of location
     def check_tag_destination(self, tag_id, approve_status_data):
@@ -203,25 +217,24 @@ class Reader:
             #print(type(destination))
             logger.info("Destination of tag {} is {}".format(tag,destination))
 
-            if approve_status_data == "True" and move == "True" :
+            if approve_status_data == "approved" and move == "moving" :
                 if self.room_name == destination :
                     cursor = self.cnxn.cursor()
                     print("executing if block")
                     cursor.execute("""SELECT location_name from location INNER JOIN rooms ON rooms.location_id=location.location_id INNER JOIN reader ON reader.room_name=rooms.room_name where reader_id=(?)""",self.reader_id)
                     row1 = cursor.fetchone()
                     location_name = row1[0]
-                    cursor.execute("""UPDATE Activity SET Activity.movement_status=(?)  WHERE Activity.destination=(?) and tag_id=(?) """, ("False",destination,tag))
-                    cursor.execute("""UPDATE Activity SET Activity.approve_status=(?)  WHERE Activity.destination=(?) and tag_id=(?)""", ("False",destination,tag))
+                    cursor.execute("""UPDATE Activity SET Activity.movement_status=(?)  WHERE Activity.destination=(?) and tag_id=(?) """, ("reached",destination,tag))
+                    cursor.execute("""UPDATE Activity SET Activity.approve_status=(?)  WHERE Activity.destination=(?) and tag_id=(?)""", ("not approved",destination,tag))
                     cursor.execute("""UPDATE Activity SET Activity.reach_time = (?)  WHERE Activity.destination = (?) and tag_id = (?)""",(datetime.datetime.now(timezone("Asia/Kolkata")).strftime("%d/%m/%Y %H:%M:%S"), destination,tag))
-                    cursor.execute("""UPDATE Activity SET starting_point= (?) WHERE tag_id= (?)""",(destination,tag))
-                    cursor.execute("""UPDATE Activity SET destination= NULL WHERE tag_id= (?)""",(tag))
+                    #cursor.execute("""UPDATE Activity SET starting_point= (?) WHERE tag_id= (?)""",(destination,tag))
+                    #cursor.execute("""UPDATE Activity SET destination= NULL WHERE tag_id= (?)""",(tag))
+                    #location and location name updation for particular tag_id
                     cursor.execute("""UPDATE assets SET room_name=(?) FROM assets where tag_id=(?)""",(destination,tag))
-                    #cursor.execute("""UPDATE assets SET location_name=(?) FROM assets where tag_id=(?);""",(location_name,tag))
+                    cursor.execute("""UPDATE assets SET location_name=(?) from assets INNER JOIN tags On tags.tag_id=assets.tag_id WHERE tags.tag_id=(?)""",(location_name,tag_id))
+                    cursor.execute("""insert into History(approve_date,emp_id,starting_point,destination,tag_id,approve_status,movement_status,movement_time,reach_time,Activity_status) SELECT approve_date,emp_id,starting_point,destination,tag_id,approve_status,movement_status,movement_time,reach_time,Activity_status from Activity where tag_id=(?)""",tag)
 
-
-
-
-
+                    cursor.execute("""delete from Activity where tag_id=(?)""",tag)
                     self.cnxn.commit()  # update the movement status as reached
                     logger.info("Updated approve status and movement status in Activity table for tag {} @ {}".format(tag,datetime.datetime.now(timezone("Asia/Kolkata")).strftime("%d/%m/%Y %H:%M:%S")))
                     logger.info("Process completed @ {}".format(datetime.datetime.now(timezone("Asia/Kolkata")).strftime("%d/%m/%Y %H:%M:%S")))
@@ -233,7 +246,7 @@ class Reader:
                         "alertasset9@gmail.com",
                         "the asset of tag {} is moving to wrong location".format(tag))
                     server.quit()
-                    # self.client.publish(str(self.reader_id) + "/approval_status", approve_data, qos=0, retain=False)
+                    self.client.publish(str(self.reader_id) + "/destination", "wrong destination", qos=0, retain=False)
 
 
             else :
@@ -241,21 +254,18 @@ class Reader:
                 row1 = cursor.fetchone()
                 location_name = row1[0]
                 print("existing to a location....",location_name)
-                alert = "Alert"
+                alert = "Alert On"
                 reader_id = self.reader_id
                 room_name =self.room_name
-                cursor.execute("""INSERT INTO Alert(reader_id,tag_id,location_name,approval_status,alert,room_name)values(?,?,?,?,?,?) """,
-                               (reader_id,tag,location_name, approve,alert,room_name))
-                server = smtplib.SMTP_SSL('smtp.gmail.com', 465)
-                server.login("alertasset9@gmail.com", "Soulsvciot1")
-                server.sendmail(
-                    "alertasset9@gmail.com",
-                    "alertasset9@gmail.com",
-                    "the asset of tag {} is Not Apporve  to Move".format(tag))
+                date = datetime.date.today()
+                now = datetime.datetime.now(timezone("Asia/Kolkata"))
+                time = now.strftime("%H:%M:%S")
+                cursor.execute("""INSERT INTO Alert(reader_id,tag_id,location_name,alert_status,alert,room_name,date,time,alert_desc)values(?,?,?,?,?,?,?,?,?) """,
+                               (reader_id,tag,location_name, "Normal",alert,room_name,date,time,"wrong destination"))
+
                 server.quit()
-
-
-
+                self.client.publish(str(self.reader_id) + "/approval_status",approve_status_data, qos=0, retain=False)
+                server = smtplib.SMTP_SSL('smtp.gmail.com', 465)
                 self.cnxn.commit()
 
     #___________________________________________________
@@ -265,7 +275,7 @@ class Reader:
         if tag == None :
             pass
         else :
-            if approve_status == "False" :
+            if approve_status == "not approved" :
                 room_name = self.room_name
                 server = smtplib.SMTP_SSL('smtp.gmail.com', 465)
                 server.login("alertasset9@gmail.com", "Soulsvciot1")
@@ -288,9 +298,9 @@ class Reader:
             cursor.execute("""SELECT Activity.starting_point from Activity  WHERE tag_id=(?)""",tag)  # check from the history as per the tag_uuid
             row1 = cursor.fetchone()
             starting_point = row1[0]
-            if approve_status == "True" and starting_point == self.room_name:
+            if approve_status == "approved" and starting_point == self.room_name:
                 cursor = self.cnxn.cursor()
-                cursor.execute("""UPDATE Activity SET movement_status=(?) WHERE starting_point = (?) and tag_id = (?) """,("True", starting_point,tag))
+                cursor.execute("""UPDATE Activity SET movement_status=(?) WHERE starting_point = (?) and tag_id = (?) """,("moving", starting_point,tag))
                 cursor.execute("""UPDATE Activity SET movement_time = (?) WHERE starting_point = (?) and tag_id =(?)""",(datetime.datetime.now(timezone("Asia/Kolkata")).strftime("%d/%m/%Y %H:%M:%S"),starting_point,tag))
                 self.cnxn.commit()
                 logger.info("Updated movement status in Activity table for tag {} @ {}".format(tag,datetime.datetime.now(timezone("Asia/Kolkata")).strftime("%d/%m/%Y %H:%M:%S")))
@@ -298,11 +308,10 @@ class Reader:
                 pass
     #_________________________________________________________________
     #Finding latest record from log
-    def latest_from_logs(self):
-        cursor = self.cnxn.cursor()
-        cursor.execute("""SELECT TOP 1 * FROM Logs ORDER BY log_id DESC""")
-        row = cursor.fetchone()
-        return (row[1])
+    #def latest_from_logs(self):
+        ##cursor.execute("""SELECT TOP 1 * FROM Logs ORDER BY log_id DESC""")
+
+        ##return (row[1])
     #__________________________________________________________________
     #Send alert if the tag is not in activity and in asset tablke
     def alert_movement(self,tag_id):
@@ -317,7 +326,7 @@ class Reader:
                 "alertasset9@gmail.com",
                 "the asset of tag {} is not authorized to move and moving from {}".format(tag_id, room_name))
             server.quit()
-            # self.client.publish(str(self.reader_id) + "/approval_status", approve_data, qos=0, retain=False)
+            self.client.publish(str(self.reader_id) + "/alert_movement", "unauthorized", qos=0, retain=False)
 
     def insert_into_alert(self,tag_id):
         cursor = self.cnxn.cursor()
@@ -329,6 +338,15 @@ class Reader:
         cursor.execute("""SELECT location_name from location INNER JOIN rooms ON rooms.location_id=location.location_id INNER JOIN reader ON reader.room_name=rooms.room_name where reader_id=(?)""",self.reader_id)
         row1 = cursor.fetchone()
         location_name = row1[0]
+        alert = "Alert On"
+        reader_id = self.reader_id
+        room_name = self.room_name
+        date = datetime.date.today()
+        now = datetime.datetime.now(timezone("Asia/Kolkata"))
+        time = now.strftime("%H:%M:%S")
+        # approve = "not approved"
+        cursor.execute("""INSERT INTO Alert(reader_id,tag_id,location_name,alert_status,alert,room_name,date,time,alert_desc)values(?,?,?,?,?,?,?,?,?) """,
+            (reader_id, tag_id, location_name, "High", alert, room_name, date, time, "Unauthorized movement"))
+        self.cnxn.commit()
 
-        cursor.execute("""INSERT INTO Alert(reader_id,tag_uuid,location_name,approval_status,alert,room_name)values(?,?,?,?,?,?) """,(reader_id, tag_id, location_name,"NULL", alert, room_name))
 
