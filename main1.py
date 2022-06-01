@@ -44,8 +44,9 @@ class Reader:
             print("trying to reconnect...........")
             sleep(10)
             try :
-
+                print("try block is executing for connection")
                 self.reader.connect()
+                print("failed to reconnect")
             except :
                 print("reader is power off.....")
 
@@ -72,14 +73,15 @@ class Reader:
         try :
             data = []
             # reader = RFIDReader('socket', host=self.host, port=self.port, addr="00")
-            # reader.connect()
+            self.reader.connect()
             info = self.reader.getInfo()
             tags = self.reader.scantags()
             # logger.info("Scanning Started at {}".format(datetime.datetime.now(timezone("Asia/Kolkata"))))
             # reader.disconnect()
             return [set(tags)]
-        except :
+        except Exception as e :
             print("Oops!..... Something occurred.")
+            print("something's wrong with %s:%d. Exception is %s" % (self.host, self.port, e))
             sleep(10)
             print("trying to reconnect........")
             sleep(10)
@@ -213,17 +215,20 @@ class Reader:
             cursor.execute("""SELECT Activity.destination from Activity WHERE tag_id=(?)""",tag)  # check from the Activity as per the tag_uuid
             row1 = cursor.fetchone()
             destination = row1[0]
+            cursor.execute("""SELECT room_id from rooms WHERE room_name = (?)""",destination)
+            row2 = cursor.fetchone()
+            room_id = row2[0]
             print("destination.......",destination)
             #print(type(destination))
             logger.info("Destination of tag {} is {}".format(tag,destination))
 
             if approve_status_data == "Approved" and move == "moving" :
-                if self.room_name == destination :
+                if self.room_name == destination  :
                     cursor = self.cnxn.cursor()
                     print("executing if block")
-                    cursor.execute("""SELECT location_name from location INNER JOIN rooms ON rooms.location_id=location.location_id INNER JOIN reader ON reader.room_name=rooms.room_name where reader_id=(?)""",self.reader_id)
+                    cursor.execute("""SELECT location.location_id from location INNER JOIN rooms ON rooms.location_id=location.location_id INNER JOIN reader ON reader.room_name=rooms.room_name where reader_id=(?)""",self.reader_id)
                     row1 = cursor.fetchone()
-                    location_name = row1[0]
+                    location_id = row1[0]
                     cursor.execute("""UPDATE Activity SET Activity.movement_status=(?)  WHERE Activity.destination=(?) and tag_id=(?) """, ("reached",destination,tag))
                     cursor.execute("""UPDATE Activity SET Activity.approve_status=(?)  WHERE Activity.destination=(?) and tag_id=(?)""", ("not approved",destination,tag))
                     cursor.execute("""UPDATE Activity SET Activity.reach_time = (?)  WHERE Activity.destination = (?) and tag_id = (?)""",(datetime.datetime.now(timezone("Asia/Kolkata")).strftime("%d/%m/%Y %H:%M:%S"), destination,tag))
@@ -231,11 +236,13 @@ class Reader:
                     #cursor.execute("""UPDATE Activity SET destination= NULL WHERE tag_id= (?)""",(tag))
                     #location and location name updation for particular tag_id
                     cursor.execute("""UPDATE assets SET room_name=(?) FROM assets where tag_id=(?)""",(destination,tag))
-                    cursor.execute("""UPDATE assets SET location_name=(?) from assets INNER JOIN tags On tags.tag_id=assets.tag_id WHERE tags.tag_id=(?)""",(location_name,tag_id))
+                    cursor.execute("""UPDATE assets SET location_id=(?) from assets INNER JOIN tags On tags.tag_id=assets.tag_id WHERE tags.tag_id=(?)""",(location_id,tag_id))
+                    cursor.execute("""UPDATE assets SET room_id=(?) from assets INNER JOIN tags ON tags.tag_id=assets.tag_id where tags.tag_id=(?)""",(room_id,tag_id))
                     cursor.execute("""insert into History(approve_date,approve_time,emp_id,starting_point,destination,tag_id,movement_status,movement_time,reach_time) SELECT approve_date,approve_time,emp_id,starting_point,destination,tag_id,movement_status,movement_time,reach_time from Activity where tag_id=(?)""",tag)
 
                     cursor.execute("""delete from Activity where tag_id=(?)""",tag)
                     self.cnxn.commit()  # update the movement status as reached
+                    self.client.publish(str(self.reader_id) + "/destination", "Destination : {} Reached".format(destination),qos=0, retain=False)
                     logger.info("Updated approve status and movement status in Activity table for tag {} @ {}".format(tag,datetime.datetime.now(timezone("Asia/Kolkata")).strftime("%d/%m/%Y %H:%M:%S")))
                     logger.info("Process completed @ {}".format(datetime.datetime.now(timezone("Asia/Kolkata")).strftime("%d/%m/%Y %H:%M:%S")))
                 else :
@@ -244,9 +251,9 @@ class Reader:
                     server.sendmail(
                         "alertasset9@gmail.com",
                         "alertasset9@gmail.com",
-                        "the asset of tag {} is moving to wrong location".format(tag))
+                        "the asset of tag {} is shifting to location {}".format(tag,destination))
                     server.quit()
-                    self.client.publish(str(self.reader_id) + "/destination", "wrong destination", qos=0, retain=False)
+                    self.client.publish(str(self.reader_id) + "/destination", "Destination : {}".format(destination), qos=0, retain=False)
 
 
             else :
@@ -326,7 +333,7 @@ class Reader:
                 "alertasset9@gmail.com",
                 "the asset of tag {} is not authorized to move and moving from {}".format(tag_id, room_name))
             server.quit()
-            self.client.publish(str(self.reader_id) + "/alert_movement", "unauthorized", qos=0, retain=False)
+            self.client.publish(str(self.reader_id) + "/alert_movement", "Unauthorized", qos=0, retain=False)
 
     def insert_into_alert(self,tag_id):
         cursor = self.cnxn.cursor()
@@ -348,5 +355,17 @@ class Reader:
         cursor.execute("""INSERT INTO Alert(reader_id,tag_id,location_name,alert_status,alert,room_name,date,time,alert_desc)values(?,?,?,?,?,?,?,?,?) """,
             (reader_id, tag_id, location_name, "High", alert, room_name, date, time, "Unauthorized Movement"))
         self.cnxn.commit()
+
+    def send_mqtt_to_display(self,tag_id,approve_status):
+        if tag_id == None :
+            pass
+        else :
+            if approve_status == "Approved" :
+                self.client.publish("reader/movement","Authorized",qos = 0,retain = False)
+            elif approve_status == None :
+                self.client.publish("reader/movement", "Unauthorized", qos=0, retain=False)
+            else:
+                self.client.publish("reader/movement", "Unauthorized", qos=0, retain=False)
+
 
 

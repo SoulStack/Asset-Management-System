@@ -2497,3 +2497,184 @@ Status - INFO - Process completed @ 27/05/2022 16:44:36
 root - INFO - tags are converted to string @ 27/05/2022 16:44:37
 root - INFO - tags are converted to string @ 27/05/2022 16:45:01
 root - INFO - tags are converted to string @ 27/05/2022 16:45:19
+Status - INFO - #################################################################################################___New Reader Log___######################################################################################
+Status - INFO - connected to reader 1357137 @ 2022-05-27
+Status - INFO - Scanning started at 27/05/2022 17:45:47
+root - INFO - tags are converted to string @ 27/05/2022 17:45:54
+Status - INFO - approval status checked @ 27/05/2022 17:45:54
+Status - INFO - connected to mqtt server for sending approval @ 27/05/2022 17:45:54
+Status - INFO - Inserted info of tag 69371390 in Logs table @ 27/05/2022 17:45:54
+Status - INFO - Updated movement status in Activity table for tag 69371390 @ 27/05/2022 17:45:54
+Status - INFO - Destination of tag 69371390 is campus20_room1
+Status - INFO - #################################################################################################___New Reader Log___######################################################################################
+Status - INFO - connected to reader 678569 @ 2022-05-27
+Status - INFO - Scanning started at 27/05/2022 17:47:39
+root - INFO - tags are converted to string @ 27/05/2022 17:47:52
+Status - INFO - approval status checked @ 27/05/2022 17:47:52
+Status - INFO - connected to mqtt server for sending approval @ 27/05/2022 17:47:52
+Status - INFO - Inserted info of tag 69371390 in Logs table @ 27/05/2022 17:47:52
+Status - INFO - Destination of tag 69371390 is campus20_room1
+Status - INFO - Updated approve status and movement status in Activity table for tag 69371390 @ 27/05/2022 17:47:52
+Status - INFO - Process completed @ 27/05/2022 17:47:52
+Status - INFO - #################################################################################################___New Reader Log___######################################################################################
+Status - INFO - connected to reader 678569 @ 2022-05-30
+Status - INFO - Scanning started at 30/05/2022 10:49:34
+Status - INFO - #################################################################################################___New Reader Log___######################################################################################
+Status - INFO - connected to reader 678569 @ 2022-05-30
+Status - INFO - Scanning started at 30/05/2022 11:12:10
+root - INFO - tags are converted to string @ 30/05/2022 11:13:30
+Status - INFO - #################################################################################################___New Reader Log___######################################################################################
+Status - INFO - connected to reader 1357137 @ 2022-05-30
+Status - INFO - Scanning started at 30/05/2022 11:17:52
+root - INFO - tags are converted to string @ 30/05/2022 11:21:34
+Status - INFO - #################################################################################################___New Reader Log___######################################################################################
+Status - INFO - connected to reader 1357137 @ 2022-05-30
+Status - INFO - Scanning started at 30/05/2022 11:24:33
+root - INFO - tags are converted to string @ 30/05/2022 11:24:44
+Status - INFO - #################################################################################################___New Reader Log___######################################################################################
+Status - INFO - connected to reader 1357137 @ 2022-05-30
+Status - INFO - Scanning started at 30/05/2022 11:29:13
+root - INFO - tags are converted to string @ 30/05/2022 11:29:20
+root - INFO - tags are converted to string @ 30/05/2022 11:29:25
+Status - INFO - #################################################################################################___New Reader Log___######################################################################################
+Status - INFO - connected to reader 678569 @ 2022-05-30
+Status - INFO - Scanning started at 30/05/2022 12:55:03
+Status - INFO - #################################################################################################___New Reader Log___######################################################################################
+Status - INFO - connected to reader 1357137 @ 2022-05-30
+Status - INFO - Scanning started at 30/05/2022 12:55:49
+root - INFO - tags are converted to string @ 30/05/2022 12:56:00
+root - INFO - tags are converted to string @ 30/05/2022 12:56:11
+root - INFO - tags are converted to string @ 30/05/2022 12:56:11
+root - INFO - tags are converted to string @ 30/05/2022 12:56:14
+root - INFO - tags are converted to string @ 30/05/2022 12:56:15
+Status - INFO - #################################################################################################___New Reader Log___######################################################################################
+Status - INFO - connected to reader 1357137 @ 2022-05-30
+Status - INFO - Scanning started at 30/05/2022 14:49:17
+root - INFO - tags are converted to string @ 30/05/2022 14:54:51
+root - INFO - tags are converted to string @ 30/05/2022 14:54:56
+root - INFO - tags are converted to string @ 30/05/2022 14:55:01
+root - INFO - tags are converted to string @ 30/05/2022 14:55:05
+root - INFO - tags are converted to string @ 30/05/2022 14:55:10
+root - INFO - tags are converted to string @ 30/05/2022 14:55:14
+root - INFO - tags are converted to string @ 30/05/2022 14:55:23
+Status - INFO - #################################################################################################___New Reader Log___######################################################################################
+Status - INFO - connected to reader 678569 @ 2022-05-30
+Status - INFO - Scanning started at 30/05/2022 14:56:12
+root - INFO - tags are converted to string @ 30/05/2022 14:56:27
+root - INFO - tags are converted to string @ 30/05/2022 14:56:47
+root - INFO - tags are converted to string @ 30/05/2022 14:56:48
+Status - INFO - #################################################################################################___New Reader Log___######################################################################################
+Status - INFO - connected to reader 1357137 @ 2022-05-31
+Status - INFO - Scanning started at 31/05/2022 12:34:33
+Status - INFO - #################################################################################################___New Reader Log___######################################################################################
+Status - INFO - connected to reader 1357137 @ 2022-05-31
+Status - INFO - Scanning started at 31/05/2022 12:35:55
+Status - INFO - #################################################################################################___New Reader Log___######################################################################################
+Status - INFO - connected to reader 678569 @ 2022-05-31
+Status - INFO - Scanning started at 31/05/2022 12:38:11
+root - INFO - tags are converted to string @ 31/05/2022 12:38:25
+Status - INFO - #################################################################################################___New Reader Log___######################################################################################
+Status - INFO - connected to reader 678569 @ 2022-05-31
+Status - INFO - Scanning started at 31/05/2022 12:43:05
+root - INFO - tags are converted to string @ 31/05/2022 12:43:09
+Status - INFO - approval status checked @ 31/05/2022 12:43:09
+Status - INFO - connected to mqtt server for sending approval @ 31/05/2022 12:43:09
+Status - INFO - Inserted info of tag 69371390 in Logs table @ 31/05/2022 12:43:09
+Status - INFO - Updated movement status in Activity table for tag 69371390 @ 31/05/2022 12:43:09
+Status - INFO - Destination of tag 69371390 is campus12_lab1
+root - INFO - tags are converted to string @ 31/05/2022 12:43:15
+Status - INFO - approval status checked @ 31/05/2022 12:43:15
+Status - INFO - connected to mqtt server for sending approval @ 31/05/2022 12:43:15
+Status - INFO - Inserted info of tag 69371390 in Logs table @ 31/05/2022 12:43:15
+Status - INFO - Updated movement status in Activity table for tag 69371390 @ 31/05/2022 12:43:15
+Status - INFO - Destination of tag 69371390 is campus12_lab1
+Status - INFO - #################################################################################################___New Reader Log___######################################################################################
+Status - INFO - connected to reader 678569 @ 2022-05-31
+Status - INFO - Scanning started at 31/05/2022 12:47:27
+root - INFO - tags are converted to string @ 31/05/2022 12:47:36
+Status - INFO - approval status checked @ 31/05/2022 12:47:36
+Status - INFO - connected to mqtt server for sending approval @ 31/05/2022 12:47:36
+Status - INFO - Inserted info of tag 69371390 in Logs table @ 31/05/2022 12:47:36
+Status - INFO - Updated movement status in Activity table for tag 69371390 @ 31/05/2022 12:47:36
+Status - INFO - Destination of tag 69371390 is campus12_lab1
+Status - INFO - #################################################################################################___New Reader Log___######################################################################################
+Status - INFO - connected to reader 678569 @ 2022-05-31
+Status - INFO - Scanning started at 31/05/2022 12:54:55
+root - INFO - tags are converted to string @ 31/05/2022 12:55:15
+Status - INFO - approval status checked @ 31/05/2022 12:55:15
+Status - INFO - connected to mqtt server for sending approval @ 31/05/2022 12:55:15
+Status - INFO - Inserted info of tag 69371390 in Logs table @ 31/05/2022 12:55:15
+Status - INFO - Updated movement status in Activity table for tag 69371390 @ 31/05/2022 12:55:15
+Status - INFO - Destination of tag 69371390 is campus12_lab1
+Status - INFO - #################################################################################################___New Reader Log___######################################################################################
+Status - INFO - connected to reader 678569 @ 2022-05-31
+Status - INFO - Scanning started at 31/05/2022 12:57:40
+root - INFO - tags are converted to string @ 31/05/2022 12:57:51
+Status - INFO - approval status checked @ 31/05/2022 12:57:51
+Status - INFO - connected to mqtt server for sending approval @ 31/05/2022 12:57:51
+Status - INFO - Inserted info of tag 69371390 in Logs table @ 31/05/2022 12:57:51
+Status - INFO - Updated movement status in Activity table for tag 69371390 @ 31/05/2022 12:57:51
+Status - INFO - Destination of tag 69371390 is campus12_lab1
+Status - INFO - #################################################################################################___New Reader Log___######################################################################################
+Status - INFO - connected to reader 678569 @ 2022-05-31
+Status - INFO - Scanning started at 31/05/2022 12:58:45
+root - INFO - tags are converted to string @ 31/05/2022 12:58:54
+Status - INFO - approval status checked @ 31/05/2022 12:58:54
+Status - INFO - connected to mqtt server for sending approval @ 31/05/2022 12:58:54
+Status - INFO - Inserted info of tag 69371390 in Logs table @ 31/05/2022 12:58:54
+Status - INFO - Updated movement status in Activity table for tag 69371390 @ 31/05/2022 12:58:54
+Status - INFO - Destination of tag 69371390 is campus12_lab1
+Status - INFO - #################################################################################################___New Reader Log___######################################################################################
+Status - INFO - connected to reader 678569 @ 2022-05-31
+Status - INFO - Scanning started at 31/05/2022 13:00:19
+root - INFO - tags are converted to string @ 31/05/2022 13:00:31
+Status - INFO - approval status checked @ 31/05/2022 13:00:31
+Status - INFO - connected to mqtt server for sending approval @ 31/05/2022 13:00:31
+Status - INFO - Inserted info of tag 69371390 in Logs table @ 31/05/2022 13:00:31
+Status - INFO - Updated movement status in Activity table for tag 69371390 @ 31/05/2022 13:00:31
+Status - INFO - Destination of tag 69371390 is campus12_lab1
+Status - INFO - #################################################################################################___New Reader Log___######################################################################################
+Status - INFO - connected to reader 678569 @ 2022-05-31
+Status - INFO - Scanning started at 31/05/2022 13:01:32
+root - INFO - tags are converted to string @ 31/05/2022 13:01:39
+Status - INFO - approval status checked @ 31/05/2022 13:01:39
+Status - INFO - connected to mqtt server for sending approval @ 31/05/2022 13:01:39
+Status - INFO - Inserted info of tag 69371390 in Logs table @ 31/05/2022 13:01:39
+Status - INFO - Updated movement status in Activity table for tag 69371390 @ 31/05/2022 13:01:39
+Status - INFO - Destination of tag 69371390 is campus12_lab1
+Status - INFO - #################################################################################################___New Reader Log___######################################################################################
+Status - INFO - connected to reader 1357137 @ 2022-05-31
+Status - INFO - Scanning started at 31/05/2022 13:05:11
+root - INFO - tags are converted to string @ 31/05/2022 13:05:24
+Status - INFO - approval status checked @ 31/05/2022 13:05:24
+Status - INFO - connected to mqtt server for sending approval @ 31/05/2022 13:05:24
+Status - INFO - Inserted info of tag 69371390 in Logs table @ 31/05/2022 13:05:24
+Status - INFO - Destination of tag 69371390 is campus5_room5
+Status - INFO - #################################################################################################___New Reader Log___######################################################################################
+Status - INFO - connected to reader 678569 @ 2022-05-31
+Status - INFO - Scanning started at 31/05/2022 13:14:33
+root - INFO - tags are converted to string @ 31/05/2022 13:14:44
+Status - INFO - approval status checked @ 31/05/2022 13:14:44
+Status - INFO - connected to mqtt server for sending approval @ 31/05/2022 13:14:44
+Status - INFO - Inserted info of tag 69371390 in Logs table @ 31/05/2022 13:14:44
+Status - INFO - Updated movement status in Activity table for tag 69371390 @ 31/05/2022 13:14:44
+Status - INFO - Destination of tag 69371390 is campus5_room5
+root - INFO - tags are converted to string @ 31/05/2022 15:12:57
+Status - INFO - #################################################################################################___New Reader Log___######################################################################################
+Status - INFO - connected to reader 1357137 @ 2022-05-31
+Status - INFO - Scanning started at 31/05/2022 15:52:37
+root - INFO - tags are converted to string @ 31/05/2022 15:52:52
+Status - INFO - approval status checked @ 31/05/2022 15:52:52
+Status - INFO - connected to mqtt server for sending approval @ 31/05/2022 15:52:52
+Status - INFO - Inserted info of tag 69371390 in Logs table @ 31/05/2022 15:52:52
+Status - INFO - Destination of tag 69371390 is campus12_lab1
+Status - INFO - #################################################################################################___New Reader Log___######################################################################################
+Status - INFO - connected to reader 1357137 @ 2022-05-31
+Status - INFO - Scanning started at 31/05/2022 16:05:56
+root - INFO - tags are converted to string @ 31/05/2022 16:06:24
+Status - INFO - approval status checked @ 31/05/2022 16:06:24
+Status - INFO - connected to mqtt server for sending approval @ 31/05/2022 16:06:24
+Status - INFO - Inserted info of tag 69371390 in Logs table @ 31/05/2022 16:06:24
+Status - INFO - Destination of tag 69371390 is campus12_lab1
+Status - INFO - Updated approve status and movement status in Activity table for tag 69371390 @ 31/05/2022 16:06:25
+Status - INFO - Process completed @ 31/05/2022 16:06:25
