@@ -1,7 +1,7 @@
 import main1
 from time import time ,sleep
 
-reader1 = main1.Reader("10.0.175.93",6000,"10.0.175.122",678569,'10.0.175.122','SA','Soulsvciot01',"asset","campus20_room1")
+reader1 = main1.Reader("10.0.175.93",6000,"10.0.175.122",678569,'10.0.175.122','SA','Soulsvciot01',"asset","campus20_rooom1")
 
 
 def f1() :

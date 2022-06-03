@@ -2678,3 +2678,32 @@ Status - INFO - Inserted info of tag 69371390 in Logs table @ 31/05/2022 16:06:2
 Status - INFO - Destination of tag 69371390 is campus12_lab1
 Status - INFO - Updated approve status and movement status in Activity table for tag 69371390 @ 31/05/2022 16:06:25
 Status - INFO - Process completed @ 31/05/2022 16:06:25
+Status - INFO - #################################################################################################___New Reader Log___######################################################################################
+Status - INFO - connected to reader 678569 @ 2022-06-02
+Status - INFO - Scanning started at 02/06/2022 10:25:23
+Status - INFO - #################################################################################################___New Reader Log___######################################################################################
+Status - INFO - connected to reader 678569 @ 2022-06-02
+Status - INFO - Scanning started at 02/06/2022 10:26:15
+root - INFO - tags are converted to string @ 02/06/2022 10:26:21
+Status - INFO - #################################################################################################___New Reader Log___######################################################################################
+Status - INFO - connected to reader 678569 @ 2022-06-02
+Status - INFO - Scanning started at 02/06/2022 16:37:17
+root - INFO - tags are converted to string @ 02/06/2022 16:37:46
+root - INFO - tags are converted to string @ 02/06/2022 16:37:57
+Status - INFO - #################################################################################################___New Reader Log___######################################################################################
+Status - INFO - connected to reader 678569 @ 2022-06-02
+Status - INFO - Scanning started at 02/06/2022 16:38:22
+root - INFO - tags are converted to string @ 02/06/2022 16:39:20
+root - INFO - tags are converted to string @ 02/06/2022 16:39:26
+root - INFO - tags are converted to string @ 02/06/2022 16:43:10
+root - INFO - tags are converted to string @ 02/06/2022 16:43:14
+root - INFO - tags are converted to string @ 02/06/2022 16:43:19
+Status - INFO - #################################################################################################___New Reader Log___######################################################################################
+Status - INFO - connected to reader 678569 @ 2022-06-03
+Status - INFO - Scanning started at 03/06/2022 12:48:10
+Status - INFO - #################################################################################################___New Reader Log___######################################################################################
+Status - INFO - connected to reader 678569 @ 2022-06-03
+Status - INFO - Scanning started at 03/06/2022 17:19:41
+Status - INFO - #################################################################################################___New Reader Log___######################################################################################
+Status - INFO - connected to reader 1357137 @ 2022-06-03
+Status - INFO - Scanning started at 03/06/2022 17:21:31
