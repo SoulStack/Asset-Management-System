@@ -1,7 +1,7 @@
-import main1
+import main
 from time import time ,sleep
 
-reader1 = main1.Reader("10.0.175.93",6000,"10.0.175.122",678569,'10.0.175.122','SA','Soulsvciot01',"asset","campus20_rooom1")
+reader1 = main.Reader("10.0.175.250",27011,"10.0.175.122",1357137,'10.0.175.122','SA','Soulsvciot01',"asset",710013)
 
 
 def f1() :
@@ -19,7 +19,7 @@ def f1() :
                 tag_id = reader1.check_tag_id(tag1)
                 print(tag_id)
                 tag_location = reader1.check_tag_location(tag_id)
-                print("current tag location is >>>>",tag_location)
+                print("current tag location_id is >>>>",tag_location)
                 if tag_id == None :
                     pass
                 else :
@@ -32,12 +32,15 @@ def f1() :
                         approve = reader1.check_approve_status(tag_id)
                         reader1.approval_status_mqtt(approve)
                         print(approve)
+                        reader1.send_mqtt_to_display(tag_id,approve)
                         reader1.insert_into_Log(approve, tag_id)
                         reader1.change_movement_status(tag_id, approve)
                         reader1.check_tag_destination(tag_id,approve)  # it will change the movement status and approval status of the t>
                         reader1.tag_alert_email(tag_id, approve)
                     else :
                         reader1.alert_movement(tag_id)
+                        reader1.send_mqtt_to_display(tag_id, None)
+
                         reader1.insert_into_alert(tag_id)
                     # else:
                     #     reader1.alert_movement(tag_id)
@@ -45,4 +48,6 @@ def f1() :
 
 if __name__ == "__main__" :
     f1()
+
+
 

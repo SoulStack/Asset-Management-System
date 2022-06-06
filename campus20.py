@@ -1,7 +1,7 @@
-import main2
+import main
 from time import time ,sleep
 
-reader1 = main2.Reader("10.0.175.93",6000,"10.0.175.122",1357137,'10.0.175.122','SA','Soulsvciot01',"asset","campus12_lab1")
+reader1 = main.Reader("10.0.175.93",6000,"10.0.175.122",678569,'10.0.175.122','SA','Soulsvciot01',"asset",781013)
 
 
 def f1() :
@@ -19,7 +19,7 @@ def f1() :
                 tag_id = reader1.check_tag_id(tag1)
                 print(tag_id)
                 tag_location = reader1.check_tag_location(tag_id)
-                print("current tag location is >>>>",tag_location)
+                print("current tag location_id is >>>>",tag_location)
                 if tag_id == None :
                     pass
                 else :
