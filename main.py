@@ -62,7 +62,8 @@ class Reader:
         self.client = mqtt.Client()
         self.client.on_connect = on_connect
         self.client.on_message = on_message
-        self.client.connect(self.mqtt_ip, 1883, 60)
+        self.client.connect(self.mqtt_ip, 1883,60)
+        #self.client.loop_forever()
         self.cnxn = py.connect('DRIVER={ODBC Driver 17 for SQL Server};SERVER=' + db_servername + ';DATABASE=' + db_database + ';UID=' + db_username + ';PWD=' + db_password)
         logger.info("#################################################################################################___New Reader Log___######################################################################################")
         logger.info("connected to reader {} @ {}".format(self.reader_id,date.today()))
@@ -161,7 +162,7 @@ class Reader:
             #Code change starts
             cursor.execute("""SELECT Activity.approve_status FROM Activity WHERE tag_id=(?) """,tag_id)
             row = cursor.fetchone()
-            if type(row[0]) == None:
+            if row == None:
                 returnValue = "Not approved"
             else :
                 returnValue = row[0]
@@ -180,7 +181,8 @@ class Reader:
         else :
 
             logger.info("connected to mqtt server for sending approval @ {}".format(datetime.datetime.now(timezone("Asia/Kolkata")).strftime("%d/%m/%Y %H:%M:%S")))
-            self.client.publish(str(self.reader_id) + "/approval_status", approve_data, qos=0, retain=False)
+            self.client.publish(str(self.reader_id) + "/approval_status", approve_data,qos=2)
+            print("mqtt sent")
 
     # ----------------------------------------------------------------
     #Inserting into LOG table
@@ -254,7 +256,7 @@ class Reader:
 
                     cursor.execute("""delete from Activity where tag_id=(?)""",tag)
                     self.cnxn.commit()  # update the movement status as reached
-                    self.client.publish(str(self.reader_id) + "/destination", "Destination : {} Reached".format(destination),qos=0, retain=False)
+                    self.client.publish(str(self.reader_id) + "/destination", "Destination : {} Reached".format(destination))
                     logger.info("Updated approve status and movement status in Activity table for tag {} @ {}".format(tag,datetime.datetime.now(timezone("Asia/Kolkata")).strftime("%d/%m/%Y %H:%M:%S")))
                     logger.info("Process completed @ {}".format(datetime.datetime.now(timezone("Asia/Kolkata")).strftime("%d/%m/%Y %H:%M:%S")))
                 else :
@@ -262,17 +264,35 @@ class Reader:
                     row = cursor.fetchone()
                     starting_point = row[0]
                     if starting_point == self.location_id:
+                        self.client.publish(str(self.reader_id) + "/destination", "Entry point",qos=2)
+
                         pass
                     else :
+                        EMAIL_FROM = "assetsoul@yahoo.com"
+                        EMAIL_TO = "assetsoul@yahoo.com"
+                        EMAIL_SUBJECT = "ALERT:"
+                        co_msg = "the asset of tag {} is Entering to Wrong Location{}".format(tag, reader_location_name)
+                        msg = MIMEText(co_msg)
+                        msg['Subject'] = EMAIL_SUBJECT
+                        msg['From'] = EMAIL_FROM
+                        msg['To'] = EMAIL_TO
+                        debuglevel = True
+                        mail = smtplib.SMTP_SSL('smtp.mail.yahoo.com', 465)
+                        mail.set_debuglevel(debuglevel)
+                        # mail.starttls()
+                        # mail.login(SMTP_USERNAME, SMTP_PASSWORD)
+                        mail.login("assetsoul@yahoo.com", "tjyfimogvchahdja")
+                        mail.sendmail(EMAIL_FROM, EMAIL_TO, msg.as_string())
+                        mail.quit()
 
-                        server = smtplib.SMTP_SSL('smtp.gmail.com', 465)
-                        server.login("alertasset9@gmail.com", "Soulsvciot1")
-                        server.sendmail(
-                            "alertasset9@gmail.com",
-                            "alertasset9@gmail.com",
-                            "the asset of tag {} is Entering  to Wrong location {}".format(tag,reader_location_name))
-                        server.quit()
-                        self.client.publish(str(self.reader_id) + "/destination", "Wrong Destination", qos=0, retain=False)
+                        # server = smtplib.SMTP_SSL('smtp.mail.yahoo.com',465)
+                        # server.login("assetsoul@yahoo.com", "tjyfimogvchahdja")
+                        # server.sendmail(
+                        #     "assetsoul@yahoo.com",
+                        #     "assetsoul@yahoo.com",
+                        #     "the asset of tag {} is Entering  to Wrong location {}".format(tag,reader_location_name))
+                        # server.quit()
+                        self.client.publish(str(self.reader_id) + "/destination", "Wrong Destination",qos=2)
 
 
             else :
@@ -290,9 +310,9 @@ class Reader:
                 cursor.execute("""INSERT INTO Alert(reader_id,tag_id,location_name,alert_status,alert,date,time,alert_desc,location_id)values(?,?,?,?,?,?,?,?,?) """,
                                (reader_id,tag,reader_location_name, "Normal",alert,date,time,"Wrong Destination",self.location_id))
 
-                self.client.publish(str(self.reader_id) + "/approval_status",approve_status_data, qos=0, retain=False)
-                server = smtplib.SMTP_SSL('smtp.gmail.com', 465)
-                server.quit()
+                self.client.publish(str(self.reader_id) + "/approval_status",approve_status_data,qos=2)
+                # server = smtplib.SMTP_SSL('smtp.gmail.com', 465)
+                # server.quit()
                 self.cnxn.commit()
 
     #___________________________________________________
@@ -302,19 +322,38 @@ class Reader:
         if tag == None :
             pass
         else :
-            if approve_status == "Not approved" :
+            if approve_status == "Not approved":
                 cursor = self.cnxn.cursor()
                 cursor.execute("""SELECT location_name FROM location WHERE location_id =(?)""", self.location_id)
                 row3 = cursor.fetchone()
                 reader_location_name = row3[0]
 
-                server = smtplib.SMTP_SSL('smtp.gmail.com', 465)
-                server.login("alertasset9@gmail.com", "Soulsvciot1")
-                server.sendmail(
-                    "alertasset9@gmail.com",
-                    "alertasset9@gmail.com",
-                    "the asset of tag {} is not approved and moving from {}".format(tag,reader_location_name))
-                server.quit()
+                EMAIL_FROM = "assetsoul@yahoo.com"
+                EMAIL_TO = "assetsoul@yahoo.com"
+                EMAIL_SUBJECT = "ALERT:"
+                co_msg = "the asset of tag {} is not approved and moving from {}".format(tag, reader_location_name)
+                msg = MIMEText(co_msg)
+                msg['Subject'] = EMAIL_SUBJECT
+                msg['From'] = EMAIL_FROM
+                msg['To'] = EMAIL_TO
+                debuglevel = True
+                mail = smtplib.SMTP_SSL('smtp.mail.yahoo.com', 465)
+
+                mail.set_debuglevel(debuglevel)
+                # mail.starttls()
+                mail.login("assetsoul@yahoo.com", "tjyfimogvchahdja")
+                # mail.login(SMTP_USERNAME, SMTP_PASSWORD)
+                mail.sendmail(EMAIL_FROM, EMAIL_TO, msg.as_string())
+                mail.quit()
+
+
+                # server = smtplib.SMTP_SSL('smtp.mail.yahoo.com',465)
+                # server.login("assetsoul@yahoo.com", "tjyfimogvchahdja")
+                # server.sendmail(
+                #     "assetsoul@yahoo.com",
+                #     "assetsoul@yahoo.com",
+                #     "the asset of tag {} is not approved and moving from {}".format(tag,reader_location_name))
+                # server.quit()
 
             else :
                 pass
@@ -362,14 +401,34 @@ class Reader:
             row3 = cursor.fetchone()
             location_name = row3[0]
 
-            server = smtplib.SMTP_SSL('smtp.gmail.com', 465)
-            server.login("alertasset9@gmail.com", "Soulsvciot1")
-            server.sendmail(
-                "alertasset9@gmail.com",
-                "alertasset9@gmail.com",
-                "the asset of tag {} is not authorized to move and moving from {}".format(tag_id, location_name))
-            server.quit()
-            self.client.publish(str(self.reader_id) + "/alert_movement", "Unauthorized", qos=0, retain=False)
+            EMAIL_FROM = "assetsoul@yahoo.com"
+            EMAIL_TO = "assetsoul@yahoo.com"
+            EMAIL_SUBJECT = "ALERT:"
+            co_msg = "the asset of tag {} is not authorized to move  and moving from {}".format(tag_id, location_name)
+            msg = MIMEText(co_msg)
+            msg['Subject'] = EMAIL_SUBJECT
+            msg['From'] = EMAIL_FROM
+            msg['To'] = EMAIL_TO
+            debuglevel = True
+            mail = smtplib.SMTP_SSL('smtp.mail.yahoo.com', 465)
+            mail.set_debuglevel(debuglevel)
+            # mail.starttls()
+            mail.login("assetsoul@yahoo.com","tjyfimogvchahdja")
+            mail.sendmail(EMAIL_FROM, EMAIL_TO, msg.as_string())
+            mail.quit()
+
+
+
+
+
+            # server = smtplib.SMTP_SSL('smtp.mail.yahoo.com', 465)
+            # server.login("assetsoul@yahoo.com", "tjyfimogvchahdja")
+            # server.sendmail(
+            #     "assetsoul@yahoo.com",
+            #     "assetsoul@yahoo.com",
+            #     "the asset of tag {} is not authorized to move and moving from {}".format(tag_id, location_name))
+            # server.quit()
+            self.client.publish(str(self.reader_id) + "/alert_movement", "Unauthorized",qos=2)
 
     def insert_into_alert(self,tag_id):
         cursor = self.cnxn.cursor()
@@ -399,11 +458,14 @@ class Reader:
             pass
         else :
             if approve_status == "Approved" :
-                self.client.publish("reader/movement","Authorized",qos = 0,retain = False)
+                self.client.publish(str(self.reader_id)+"/movement","Authorized")
+                print("mqtt sent")
             elif approve_status == None :
-                self.client.publish("reader/movement", "Unauthorized", qos=0, retain=False)
+                self.client.publish(str(self.reader_id) +"/movement", "Unauthorized")
+                print("mqtt sent")
             else:
-                self.client.publish("reader/movement", "Unauthorized", qos=0, retain=False)
+                self.client.publish(str(self.reader_id)+"/movement", "Unauthorized")
+                print("mqtt sent")
 
 
 
