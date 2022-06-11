@@ -62,8 +62,8 @@ class Reader:
         self.client = mqtt.Client()
         self.client.on_connect = on_connect
         self.client.on_message = on_message
-        self.client.connect(self.mqtt_ip, 1883,60)
-        #self.client.loop_forever()
+        self.client.connect(self.mqtt_ip, 1887,60)
+        # self.client.loop_forever()
         self.cnxn = py.connect('DRIVER={ODBC Driver 17 for SQL Server};SERVER=' + db_servername + ';DATABASE=' + db_database + ';UID=' + db_username + ';PWD=' + db_password)
         logger.info("#################################################################################################___New Reader Log___######################################################################################")
         logger.info("connected to reader {} @ {}".format(self.reader_id,date.today()))
@@ -179,9 +179,11 @@ class Reader:
         if approve_data == None :
             pass
         else :
+            self.client.connect(self.mqtt_ip, 1887)
 
             logger.info("connected to mqtt server for sending approval @ {}".format(datetime.datetime.now(timezone("Asia/Kolkata")).strftime("%d/%m/%Y %H:%M:%S")))
-            self.client.publish(str(self.reader_id) + "/approval_status", approve_data,qos=2)
+            self.client.publish(str(self.reader_id) + "/status", approve_data,qos=2)
+            self.client.loop()
             print("mqtt sent")
 
     # ----------------------------------------------------------------
@@ -256,7 +258,10 @@ class Reader:
 
                     cursor.execute("""delete from Activity where tag_id=(?)""",tag)
                     self.cnxn.commit()  # update the movement status as reached
-                    self.client.publish(str(self.reader_id) + "/destination", "Destination : {} Reached".format(destination))
+                    self.client.connect(self.mqtt_ip, 1887, 60)
+
+                    self.client.publish(str(self.reader_id) + "/status", "Destination : {} Reached".format(destination))
+                    self.client.loop()
                     logger.info("Updated approve status and movement status in Activity table for tag {} @ {}".format(tag,datetime.datetime.now(timezone("Asia/Kolkata")).strftime("%d/%m/%Y %H:%M:%S")))
                     logger.info("Process completed @ {}".format(datetime.datetime.now(timezone("Asia/Kolkata")).strftime("%d/%m/%Y %H:%M:%S")))
                 else :
@@ -264,35 +269,29 @@ class Reader:
                     row = cursor.fetchone()
                     starting_point = row[0]
                     if starting_point == self.location_id:
-                        self.client.publish(str(self.reader_id) + "/destination", "Entry point",qos=2)
+                        self.client.publish(str(self.reader_id) + "/status", "Entry point",qos=2)
+                        self.client.loop()
 
                         pass
                     else :
-                        EMAIL_FROM = "assetsoul@yahoo.com"
-                        EMAIL_TO = "assetsoul@yahoo.com"
-                        EMAIL_SUBJECT = "ALERT:"
-                        co_msg = "the asset of tag {} is Entering to Wrong Location{}".format(tag, reader_location_name)
-                        msg = MIMEText(co_msg)
-                        msg['Subject'] = EMAIL_SUBJECT
-                        msg['From'] = EMAIL_FROM
-                        msg['To'] = EMAIL_TO
-                        debuglevel = True
-                        mail = smtplib.SMTP_SSL('smtp.mail.yahoo.com', 465)
-                        mail.set_debuglevel(debuglevel)
-                        # mail.starttls()
-                        # mail.login(SMTP_USERNAME, SMTP_PASSWORD)
-                        mail.login("assetsoul@yahoo.com", "tjyfimogvchahdja")
-                        mail.sendmail(EMAIL_FROM, EMAIL_TO, msg.as_string())
-                        mail.quit()
+                        # # EMAIL_FROM = "soul_asset01@outlook.com"
+                        # # EMAIL_TO = "alertasset9@gmail.com"
+                        # EMAIL_SUBJECT = "ALERT:"
+                        # co_msg = "the asset of tag {} is Entering to Wrong Location{}".format(tag, reader_location_name)
+                        # msg = MIMEText(co_msg)
+                        # msg['Subject'] = EMAIL_SUBJECT
+                        # mailserver = smtplib.SMTP('smtp.office365.com', 587)
+                        # mailserver.ehlo()
+                        # mailserver.starttls()
+                        # mailserver.login('soul_asset01@outlook.com', 'soulsvciot02')
+                        # # Adding a newline before the body text fixes the missing message body
+                        #
+                        # mailserver.sendmail('soul_asset01@outlook.com', 'soul_asset01@outlook.com',msg.as_string() )
+                        # mailserver.quit()
+                        # self.client.connect(self.mqtt_ip, 1883)
+                        self.client.connect(self.mqtt_ip, 1887, 60)
 
-                        # server = smtplib.SMTP_SSL('smtp.mail.yahoo.com',465)
-                        # server.login("assetsoul@yahoo.com", "tjyfimogvchahdja")
-                        # server.sendmail(
-                        #     "assetsoul@yahoo.com",
-                        #     "assetsoul@yahoo.com",
-                        #     "the asset of tag {} is Entering  to Wrong location {}".format(tag,reader_location_name))
-                        # server.quit()
-                        self.client.publish(str(self.reader_id) + "/destination", "Wrong Destination",qos=2)
+                        self.client.publish(str(self.reader_id) + "/status", "Wrong Destination",qos=2)
 
 
             else :
@@ -300,6 +299,7 @@ class Reader:
 
                 # row1 = cursor.fetchone()
                 # location_name = row1[0]
+
                 print("existing to a location....",reader_location_name)
                 alert = "Alert On"
                 reader_id = self.reader_id
@@ -310,7 +310,10 @@ class Reader:
                 cursor.execute("""INSERT INTO Alert(reader_id,tag_id,location_name,alert_status,alert,date,time,alert_desc,location_id)values(?,?,?,?,?,?,?,?,?) """,
                                (reader_id,tag,reader_location_name, "Normal",alert,date,time,"Wrong Destination",self.location_id))
 
-                self.client.publish(str(self.reader_id) + "/approval_status",approve_status_data,qos=2)
+                self.client.connect(self.mqtt_ip, 1887,qos=2)
+
+                self.client.publish(str(self.reader_id) + "/status","Not approved",qos=2)
+                self.client.loop()
                 # server = smtplib.SMTP_SSL('smtp.gmail.com', 465)
                 # server.quit()
                 self.cnxn.commit()
@@ -328,32 +331,20 @@ class Reader:
                 row3 = cursor.fetchone()
                 reader_location_name = row3[0]
 
-                EMAIL_FROM = "assetsoul@yahoo.com"
-                EMAIL_TO = "assetsoul@yahoo.com"
-                EMAIL_SUBJECT = "ALERT:"
-                co_msg = "the asset of tag {} is not approved and moving from {}".format(tag, reader_location_name)
-                msg = MIMEText(co_msg)
-                msg['Subject'] = EMAIL_SUBJECT
-                msg['From'] = EMAIL_FROM
-                msg['To'] = EMAIL_TO
-                debuglevel = True
-                mail = smtplib.SMTP_SSL('smtp.mail.yahoo.com', 465)
+                # EMAIL_FROM = "soul_asset01@outlook.com"
+                # EMAIL_TO = "alertasset9@gmail.com"
+                # EMAIL_SUBJECT = "ALERT:"
+                # co_msg = "the asset of tag {} is not approved and moving from {}".format(tag, reader_location_name)
+                # msg = MIMEText(co_msg)
+                # msg['Subject'] = EMAIL_SUBJECT
+                # mailserver = smtplib.SMTP('smtp.office365.com', 587)
+                # mailserver.ehlo()
+                # mailserver.starttls()
+                # mailserver.login('soul_asset01@outlook.com', 'soulsvciot02')
+                # # Adding a newline before the body text fixes the missing message body
+                # mailserver.sendmail('soul_asset01@outlook.com', 'soul_asset01@outlook.com',msg.as_string())
+                # mailserver.quit()
 
-                mail.set_debuglevel(debuglevel)
-                # mail.starttls()
-                mail.login("assetsoul@yahoo.com", "tjyfimogvchahdja")
-                # mail.login(SMTP_USERNAME, SMTP_PASSWORD)
-                mail.sendmail(EMAIL_FROM, EMAIL_TO, msg.as_string())
-                mail.quit()
-
-
-                # server = smtplib.SMTP_SSL('smtp.mail.yahoo.com',465)
-                # server.login("assetsoul@yahoo.com", "tjyfimogvchahdja")
-                # server.sendmail(
-                #     "assetsoul@yahoo.com",
-                #     "assetsoul@yahoo.com",
-                #     "the asset of tag {} is not approved and moving from {}".format(tag,reader_location_name))
-                # server.quit()
 
             else :
                 pass
@@ -401,34 +392,24 @@ class Reader:
             row3 = cursor.fetchone()
             location_name = row3[0]
 
-            EMAIL_FROM = "assetsoul@yahoo.com"
-            EMAIL_TO = "assetsoul@yahoo.com"
-            EMAIL_SUBJECT = "ALERT:"
-            co_msg = "the asset of tag {} is not authorized to move  and moving from {}".format(tag_id, location_name)
-            msg = MIMEText(co_msg)
-            msg['Subject'] = EMAIL_SUBJECT
-            msg['From'] = EMAIL_FROM
-            msg['To'] = EMAIL_TO
-            debuglevel = True
-            mail = smtplib.SMTP_SSL('smtp.mail.yahoo.com', 465)
-            mail.set_debuglevel(debuglevel)
-            # mail.starttls()
-            mail.login("assetsoul@yahoo.com","tjyfimogvchahdja")
-            mail.sendmail(EMAIL_FROM, EMAIL_TO, msg.as_string())
-            mail.quit()
+            # # EMAIL_FROM = "soul_asset01@outlook.com"
+            # # EMAIL_TO = "alertasset9@gmail.com"
+            # EMAIL_SUBJECT = "ALERT:"
+            # co_msg = "the asset of tag {} is not authorized to move  and moving from {}".format(tag_id, location_name)
+            # msg = MIMEText(co_msg)
+            # msg['Subject'] = EMAIL_SUBJECT
+            # mailserver = smtplib.SMTP('smtp.office365.com', 587)
+            # mailserver.ehlo()
+            # mailserver.starttls()
+            # mailserver.login('soul_asset01@outlook.com', 'soulsvciot02')
+            # # Adding a newline before the body text fixes the missing message body
+            # mailserver.sendmail('soul_asset01@outlook.com', 'soul_asset01@outlook.com',msg.as_string())
+            # mailserver.quit()
+            # self.client.connect(self.mqtt_ip, 1883)
+            self.client.connect(self.mqtt_ip, 1887, 60)
 
-
-
-
-
-            # server = smtplib.SMTP_SSL('smtp.mail.yahoo.com', 465)
-            # server.login("assetsoul@yahoo.com", "tjyfimogvchahdja")
-            # server.sendmail(
-            #     "assetsoul@yahoo.com",
-            #     "assetsoul@yahoo.com",
-            #     "the asset of tag {} is not authorized to move and moving from {}".format(tag_id, location_name))
-            # server.quit()
-            self.client.publish(str(self.reader_id) + "/alert_movement", "Unauthorized",qos=2)
+            self.client.publish(str(self.reader_id) + "/status", "Unauthorized",qos=2)
+            self.client.loop()
 
     def insert_into_alert(self,tag_id):
         cursor = self.cnxn.cursor()
@@ -457,15 +438,30 @@ class Reader:
         if tag_id == None :
             pass
         else :
-            if approve_status == "Approved" :
-                self.client.publish(str(self.reader_id)+"/movement","Authorized")
-                print("mqtt sent")
-            elif approve_status == None :
-                self.client.publish(str(self.reader_id) +"/movement", "Unauthorized")
-                print("mqtt sent")
+            cursor = self.cnxn.cursor()
+
+            cursor.execute("""SELECT Activity.starting_point from Activity  WHERE tag_id=(?)""",
+                           tag_id)  # check from the history as per the tag_uuid
+            row1 = cursor.fetchone()
+            if row1 ==None :
+                pass
             else:
-                self.client.publish(str(self.reader_id)+"/movement", "Unauthorized")
-                print("mqtt sent")
+
+                starting_point = row1[0]
+                print("staring point is :", starting_point)
+                self.client.connect(self.mqtt_ip, 1887)
+
+                if approve_status == "Approved" and starting_point== self.reader_id :
+                    self.client.publish(str(self.reader_id)+"/status","Authorized")
+                    self.client.loop()
+                    print("mqtt sent")
+                # elif approve_status == None :
+                #     self.client.publish(str(self.reader_id) +"/status", "Unauthorized")
+                #     print("mqtt sent")
+                else:
+                    self.client.publish(str(self.reader_id)+"/status", "Unauthorized")
+                    self.client.loop()
+                    print("mqtt sent")
 
 
 

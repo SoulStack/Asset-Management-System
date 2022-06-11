@@ -1,7 +1,7 @@
 import main
 from time import time ,sleep
 
-reader1 = main.Reader("10.0.175.250",27011,"10.0.175.122",1357137,'10.0.175.122','SA','Soulsvciot01',"asset",710013)
+reader1 = main.Reader("10.0.175.242",27011,"10.0.175.122",2714273,'10.0.175.122','SA','Soulsvciot01',"asset",497013)
 
 
 def f1() :
@@ -32,12 +32,11 @@ def f1() :
                         approve = reader1.check_approve_status(tag_id)
                         print(approve)
                         reader1.approval_status_mqtt(approve)
-                        reader1.send_mqtt_to_display(tag_id, approve)
                         reader1.insert_into_Log(approve, tag_id)
                         reader1.change_movement_status(tag_id, approve)
                         reader1.check_tag_destination(tag_id,approve)  # it will change the movement status and approval status of the t>
-                        reader1.tag_alert_email(tag_id, approve)
-                        #reader1.send_mqtt_to_display(tag_id,approve)
+                        # reader1.tag_alert_email(tag_id, approve)
+                        reader1.send_mqtt_to_display(tag_id,approve)
                     else :
                         reader1.alert_movement(tag_id)
                         approve = reader1.check_approve_status(tag_id)
