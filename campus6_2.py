@@ -1,7 +1,7 @@
 import main
 from time import time ,sleep
 
-reader1 = main.Reader("10.0.175.241",27011,"10.0.175.122",4071409,'10.0.175.122','SA','Soulsvciot01',"asset",355013)
+reader1 = main.Reader("10.0.175.241",27011,"10.0.2.19",4071409,'10.0.2.19','SA','Soulsvciot01',"asset",355013)
 
 
 def f1() :
@@ -31,22 +31,23 @@ def f1() :
                     if tag_id == tag_id_in_activity : #checking the same tag is present in activity or not
                         approve = reader1.check_approve_status(tag_id)
                         print(approve)
-                        reader1.approval_status_mqtt(approve)
-                        reader1.insert_into_Log(approve, tag_id)
-                        reader1.change_movement_status(tag_id, approve)
-                        reader1.check_tag_destination(tag_id,approve)  # it will change the movement status and approval status of the t>
+                        if approve == "Approved" :
+
+                            reader1.insert_into_Log(approve, tag_id)
+                            reader1.change_movement_status(tag_id, approve)
+                            reader1.check_tag_destination(tag_id,approve)  # it will change the movement status and approval status of the t>
                         # reader1.tag_alert_email(tag_id, approve)
-                        reader1.send_mqtt_to_display(tag_id,approve)
+                        else :
+                            reader1.send_mqtt_to_display(tag_id,approve)
+                            reader1.insert_into_alert(tag_id)
                     else :
-                        reader1.alert_movement(tag_id)
                         approve = reader1.check_approve_status(tag_id)
                         print(approve)
                         reader1.send_mqtt_to_display(tag_id, approve)
                         reader1.insert_into_alert(tag_id)
-                    # else:
-                    #     reader1.alert_movement(tag_id)
-                    #     reader1.insert_into_alert(tag_id)
+
 
 if __name__ == "__main__" :
     f1()
+
 
