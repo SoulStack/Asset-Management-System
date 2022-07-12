@@ -1,3 +1,4 @@
+import codecs
 import logging
 from time import sleep
 import smtplib,ssl
@@ -34,23 +35,6 @@ class Reader:
         self.location_id = location_id
         self.reader = RFIDReader('socket', host=self.host, port=self.port, addr="00")
 
-        try :
-
-            self.reader.connect()
-            print("reader is now connected")
-        except :
-            print("something went wrong..........")
-            sleep(10)
-            print("trying to reconnect...........")
-            sleep(10)
-            try :
-                print("try block is executing for connection")
-                self.reader.connect()
-                print("failed to reconnect")
-            except :
-                print("reader is power off.....")
-
-
         # ------------------------------------------------------------
         def on_connect(client, userdata, flags, rc):
             print("Connected with result code" + str(rc))
@@ -62,15 +46,49 @@ class Reader:
         self.client = mqtt.Client()
         self.client.on_connect = on_connect
         self.client.on_message = on_message
-        self.client.connect(self.mqtt_ip, 1887,65535)
-        # self.client.loop_forever()
-        try :
+        # self.client.connect(self.mqtt_ip, 1887,65535)
 
-            self.cnxn = py.connect('DRIVER={ODBC Driver 17 for SQL Server};SERVER=' + db_servername + ';DATABASE=' + db_database + ';UID=' + db_username + ';PWD=' + db_password)
-        except :
-            sleep(5)
+        #code changes started
+        #connecting to the mqtt client
+        while True :
+            sleep(1)
+            try :
+                self.client.connect(self.mqtt_ip, 1887,65535)
+                logger.info("mqtt client connected at time {}".format(datetime.datetime.now(timezone("Asia/Kolkata")).strftime("%d/%m/%Y %H:%M:%S")))
+                break
+            except :
+                #code for connecting the secondary mqtt server 
+                print("connecting to secondary mqtt")
+                #break
 
-            pass
+        #
+        while True :
+            sleep(1)
+            try :
+                self.reader.connect()
+                print("reader is now connected")
+                self.client.publish(str(self.reader_id) + "/status", "Connected", qos=1, retain=False)
+                break
+            except :
+                print("reader is disconneted")
+                self.client.publish(str(self.reader_id) + "/status", "DisConnected", qos=1, retain=False)
+
+        while True :
+            sleep(1)
+
+            try :
+
+                self.cnxn = py.connect('DRIVER={ODBC Driver 17 for SQL Server};SERVER=' + db_servername + ';DATABASE=' + db_database + ';UID=' + db_username + ';PWD=' + db_password)
+                print("connected to primary database")
+                break
+            except :
+                #try to connect the backup database
+                sleep(5)
+                print("connected to secondary database")
+
+                break
+
+
         #logger.info("#################################################################################################___New Reader Log___######################################################################################")
         logger.info("connected to reader {} @ {}".format(self.reader_id,date.today()))
         logger.info("Scanning started for reader {} at {}".format(self.reader_id,datetime.datetime.now(timezone("Asia/Kolkata")).strftime("%d/%m/%Y %H:%M:%S")))
@@ -78,10 +96,18 @@ class Reader:
         #scan tag
 
     def scan_tag_capture(self):
+        #code changing started for scanning of tags
         try:
             self.reader.connect()
-            tags = self.reader.scantags()
-            return [set(tags)]
+            scanned_tags = self.reader.scantags()
+            print(scanned_tags)
+            if scanned_tags == None :
+
+                pass
+            else :
+
+                tags = list(set(scanned_tags))
+                return tags
         except Exception as e:
             print("Oops!..... Something occurred.")
             print("something's wrong with %s:%d. Exception is %s" % (self.host, self.port, e))
@@ -91,27 +117,26 @@ class Reader:
             try:
                 self.reader = RFIDReader('socket', host=self.host, port=self.port, addr="00")
                 self.reader.connect()
+                print("Connected")
             except:
+                print("Not connected")
                 pass
 
 
         #Conversion of bits to string
 
     def hex_to_string(self, value):
-        if value[0] == set():
+        if value == None:
             pass
         else:
 
-            filter1 = value[0]
-            ss = str(filter1)
-            cc = ss[2:-2]
-            if (all(c in string.hexdigits for c in cc) == True):
-                b = bytes.fromhex(cc)
-                logging.info("tags scanned successfully at reader {} @ {} ".format(self.reader_id,
-                datetime.datetime.now(timezone("Asia/Kolkata")).strftime("%d/%m/%Y %H:%M:%S.%f")))
-                return b.decode()
-            else:
-                pass
+            binary_string = codecs.decode(value,"hex")
+
+            logging.info("tags scanned successfully at reader {} @ {} ".format(self.reader_id,
+            datetime.datetime.now(timezone("Asia/Kolkata")).strftime("%d/%m/%Y %H:%M:%S.%f")))
+            return binary_string
+
+    #code changing ends
 
     #check tag id
 
@@ -218,13 +243,14 @@ class Reader:
                 print("change movement status is executing")
                 cursor = self.cnxn.cursor()
                 logging.info("Updation of MOVEMENT STATUS in Activity table for tag {} STARTED at time {} ".format(tag,datetime.datetime.now(timezone("Asia/Kolkata")).strftime("%d/%m/%Y %H:%M:%S.%f")))
-                cursor.execute("""UPDATE Activity SET movement_status=(?) WHERE starting_point = (?) and tag_id = (?) """,("moving", starting_point,tag))
-                logging.info( "Updation of MOVEMENT STATUS for tag {} ENDED at time {}".format(tag,datetime.datetime.now(timezone("Asia/Kolkata")).strftime("%d/%m/%Y %H:%M:%S.%f")))
-                cursor.execute("""UPDATE Activity SET movement_time = (?) WHERE starting_point = (?) and tag_id =(?)""",(datetime.datetime.now(timezone("Asia/Kolkata")).strftime("%d/%m/%Y %H:%M:%S"),starting_point,tag))
+                #code changed......
+                cursor.execute("""UPDATE Activity SET movement_status=(?),movement_time = (?) WHERE starting_point = (?) and tag_id = (?) """,("moving",datetime.datetime.now(timezone("Asia/Kolkata")).strftime("%d/%m/%Y %H:%M:%S"), starting_point,tag))
+                logging.info( "Updation of MOVEMENT STATUS and MOVEMENT TIME for tag {} ENDED at time {}".format(tag,datetime.datetime.now(timezone("Asia/Kolkata")).strftime("%d/%m/%Y %H:%M:%S.%f")))
+                # cursor.execute("""UPDATE Activity SET movement_time = (?) WHERE starting_point = (?) and tag_id =(?)""",(datetime.datetime.now(timezone("Asia/Kolkata")).strftime("%d/%m/%Y %H:%M:%S"),starting_point,tag))
                 self.cnxn.commit()
-                logger.info("Updated movement status in Activity table for tag {} while passing through location {} time @ {}".format(tag,starting_point,datetime.datetime.now(timezone("Asia/Kolkata")).strftime("%d/%m/%Y %H:%M:%S.%f")))
+                #logger.info("Updated movement status in Activity table for tag {} while passing through location {} time @ {}".format(tag,starting_point,datetime.datetime.now(timezone("Asia/Kolkata")).strftime("%d/%m/%Y %H:%M:%S.%f")))
             else:
-                print("else block of movement status is running")
+                #print("else block of movement status is running")
                 pass
 
     #Check destination and starting point
@@ -238,14 +264,16 @@ class Reader:
             pass
         else:
             cursor = self.cnxn.cursor()  # movement status of that particular tag_id
-            cursor.execute("""SELECT Activity.movement_status from Activity WHERE tag_id=(?)""",tag)  # check movement_status  the tag_uuid's movement status\
+            #code change started...
+
+            cursor.execute("""SELECT Activity.movement_status as movement_status, Activity.destination as destination from Activity WHERE tag_id=(?)""",tag)  # check movement_status  the tag_uuid's movement status\
             row = cursor.fetchone()
-            move = row[0]
+            move = row.movement_status
             print("movement status.....",move)
             logging.info("DESTINATION checking STARTED for tag {} at time {}".format(tag,datetime.datetime.now(timezone("Asia/Kolkata")).strftime("%d/%m/%Y %H:%M:%S.%f")))
-            cursor.execute("""SELECT Activity.destination from Activity WHERE tag_id=(?)""",tag)  # check destination from the Activity as per the tag_uuid
-            row1 = cursor.fetchone()
-            destination = row1[0]
+            #cursor.execute("""SELECT Activity.destination from Activity WHERE tag_id=(?)""",tag)  # check destination from the Activity as per the tag_uuid
+            #row1 = cursor.fetchone()
+            destination = row.destination
             logging.info("DESTINATION checking ENDS for tag {} at time {}".format(tag,datetime.datetime.now(timezone("Asia/Kolkata")).strftime("%d/%m/%Y %H:%M:%S.%f")))
             cursor.execute("""SELECT location_name FROM location WHERE location_id =(?)""",destination)
             row2 = cursor.fetchone()
@@ -264,9 +292,11 @@ class Reader:
                     print("executing if block")
 
 
-                    cursor.execute("""UPDATE Activity SET Activity.movement_status=(?)  WHERE Activity.destination=(?) and tag_id=(?) """, ("reached",destination,tag))
-                    cursor.execute("""UPDATE Activity SET Activity.approve_status=(?)  WHERE Activity.destination=(?) and tag_id=(?)""", ("Not approved",destination,tag))
-                    cursor.execute("""UPDATE Activity SET Activity.reach_time = (?)  WHERE Activity.destination = (?) and tag_id = (?)""",(datetime.datetime.now(timezone("Asia/Kolkata")).strftime("%d/%m/%Y %H:%M:%S"), destination,tag))
+                    # cursor.execute("""UPDATE Activity SET Activity.movement_status=(?)  WHERE Activity.destination=(?) and tag_id=(?) """, ("reached",destination,tag))
+                    # cursor.execute("""UPDATE Activity SET Activity.approve_status=(?)  WHERE Activity.destination=(?) and tag_id=(?)""", ("Not approved",destination,tag))
+
+                    #code changed
+                    cursor.execute("""UPDATE Activity SET Activity.movement_status =(?),Activity.approve_status=(?),Activity.reach_time = (?)  WHERE Activity.destination = (?) and tag_id = (?)""",("reached","Not approved",datetime.datetime.now(timezone("Asia/Kolkata")).strftime("%d/%m/%Y %H:%M:%S"), destination,tag))
 
                     cursor.execute("""UPDATE assets SET location_id=(?) from assets INNER JOIN tags On tags.tag_id=assets.tag_id WHERE tags.tag_id=(?)""",(self.location_id,tag_id))
                     # cursor.execute("""UPDATE assets SET room_id=(?) from assets INNER JOIN tags ON tags.tag_id=assets.tag_id where tags.tag_id=(?)""",(room_id,tag_id))
