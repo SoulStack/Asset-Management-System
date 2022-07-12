@@ -64,14 +64,11 @@ def change_value():
             tag_id=val1[1]
             print(name)
             print(tag_id)
-            if tag_id==None:
-               pass
-           else:
-              cursor.execute("""SELECT tag_uuid from tags where tag_id=(?)""",tag_id)
-              k=cursor.fetchall()
-              for val2 in k:
-                  tag_uuid=val2[0] 
-              cursor.execute("""UPDATE test SET asset_name=(?) where asset_id=(?) and tag_id=(?)""",name+"-"+str(tag_uuid),asset_id,tag_id)
+            cursor.execute("""SELECT tag_uuid from tags where tag_id=(?)""",tag_id)
+            k=cursor.fetchall()
+            for val2 in k:
+                tag_uuid=val2[0] 
+            cursor.execute("""UPDATE test SET asset_name=(?) where asset_id=(?) and tag_id=(?)""",name+"-"+str(tag_uuid),asset_id,tag_id)
     cnxn.commit()
 
 
