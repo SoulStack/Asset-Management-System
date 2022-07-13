@@ -28,20 +28,20 @@ list3=[]
 
 def insert_tag():
     cursor=cnxn.cursor()
-    cursor.execute("""INSERT INTO test(asset_id,tag_id)select asset_id,tag_id from assets""")
-    cursor.execute("""SELECT asset_id,count(asset_id) as count FROM assets group by asset_id having count(asset_id)>1""")
+    cursor.execute("""INSERT INTO test(asset_id,asset_name,tag_id,asset_price)select asset_id,asset_name,tag_id,asset_price from assets""")
+    cursor.execute("""SELECT asset_id,count(asset_id) as count FROM test group by asset_id having count(asset_id)>1""")
     j=cursor.fetchall()
     for val in j:
         asset_id=val[0]
         count=val[1]
         print(asset_id)
         print(count)
-        cursor.execute("""select asset_price,asset_name from assets where asset_id=(?) order by asset_price DESC""",asset_id)
+        cursor.execute("""select asset_price,asset_name from test where asset_id=(?) and asset_price is not null""",asset_id)
         val=cursor.fetchall()
         for i in val:
             asset_price=i[0]
             asset_name=i[1]
-            if asset_price==None:
+            if asset_price==None or asset_name==None:
                 pass
             else:
                 cursor.execute("""UPDATE test SET asset_price=(?),asset_name=(?) where asset_id=(?)""",asset_price,asset_name,asset_id)
@@ -64,11 +64,15 @@ def change_value():
             tag_id=val1[1]
             print(name)
             print(tag_id)
-            cursor.execute("""SELECT tag_uuid from tags where tag_id=(?)""",tag_id)
-            k=cursor.fetchall()
-            for val2 in k:
-                tag_uuid=val2[0] 
-            cursor.execute("""UPDATE test SET asset_name=(?) where asset_id=(?) and tag_id=(?)""",name+"-"+str(tag_uuid),asset_id,tag_id)
+            if tag_id==None:
+               pass
+            else:
+                cursor.execute("""SELECT tag_uuid from tags where tag_id=(?)""",tag_id)
+                k=cursor.fetchall()
+                print(k)
+                for val2 in k:
+                    tag_uuid=val2[0]
+                cursor.execute("""UPDATE test SET asset_name=(?) where asset_id=(?) and tag_id=(?)""",name+"-"+str(tag_uuid),asset_id,tag_id)
     cnxn.commit()
 
 

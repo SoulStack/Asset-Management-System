@@ -16805,3 +16805,17 @@ root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 899346621 
 Status - INFO - mqtt client connected at time 12/07/2022 12:35:53
 Status - INFO - connected to reader 678569 @ 2022-07-12
 Status - INFO - Scanning started for reader 678569 at 12/07/2022 12:35:57
+Status - INFO - mqtt client connected at time 12/07/2022 16:12:51
+Status - INFO - connected to reader 8142817 @ 2022-07-12
+Status - INFO - Scanning started for reader 8142817 at 12/07/2022 16:13:00
+Status - INFO - mqtt client connected at time 12/07/2022 16:13:36
+Status - INFO - connected to reader 678569 @ 2022-07-12
+Status - INFO - Scanning started for reader 678569 at 12/07/2022 16:13:40
+Status - INFO - mqtt client connected at time 12/07/2022 16:16:26
+Status - INFO - mqtt client connected at time 12/07/2022 16:16:36
+Status - INFO - mqtt client connected at time 12/07/2022 16:17:52
+Status - INFO - connected to reader 678569 @ 2022-07-12
+Status - INFO - Scanning started for reader 678569 at 12/07/2022 16:17:56
+Status - INFO - mqtt client connected at time 12/07/2022 16:29:24
+Status - INFO - connected to reader 678569 @ 2022-07-12
+Status - INFO - Scanning started for reader 678569 at 12/07/2022 16:29:28

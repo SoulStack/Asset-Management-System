@@ -15970,3 +15970,1617 @@ Status - INFO - Scanning started for reader 1357137 at 12/07/2022 12:37:56
 Status - INFO - mqtt client connected at time 12/07/2022 12:38:35
 Status - INFO - connected to reader 1357137 @ 2022-07-12
 Status - INFO - Scanning started for reader 1357137 at 12/07/2022 12:38:37
+Status - INFO - mqtt client connected at time 13/07/2022 12:14:11
+Status - INFO - connected to reader 1357137 @ 2022-07-13
+Status - INFO - Scanning started for reader 1357137 at 13/07/2022 12:14:13
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:17:41.700556 
+root - INFO - tag b'SA/ele/a5/0006' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:17:41.700685
+root - INFO - tag b'SA/ele/a5/0006' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:17:41.702126...
+root - INFO - Checking of tag 56983700 in ACTIVITY started at  , time @ 13/07/2022 12:17:41.705009
+root - INFO - Checking of tag 56983700  in ACTIVITY Completed at  , time @ 13/07/2022 12:17:41.705357
+root - INFO - APPROVAL STATUS checking STARTED for  tag 56983700 at READER 1357137  @ 13/07/2022 12:17:41.705560
+root - INFO - APPROVAL STATUS CHECKED  for  tag 56983700 at READER 1357137  @ 13/07/2022 12:17:41.705827
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 56983700 from 710013 at time 13/07/2022 12:17:41.706010
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 56983700 from 710013 at time 13/07/2022 12:17:41.706169
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:17:43.878143 
+root - INFO - tag b'SA/ele/a5/0008' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:17:43.878259
+root - INFO - tag b'SA/ele/a5/0008' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:17:43.878693...
+root - INFO - Checking of tag 59461238 in ACTIVITY started at  , time @ 13/07/2022 12:17:43.880422
+root - INFO - Checking of tag 59461238  in ACTIVITY Completed at  , time @ 13/07/2022 12:17:43.880738
+root - INFO - APPROVAL STATUS checking STARTED for  tag 59461238 at READER 1357137  @ 13/07/2022 12:17:43.880892
+root - INFO - APPROVAL STATUS CHECKED  for  tag 59461238 at READER 1357137  @ 13/07/2022 12:17:43.881178
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 59461238 from 710013 at time 13/07/2022 12:17:43.881474
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 59461238 from 710013 at time 13/07/2022 12:17:43.881582
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:17:43.910426 
+root - INFO - tag b'SA/ele/a5/0004' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:17:43.910508
+root - INFO - tag b'SA/ele/a5/0004' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:17:43.910842...
+root - INFO - Checking of tag 54506162 in ACTIVITY started at  , time @ 13/07/2022 12:17:43.912322
+root - INFO - Checking of tag 54506162  in ACTIVITY Completed at  , time @ 13/07/2022 12:17:43.912480
+root - INFO - APPROVAL STATUS checking STARTED for  tag 54506162 at READER 1357137  @ 13/07/2022 12:17:43.912611
+root - INFO - APPROVAL STATUS CHECKED  for  tag 54506162 at READER 1357137  @ 13/07/2022 12:17:43.912864
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 54506162 from 710013 at time 13/07/2022 12:17:43.913047
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 54506162 from 710013 at time 13/07/2022 12:17:43.913121
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:17:43.935478 
+root - INFO - tag b'SA/ele/a5/0010' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:17:43.935552
+root - INFO - tag b'SA/ele/a5/0010' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:17:43.935901...
+root - INFO - Checking of tag 61938776 in ACTIVITY started at  , time @ 13/07/2022 12:17:43.937395
+root - INFO - Checking of tag 61938776  in ACTIVITY Completed at  , time @ 13/07/2022 12:17:43.937602
+root - INFO - APPROVAL STATUS checking STARTED for  tag 61938776 at READER 1357137  @ 13/07/2022 12:17:43.937768
+root - INFO - APPROVAL STATUS CHECKED  for  tag 61938776 at READER 1357137  @ 13/07/2022 12:17:43.937952
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 61938776 from 710013 at time 13/07/2022 12:17:43.938162
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 61938776 from 710013 at time 13/07/2022 12:17:43.938240
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:17:43.960542 
+root - INFO - tag b'SA/ele/a5/0006' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:17:43.960604
+root - INFO - tag b'SA/ele/a5/0006' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:17:43.960850...
+root - INFO - Checking of tag 56983700 in ACTIVITY started at  , time @ 13/07/2022 12:17:43.962294
+root - INFO - Checking of tag 56983700  in ACTIVITY Completed at  , time @ 13/07/2022 12:17:43.962491
+root - INFO - APPROVAL STATUS checking STARTED for  tag 56983700 at READER 1357137  @ 13/07/2022 12:17:43.962590
+root - INFO - APPROVAL STATUS CHECKED  for  tag 56983700 at READER 1357137  @ 13/07/2022 12:17:43.962746
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 56983700 from 710013 at time 13/07/2022 12:17:43.962877
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 56983700 from 710013 at time 13/07/2022 12:17:43.962950
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:17:44.509019 
+root - INFO - tag b'SA/ele/a5/0006' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:17:44.509139
+root - INFO - tag b'SA/ele/a5/0006' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:17:44.509543...
+root - INFO - Checking of tag 56983700 in ACTIVITY started at  , time @ 13/07/2022 12:17:44.511048
+root - INFO - Checking of tag 56983700  in ACTIVITY Completed at  , time @ 13/07/2022 12:17:44.511333
+root - INFO - APPROVAL STATUS checking STARTED for  tag 56983700 at READER 1357137  @ 13/07/2022 12:17:44.511619
+root - INFO - APPROVAL STATUS CHECKED  for  tag 56983700 at READER 1357137  @ 13/07/2022 12:17:44.511903
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 56983700 from 710013 at time 13/07/2022 12:17:44.512141
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 56983700 from 710013 at time 13/07/2022 12:17:44.512257
+Status - INFO - mqtt client connected at time 13/07/2022 12:18:03
+Status - INFO - connected to reader 1357137 @ 2022-07-13
+Status - INFO - Scanning started for reader 1357137 at 13/07/2022 12:18:05
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:18:07.360952 
+root - INFO - tag b'SA/ele/a5/0010' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:18:07.361051
+root - INFO - tag b'SA/ele/a5/0010' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:18:07.361468...
+root - INFO - Checking of tag 61938776 in ACTIVITY started at  , time @ 13/07/2022 12:18:07.363184
+root - INFO - Checking of tag 61938776  in ACTIVITY Completed at  , time @ 13/07/2022 12:18:07.363512
+root - INFO - APPROVAL STATUS checking STARTED for  tag 61938776 at READER 1357137  @ 13/07/2022 12:18:07.363767
+root - INFO - APPROVAL STATUS CHECKED  for  tag 61938776 at READER 1357137  @ 13/07/2022 12:18:07.363993
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 61938776 from 710013 at time 13/07/2022 12:18:07.364167
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 61938776 from 710013 at time 13/07/2022 12:18:07.364264
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:18:07.922537 
+root - INFO - tag b'SA/ele/a5/0010' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:18:07.922645
+root - INFO - tag b'SA/ele/a5/0010' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:18:07.923026...
+root - INFO - Checking of tag 61938776 in ACTIVITY started at  , time @ 13/07/2022 12:18:07.924621
+root - INFO - Checking of tag 61938776  in ACTIVITY Completed at  , time @ 13/07/2022 12:18:07.924975
+root - INFO - APPROVAL STATUS checking STARTED for  tag 61938776 at READER 1357137  @ 13/07/2022 12:18:07.925213
+root - INFO - APPROVAL STATUS CHECKED  for  tag 61938776 at READER 1357137  @ 13/07/2022 12:18:07.925477
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 61938776 from 710013 at time 13/07/2022 12:18:07.925751
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 61938776 from 710013 at time 13/07/2022 12:18:07.925858
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:18:07.954084 
+root - INFO - tag b'SA/ele/a5/0009' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:18:07.954167
+root - INFO - tag b'SA/ele/a5/0009' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:18:07.954490...
+root - INFO - Checking of tag 60700007 in ACTIVITY started at  , time @ 13/07/2022 12:18:07.956014
+root - INFO - Checking of tag 60700007  in ACTIVITY Completed at  , time @ 13/07/2022 12:18:07.956207
+root - INFO - APPROVAL STATUS checking STARTED for  tag 60700007 at READER 1357137  @ 13/07/2022 12:18:07.956357
+root - INFO - APPROVAL STATUS CHECKED  for  tag 60700007 at READER 1357137  @ 13/07/2022 12:18:07.956563
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 60700007 from 710013 at time 13/07/2022 12:18:07.956731
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 60700007 from 710013 at time 13/07/2022 12:18:07.956859
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:18:07.979205 
+root - INFO - tag b'SA/ele/a5/0008' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:18:07.979279
+root - INFO - tag b'SA/ele/a5/0008' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:18:07.979603...
+root - INFO - Checking of tag 59461238 in ACTIVITY started at  , time @ 13/07/2022 12:18:07.981106
+root - INFO - Checking of tag 59461238  in ACTIVITY Completed at  , time @ 13/07/2022 12:18:07.981313
+root - INFO - APPROVAL STATUS checking STARTED for  tag 59461238 at READER 1357137  @ 13/07/2022 12:18:07.981425
+root - INFO - APPROVAL STATUS CHECKED  for  tag 59461238 at READER 1357137  @ 13/07/2022 12:18:07.981606
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 59461238 from 710013 at time 13/07/2022 12:18:07.981736
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 59461238 from 710013 at time 13/07/2022 12:18:07.981840
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:18:20.050696 
+root - INFO - tag b'SA/ele/a5/0004' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:18:20.050862
+root - INFO - tag b'SA/ele/a5/0004' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:18:20.051283...
+root - INFO - Checking of tag 54506162 in ACTIVITY started at  , time @ 13/07/2022 12:18:20.053013
+root - INFO - Checking of tag 54506162  in ACTIVITY Completed at  , time @ 13/07/2022 12:18:20.053341
+root - INFO - APPROVAL STATUS checking STARTED for  tag 54506162 at READER 1357137  @ 13/07/2022 12:18:20.053604
+root - INFO - APPROVAL STATUS CHECKED  for  tag 54506162 at READER 1357137  @ 13/07/2022 12:18:20.053841
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 54506162 from 710013 at time 13/07/2022 12:18:20.053957
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 54506162 from 710013 at time 13/07/2022 12:18:20.054085
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:18:21.681651 
+root - INFO - tag b'SA/ele/a5/0008' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:18:21.787970
+root - INFO - tag b'SA/ele/a5/0008' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:18:21.788278...
+root - INFO - Checking of tag 59461238 in ACTIVITY started at  , time @ 13/07/2022 12:18:21.789642
+root - INFO - Checking of tag 59461238  in ACTIVITY Completed at  , time @ 13/07/2022 12:18:21.789859
+root - INFO - APPROVAL STATUS checking STARTED for  tag 59461238 at READER 1357137  @ 13/07/2022 12:18:21.790041
+root - INFO - APPROVAL STATUS CHECKED  for  tag 59461238 at READER 1357137  @ 13/07/2022 12:18:21.790277
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 59461238 from 710013 at time 13/07/2022 12:18:21.790576
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 59461238 from 710013 at time 13/07/2022 12:18:21.790710
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:18:21.977372 
+root - INFO - tag b'SA/ele/a5/0004' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:18:21.977460
+root - INFO - tag b'SA/ele/a5/0004' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:18:21.977705...
+root - INFO - Checking of tag 54506162 in ACTIVITY started at  , time @ 13/07/2022 12:18:21.979242
+root - INFO - Checking of tag 54506162  in ACTIVITY Completed at  , time @ 13/07/2022 12:18:21.979454
+root - INFO - APPROVAL STATUS checking STARTED for  tag 54506162 at READER 1357137  @ 13/07/2022 12:18:21.979646
+root - INFO - APPROVAL STATUS CHECKED  for  tag 54506162 at READER 1357137  @ 13/07/2022 12:18:21.979828
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 54506162 from 710013 at time 13/07/2022 12:18:21.980027
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 54506162 from 710013 at time 13/07/2022 12:18:21.980116
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:18:22.112215 
+root - INFO - tag b'SA/ele/a5/0006' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:18:22.112315
+root - INFO - tag b'SA/ele/a5/0006' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:18:22.112522...
+root - INFO - Checking of tag 56983700 in ACTIVITY started at  , time @ 13/07/2022 12:18:22.113870
+root - INFO - Checking of tag 56983700  in ACTIVITY Completed at  , time @ 13/07/2022 12:18:22.114063
+root - INFO - APPROVAL STATUS checking STARTED for  tag 56983700 at READER 1357137  @ 13/07/2022 12:18:22.114241
+root - INFO - APPROVAL STATUS CHECKED  for  tag 56983700 at READER 1357137  @ 13/07/2022 12:18:22.114469
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 56983700 from 710013 at time 13/07/2022 12:18:22.114628
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 56983700 from 710013 at time 13/07/2022 12:18:22.114733
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:18:22.697699 
+root - INFO - tag b'SA/ele/a5/0004' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:18:22.697779
+root - INFO - tag b'SA/ele/a5/0004' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:18:22.698076...
+root - INFO - Checking of tag 54506162 in ACTIVITY started at  , time @ 13/07/2022 12:18:22.699732
+root - INFO - Checking of tag 54506162  in ACTIVITY Completed at  , time @ 13/07/2022 12:18:22.700002
+root - INFO - APPROVAL STATUS checking STARTED for  tag 54506162 at READER 1357137  @ 13/07/2022 12:18:22.700199
+root - INFO - APPROVAL STATUS CHECKED  for  tag 54506162 at READER 1357137  @ 13/07/2022 12:18:22.700435
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 54506162 from 710013 at time 13/07/2022 12:18:22.700677
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 54506162 from 710013 at time 13/07/2022 12:18:22.700789
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:18:22.736372 
+root - INFO - tag b'SA/ele/a5/0006' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:18:22.736444
+root - INFO - tag b'SA/ele/a5/0006' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:18:22.736761...
+root - INFO - Checking of tag 56983700 in ACTIVITY started at  , time @ 13/07/2022 12:18:22.738343
+root - INFO - Checking of tag 56983700  in ACTIVITY Completed at  , time @ 13/07/2022 12:18:22.738674
+root - INFO - APPROVAL STATUS checking STARTED for  tag 56983700 at READER 1357137  @ 13/07/2022 12:18:22.738909
+root - INFO - APPROVAL STATUS CHECKED  for  tag 56983700 at READER 1357137  @ 13/07/2022 12:18:22.739199
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 56983700 from 710013 at time 13/07/2022 12:18:22.739493
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 56983700 from 710013 at time 13/07/2022 12:18:22.739595
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:18:22.761350 
+root - INFO - tag b'SA/ele/a5/0008' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:18:22.761411
+root - INFO - tag b'SA/ele/a5/0008' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:18:22.761659...
+root - INFO - Checking of tag 59461238 in ACTIVITY started at  , time @ 13/07/2022 12:18:22.763133
+root - INFO - Checking of tag 59461238  in ACTIVITY Completed at  , time @ 13/07/2022 12:18:22.763352
+root - INFO - APPROVAL STATUS checking STARTED for  tag 59461238 at READER 1357137  @ 13/07/2022 12:18:22.763461
+root - INFO - APPROVAL STATUS CHECKED  for  tag 59461238 at READER 1357137  @ 13/07/2022 12:18:22.763705
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 59461238 from 710013 at time 13/07/2022 12:18:22.763931
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 59461238 from 710013 at time 13/07/2022 12:18:22.764024
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:18:23.342562 
+root - INFO - tag b'SS1`\x0e\xe0\x00 \xe54\x12\xf6V\xc6' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:18:23.342670
+root - INFO - tag b'SS1`\x0e\xe0\x00 \xe54\x12\xf6V\xc6' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:18:23.343072...
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:18:23.345127 
+root - INFO - tag b'SA/ele/a5/0010' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:18:23.345214
+root - INFO - tag b'SA/ele/a5/0010' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:18:23.345544...
+root - INFO - Checking of tag 61938776 in ACTIVITY started at  , time @ 13/07/2022 12:18:23.347036
+root - INFO - Checking of tag 61938776  in ACTIVITY Completed at  , time @ 13/07/2022 12:18:23.347352
+root - INFO - APPROVAL STATUS checking STARTED for  tag 61938776 at READER 1357137  @ 13/07/2022 12:18:23.347625
+root - INFO - APPROVAL STATUS CHECKED  for  tag 61938776 at READER 1357137  @ 13/07/2022 12:18:23.347905
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 61938776 from 710013 at time 13/07/2022 12:18:23.348094
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 61938776 from 710013 at time 13/07/2022 12:18:23.348214
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:18:23.386914 
+root - INFO - tag b'SA/ele/a5/0004' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:18:23.386976
+root - INFO - tag b'SA/ele/a5/0004' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:18:23.387245...
+root - INFO - Checking of tag 54506162 in ACTIVITY started at  , time @ 13/07/2022 12:18:23.388651
+root - INFO - Checking of tag 54506162  in ACTIVITY Completed at  , time @ 13/07/2022 12:18:23.388863
+root - INFO - APPROVAL STATUS checking STARTED for  tag 54506162 at READER 1357137  @ 13/07/2022 12:18:23.389079
+root - INFO - APPROVAL STATUS CHECKED  for  tag 54506162 at READER 1357137  @ 13/07/2022 12:18:23.389262
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 54506162 from 710013 at time 13/07/2022 12:18:23.389415
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 54506162 from 710013 at time 13/07/2022 12:18:23.389494
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:18:23.411964 
+root - INFO - tag b'SA/ele/a5/0008' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:18:23.412028
+root - INFO - tag b'SA/ele/a5/0008' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:18:23.412286...
+root - INFO - Checking of tag 59461238 in ACTIVITY started at  , time @ 13/07/2022 12:18:23.413749
+root - INFO - Checking of tag 59461238  in ACTIVITY Completed at  , time @ 13/07/2022 12:18:23.413925
+root - INFO - APPROVAL STATUS checking STARTED for  tag 59461238 at READER 1357137  @ 13/07/2022 12:18:23.414163
+root - INFO - APPROVAL STATUS CHECKED  for  tag 59461238 at READER 1357137  @ 13/07/2022 12:18:23.414416
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 59461238 from 710013 at time 13/07/2022 12:18:23.414610
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 59461238 from 710013 at time 13/07/2022 12:18:23.414702
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:18:23.960521 
+root - INFO - tag b'SA/ele/a5/0008' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:18:23.960590
+root - INFO - tag b'SA/ele/a5/0008' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:18:23.961017...
+root - INFO - Checking of tag 59461238 in ACTIVITY started at  , time @ 13/07/2022 12:18:23.962680
+root - INFO - Checking of tag 59461238  in ACTIVITY Completed at  , time @ 13/07/2022 12:18:23.963019
+root - INFO - APPROVAL STATUS checking STARTED for  tag 59461238 at READER 1357137  @ 13/07/2022 12:18:23.963288
+root - INFO - APPROVAL STATUS CHECKED  for  tag 59461238 at READER 1357137  @ 13/07/2022 12:18:23.963582
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 59461238 from 710013 at time 13/07/2022 12:18:23.963837
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 59461238 from 710013 at time 13/07/2022 12:18:23.963963
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:18:36.059707 
+root - INFO - tag b'SA/ele/a5/0010' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:18:36.059837
+root - INFO - tag b'SA/ele/a5/0010' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:18:36.060270...
+root - INFO - Checking of tag 61938776 in ACTIVITY started at  , time @ 13/07/2022 12:18:36.061900
+root - INFO - Checking of tag 61938776  in ACTIVITY Completed at  , time @ 13/07/2022 12:18:36.062136
+root - INFO - APPROVAL STATUS checking STARTED for  tag 61938776 at READER 1357137  @ 13/07/2022 12:18:36.062301
+root - INFO - APPROVAL STATUS CHECKED  for  tag 61938776 at READER 1357137  @ 13/07/2022 12:18:36.062639
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 61938776 from 710013 at time 13/07/2022 12:18:36.062913
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 61938776 from 710013 at time 13/07/2022 12:18:36.063102
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:18:37.690698 
+root - INFO - tag b'SA/ele/a5/0010' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:18:37.690872
+root - INFO - tag b'SA/ele/a5/0010' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:18:37.691232...
+root - INFO - Checking of tag 61938776 in ACTIVITY started at  , time @ 13/07/2022 12:18:37.692876
+root - INFO - Checking of tag 61938776  in ACTIVITY Completed at  , time @ 13/07/2022 12:18:37.693174
+root - INFO - APPROVAL STATUS checking STARTED for  tag 61938776 at READER 1357137  @ 13/07/2022 12:18:37.693380
+root - INFO - APPROVAL STATUS CHECKED  for  tag 61938776 at READER 1357137  @ 13/07/2022 12:18:37.693688
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 61938776 from 710013 at time 13/07/2022 12:18:37.693921
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 61938776 from 710013 at time 13/07/2022 12:18:37.694036
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:18:37.726441 
+root - INFO - tag b'SA/ele/a5/0009' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:18:37.726523
+root - INFO - tag b'SA/ele/a5/0009' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:18:37.726875...
+root - INFO - Checking of tag 60700007 in ACTIVITY started at  , time @ 13/07/2022 12:18:37.728502
+root - INFO - Checking of tag 60700007  in ACTIVITY Completed at  , time @ 13/07/2022 12:18:37.728693
+root - INFO - APPROVAL STATUS checking STARTED for  tag 60700007 at READER 1357137  @ 13/07/2022 12:18:37.728915
+root - INFO - APPROVAL STATUS CHECKED  for  tag 60700007 at READER 1357137  @ 13/07/2022 12:18:37.729164
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 60700007 from 710013 at time 13/07/2022 12:18:37.729399
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 60700007 from 710013 at time 13/07/2022 12:18:37.729564
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:18:37.751472 
+root - INFO - tag b'SA/ele/a5/0008' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:18:37.751554
+root - INFO - tag b'SA/ele/a5/0008' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:18:37.751868...
+root - INFO - Checking of tag 59461238 in ACTIVITY started at  , time @ 13/07/2022 12:18:37.753348
+root - INFO - Checking of tag 59461238  in ACTIVITY Completed at  , time @ 13/07/2022 12:18:37.753519
+root - INFO - APPROVAL STATUS checking STARTED for  tag 59461238 at READER 1357137  @ 13/07/2022 12:18:37.753659
+root - INFO - APPROVAL STATUS CHECKED  for  tag 59461238 at READER 1357137  @ 13/07/2022 12:18:37.753890
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 59461238 from 710013 at time 13/07/2022 12:18:37.754096
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 59461238 from 710013 at time 13/07/2022 12:18:37.754186
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:18:38.304659 
+root - INFO - tag b'SA/ele/a5/0009' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:18:38.304783
+root - INFO - tag b'SA/ele/a5/0009' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:18:38.305215...
+root - INFO - Checking of tag 60700007 in ACTIVITY started at  , time @ 13/07/2022 12:18:38.306954
+root - INFO - Checking of tag 60700007  in ACTIVITY Completed at  , time @ 13/07/2022 12:18:38.307189
+root - INFO - APPROVAL STATUS checking STARTED for  tag 60700007 at READER 1357137  @ 13/07/2022 12:18:38.307360
+root - INFO - APPROVAL STATUS CHECKED  for  tag 60700007 at READER 1357137  @ 13/07/2022 12:18:38.307576
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 60700007 from 710013 at time 13/07/2022 12:18:38.307757
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 60700007 from 710013 at time 13/07/2022 12:18:38.307858
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:18:38.335175 
+root - INFO - tag b'SA/ele/a5/0008' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:18:38.335236
+root - INFO - tag b'SA/ele/a5/0008' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:18:38.335561...
+root - INFO - Checking of tag 59461238 in ACTIVITY started at  , time @ 13/07/2022 12:18:38.337113
+root - INFO - Checking of tag 59461238  in ACTIVITY Completed at  , time @ 13/07/2022 12:18:38.337382
+root - INFO - APPROVAL STATUS checking STARTED for  tag 59461238 at READER 1357137  @ 13/07/2022 12:18:38.337613
+root - INFO - APPROVAL STATUS CHECKED  for  tag 59461238 at READER 1357137  @ 13/07/2022 12:18:38.337808
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 59461238 from 710013 at time 13/07/2022 12:18:38.337943
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 59461238 from 710013 at time 13/07/2022 12:18:38.337998
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:18:39.931511 
+root - INFO - tag b'SA/ele/a5/0010' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:18:39.931622
+root - INFO - tag b'SA/ele/a5/0010' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:18:39.932064...
+root - INFO - Checking of tag 61938776 in ACTIVITY started at  , time @ 13/07/2022 12:18:39.933765
+root - INFO - Checking of tag 61938776  in ACTIVITY Completed at  , time @ 13/07/2022 12:18:39.934112
+root - INFO - APPROVAL STATUS checking STARTED for  tag 61938776 at READER 1357137  @ 13/07/2022 12:18:39.934351
+root - INFO - APPROVAL STATUS CHECKED  for  tag 61938776 at READER 1357137  @ 13/07/2022 12:18:39.934674
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 61938776 from 710013 at time 13/07/2022 12:18:39.934862
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 61938776 from 710013 at time 13/07/2022 12:18:39.934957
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:18:42.069454 
+root - INFO - tag b'SA/ele/a5/0010' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:18:42.069619
+root - INFO - tag b'SA/ele/a5/0010' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:18:42.070000...
+root - INFO - Checking of tag 61938776 in ACTIVITY started at  , time @ 13/07/2022 12:18:42.071650
+root - INFO - Checking of tag 61938776  in ACTIVITY Completed at  , time @ 13/07/2022 12:18:42.071906
+root - INFO - APPROVAL STATUS checking STARTED for  tag 61938776 at READER 1357137  @ 13/07/2022 12:18:42.072137
+root - INFO - APPROVAL STATUS CHECKED  for  tag 61938776 at READER 1357137  @ 13/07/2022 12:18:42.072418
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 61938776 from 710013 at time 13/07/2022 12:18:42.072649
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 61938776 from 710013 at time 13/07/2022 12:18:42.072720
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:18:42.646364 
+root - INFO - tag b'SA/ele/a5/0010' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:18:42.646476
+root - INFO - tag b'SA/ele/a5/0010' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:18:42.646835...
+root - INFO - Checking of tag 61938776 in ACTIVITY started at  , time @ 13/07/2022 12:18:42.648578
+root - INFO - Checking of tag 61938776  in ACTIVITY Completed at  , time @ 13/07/2022 12:18:42.648872
+root - INFO - APPROVAL STATUS checking STARTED for  tag 61938776 at READER 1357137  @ 13/07/2022 12:18:42.649047
+root - INFO - APPROVAL STATUS CHECKED  for  tag 61938776 at READER 1357137  @ 13/07/2022 12:18:42.649301
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 61938776 from 710013 at time 13/07/2022 12:18:42.649583
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 61938776 from 710013 at time 13/07/2022 12:18:42.649652
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:18:43.218301 
+root - INFO - tag b'SA/ele/a5/0010' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:18:43.218456
+root - INFO - tag b'SA/ele/a5/0010' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:18:43.218844...
+root - INFO - Checking of tag 61938776 in ACTIVITY started at  , time @ 13/07/2022 12:18:43.220486
+root - INFO - Checking of tag 61938776  in ACTIVITY Completed at  , time @ 13/07/2022 12:18:43.220829
+root - INFO - APPROVAL STATUS checking STARTED for  tag 61938776 at READER 1357137  @ 13/07/2022 12:18:43.221056
+root - INFO - APPROVAL STATUS CHECKED  for  tag 61938776 at READER 1357137  @ 13/07/2022 12:18:43.221310
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 61938776 from 710013 at time 13/07/2022 12:18:43.221563
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 61938776 from 710013 at time 13/07/2022 12:18:43.221634
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:18:48.960992 
+root - INFO - tag b'SA/ele/a5/0010' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:18:48.961126
+root - INFO - tag b'SA/ele/a5/0010' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:18:48.961551...
+root - INFO - Checking of tag 61938776 in ACTIVITY started at  , time @ 13/07/2022 12:18:48.963194
+root - INFO - Checking of tag 61938776  in ACTIVITY Completed at  , time @ 13/07/2022 12:18:48.963545
+root - INFO - APPROVAL STATUS checking STARTED for  tag 61938776 at READER 1357137  @ 13/07/2022 12:18:48.963829
+root - INFO - APPROVAL STATUS CHECKED  for  tag 61938776 at READER 1357137  @ 13/07/2022 12:18:48.964140
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 61938776 from 710013 at time 13/07/2022 12:18:48.964372
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 61938776 from 710013 at time 13/07/2022 12:18:48.964476
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:18:50.025861 
+root - INFO - tag b'SA/ele/a5/0010' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:18:50.025981
+root - INFO - tag b'SA/ele/a5/0010' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:18:50.026396...
+root - INFO - Checking of tag 61938776 in ACTIVITY started at  , time @ 13/07/2022 12:18:50.027989
+root - INFO - Checking of tag 61938776  in ACTIVITY Completed at  , time @ 13/07/2022 12:18:50.028263
+root - INFO - APPROVAL STATUS checking STARTED for  tag 61938776 at READER 1357137  @ 13/07/2022 12:18:50.028427
+root - INFO - APPROVAL STATUS CHECKED  for  tag 61938776 at READER 1357137  @ 13/07/2022 12:18:50.028657
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 61938776 from 710013 at time 13/07/2022 12:18:50.028875
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 61938776 from 710013 at time 13/07/2022 12:18:50.028959
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:18:50.624821 
+root - INFO - tag b'SA/ele/a5/0010' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:18:50.624939
+root - INFO - tag b'SA/ele/a5/0010' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:18:50.625329...
+root - INFO - Checking of tag 61938776 in ACTIVITY started at  , time @ 13/07/2022 12:18:50.627052
+root - INFO - Checking of tag 61938776  in ACTIVITY Completed at  , time @ 13/07/2022 12:18:50.627405
+root - INFO - APPROVAL STATUS checking STARTED for  tag 61938776 at READER 1357137  @ 13/07/2022 12:18:50.627585
+root - INFO - APPROVAL STATUS CHECKED  for  tag 61938776 at READER 1357137  @ 13/07/2022 12:18:50.627776
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 61938776 from 710013 at time 13/07/2022 12:18:50.628003
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 61938776 from 710013 at time 13/07/2022 12:18:50.628074
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:18:50.657658 
+root - INFO - tag b'SA/ele/a5/0008' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:18:50.657718
+root - INFO - tag b'SA/ele/a5/0008' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:18:50.658015...
+root - INFO - Checking of tag 59461238 in ACTIVITY started at  , time @ 13/07/2022 12:18:50.659628
+root - INFO - Checking of tag 59461238  in ACTIVITY Completed at  , time @ 13/07/2022 12:18:50.659950
+root - INFO - APPROVAL STATUS checking STARTED for  tag 59461238 at READER 1357137  @ 13/07/2022 12:18:50.660236
+root - INFO - APPROVAL STATUS CHECKED  for  tag 59461238 at READER 1357137  @ 13/07/2022 12:18:50.660473
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 59461238 from 710013 at time 13/07/2022 12:18:50.660585
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 59461238 from 710013 at time 13/07/2022 12:18:50.660637
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:18:51.218778 
+root - INFO - tag b'SA/ele/a5/0010' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:18:51.218905
+root - INFO - tag b'SA/ele/a5/0010' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:18:51.219344...
+root - INFO - Checking of tag 61938776 in ACTIVITY started at  , time @ 13/07/2022 12:18:51.220959
+root - INFO - Checking of tag 61938776  in ACTIVITY Completed at  , time @ 13/07/2022 12:18:51.221326
+root - INFO - APPROVAL STATUS checking STARTED for  tag 61938776 at READER 1357137  @ 13/07/2022 12:18:51.221563
+root - INFO - APPROVAL STATUS CHECKED  for  tag 61938776 at READER 1357137  @ 13/07/2022 12:18:51.221825
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 61938776 from 710013 at time 13/07/2022 12:18:51.221960
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 61938776 from 710013 at time 13/07/2022 12:18:51.222029
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:18:51.249694 
+root - INFO - tag b'SA/ele/a5/0008' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:18:51.249775
+root - INFO - tag b'SA/ele/a5/0008' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:18:51.250122...
+root - INFO - Checking of tag 59461238 in ACTIVITY started at  , time @ 13/07/2022 12:18:51.251667
+root - INFO - Checking of tag 59461238  in ACTIVITY Completed at  , time @ 13/07/2022 12:18:51.251946
+root - INFO - APPROVAL STATUS checking STARTED for  tag 59461238 at READER 1357137  @ 13/07/2022 12:18:51.252101
+root - INFO - APPROVAL STATUS CHECKED  for  tag 59461238 at READER 1357137  @ 13/07/2022 12:18:51.252239
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 59461238 from 710013 at time 13/07/2022 12:18:51.252459
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 59461238 from 710013 at time 13/07/2022 12:18:51.252510
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:18:51.796745 
+root - INFO - tag b'SA/ele/a5/0010' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:18:51.796857
+root - INFO - tag b'SA/ele/a5/0010' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:18:51.797237...
+root - INFO - Checking of tag 61938776 in ACTIVITY started at  , time @ 13/07/2022 12:18:51.798899
+root - INFO - Checking of tag 61938776  in ACTIVITY Completed at  , time @ 13/07/2022 12:18:51.799240
+root - INFO - APPROVAL STATUS checking STARTED for  tag 61938776 at READER 1357137  @ 13/07/2022 12:18:51.799477
+root - INFO - APPROVAL STATUS CHECKED  for  tag 61938776 at READER 1357137  @ 13/07/2022 12:18:51.799779
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 61938776 from 710013 at time 13/07/2022 12:18:51.799987
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 61938776 from 710013 at time 13/07/2022 12:18:51.800057
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:18:53.343732 
+root - INFO - tag b'SA/ele/a5/0010' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:18:53.343861
+root - INFO - tag b'SA/ele/a5/0010' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:18:53.344274...
+root - INFO - Checking of tag 61938776 in ACTIVITY started at  , time @ 13/07/2022 12:18:53.345940
+root - INFO - Checking of tag 61938776  in ACTIVITY Completed at  , time @ 13/07/2022 12:18:53.346285
+root - INFO - APPROVAL STATUS checking STARTED for  tag 61938776 at READER 1357137  @ 13/07/2022 12:18:53.346462
+root - INFO - APPROVAL STATUS CHECKED  for  tag 61938776 at READER 1357137  @ 13/07/2022 12:18:53.346684
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 61938776 from 710013 at time 13/07/2022 12:18:53.346867
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 61938776 from 710013 at time 13/07/2022 12:18:53.346959
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:18:56.988420 
+root - INFO - tag b'SA/ele/a5/0010' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:18:56.988597
+root - INFO - tag b'SA/ele/a5/0010' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:18:56.989041...
+root - INFO - Checking of tag 61938776 in ACTIVITY started at  , time @ 13/07/2022 12:18:56.990921
+root - INFO - Checking of tag 61938776  in ACTIVITY Completed at  , time @ 13/07/2022 12:18:56.991277
+root - INFO - APPROVAL STATUS checking STARTED for  tag 61938776 at READER 1357137  @ 13/07/2022 12:18:56.991544
+root - INFO - APPROVAL STATUS CHECKED  for  tag 61938776 at READER 1357137  @ 13/07/2022 12:18:56.991838
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 61938776 from 710013 at time 13/07/2022 12:18:56.992026
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 61938776 from 710013 at time 13/07/2022 12:18:56.992098
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:19:04.701041 
+root - INFO - tag b'SA/ele/a5/0010' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:19:04.701174
+root - INFO - tag b'SA/ele/a5/0010' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:19:04.701584...
+root - INFO - Checking of tag 61938776 in ACTIVITY started at  , time @ 13/07/2022 12:19:04.703180
+root - INFO - Checking of tag 61938776  in ACTIVITY Completed at  , time @ 13/07/2022 12:19:04.703550
+root - INFO - APPROVAL STATUS checking STARTED for  tag 61938776 at READER 1357137  @ 13/07/2022 12:19:04.703780
+root - INFO - APPROVAL STATUS CHECKED  for  tag 61938776 at READER 1357137  @ 13/07/2022 12:19:04.704046
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 61938776 from 710013 at time 13/07/2022 12:19:04.704149
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 61938776 from 710013 at time 13/07/2022 12:19:04.704224
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:20:53.581918 
+root - INFO - tag b'SA/ele/a5/0010' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:20:53.582067
+root - INFO - tag b'SA/ele/a5/0010' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:20:53.582488...
+root - INFO - Checking of tag 61938776 in ACTIVITY started at  , time @ 13/07/2022 12:20:53.584263
+root - INFO - Checking of tag 61938776  in ACTIVITY Completed at  , time @ 13/07/2022 12:20:53.584498
+root - INFO - APPROVAL STATUS checking STARTED for  tag 61938776 at READER 1357137  @ 13/07/2022 12:20:53.584676
+root - INFO - APPROVAL STATUS CHECKED  for  tag 61938776 at READER 1357137  @ 13/07/2022 12:20:53.584878
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 61938776 from 710013 at time 13/07/2022 12:20:53.585123
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 61938776 from 710013 at time 13/07/2022 12:20:53.585194
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:20:53.626902 
+root - INFO - tag b'SA/ele/a5/0004' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:20:53.626987
+root - INFO - tag b'SA/ele/a5/0004' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:20:53.627327...
+root - INFO - Checking of tag 54506162 in ACTIVITY started at  , time @ 13/07/2022 12:20:53.628944
+root - INFO - Checking of tag 54506162  in ACTIVITY Completed at  , time @ 13/07/2022 12:20:53.629192
+root - INFO - APPROVAL STATUS checking STARTED for  tag 54506162 at READER 1357137  @ 13/07/2022 12:20:53.629432
+root - INFO - APPROVAL STATUS CHECKED  for  tag 54506162 at READER 1357137  @ 13/07/2022 12:20:53.629699
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 54506162 from 710013 at time 13/07/2022 12:20:53.629917
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 54506162 from 710013 at time 13/07/2022 12:20:53.630024
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:20:54.185871 
+root - INFO - tag b'SA/ele/a5/0009' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:20:54.186008
+root - INFO - tag b'SA/ele/a5/0009' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:20:54.186380...
+root - INFO - Checking of tag 60700007 in ACTIVITY started at  , time @ 13/07/2022 12:20:54.187992
+root - INFO - Checking of tag 60700007  in ACTIVITY Completed at  , time @ 13/07/2022 12:20:54.188302
+root - INFO - APPROVAL STATUS checking STARTED for  tag 60700007 at READER 1357137  @ 13/07/2022 12:20:54.188583
+root - INFO - APPROVAL STATUS CHECKED  for  tag 60700007 at READER 1357137  @ 13/07/2022 12:20:54.188875
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 60700007 from 710013 at time 13/07/2022 12:20:54.189083
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 60700007 from 710013 at time 13/07/2022 12:20:54.189177
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:20:55.793803 
+root - INFO - tag b'SA/ele/a5/0010' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:20:55.793948
+root - INFO - tag b'SA/ele/a5/0010' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:20:55.794415...
+root - INFO - Checking of tag 61938776 in ACTIVITY started at  , time @ 13/07/2022 12:20:55.795907
+root - INFO - Checking of tag 61938776  in ACTIVITY Completed at  , time @ 13/07/2022 12:20:55.796122
+root - INFO - APPROVAL STATUS checking STARTED for  tag 61938776 at READER 1357137  @ 13/07/2022 12:20:55.796328
+root - INFO - APPROVAL STATUS CHECKED  for  tag 61938776 at READER 1357137  @ 13/07/2022 12:20:55.796474
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 61938776 from 710013 at time 13/07/2022 12:20:55.796597
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 61938776 from 710013 at time 13/07/2022 12:20:55.796683
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:20:55.915930 
+root - INFO - tag b'SA/ele/a5/0009' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:20:55.916002
+root - INFO - tag b'SA/ele/a5/0009' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:20:55.916175...
+root - INFO - Checking of tag 60700007 in ACTIVITY started at  , time @ 13/07/2022 12:20:55.917446
+root - INFO - Checking of tag 60700007  in ACTIVITY Completed at  , time @ 13/07/2022 12:20:55.917583
+root - INFO - APPROVAL STATUS checking STARTED for  tag 60700007 at READER 1357137  @ 13/07/2022 12:20:55.917708
+root - INFO - APPROVAL STATUS CHECKED  for  tag 60700007 at READER 1357137  @ 13/07/2022 12:20:55.917927
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 60700007 from 710013 at time 13/07/2022 12:20:55.918076
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 60700007 from 710013 at time 13/07/2022 12:20:55.918131
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:20:56.518737 
+root - INFO - tag b'SA/ele/a5/0010' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:20:56.518865
+root - INFO - tag b'SA/ele/a5/0010' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:20:56.519266...
+root - INFO - Checking of tag 61938776 in ACTIVITY started at  , time @ 13/07/2022 12:20:56.520936
+root - INFO - Checking of tag 61938776  in ACTIVITY Completed at  , time @ 13/07/2022 12:20:56.521140
+root - INFO - APPROVAL STATUS checking STARTED for  tag 61938776 at READER 1357137  @ 13/07/2022 12:20:56.521306
+root - INFO - APPROVAL STATUS CHECKED  for  tag 61938776 at READER 1357137  @ 13/07/2022 12:20:56.521566
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 61938776 from 710013 at time 13/07/2022 12:20:56.521801
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 61938776 from 710013 at time 13/07/2022 12:20:56.521874
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:20:56.545290 
+root - INFO - tag b'SA/ele/a5/0009' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:20:56.545374
+root - INFO - tag b'SA/ele/a5/0009' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:20:56.545701...
+root - INFO - Checking of tag 60700007 in ACTIVITY started at  , time @ 13/07/2022 12:20:56.547040
+root - INFO - Checking of tag 60700007  in ACTIVITY Completed at  , time @ 13/07/2022 12:20:56.547314
+root - INFO - APPROVAL STATUS checking STARTED for  tag 60700007 at READER 1357137  @ 13/07/2022 12:20:56.547502
+root - INFO - APPROVAL STATUS CHECKED  for  tag 60700007 at READER 1357137  @ 13/07/2022 12:20:56.547795
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 60700007 from 710013 at time 13/07/2022 12:20:56.548060
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 60700007 from 710013 at time 13/07/2022 12:20:56.548131
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:20:57.098703 
+root - INFO - tag b'SA/ele/a5/0010' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:20:57.098840
+root - INFO - tag b'SA/ele/a5/0010' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:20:57.099244...
+root - INFO - Checking of tag 61938776 in ACTIVITY started at  , time @ 13/07/2022 12:20:57.100831
+root - INFO - Checking of tag 61938776  in ACTIVITY Completed at  , time @ 13/07/2022 12:20:57.101034
+root - INFO - APPROVAL STATUS checking STARTED for  tag 61938776 at READER 1357137  @ 13/07/2022 12:20:57.101211
+root - INFO - APPROVAL STATUS CHECKED  for  tag 61938776 at READER 1357137  @ 13/07/2022 12:20:57.101441
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 61938776 from 710013 at time 13/07/2022 12:20:57.101663
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 61938776 from 710013 at time 13/07/2022 12:20:57.101750
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:20:57.128939 
+root - INFO - tag b'SA/ele/a5/0009' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:20:57.129021
+root - INFO - tag b'SA/ele/a5/0009' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:20:57.129367...
+root - INFO - Checking of tag 60700007 in ACTIVITY started at  , time @ 13/07/2022 12:20:57.131074
+root - INFO - Checking of tag 60700007  in ACTIVITY Completed at  , time @ 13/07/2022 12:20:57.131351
+root - INFO - APPROVAL STATUS checking STARTED for  tag 60700007 at READER 1357137  @ 13/07/2022 12:20:57.131550
+root - INFO - APPROVAL STATUS CHECKED  for  tag 60700007 at READER 1357137  @ 13/07/2022 12:20:57.131854
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 60700007 from 710013 at time 13/07/2022 12:20:57.132095
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 60700007 from 710013 at time 13/07/2022 12:20:57.132169
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:21:16.290678 
+root - INFO - tag b'SA/ele/a5/0009' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:21:16.290829
+root - INFO - tag b'SA/ele/a5/0009' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:21:16.291279...
+root - INFO - Checking of tag 60700007 in ACTIVITY started at  , time @ 13/07/2022 12:21:16.292814
+root - INFO - Checking of tag 60700007  in ACTIVITY Completed at  , time @ 13/07/2022 12:21:16.293070
+root - INFO - APPROVAL STATUS checking STARTED for  tag 60700007 at READER 1357137  @ 13/07/2022 12:21:16.293259
+root - INFO - APPROVAL STATUS CHECKED  for  tag 60700007 at READER 1357137  @ 13/07/2022 12:21:16.293595
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 60700007 from 710013 at time 13/07/2022 12:21:16.293810
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 60700007 from 710013 at time 13/07/2022 12:21:16.293882
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:21:16.852650 
+root - INFO - tag b'SA/ele/a5/0006' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:21:16.852781
+root - INFO - tag b'SA/ele/a5/0006' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:21:16.853142...
+root - INFO - Checking of tag 56983700 in ACTIVITY started at  , time @ 13/07/2022 12:21:16.854862
+root - INFO - Checking of tag 56983700  in ACTIVITY Completed at  , time @ 13/07/2022 12:21:16.855052
+root - INFO - APPROVAL STATUS checking STARTED for  tag 56983700 at READER 1357137  @ 13/07/2022 12:21:16.855213
+root - INFO - APPROVAL STATUS CHECKED  for  tag 56983700 at READER 1357137  @ 13/07/2022 12:21:16.855470
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 56983700 from 710013 at time 13/07/2022 12:21:16.855698
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 56983700 from 710013 at time 13/07/2022 12:21:16.855801
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:21:16.879305 
+root - INFO - tag b'SA/ele/a5/0010' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:21:16.879389
+root - INFO - tag b'SA/ele/a5/0010' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:21:16.879732...
+root - INFO - Checking of tag 61938776 in ACTIVITY started at  , time @ 13/07/2022 12:21:16.881316
+root - INFO - Checking of tag 61938776  in ACTIVITY Completed at  , time @ 13/07/2022 12:21:16.881604
+root - INFO - APPROVAL STATUS checking STARTED for  tag 61938776 at READER 1357137  @ 13/07/2022 12:21:16.881792
+root - INFO - APPROVAL STATUS CHECKED  for  tag 61938776 at READER 1357137  @ 13/07/2022 12:21:16.881941
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 61938776 from 710013 at time 13/07/2022 12:21:16.882307
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 61938776 from 710013 at time 13/07/2022 12:21:16.882397
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:21:16.904397 
+root - INFO - tag b'SA/ele/a5/0009' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:21:16.904473
+root - INFO - tag b'SA/ele/a5/0009' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:21:16.904798...
+root - INFO - Checking of tag 60700007 in ACTIVITY started at  , time @ 13/07/2022 12:21:16.906297
+root - INFO - Checking of tag 60700007  in ACTIVITY Completed at  , time @ 13/07/2022 12:21:16.906590
+root - INFO - APPROVAL STATUS checking STARTED for  tag 60700007 at READER 1357137  @ 13/07/2022 12:21:16.906710
+root - INFO - APPROVAL STATUS CHECKED  for  tag 60700007 at READER 1357137  @ 13/07/2022 12:21:16.906980
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 60700007 from 710013 at time 13/07/2022 12:21:16.907168
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 60700007 from 710013 at time 13/07/2022 12:21:16.907219
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:21:16.929843 
+root - INFO - tag b'SA/ele/a5/0004' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:21:16.929939
+root - INFO - tag b'SA/ele/a5/0004' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:21:16.930264...
+root - INFO - Checking of tag 54506162 in ACTIVITY started at  , time @ 13/07/2022 12:21:16.931900
+root - INFO - Checking of tag 54506162  in ACTIVITY Completed at  , time @ 13/07/2022 12:21:16.932124
+root - INFO - APPROVAL STATUS checking STARTED for  tag 54506162 at READER 1357137  @ 13/07/2022 12:21:16.932311
+root - INFO - APPROVAL STATUS CHECKED  for  tag 54506162 at READER 1357137  @ 13/07/2022 12:21:16.932458
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 54506162 from 710013 at time 13/07/2022 12:21:16.932602
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 54506162 from 710013 at time 13/07/2022 12:21:16.932656
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:21:16.954512 
+root - INFO - tag b'SA/ele/a5/0008' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:21:16.954575
+root - INFO - tag b'SA/ele/a5/0008' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:21:16.954825...
+root - INFO - Checking of tag 59461238 in ACTIVITY started at  , time @ 13/07/2022 12:21:16.956181
+root - INFO - Checking of tag 59461238  in ACTIVITY Completed at  , time @ 13/07/2022 12:21:16.956398
+root - INFO - APPROVAL STATUS checking STARTED for  tag 59461238 at READER 1357137  @ 13/07/2022 12:21:16.956585
+root - INFO - APPROVAL STATUS CHECKED  for  tag 59461238 at READER 1357137  @ 13/07/2022 12:21:16.956731
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 59461238 from 710013 at time 13/07/2022 12:21:16.956870
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 59461238 from 710013 at time 13/07/2022 12:21:16.956923
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:21:20.513475 
+root - INFO - tag b'SA/ele/a5/0010' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:21:20.513622
+root - INFO - tag b'SA/ele/a5/0010' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:21:20.514089...
+root - INFO - Checking of tag 61938776 in ACTIVITY started at  , time @ 13/07/2022 12:21:20.515879
+root - INFO - Checking of tag 61938776  in ACTIVITY Completed at  , time @ 13/07/2022 12:21:20.516069
+root - INFO - APPROVAL STATUS checking STARTED for  tag 61938776 at READER 1357137  @ 13/07/2022 12:21:20.516257
+root - INFO - APPROVAL STATUS CHECKED  for  tag 61938776 at READER 1357137  @ 13/07/2022 12:21:20.516477
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 61938776 from 710013 at time 13/07/2022 12:21:20.516579
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 61938776 from 710013 at time 13/07/2022 12:21:20.516637
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:21:20.547815 
+root - INFO - tag b'SA/ele/a5/0004' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:21:20.547892
+root - INFO - tag b'SA/ele/a5/0004' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:21:20.548176...
+root - INFO - Checking of tag 54506162 in ACTIVITY started at  , time @ 13/07/2022 12:21:20.549714
+root - INFO - Checking of tag 54506162  in ACTIVITY Completed at  , time @ 13/07/2022 12:21:20.549925
+root - INFO - APPROVAL STATUS checking STARTED for  tag 54506162 at READER 1357137  @ 13/07/2022 12:21:20.550113
+root - INFO - APPROVAL STATUS CHECKED  for  tag 54506162 at READER 1357137  @ 13/07/2022 12:21:20.550286
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 54506162 from 710013 at time 13/07/2022 12:21:20.550456
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 54506162 from 710013 at time 13/07/2022 12:21:20.550533
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:21:20.572811 
+root - INFO - tag b'SA/ele/a5/0008' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:21:20.572873
+root - INFO - tag b'SA/ele/a5/0008' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:21:20.573126...
+root - INFO - Checking of tag 59461238 in ACTIVITY started at  , time @ 13/07/2022 12:21:20.574600
+root - INFO - Checking of tag 59461238  in ACTIVITY Completed at  , time @ 13/07/2022 12:21:20.574796
+root - INFO - APPROVAL STATUS checking STARTED for  tag 59461238 at READER 1357137  @ 13/07/2022 12:21:20.574988
+root - INFO - APPROVAL STATUS CHECKED  for  tag 59461238 at READER 1357137  @ 13/07/2022 12:21:20.575221
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 59461238 from 710013 at time 13/07/2022 12:21:20.575418
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 59461238 from 710013 at time 13/07/2022 12:21:20.575473
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:21:22.658311 
+root - INFO - tag b'SA/ele/a5/0010' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:21:22.658475
+root - INFO - tag b'SA/ele/a5/0010' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:21:22.658972...
+root - INFO - Checking of tag 61938776 in ACTIVITY started at  , time @ 13/07/2022 12:21:22.660628
+root - INFO - Checking of tag 61938776  in ACTIVITY Completed at  , time @ 13/07/2022 12:21:22.660837
+root - INFO - APPROVAL STATUS checking STARTED for  tag 61938776 at READER 1357137  @ 13/07/2022 12:21:22.660962
+root - INFO - APPROVAL STATUS CHECKED  for  tag 61938776 at READER 1357137  @ 13/07/2022 12:21:22.661191
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 61938776 from 710013 at time 13/07/2022 12:21:22.661400
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 61938776 from 710013 at time 13/07/2022 12:21:22.661458
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:21:36.510773 
+root - INFO - tag b'SA/ele/a5/0006' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:21:36.510942
+root - INFO - tag b'SA/ele/a5/0006' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:21:36.511395...
+root - INFO - Checking of tag 56983700 in ACTIVITY started at  , time @ 13/07/2022 12:21:36.513009
+root - INFO - Checking of tag 56983700  in ACTIVITY Completed at  , time @ 13/07/2022 12:21:36.513369
+root - INFO - APPROVAL STATUS checking STARTED for  tag 56983700 at READER 1357137  @ 13/07/2022 12:21:36.513621
+root - INFO - APPROVAL STATUS CHECKED  for  tag 56983700 at READER 1357137  @ 13/07/2022 12:21:36.513925
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 56983700 from 710013 at time 13/07/2022 12:21:36.514200
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 56983700 from 710013 at time 13/07/2022 12:21:36.514274
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:21:37.070635 
+root - INFO - tag b'SA/ele/a5/0010' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:21:37.070725
+root - INFO - tag b'SA/ele/a5/0010' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:21:37.071099...
+root - INFO - Checking of tag 61938776 in ACTIVITY started at  , time @ 13/07/2022 12:21:37.072564
+root - INFO - Checking of tag 61938776  in ACTIVITY Completed at  , time @ 13/07/2022 12:21:37.072823
+root - INFO - APPROVAL STATUS checking STARTED for  tag 61938776 at READER 1357137  @ 13/07/2022 12:21:37.073048
+root - INFO - APPROVAL STATUS CHECKED  for  tag 61938776 at READER 1357137  @ 13/07/2022 12:21:37.073263
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 61938776 from 710013 at time 13/07/2022 12:21:37.073458
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 61938776 from 710013 at time 13/07/2022 12:21:37.073530
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:21:37.105206 
+root - INFO - tag b'SA/ele/a5/0009' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:21:37.105285
+root - INFO - tag b'SA/ele/a5/0009' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:21:37.105608...
+root - INFO - Checking of tag 60700007 in ACTIVITY started at  , time @ 13/07/2022 12:21:37.107110
+root - INFO - Checking of tag 60700007  in ACTIVITY Completed at  , time @ 13/07/2022 12:21:37.107484
+root - INFO - APPROVAL STATUS checking STARTED for  tag 60700007 at READER 1357137  @ 13/07/2022 12:21:37.107714
+root - INFO - APPROVAL STATUS CHECKED  for  tag 60700007 at READER 1357137  @ 13/07/2022 12:21:37.108030
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 60700007 from 710013 at time 13/07/2022 12:21:37.108318
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 60700007 from 710013 at time 13/07/2022 12:21:37.108388
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:21:37.130120 
+root - INFO - tag b'SA/ele/a5/0006' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:21:37.130181
+root - INFO - tag b'SA/ele/a5/0006' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:21:37.130470...
+root - INFO - Checking of tag 56983700 in ACTIVITY started at  , time @ 13/07/2022 12:21:37.131734
+root - INFO - Checking of tag 56983700  in ACTIVITY Completed at  , time @ 13/07/2022 12:21:37.131950
+root - INFO - APPROVAL STATUS checking STARTED for  tag 56983700 at READER 1357137  @ 13/07/2022 12:21:37.132186
+root - INFO - APPROVAL STATUS CHECKED  for  tag 56983700 at READER 1357137  @ 13/07/2022 12:21:37.132484
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 56983700 from 710013 at time 13/07/2022 12:21:37.132718
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 56983700 from 710013 at time 13/07/2022 12:21:37.132805
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:21:37.718640 
+root - INFO - tag b'SA/ele/a5/0010' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:21:37.718746
+root - INFO - tag b'SA/ele/a5/0010' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:21:37.719205...
+root - INFO - Checking of tag 61938776 in ACTIVITY started at  , time @ 13/07/2022 12:21:37.720823
+root - INFO - Checking of tag 61938776  in ACTIVITY Completed at  , time @ 13/07/2022 12:21:37.721135
+root - INFO - APPROVAL STATUS checking STARTED for  tag 61938776 at READER 1357137  @ 13/07/2022 12:21:37.721396
+root - INFO - APPROVAL STATUS CHECKED  for  tag 61938776 at READER 1357137  @ 13/07/2022 12:21:37.721655
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 61938776 from 710013 at time 13/07/2022 12:21:37.721882
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 61938776 from 710013 at time 13/07/2022 12:21:37.721957
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:21:37.757119 
+root - INFO - tag b'SA/ele/a5/0004' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:21:37.757181
+root - INFO - tag b'SA/ele/a5/0004' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:21:37.757470...
+root - INFO - Checking of tag 54506162 in ACTIVITY started at  , time @ 13/07/2022 12:21:37.759016
+root - INFO - Checking of tag 54506162  in ACTIVITY Completed at  , time @ 13/07/2022 12:21:37.759290
+root - INFO - APPROVAL STATUS checking STARTED for  tag 54506162 at READER 1357137  @ 13/07/2022 12:21:37.759486
+root - INFO - APPROVAL STATUS CHECKED  for  tag 54506162 at READER 1357137  @ 13/07/2022 12:21:37.759769
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 54506162 from 710013 at time 13/07/2022 12:21:37.759937
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 54506162 from 710013 at time 13/07/2022 12:21:37.759996
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:21:37.823850 
+root - INFO - tag b'SA/ele/a5/0009' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:21:37.823915
+root - INFO - tag b'SA/ele/a5/0009' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:21:37.824196...
+root - INFO - Checking of tag 60700007 in ACTIVITY started at  , time @ 13/07/2022 12:21:37.825588
+root - INFO - Checking of tag 60700007  in ACTIVITY Completed at  , time @ 13/07/2022 12:21:37.825813
+root - INFO - APPROVAL STATUS checking STARTED for  tag 60700007 at READER 1357137  @ 13/07/2022 12:21:37.825929
+root - INFO - APPROVAL STATUS CHECKED  for  tag 60700007 at READER 1357137  @ 13/07/2022 12:21:37.826104
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 60700007 from 710013 at time 13/07/2022 12:21:37.826307
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 60700007 from 710013 at time 13/07/2022 12:21:37.826374
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:21:37.873948 
+root - INFO - tag b'SA/ele/a5/0006' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:21:37.874011
+root - INFO - tag b'SA/ele/a5/0006' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:21:37.874240...
+root - INFO - Checking of tag 56983700 in ACTIVITY started at  , time @ 13/07/2022 12:21:37.875565
+root - INFO - Checking of tag 56983700  in ACTIVITY Completed at  , time @ 13/07/2022 12:21:37.875721
+root - INFO - APPROVAL STATUS checking STARTED for  tag 56983700 at READER 1357137  @ 13/07/2022 12:21:37.875869
+root - INFO - APPROVAL STATUS CHECKED  for  tag 56983700 at READER 1357137  @ 13/07/2022 12:21:37.876033
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 56983700 from 710013 at time 13/07/2022 12:21:37.876252
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 56983700 from 710013 at time 13/07/2022 12:21:37.876321
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:21:39.451505 
+root - INFO - tag b'SA/ele/a5/0006' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:21:39.451655
+root - INFO - tag b'SA/ele/a5/0006' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:21:39.452133...
+root - INFO - Checking of tag 56983700 in ACTIVITY started at  , time @ 13/07/2022 12:21:39.453703
+root - INFO - Checking of tag 56983700  in ACTIVITY Completed at  , time @ 13/07/2022 12:21:39.453860
+root - INFO - APPROVAL STATUS checking STARTED for  tag 56983700 at READER 1357137  @ 13/07/2022 12:21:39.454015
+root - INFO - APPROVAL STATUS CHECKED  for  tag 56983700 at READER 1357137  @ 13/07/2022 12:21:39.454198
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 56983700 from 710013 at time 13/07/2022 12:21:39.454338
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 56983700 from 710013 at time 13/07/2022 12:21:39.454400
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:21:39.494112 
+root - INFO - tag b'SA/ele/a5/0010' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:21:39.494187
+root - INFO - tag b'SA/ele/a5/0010' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:21:39.494480...
+root - INFO - Checking of tag 61938776 in ACTIVITY started at  , time @ 13/07/2022 12:21:39.496248
+root - INFO - Checking of tag 61938776  in ACTIVITY Completed at  , time @ 13/07/2022 12:21:39.496546
+root - INFO - APPROVAL STATUS checking STARTED for  tag 61938776 at READER 1357137  @ 13/07/2022 12:21:39.496827
+root - INFO - APPROVAL STATUS CHECKED  for  tag 61938776 at READER 1357137  @ 13/07/2022 12:21:39.497086
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 61938776 from 710013 at time 13/07/2022 12:21:39.497249
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 61938776 from 710013 at time 13/07/2022 12:21:39.497339
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:21:39.569270 
+root - INFO - tag b'SA/ele/a5/0009' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:21:39.569332
+root - INFO - tag b'SA/ele/a5/0009' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:21:39.569581...
+root - INFO - Checking of tag 60700007 in ACTIVITY started at  , time @ 13/07/2022 12:21:39.570957
+root - INFO - Checking of tag 60700007  in ACTIVITY Completed at  , time @ 13/07/2022 12:21:39.571136
+root - INFO - APPROVAL STATUS checking STARTED for  tag 60700007 at READER 1357137  @ 13/07/2022 12:21:39.571294
+root - INFO - APPROVAL STATUS CHECKED  for  tag 60700007 at READER 1357137  @ 13/07/2022 12:21:39.571465
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 60700007 from 710013 at time 13/07/2022 12:21:39.571607
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 60700007 from 710013 at time 13/07/2022 12:21:39.571659
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:21:39.619422 
+root - INFO - tag b'SA/ele/a5/0004' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:21:39.619483
+root - INFO - tag b'SA/ele/a5/0004' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:21:39.619755...
+root - INFO - Checking of tag 54506162 in ACTIVITY started at  , time @ 13/07/2022 12:21:39.621228
+root - INFO - Checking of tag 54506162  in ACTIVITY Completed at  , time @ 13/07/2022 12:21:39.621399
+root - INFO - APPROVAL STATUS checking STARTED for  tag 54506162 at READER 1357137  @ 13/07/2022 12:21:39.621542
+root - INFO - APPROVAL STATUS CHECKED  for  tag 54506162 at READER 1357137  @ 13/07/2022 12:21:39.621718
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 54506162 from 710013 at time 13/07/2022 12:21:39.621813
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 54506162 from 710013 at time 13/07/2022 12:21:39.621862
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:21:39.711325 
+root - INFO - tag b'SA/ele/a5/0008' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:21:39.711387
+root - INFO - tag b'SA/ele/a5/0008' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:21:39.711650...
+root - INFO - Checking of tag 59461238 in ACTIVITY started at  , time @ 13/07/2022 12:21:39.713091
+root - INFO - Checking of tag 59461238  in ACTIVITY Completed at  , time @ 13/07/2022 12:21:39.713316
+root - INFO - APPROVAL STATUS checking STARTED for  tag 59461238 at READER 1357137  @ 13/07/2022 12:21:39.713509
+root - INFO - APPROVAL STATUS CHECKED  for  tag 59461238 at READER 1357137  @ 13/07/2022 12:21:39.713742
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 59461238 from 710013 at time 13/07/2022 12:21:39.713891
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 59461238 from 710013 at time 13/07/2022 12:21:39.713951
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:21:40.260474 
+root - INFO - tag b'SA/ele/a5/0006' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:21:40.260584
+root - INFO - tag b'SA/ele/a5/0006' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:21:40.260999...
+root - INFO - Checking of tag 56983700 in ACTIVITY started at  , time @ 13/07/2022 12:21:40.262685
+root - INFO - Checking of tag 56983700  in ACTIVITY Completed at  , time @ 13/07/2022 12:21:40.263098
+root - INFO - APPROVAL STATUS checking STARTED for  tag 56983700 at READER 1357137  @ 13/07/2022 12:21:40.263389
+root - INFO - APPROVAL STATUS CHECKED  for  tag 56983700 at READER 1357137  @ 13/07/2022 12:21:40.263683
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 56983700 from 710013 at time 13/07/2022 12:21:40.263930
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 56983700 from 710013 at time 13/07/2022 12:21:40.263999
+Status - INFO - mqtt client connected at time 13/07/2022 12:21:53
+Status - INFO - connected to reader 1357137 @ 2022-07-13
+Status - INFO - Scanning started for reader 1357137 at 13/07/2022 12:21:55
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:22:06.410472 
+root - INFO - tag b'SA/ele/a5/0010' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:22:06.410571
+root - INFO - tag b'SA/ele/a5/0010' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:22:06.410949...
+root - INFO - Checking of tag 61938776 in ACTIVITY started at  , time @ 13/07/2022 12:22:06.412693
+root - INFO - Checking of tag 61938776  in ACTIVITY Completed at  , time @ 13/07/2022 12:22:06.413028
+root - INFO - APPROVAL STATUS checking STARTED for  tag 61938776 at READER 1357137  @ 13/07/2022 12:22:06.413274
+root - INFO - APPROVAL STATUS CHECKED  for  tag 61938776 at READER 1357137  @ 13/07/2022 12:22:06.413460
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 61938776 from 710013 at time 13/07/2022 12:22:06.413689
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 61938776 from 710013 at time 13/07/2022 12:22:06.413784
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:22:06.997131 
+root - INFO - tag b'SA/ele/a5/0010' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:22:06.997275
+root - INFO - tag b'SA/ele/a5/0010' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:22:06.997671...
+root - INFO - Checking of tag 61938776 in ACTIVITY started at  , time @ 13/07/2022 12:22:06.999261
+root - INFO - Checking of tag 61938776  in ACTIVITY Completed at  , time @ 13/07/2022 12:22:06.999625
+root - INFO - APPROVAL STATUS checking STARTED for  tag 61938776 at READER 1357137  @ 13/07/2022 12:22:06.999930
+root - INFO - APPROVAL STATUS CHECKED  for  tag 61938776 at READER 1357137  @ 13/07/2022 12:22:07.000181
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 61938776 from 710013 at time 13/07/2022 12:22:07.000416
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 61938776 from 710013 at time 13/07/2022 12:22:07.000558
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:22:07.023731 
+root - INFO - tag b'SA/ele/a5/0004' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:22:07.023807
+root - INFO - tag b'SA/ele/a5/0004' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:22:07.024195...
+root - INFO - Checking of tag 54506162 in ACTIVITY started at  , time @ 13/07/2022 12:22:07.025698
+root - INFO - Checking of tag 54506162  in ACTIVITY Completed at  , time @ 13/07/2022 12:22:07.025883
+root - INFO - APPROVAL STATUS checking STARTED for  tag 54506162 at READER 1357137  @ 13/07/2022 12:22:07.026031
+root - INFO - APPROVAL STATUS CHECKED  for  tag 54506162 at READER 1357137  @ 13/07/2022 12:22:07.026173
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 54506162 from 710013 at time 13/07/2022 12:22:07.026324
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 54506162 from 710013 at time 13/07/2022 12:22:07.026451
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:22:07.601113 
+root - INFO - tag b'SA/ele/a5/0010' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:22:07.601250
+root - INFO - tag b'SA/ele/a5/0010' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:22:07.601639...
+root - INFO - Checking of tag 61938776 in ACTIVITY started at  , time @ 13/07/2022 12:22:07.603105
+root - INFO - Checking of tag 61938776  in ACTIVITY Completed at  , time @ 13/07/2022 12:22:07.603322
+root - INFO - APPROVAL STATUS checking STARTED for  tag 61938776 at READER 1357137  @ 13/07/2022 12:22:07.603547
+root - INFO - APPROVAL STATUS CHECKED  for  tag 61938776 at READER 1357137  @ 13/07/2022 12:22:07.603798
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 61938776 from 710013 at time 13/07/2022 12:22:07.604022
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 61938776 from 710013 at time 13/07/2022 12:22:07.604123
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:22:07.632437 
+root - INFO - tag b'SA/ele/a5/0004' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:22:07.632511
+root - INFO - tag b'SA/ele/a5/0004' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:22:07.632849...
+root - INFO - Checking of tag 54506162 in ACTIVITY started at  , time @ 13/07/2022 12:22:07.634373
+root - INFO - Checking of tag 54506162  in ACTIVITY Completed at  , time @ 13/07/2022 12:22:07.634603
+root - INFO - APPROVAL STATUS checking STARTED for  tag 54506162 at READER 1357137  @ 13/07/2022 12:22:07.634806
+root - INFO - APPROVAL STATUS CHECKED  for  tag 54506162 at READER 1357137  @ 13/07/2022 12:22:07.634983
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 54506162 from 710013 at time 13/07/2022 12:22:07.635175
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 54506162 from 710013 at time 13/07/2022 12:22:07.635283
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:22:08.738137 
+root - INFO - tag b'SA/ele/a5/0010' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:22:08.738298
+root - INFO - tag b'SA/ele/a5/0010' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:22:08.738697...
+root - INFO - Checking of tag 61938776 in ACTIVITY started at  , time @ 13/07/2022 12:22:08.740325
+root - INFO - Checking of tag 61938776  in ACTIVITY Completed at  , time @ 13/07/2022 12:22:08.740667
+root - INFO - APPROVAL STATUS checking STARTED for  tag 61938776 at READER 1357137  @ 13/07/2022 12:22:08.740906
+root - INFO - APPROVAL STATUS CHECKED  for  tag 61938776 at READER 1357137  @ 13/07/2022 12:22:08.741213
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 61938776 from 710013 at time 13/07/2022 12:22:08.741461
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 61938776 from 710013 at time 13/07/2022 12:22:08.741566
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:22:08.766348 
+root - INFO - tag b'SA/ele/a5/0006' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:22:08.766408
+root - INFO - tag b'SA/ele/a5/0006' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:22:08.766736...
+root - INFO - Checking of tag 56983700 in ACTIVITY started at  , time @ 13/07/2022 12:22:08.768317
+root - INFO - Checking of tag 56983700  in ACTIVITY Completed at  , time @ 13/07/2022 12:22:08.768600
+root - INFO - APPROVAL STATUS checking STARTED for  tag 56983700 at READER 1357137  @ 13/07/2022 12:22:08.768792
+root - INFO - APPROVAL STATUS CHECKED  for  tag 56983700 at READER 1357137  @ 13/07/2022 12:22:08.769030
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 56983700 from 710013 at time 13/07/2022 12:22:08.769175
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 56983700 from 710013 at time 13/07/2022 12:22:08.769251
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:22:08.791360 
+root - INFO - tag b'SA/ele/a5/0008' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:22:08.791441
+root - INFO - tag b'SA/ele/a5/0008' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:22:08.791769...
+root - INFO - Checking of tag 59461238 in ACTIVITY started at  , time @ 13/07/2022 12:22:08.793289
+root - INFO - Checking of tag 59461238  in ACTIVITY Completed at  , time @ 13/07/2022 12:22:08.793529
+root - INFO - APPROVAL STATUS checking STARTED for  tag 59461238 at READER 1357137  @ 13/07/2022 12:22:08.793700
+root - INFO - APPROVAL STATUS CHECKED  for  tag 59461238 at READER 1357137  @ 13/07/2022 12:22:08.793869
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 59461238 from 710013 at time 13/07/2022 12:22:08.794028
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 59461238 from 710013 at time 13/07/2022 12:22:08.794117
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:22:08.816432 
+root - INFO - tag b'SA/ele/a5/0004' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:22:08.816513
+root - INFO - tag b'SA/ele/a5/0004' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:22:08.816834...
+root - INFO - Checking of tag 54506162 in ACTIVITY started at  , time @ 13/07/2022 12:22:08.818328
+root - INFO - Checking of tag 54506162  in ACTIVITY Completed at  , time @ 13/07/2022 12:22:08.818516
+root - INFO - APPROVAL STATUS checking STARTED for  tag 54506162 at READER 1357137  @ 13/07/2022 12:22:08.818682
+root - INFO - APPROVAL STATUS CHECKED  for  tag 54506162 at READER 1357137  @ 13/07/2022 12:22:08.818836
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 54506162 from 710013 at time 13/07/2022 12:22:08.818929
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 54506162 from 710013 at time 13/07/2022 12:22:08.819002
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:22:10.436060 
+root - INFO - tag b'SA/ele/a5/0010' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:22:10.436158
+root - INFO - tag b'SA/ele/a5/0010' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:22:10.436519...
+root - INFO - Checking of tag 61938776 in ACTIVITY started at  , time @ 13/07/2022 12:22:10.438070
+root - INFO - Checking of tag 61938776  in ACTIVITY Completed at  , time @ 13/07/2022 12:22:10.438292
+root - INFO - APPROVAL STATUS checking STARTED for  tag 61938776 at READER 1357137  @ 13/07/2022 12:22:10.438475
+root - INFO - APPROVAL STATUS CHECKED  for  tag 61938776 at READER 1357137  @ 13/07/2022 12:22:10.438787
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 61938776 from 710013 at time 13/07/2022 12:22:10.439071
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 61938776 from 710013 at time 13/07/2022 12:22:10.439214
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:22:16.770673 
+root - INFO - tag b'SA/ele/a5/0004' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:22:16.770788
+root - INFO - tag b'SA/ele/a5/0004' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:22:16.771162...
+root - INFO - Checking of tag 54506162 in ACTIVITY started at  , time @ 13/07/2022 12:22:16.772764
+root - INFO - Checking of tag 54506162  in ACTIVITY Completed at  , time @ 13/07/2022 12:22:16.773001
+root - INFO - APPROVAL STATUS checking STARTED for  tag 54506162 at READER 1357137  @ 13/07/2022 12:22:16.773216
+root - INFO - APPROVAL STATUS CHECKED  for  tag 54506162 at READER 1357137  @ 13/07/2022 12:22:16.773528
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 54506162 from 710013 at time 13/07/2022 12:22:16.773740
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 54506162 from 710013 at time 13/07/2022 12:22:16.773877
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:22:17.336633 
+root - INFO - tag b'SA/ele/a5/0004' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:22:17.336757
+root - INFO - tag b'SA/ele/a5/0004' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:22:17.337149...
+root - INFO - Checking of tag 54506162 in ACTIVITY started at  , time @ 13/07/2022 12:22:17.338856
+root - INFO - Checking of tag 54506162  in ACTIVITY Completed at  , time @ 13/07/2022 12:22:17.339179
+root - INFO - APPROVAL STATUS checking STARTED for  tag 54506162 at READER 1357137  @ 13/07/2022 12:22:17.339339
+root - INFO - APPROVAL STATUS CHECKED  for  tag 54506162 at READER 1357137  @ 13/07/2022 12:22:17.339664
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 54506162 from 710013 at time 13/07/2022 12:22:17.339944
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 54506162 from 710013 at time 13/07/2022 12:22:17.340063
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:22:17.904621 
+root - INFO - tag b'SA/ele/a5/0004' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:22:17.904749
+root - INFO - tag b'SA/ele/a5/0004' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:22:17.905158...
+root - INFO - Checking of tag 54506162 in ACTIVITY started at  , time @ 13/07/2022 12:22:17.906845
+root - INFO - Checking of tag 54506162  in ACTIVITY Completed at  , time @ 13/07/2022 12:22:17.907187
+root - INFO - APPROVAL STATUS checking STARTED for  tag 54506162 at READER 1357137  @ 13/07/2022 12:22:17.907461
+root - INFO - APPROVAL STATUS CHECKED  for  tag 54506162 at READER 1357137  @ 13/07/2022 12:22:17.907757
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 54506162 from 710013 at time 13/07/2022 12:22:17.907955
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 54506162 from 710013 at time 13/07/2022 12:22:17.908058
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:22:43.649430 
+root - INFO - tag b'SA/ele/a5/0004' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:22:43.649568
+root - INFO - tag b'SA/ele/a5/0004' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:22:43.649954...
+root - INFO - Checking of tag 54506162 in ACTIVITY started at  , time @ 13/07/2022 12:22:43.651660
+root - INFO - Checking of tag 54506162  in ACTIVITY Completed at  , time @ 13/07/2022 12:22:43.651928
+root - INFO - APPROVAL STATUS checking STARTED for  tag 54506162 at READER 1357137  @ 13/07/2022 12:22:43.652151
+root - INFO - APPROVAL STATUS CHECKED  for  tag 54506162 at READER 1357137  @ 13/07/2022 12:22:43.652300
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 54506162 from 710013 at time 13/07/2022 12:22:43.652514
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 54506162 from 710013 at time 13/07/2022 12:22:43.652623
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:22:43.681952 
+root - INFO - tag b'SA/ele/a5/0008' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:22:43.682034
+root - INFO - tag b'SA/ele/a5/0008' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:22:43.682386...
+root - INFO - Checking of tag 59461238 in ACTIVITY started at  , time @ 13/07/2022 12:22:43.684004
+root - INFO - Checking of tag 59461238  in ACTIVITY Completed at  , time @ 13/07/2022 12:22:43.684380
+root - INFO - APPROVAL STATUS checking STARTED for  tag 59461238 at READER 1357137  @ 13/07/2022 12:22:43.684606
+root - INFO - APPROVAL STATUS CHECKED  for  tag 59461238 at READER 1357137  @ 13/07/2022 12:22:43.684868
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 59461238 from 710013 at time 13/07/2022 12:22:43.685175
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 59461238 from 710013 at time 13/07/2022 12:22:43.685290
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:22:44.249342 
+root - INFO - tag b'SA/ele/a5/0008' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:22:44.249452
+root - INFO - tag b'SA/ele/a5/0008' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:22:44.249831...
+root - INFO - Checking of tag 59461238 in ACTIVITY started at  , time @ 13/07/2022 12:22:44.251444
+root - INFO - Checking of tag 59461238  in ACTIVITY Completed at  , time @ 13/07/2022 12:22:44.251661
+root - INFO - APPROVAL STATUS checking STARTED for  tag 59461238 at READER 1357137  @ 13/07/2022 12:22:44.251872
+root - INFO - APPROVAL STATUS CHECKED  for  tag 59461238 at READER 1357137  @ 13/07/2022 12:22:44.252166
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 59461238 from 710013 at time 13/07/2022 12:22:44.252403
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 59461238 from 710013 at time 13/07/2022 12:22:44.252508
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:22:44.273939 
+root - INFO - tag b'SA/ele/a5/0004' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:22:44.274014
+root - INFO - tag b'SA/ele/a5/0004' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:22:44.274330...
+root - INFO - Checking of tag 54506162 in ACTIVITY started at  , time @ 13/07/2022 12:22:44.275895
+root - INFO - Checking of tag 54506162  in ACTIVITY Completed at  , time @ 13/07/2022 12:22:44.276188
+root - INFO - APPROVAL STATUS checking STARTED for  tag 54506162 at READER 1357137  @ 13/07/2022 12:22:44.276454
+root - INFO - APPROVAL STATUS CHECKED  for  tag 54506162 at READER 1357137  @ 13/07/2022 12:22:44.276720
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 54506162 from 710013 at time 13/07/2022 12:22:44.276893
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 54506162 from 710013 at time 13/07/2022 12:22:44.276974
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:22:44.839299 
+root - INFO - tag b'SA/ele/a5/0004' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:22:44.839399
+root - INFO - tag b'SA/ele/a5/0004' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:22:44.839737...
+root - INFO - Checking of tag 54506162 in ACTIVITY started at  , time @ 13/07/2022 12:22:44.841291
+root - INFO - Checking of tag 54506162  in ACTIVITY Completed at  , time @ 13/07/2022 12:22:44.841524
+root - INFO - APPROVAL STATUS checking STARTED for  tag 54506162 at READER 1357137  @ 13/07/2022 12:22:44.841677
+root - INFO - APPROVAL STATUS CHECKED  for  tag 54506162 at READER 1357137  @ 13/07/2022 12:22:44.841903
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 54506162 from 710013 at time 13/07/2022 12:22:44.842137
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 54506162 from 710013 at time 13/07/2022 12:22:44.842245
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:22:53.863861 
+root - INFO - tag b'SA/ele/a5/0008' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:22:53.863990
+root - INFO - tag b'SA/ele/a5/0008' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:22:53.864446...
+root - INFO - Checking of tag 59461238 in ACTIVITY started at  , time @ 13/07/2022 12:22:53.865905
+root - INFO - Checking of tag 59461238  in ACTIVITY Completed at  , time @ 13/07/2022 12:22:53.866194
+root - INFO - APPROVAL STATUS checking STARTED for  tag 59461238 at READER 1357137  @ 13/07/2022 12:22:53.866403
+root - INFO - APPROVAL STATUS CHECKED  for  tag 59461238 at READER 1357137  @ 13/07/2022 12:22:53.866631
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 59461238 from 710013 at time 13/07/2022 12:22:53.866819
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 59461238 from 710013 at time 13/07/2022 12:22:53.866928
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:22:55.419777 
+root - INFO - tag b'SA/ele/a5/0008' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:22:55.419911
+root - INFO - tag b'SA/ele/a5/0008' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:22:55.420338...
+root - INFO - Checking of tag 59461238 in ACTIVITY started at  , time @ 13/07/2022 12:22:55.421903
+root - INFO - Checking of tag 59461238  in ACTIVITY Completed at  , time @ 13/07/2022 12:22:55.422167
+root - INFO - APPROVAL STATUS checking STARTED for  tag 59461238 at READER 1357137  @ 13/07/2022 12:22:55.422342
+root - INFO - APPROVAL STATUS CHECKED  for  tag 59461238 at READER 1357137  @ 13/07/2022 12:22:55.422490
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 59461238 from 710013 at time 13/07/2022 12:22:55.422715
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 59461238 from 710013 at time 13/07/2022 12:22:55.422786
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:22:56.064871 
+root - INFO - tag b'SA/ele/a5/0006' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:22:56.064998
+root - INFO - tag b'SA/ele/a5/0006' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:22:56.065409...
+root - INFO - Checking of tag 56983700 in ACTIVITY started at  , time @ 13/07/2022 12:22:56.067040
+root - INFO - Checking of tag 56983700  in ACTIVITY Completed at  , time @ 13/07/2022 12:22:56.067344
+root - INFO - APPROVAL STATUS checking STARTED for  tag 56983700 at READER 1357137  @ 13/07/2022 12:22:56.067537
+root - INFO - APPROVAL STATUS CHECKED  for  tag 56983700 at READER 1357137  @ 13/07/2022 12:22:56.067846
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 56983700 from 710013 at time 13/07/2022 12:22:56.068019
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 56983700 from 710013 at time 13/07/2022 12:22:56.068090
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:22:56.096313 
+root - INFO - tag b'SA/ele/a5/0004' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:22:56.096373
+root - INFO - tag b'SA/ele/a5/0004' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:22:56.096712...
+root - INFO - Checking of tag 54506162 in ACTIVITY started at  , time @ 13/07/2022 12:22:56.098347
+root - INFO - Checking of tag 54506162  in ACTIVITY Completed at  , time @ 13/07/2022 12:22:56.098670
+root - INFO - APPROVAL STATUS checking STARTED for  tag 54506162 at READER 1357137  @ 13/07/2022 12:22:56.098886
+root - INFO - APPROVAL STATUS CHECKED  for  tag 54506162 at READER 1357137  @ 13/07/2022 12:22:56.099128
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 54506162 from 710013 at time 13/07/2022 12:22:56.099270
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 54506162 from 710013 at time 13/07/2022 12:22:56.099321
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:23:03.998401 
+root - INFO - tag b'SA/ele/a5/0004' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:23:03.998530
+root - INFO - tag b'SA/ele/a5/0004' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:23:03.998942...
+root - INFO - Checking of tag 54506162 in ACTIVITY started at  , time @ 13/07/2022 12:23:04.000755
+root - INFO - Checking of tag 54506162  in ACTIVITY Completed at  , time @ 13/07/2022 12:23:04.001026
+root - INFO - APPROVAL STATUS checking STARTED for  tag 54506162 at READER 1357137  @ 13/07/2022 12:23:04.001223
+root - INFO - APPROVAL STATUS CHECKED  for  tag 54506162 at READER 1357137  @ 13/07/2022 12:23:04.001460
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 54506162 from 710013 at time 13/07/2022 12:23:04.001608
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 54506162 from 710013 at time 13/07/2022 12:23:04.001680
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:23:04.559403 
+root - INFO - tag b'SA/ele/a5/0004' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:23:04.559515
+root - INFO - tag b'SA/ele/a5/0004' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:23:04.559876...
+root - INFO - Checking of tag 54506162 in ACTIVITY started at  , time @ 13/07/2022 12:23:04.561481
+root - INFO - Checking of tag 54506162  in ACTIVITY Completed at  , time @ 13/07/2022 12:23:04.561782
+root - INFO - APPROVAL STATUS checking STARTED for  tag 54506162 at READER 1357137  @ 13/07/2022 12:23:04.562005
+root - INFO - APPROVAL STATUS CHECKED  for  tag 54506162 at READER 1357137  @ 13/07/2022 12:23:04.562291
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 54506162 from 710013 at time 13/07/2022 12:23:04.562530
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 54506162 from 710013 at time 13/07/2022 12:23:04.562642
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:23:06.170267 
+root - INFO - tag b'SA/ele/a5/0004' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:23:06.170392
+root - INFO - tag b'SA/ele/a5/0004' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:23:06.170858...
+root - INFO - Checking of tag 54506162 in ACTIVITY started at  , time @ 13/07/2022 12:23:06.172471
+root - INFO - Checking of tag 54506162  in ACTIVITY Completed at  , time @ 13/07/2022 12:23:06.172789
+root - INFO - APPROVAL STATUS checking STARTED for  tag 54506162 at READER 1357137  @ 13/07/2022 12:23:06.173067
+root - INFO - APPROVAL STATUS CHECKED  for  tag 54506162 at READER 1357137  @ 13/07/2022 12:23:06.173332
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 54506162 from 710013 at time 13/07/2022 12:23:06.173529
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 54506162 from 710013 at time 13/07/2022 12:23:06.173600
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:23:07.796244 
+root - INFO - tag b'SA/ele/a5/0004' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:23:07.796374
+root - INFO - tag b'SA/ele/a5/0004' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:23:07.796788...
+root - INFO - Checking of tag 54506162 in ACTIVITY started at  , time @ 13/07/2022 12:23:07.798474
+root - INFO - Checking of tag 54506162  in ACTIVITY Completed at  , time @ 13/07/2022 12:23:07.798826
+root - INFO - APPROVAL STATUS checking STARTED for  tag 54506162 at READER 1357137  @ 13/07/2022 12:23:07.799050
+root - INFO - APPROVAL STATUS CHECKED  for  tag 54506162 at READER 1357137  @ 13/07/2022 12:23:07.799305
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 54506162 from 710013 at time 13/07/2022 12:23:07.799478
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 54506162 from 710013 at time 13/07/2022 12:23:07.799548
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:23:25.114421 
+root - INFO - tag b'SA/ele/a5/0006' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:23:25.114551
+root - INFO - tag b'SA/ele/a5/0006' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:23:25.114922...
+root - INFO - Checking of tag 56983700 in ACTIVITY started at  , time @ 13/07/2022 12:23:25.116664
+root - INFO - Checking of tag 56983700  in ACTIVITY Completed at  , time @ 13/07/2022 12:23:25.116880
+root - INFO - APPROVAL STATUS checking STARTED for  tag 56983700 at READER 1357137  @ 13/07/2022 12:23:25.117128
+root - INFO - APPROVAL STATUS CHECKED  for  tag 56983700 at READER 1357137  @ 13/07/2022 12:23:25.117454
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 56983700 from 710013 at time 13/07/2022 12:23:25.117716
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 56983700 from 710013 at time 13/07/2022 12:23:25.117817
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:23:26.731354 
+root - INFO - tag b'SA/ele/a5/0006' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:23:26.731483
+root - INFO - tag b'SA/ele/a5/0006' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:23:26.731899...
+root - INFO - Checking of tag 56983700 in ACTIVITY started at  , time @ 13/07/2022 12:23:26.733577
+root - INFO - Checking of tag 56983700  in ACTIVITY Completed at  , time @ 13/07/2022 12:23:26.733834
+root - INFO - APPROVAL STATUS checking STARTED for  tag 56983700 at READER 1357137  @ 13/07/2022 12:23:26.733950
+root - INFO - APPROVAL STATUS CHECKED  for  tag 56983700 at READER 1357137  @ 13/07/2022 12:23:26.734261
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 56983700 from 710013 at time 13/07/2022 12:23:26.734510
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 56983700 from 710013 at time 13/07/2022 12:23:26.734613
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:23:27.845362 
+root - INFO - tag b'SA/ele/a5/0009' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:23:27.845484
+root - INFO - tag b'SA/ele/a5/0009' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:23:27.845887...
+root - INFO - Checking of tag 60700007 in ACTIVITY started at  , time @ 13/07/2022 12:23:27.847574
+root - INFO - Checking of tag 60700007  in ACTIVITY Completed at  , time @ 13/07/2022 12:23:27.847771
+root - INFO - APPROVAL STATUS checking STARTED for  tag 60700007 at READER 1357137  @ 13/07/2022 12:23:27.848011
+root - INFO - APPROVAL STATUS CHECKED  for  tag 60700007 at READER 1357137  @ 13/07/2022 12:23:27.848320
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 60700007 from 710013 at time 13/07/2022 12:23:27.848547
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 60700007 from 710013 at time 13/07/2022 12:23:27.848631
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:23:27.885374 
+root - INFO - tag b'SA/ele/a5/0006' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:23:27.885435
+root - INFO - tag b'SA/ele/a5/0006' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:23:27.885754...
+root - INFO - Checking of tag 56983700 in ACTIVITY started at  , time @ 13/07/2022 12:23:27.887226
+root - INFO - Checking of tag 56983700  in ACTIVITY Completed at  , time @ 13/07/2022 12:23:27.887565
+root - INFO - APPROVAL STATUS checking STARTED for  tag 56983700 at READER 1357137  @ 13/07/2022 12:23:27.887805
+root - INFO - APPROVAL STATUS CHECKED  for  tag 56983700 at READER 1357137  @ 13/07/2022 12:23:27.888108
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 56983700 from 710013 at time 13/07/2022 12:23:27.888337
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 56983700 from 710013 at time 13/07/2022 12:23:27.888408
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:23:27.910464 
+root - INFO - tag b'SA/ele/a5/0004' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:23:27.910540
+root - INFO - tag b'SA/ele/a5/0004' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:23:27.910858...
+root - INFO - Checking of tag 54506162 in ACTIVITY started at  , time @ 13/07/2022 12:23:27.912490
+root - INFO - Checking of tag 54506162  in ACTIVITY Completed at  , time @ 13/07/2022 12:23:27.912705
+root - INFO - APPROVAL STATUS checking STARTED for  tag 54506162 at READER 1357137  @ 13/07/2022 12:23:27.912935
+root - INFO - APPROVAL STATUS CHECKED  for  tag 54506162 at READER 1357137  @ 13/07/2022 12:23:27.913144
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 54506162 from 710013 at time 13/07/2022 12:23:27.913268
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 54506162 from 710013 at time 13/07/2022 12:23:27.913319
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:23:28.476290 
+root - INFO - tag b'SA/ele/a5/0009' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:23:28.476401
+root - INFO - tag b'SA/ele/a5/0009' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:23:28.476788...
+root - INFO - Checking of tag 60700007 in ACTIVITY started at  , time @ 13/07/2022 12:23:28.478489
+root - INFO - Checking of tag 60700007  in ACTIVITY Completed at  , time @ 13/07/2022 12:23:28.478781
+root - INFO - APPROVAL STATUS checking STARTED for  tag 60700007 at READER 1357137  @ 13/07/2022 12:23:28.478996
+root - INFO - APPROVAL STATUS CHECKED  for  tag 60700007 at READER 1357137  @ 13/07/2022 12:23:28.479280
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 60700007 from 710013 at time 13/07/2022 12:23:28.479565
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 60700007 from 710013 at time 13/07/2022 12:23:28.479633
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:23:28.502504 
+root - INFO - tag b'SA/ele/a5/0006' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:23:28.502585
+root - INFO - tag b'SA/ele/a5/0006' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:23:28.502931...
+root - INFO - Checking of tag 56983700 in ACTIVITY started at  , time @ 13/07/2022 12:23:28.504494
+root - INFO - Checking of tag 56983700  in ACTIVITY Completed at  , time @ 13/07/2022 12:23:28.504688
+root - INFO - APPROVAL STATUS checking STARTED for  tag 56983700 at READER 1357137  @ 13/07/2022 12:23:28.504932
+root - INFO - APPROVAL STATUS CHECKED  for  tag 56983700 at READER 1357137  @ 13/07/2022 12:23:28.505188
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 56983700 from 710013 at time 13/07/2022 12:23:28.505449
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 56983700 from 710013 at time 13/07/2022 12:23:28.505514
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:23:28.535904 
+root - INFO - tag b'SA/ele/a5/0004' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:23:28.535976
+root - INFO - tag b'SA/ele/a5/0004' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:23:28.536310...
+root - INFO - Checking of tag 54506162 in ACTIVITY started at  , time @ 13/07/2022 12:23:28.537894
+root - INFO - Checking of tag 54506162  in ACTIVITY Completed at  , time @ 13/07/2022 12:23:28.538116
+root - INFO - APPROVAL STATUS checking STARTED for  tag 54506162 at READER 1357137  @ 13/07/2022 12:23:28.538229
+root - INFO - APPROVAL STATUS CHECKED  for  tag 54506162 at READER 1357137  @ 13/07/2022 12:23:28.538437
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 54506162 from 710013 at time 13/07/2022 12:23:28.538636
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 54506162 from 710013 at time 13/07/2022 12:23:28.538690
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:23:29.110284 
+root - INFO - tag b'SA/ele/a5/0006' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:23:29.110405
+root - INFO - tag b'SA/ele/a5/0006' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:23:29.110802...
+root - INFO - Checking of tag 56983700 in ACTIVITY started at  , time @ 13/07/2022 12:23:29.112454
+root - INFO - Checking of tag 56983700  in ACTIVITY Completed at  , time @ 13/07/2022 12:23:29.112715
+root - INFO - APPROVAL STATUS checking STARTED for  tag 56983700 at READER 1357137  @ 13/07/2022 12:23:29.112910
+root - INFO - APPROVAL STATUS CHECKED  for  tag 56983700 at READER 1357137  @ 13/07/2022 12:23:29.113098
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 56983700 from 710013 at time 13/07/2022 12:23:29.113292
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 56983700 from 710013 at time 13/07/2022 12:23:29.113349
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:23:29.144606 
+root - INFO - tag b'SA/ele/a5/0004' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:23:29.144688
+root - INFO - tag b'SA/ele/a5/0004' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:23:29.145031...
+root - INFO - Checking of tag 54506162 in ACTIVITY started at  , time @ 13/07/2022 12:23:29.146680
+root - INFO - Checking of tag 54506162  in ACTIVITY Completed at  , time @ 13/07/2022 12:23:29.146897
+root - INFO - APPROVAL STATUS checking STARTED for  tag 54506162 at READER 1357137  @ 13/07/2022 12:23:29.147105
+root - INFO - APPROVAL STATUS CHECKED  for  tag 54506162 at READER 1357137  @ 13/07/2022 12:23:29.147380
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 54506162 from 710013 at time 13/07/2022 12:23:29.147626
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 54506162 from 710013 at time 13/07/2022 12:23:29.147691
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:24:57.948380 
+root - INFO - tag b'SA/ele/a5/0008' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:24:57.948510
+root - INFO - tag b'SA/ele/a5/0008' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:24:57.948926...
+root - INFO - Checking of tag 59461238 in ACTIVITY started at  , time @ 13/07/2022 12:24:57.950661
+root - INFO - Checking of tag 59461238  in ACTIVITY Completed at  , time @ 13/07/2022 12:24:57.950924
+root - INFO - APPROVAL STATUS checking STARTED for  tag 59461238 at READER 1357137  @ 13/07/2022 12:24:57.951071
+root - INFO - APPROVAL STATUS CHECKED  for  tag 59461238 at READER 1357137  @ 13/07/2022 12:24:57.951259
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 59461238 from 710013 at time 13/07/2022 12:24:57.951491
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 59461238 from 710013 at time 13/07/2022 12:24:57.951575
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:24:58.498358 
+root - INFO - tag b'SA/ele/a5/0009' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:24:58.498471
+root - INFO - tag b'SA/ele/a5/0009' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:24:58.498845...
+root - INFO - Checking of tag 60700007 in ACTIVITY started at  , time @ 13/07/2022 12:24:58.500534
+root - INFO - Checking of tag 60700007  in ACTIVITY Completed at  , time @ 13/07/2022 12:24:58.500783
+root - INFO - APPROVAL STATUS checking STARTED for  tag 60700007 at READER 1357137  @ 13/07/2022 12:24:58.500948
+root - INFO - APPROVAL STATUS CHECKED  for  tag 60700007 at READER 1357137  @ 13/07/2022 12:24:58.501191
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 60700007 from 710013 at time 13/07/2022 12:24:58.501420
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 60700007 from 710013 at time 13/07/2022 12:24:58.501571
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:24:59.061361 
+root - INFO - tag b'SA/ele/a5/0008' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:24:59.061462
+root - INFO - tag b'SA/ele/a5/0008' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:24:59.061837...
+root - INFO - Checking of tag 59461238 in ACTIVITY started at  , time @ 13/07/2022 12:24:59.063555
+root - INFO - Checking of tag 59461238  in ACTIVITY Completed at  , time @ 13/07/2022 12:24:59.063822
+root - INFO - APPROVAL STATUS checking STARTED for  tag 59461238 at READER 1357137  @ 13/07/2022 12:24:59.064055
+root - INFO - APPROVAL STATUS CHECKED  for  tag 59461238 at READER 1357137  @ 13/07/2022 12:24:59.064300
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 59461238 from 710013 at time 13/07/2022 12:24:59.064462
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 59461238 from 710013 at time 13/07/2022 12:24:59.064554
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:24:59.092336 
+root - INFO - tag b'SA/ele/a5/0004' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:24:59.092411
+root - INFO - tag b'SA/ele/a5/0004' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:24:59.092748...
+root - INFO - Checking of tag 54506162 in ACTIVITY started at  , time @ 13/07/2022 12:24:59.094403
+root - INFO - Checking of tag 54506162  in ACTIVITY Completed at  , time @ 13/07/2022 12:24:59.094670
+root - INFO - APPROVAL STATUS checking STARTED for  tag 54506162 at READER 1357137  @ 13/07/2022 12:24:59.094874
+root - INFO - APPROVAL STATUS CHECKED  for  tag 54506162 at READER 1357137  @ 13/07/2022 12:24:59.095141
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 54506162 from 710013 at time 13/07/2022 12:24:59.095377
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 54506162 from 710013 at time 13/07/2022 12:24:59.095476
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:24:59.663367 
+root - INFO - tag b'SA/ele/a5/0010' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:24:59.663492
+root - INFO - tag b'SA/ele/a5/0010' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:24:59.663858...
+root - INFO - Checking of tag 61938776 in ACTIVITY started at  , time @ 13/07/2022 12:24:59.665582
+root - INFO - Checking of tag 61938776  in ACTIVITY Completed at  , time @ 13/07/2022 12:24:59.665924
+root - INFO - APPROVAL STATUS checking STARTED for  tag 61938776 at READER 1357137  @ 13/07/2022 12:24:59.666203
+root - INFO - APPROVAL STATUS CHECKED  for  tag 61938776 at READER 1357137  @ 13/07/2022 12:24:59.666512
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 61938776 from 710013 at time 13/07/2022 12:24:59.666719
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 61938776 from 710013 at time 13/07/2022 12:24:59.666780
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:24:59.701055 
+root - INFO - tag b'SA/ele/a5/0006' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:24:59.701132
+root - INFO - tag b'SA/ele/a5/0006' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:24:59.701503...
+root - INFO - Checking of tag 56983700 in ACTIVITY started at  , time @ 13/07/2022 12:24:59.703142
+root - INFO - Checking of tag 56983700  in ACTIVITY Completed at  , time @ 13/07/2022 12:24:59.703464
+root - INFO - APPROVAL STATUS checking STARTED for  tag 56983700 at READER 1357137  @ 13/07/2022 12:24:59.703714
+root - INFO - APPROVAL STATUS CHECKED  for  tag 56983700 at READER 1357137  @ 13/07/2022 12:24:59.703922
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 56983700 from 710013 at time 13/07/2022 12:24:59.704065
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 56983700 from 710013 at time 13/07/2022 12:24:59.704120
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:24:59.726026 
+root - INFO - tag b'SA/ele/a5/0008' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:24:59.726103
+root - INFO - tag b'SA/ele/a5/0008' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:24:59.726399...
+root - INFO - Checking of tag 59461238 in ACTIVITY started at  , time @ 13/07/2022 12:24:59.727941
+root - INFO - Checking of tag 59461238  in ACTIVITY Completed at  , time @ 13/07/2022 12:24:59.728280
+root - INFO - APPROVAL STATUS checking STARTED for  tag 59461238 at READER 1357137  @ 13/07/2022 12:24:59.728452
+root - INFO - APPROVAL STATUS CHECKED  for  tag 59461238 at READER 1357137  @ 13/07/2022 12:24:59.728685
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 59461238 from 710013 at time 13/07/2022 12:24:59.728885
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 59461238 from 710013 at time 13/07/2022 12:24:59.728939
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:24:59.751190 
+root - INFO - tag b'SA/ele/a5/0004' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:24:59.751251
+root - INFO - tag b'SA/ele/a5/0004' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:24:59.751504...
+root - INFO - Checking of tag 54506162 in ACTIVITY started at  , time @ 13/07/2022 12:24:59.752924
+root - INFO - Checking of tag 54506162  in ACTIVITY Completed at  , time @ 13/07/2022 12:24:59.753109
+root - INFO - APPROVAL STATUS checking STARTED for  tag 54506162 at READER 1357137  @ 13/07/2022 12:24:59.753209
+root - INFO - APPROVAL STATUS CHECKED  for  tag 54506162 at READER 1357137  @ 13/07/2022 12:24:59.753399
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 54506162 from 710013 at time 13/07/2022 12:24:59.753580
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 54506162 from 710013 at time 13/07/2022 12:24:59.753642
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:25:00.334360 
+root - INFO - tag b'SA/ele/a5/0010' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:25:00.334494
+root - INFO - tag b'SA/ele/a5/0010' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:25:00.334910...
+root - INFO - Checking of tag 61938776 in ACTIVITY started at  , time @ 13/07/2022 12:25:00.336570
+root - INFO - Checking of tag 61938776  in ACTIVITY Completed at  , time @ 13/07/2022 12:25:00.336949
+root - INFO - APPROVAL STATUS checking STARTED for  tag 61938776 at READER 1357137  @ 13/07/2022 12:25:00.337218
+root - INFO - APPROVAL STATUS CHECKED  for  tag 61938776 at READER 1357137  @ 13/07/2022 12:25:00.337517
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 61938776 from 710013 at time 13/07/2022 12:25:00.337747
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 61938776 from 710013 at time 13/07/2022 12:25:00.337818
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:25:00.489238 
+root - INFO - tag b'SA/ele/a5/0006' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:25:00.489309
+root - INFO - tag b'SA/ele/a5/0006' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:25:00.489505...
+root - INFO - Checking of tag 56983700 in ACTIVITY started at  , time @ 13/07/2022 12:25:00.491104
+root - INFO - Checking of tag 56983700  in ACTIVITY Completed at  , time @ 13/07/2022 12:25:00.491429
+root - INFO - APPROVAL STATUS checking STARTED for  tag 56983700 at READER 1357137  @ 13/07/2022 12:25:00.491716
+root - INFO - APPROVAL STATUS CHECKED  for  tag 56983700 at READER 1357137  @ 13/07/2022 12:25:00.492027
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 56983700 from 710013 at time 13/07/2022 12:25:00.492222
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 56983700 from 710013 at time 13/07/2022 12:25:00.492290
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:25:00.568659 
+root - INFO - tag b'SA/ele/a5/0004' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:25:00.568730
+root - INFO - tag b'SA/ele/a5/0004' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:25:00.568946...
+root - INFO - Checking of tag 54506162 in ACTIVITY started at  , time @ 13/07/2022 12:25:00.570445
+root - INFO - Checking of tag 54506162  in ACTIVITY Completed at  , time @ 13/07/2022 12:25:00.570712
+root - INFO - APPROVAL STATUS checking STARTED for  tag 54506162 at READER 1357137  @ 13/07/2022 12:25:00.570911
+root - INFO - APPROVAL STATUS CHECKED  for  tag 54506162 at READER 1357137  @ 13/07/2022 12:25:00.571131
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 54506162 from 710013 at time 13/07/2022 12:25:00.571293
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 54506162 from 710013 at time 13/07/2022 12:25:00.571354
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:25:00.693746 
+root - INFO - tag b'SA/ele/a5/0008' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:25:00.693815
+root - INFO - tag b'SA/ele/a5/0008' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:25:00.694111...
+root - INFO - Checking of tag 59461238 in ACTIVITY started at  , time @ 13/07/2022 12:25:00.695599
+root - INFO - Checking of tag 59461238  in ACTIVITY Completed at  , time @ 13/07/2022 12:25:00.695834
+root - INFO - APPROVAL STATUS checking STARTED for  tag 59461238 at READER 1357137  @ 13/07/2022 12:25:00.696025
+root - INFO - APPROVAL STATUS CHECKED  for  tag 59461238 at READER 1357137  @ 13/07/2022 12:25:00.696174
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 59461238 from 710013 at time 13/07/2022 12:25:00.696324
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 59461238 from 710013 at time 13/07/2022 12:25:00.696379
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:25:01.246253 
+root - INFO - tag b'SA/ele/a5/0010' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:25:01.246361
+root - INFO - tag b'SA/ele/a5/0010' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:25:01.246743...
+root - INFO - Checking of tag 61938776 in ACTIVITY started at  , time @ 13/07/2022 12:25:01.248419
+root - INFO - Checking of tag 61938776  in ACTIVITY Completed at  , time @ 13/07/2022 12:25:01.248698
+root - INFO - APPROVAL STATUS checking STARTED for  tag 61938776 at READER 1357137  @ 13/07/2022 12:25:01.248965
+root - INFO - APPROVAL STATUS CHECKED  for  tag 61938776 at READER 1357137  @ 13/07/2022 12:25:01.249183
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 61938776 from 710013 at time 13/07/2022 12:25:01.249373
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 61938776 from 710013 at time 13/07/2022 12:25:01.249432
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:25:02.346205 
+root - INFO - tag b'SA/ele/a5/0004' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:25:02.346327
+root - INFO - tag b'SA/ele/a5/0004' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:25:02.346735...
+root - INFO - Checking of tag 54506162 in ACTIVITY started at  , time @ 13/07/2022 12:25:02.348438
+root - INFO - Checking of tag 54506162  in ACTIVITY Completed at  , time @ 13/07/2022 12:25:02.348806
+root - INFO - APPROVAL STATUS checking STARTED for  tag 54506162 at READER 1357137  @ 13/07/2022 12:25:02.349029
+root - INFO - APPROVAL STATUS CHECKED  for  tag 54506162 at READER 1357137  @ 13/07/2022 12:25:02.349222
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 54506162 from 710013 at time 13/07/2022 12:25:02.349468
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 54506162 from 710013 at time 13/07/2022 12:25:02.349542
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:25:10.231999 
+root - INFO - tag b'SA/ele/a5/0009' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:25:10.232125
+root - INFO - tag b'SA/ele/a5/0009' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:25:10.232544...
+root - INFO - Checking of tag 60700007 in ACTIVITY started at  , time @ 13/07/2022 12:25:10.234175
+root - INFO - Checking of tag 60700007  in ACTIVITY Completed at  , time @ 13/07/2022 12:25:10.234443
+root - INFO - APPROVAL STATUS checking STARTED for  tag 60700007 at READER 1357137  @ 13/07/2022 12:25:10.234621
+root - INFO - APPROVAL STATUS CHECKED  for  tag 60700007 at READER 1357137  @ 13/07/2022 12:25:10.234846
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 60700007 from 710013 at time 13/07/2022 12:25:10.235084
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 60700007 from 710013 at time 13/07/2022 12:25:10.235169
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:25:16.058682 
+root - INFO - tag b'SA/ele/a5/0009' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:25:16.058813
+root - INFO - tag b'SA/ele/a5/0009' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:25:16.059234...
+root - INFO - Checking of tag 60700007 in ACTIVITY started at  , time @ 13/07/2022 12:25:16.060944
+root - INFO - Checking of tag 60700007  in ACTIVITY Completed at  , time @ 13/07/2022 12:25:16.061301
+root - INFO - APPROVAL STATUS checking STARTED for  tag 60700007 at READER 1357137  @ 13/07/2022 12:25:16.061566
+root - INFO - APPROVAL STATUS CHECKED  for  tag 60700007 at READER 1357137  @ 13/07/2022 12:25:16.061814
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 60700007 from 710013 at time 13/07/2022 12:25:16.062064
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 60700007 from 710013 at time 13/07/2022 12:25:16.062165
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:25:16.117744 
+root - INFO - tag b'SA/ele/a5/0008' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:25:16.117842
+root - INFO - tag b'SA/ele/a5/0008' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:25:16.118143...
+root - INFO - Checking of tag 59461238 in ACTIVITY started at  , time @ 13/07/2022 12:25:16.119756
+root - INFO - Checking of tag 59461238  in ACTIVITY Completed at  , time @ 13/07/2022 12:25:16.120061
+root - INFO - APPROVAL STATUS checking STARTED for  tag 59461238 at READER 1357137  @ 13/07/2022 12:25:16.120274
+root - INFO - APPROVAL STATUS CHECKED  for  tag 59461238 at READER 1357137  @ 13/07/2022 12:25:16.120588
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 59461238 from 710013 at time 13/07/2022 12:25:16.120873
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 59461238 from 710013 at time 13/07/2022 12:25:16.120939
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:25:16.674634 
+root - INFO - tag b'SA/ele/a5/0009' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:25:16.674735
+root - INFO - tag b'SA/ele/a5/0009' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:25:16.675091...
+root - INFO - Checking of tag 60700007 in ACTIVITY started at  , time @ 13/07/2022 12:25:16.676696
+root - INFO - Checking of tag 60700007  in ACTIVITY Completed at  , time @ 13/07/2022 12:25:16.676942
+root - INFO - APPROVAL STATUS checking STARTED for  tag 60700007 at READER 1357137  @ 13/07/2022 12:25:16.677130
+root - INFO - APPROVAL STATUS CHECKED  for  tag 60700007 at READER 1357137  @ 13/07/2022 12:25:16.677377
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 60700007 from 710013 at time 13/07/2022 12:25:16.677579
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 60700007 from 710013 at time 13/07/2022 12:25:16.677646
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:25:17.770590 
+root - INFO - tag b'SA/ele/a5/0009' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:25:17.770714
+root - INFO - tag b'SA/ele/a5/0009' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:25:17.771120...
+root - INFO - Checking of tag 60700007 in ACTIVITY started at  , time @ 13/07/2022 12:25:17.772742
+root - INFO - Checking of tag 60700007  in ACTIVITY Completed at  , time @ 13/07/2022 12:25:17.773066
+root - INFO - APPROVAL STATUS checking STARTED for  tag 60700007 at READER 1357137  @ 13/07/2022 12:25:17.773346
+root - INFO - APPROVAL STATUS CHECKED  for  tag 60700007 at READER 1357137  @ 13/07/2022 12:25:17.773625
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 60700007 from 710013 at time 13/07/2022 12:25:17.773862
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 60700007 from 710013 at time 13/07/2022 12:25:17.773954
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:25:17.801905 
+root - INFO - tag b'SA/ele/a5/0004' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:25:17.801970
+root - INFO - tag b'SA/ele/a5/0004' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:25:17.802305...
+root - INFO - Checking of tag 54506162 in ACTIVITY started at  , time @ 13/07/2022 12:25:17.803834
+root - INFO - Checking of tag 54506162  in ACTIVITY Completed at  , time @ 13/07/2022 12:25:17.804173
+root - INFO - APPROVAL STATUS checking STARTED for  tag 54506162 at READER 1357137  @ 13/07/2022 12:25:17.804457
+root - INFO - APPROVAL STATUS CHECKED  for  tag 54506162 at READER 1357137  @ 13/07/2022 12:25:17.804684
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 54506162 from 710013 at time 13/07/2022 12:25:17.804857
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 54506162 from 710013 at time 13/07/2022 12:25:17.804908
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:25:17.835363 
+root - INFO - tag b'SA/ele/a5/0008' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:25:17.835444
+root - INFO - tag b'SA/ele/a5/0008' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:25:17.835763...
+root - INFO - Checking of tag 59461238 in ACTIVITY started at  , time @ 13/07/2022 12:25:17.837288
+root - INFO - Checking of tag 59461238  in ACTIVITY Completed at  , time @ 13/07/2022 12:25:17.837580
+root - INFO - APPROVAL STATUS checking STARTED for  tag 59461238 at READER 1357137  @ 13/07/2022 12:25:17.837776
+root - INFO - APPROVAL STATUS CHECKED  for  tag 59461238 at READER 1357137  @ 13/07/2022 12:25:17.837901
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 59461238 from 710013 at time 13/07/2022 12:25:17.838153
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 59461238 from 710013 at time 13/07/2022 12:25:17.838215
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:25:18.412599 
+root - INFO - tag b'SA/ele/a5/0009' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:25:18.412708
+root - INFO - tag b'SA/ele/a5/0009' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:25:18.413087...
+root - INFO - Checking of tag 60700007 in ACTIVITY started at  , time @ 13/07/2022 12:25:18.414751
+root - INFO - Checking of tag 60700007  in ACTIVITY Completed at  , time @ 13/07/2022 12:25:18.415013
+root - INFO - APPROVAL STATUS checking STARTED for  tag 60700007 at READER 1357137  @ 13/07/2022 12:25:18.415186
+root - INFO - APPROVAL STATUS CHECKED  for  tag 60700007 at READER 1357137  @ 13/07/2022 12:25:18.415431
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 60700007 from 710013 at time 13/07/2022 12:25:18.415661
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 60700007 from 710013 at time 13/07/2022 12:25:18.415780
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:25:18.452393 
+root - INFO - tag b'SA/ele/a5/0004' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:25:18.452474
+root - INFO - tag b'SA/ele/a5/0004' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:25:18.452806...
+root - INFO - Checking of tag 54506162 in ACTIVITY started at  , time @ 13/07/2022 12:25:18.454416
+root - INFO - Checking of tag 54506162  in ACTIVITY Completed at  , time @ 13/07/2022 12:25:18.454681
+root - INFO - APPROVAL STATUS checking STARTED for  tag 54506162 at READER 1357137  @ 13/07/2022 12:25:18.454948
+root - INFO - APPROVAL STATUS CHECKED  for  tag 54506162 at READER 1357137  @ 13/07/2022 12:25:18.455272
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 54506162 from 710013 at time 13/07/2022 12:25:18.455561
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 54506162 from 710013 at time 13/07/2022 12:25:18.455625
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:25:18.477383 
+root - INFO - tag b'SA/ele/a5/0008' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:25:18.477456
+root - INFO - tag b'SA/ele/a5/0008' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:25:18.477792...
+root - INFO - Checking of tag 59461238 in ACTIVITY started at  , time @ 13/07/2022 12:25:18.479253
+root - INFO - Checking of tag 59461238  in ACTIVITY Completed at  , time @ 13/07/2022 12:25:18.479583
+root - INFO - APPROVAL STATUS checking STARTED for  tag 59461238 at READER 1357137  @ 13/07/2022 12:25:18.479830
+root - INFO - APPROVAL STATUS CHECKED  for  tag 59461238 at READER 1357137  @ 13/07/2022 12:25:18.480074
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 59461238 from 710013 at time 13/07/2022 12:25:18.480227
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 59461238 from 710013 at time 13/07/2022 12:25:18.480281
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:25:19.042576 
+root - INFO - tag b'SA/ele/a5/0009' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:25:19.042690
+root - INFO - tag b'SA/ele/a5/0009' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:25:19.043087...
+root - INFO - Checking of tag 60700007 in ACTIVITY started at  , time @ 13/07/2022 12:25:19.044755
+root - INFO - Checking of tag 60700007  in ACTIVITY Completed at  , time @ 13/07/2022 12:25:19.045051
+root - INFO - APPROVAL STATUS checking STARTED for  tag 60700007 at READER 1357137  @ 13/07/2022 12:25:19.045315
+root - INFO - APPROVAL STATUS CHECKED  for  tag 60700007 at READER 1357137  @ 13/07/2022 12:25:19.045564
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 60700007 from 710013 at time 13/07/2022 12:25:19.045774
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 60700007 from 710013 at time 13/07/2022 12:25:19.045869
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:25:19.070699 
+root - INFO - tag b'SA/ele/a5/0008' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:25:19.070774
+root - INFO - tag b'SA/ele/a5/0008' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:25:19.071101...
+root - INFO - Checking of tag 59461238 in ACTIVITY started at  , time @ 13/07/2022 12:25:19.072540
+root - INFO - Checking of tag 59461238  in ACTIVITY Completed at  , time @ 13/07/2022 12:25:19.072726
+root - INFO - APPROVAL STATUS checking STARTED for  tag 59461238 at READER 1357137  @ 13/07/2022 12:25:19.072888
+root - INFO - APPROVAL STATUS CHECKED  for  tag 59461238 at READER 1357137  @ 13/07/2022 12:25:19.073141
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 59461238 from 710013 at time 13/07/2022 12:25:19.073367
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 59461238 from 710013 at time 13/07/2022 12:25:19.073433
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:25:19.094628 
+root - INFO - tag b'SA/ele/a5/0004' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:25:19.094705
+root - INFO - tag b'SA/ele/a5/0004' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:25:19.095016...
+root - INFO - Checking of tag 54506162 in ACTIVITY started at  , time @ 13/07/2022 12:25:19.096576
+root - INFO - Checking of tag 54506162  in ACTIVITY Completed at  , time @ 13/07/2022 12:25:19.096883
+root - INFO - APPROVAL STATUS checking STARTED for  tag 54506162 at READER 1357137  @ 13/07/2022 12:25:19.097152
+root - INFO - APPROVAL STATUS CHECKED  for  tag 54506162 at READER 1357137  @ 13/07/2022 12:25:19.097432
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 54506162 from 710013 at time 13/07/2022 12:25:19.097542
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 54506162 from 710013 at time 13/07/2022 12:25:19.097597
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:25:20.708523 
+root - INFO - tag b'SA/ele/a5/0009' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:25:20.708651
+root - INFO - tag b'SA/ele/a5/0009' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:25:20.709070...
+root - INFO - Checking of tag 60700007 in ACTIVITY started at  , time @ 13/07/2022 12:25:20.710757
+root - INFO - Checking of tag 60700007  in ACTIVITY Completed at  , time @ 13/07/2022 12:25:20.711053
+root - INFO - APPROVAL STATUS checking STARTED for  tag 60700007 at READER 1357137  @ 13/07/2022 12:25:20.711248
+root - INFO - APPROVAL STATUS CHECKED  for  tag 60700007 at READER 1357137  @ 13/07/2022 12:25:20.711469
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 60700007 from 710013 at time 13/07/2022 12:25:20.711624
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 60700007 from 710013 at time 13/07/2022 12:25:20.711696
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:25:31.742990 
+root - INFO - tag b'SA/ele/a5/0004' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:25:31.743119
+root - INFO - tag b'SA/ele/a5/0004' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:25:31.743535...
+root - INFO - Checking of tag 54506162 in ACTIVITY started at  , time @ 13/07/2022 12:25:31.745235
+root - INFO - Checking of tag 54506162  in ACTIVITY Completed at  , time @ 13/07/2022 12:25:31.745493
+root - INFO - APPROVAL STATUS checking STARTED for  tag 54506162 at READER 1357137  @ 13/07/2022 12:25:31.745660
+root - INFO - APPROVAL STATUS CHECKED  for  tag 54506162 at READER 1357137  @ 13/07/2022 12:25:31.745870
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 54506162 from 710013 at time 13/07/2022 12:25:31.746040
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 54506162 from 710013 at time 13/07/2022 12:25:31.746130
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:25:32.856965 
+root - INFO - tag b'SA/ele/a5/0008' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:25:32.857093
+root - INFO - tag b'SA/ele/a5/0008' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:25:32.857504...
+root - INFO - Checking of tag 59461238 in ACTIVITY started at  , time @ 13/07/2022 12:25:32.859116
+root - INFO - Checking of tag 59461238  in ACTIVITY Completed at  , time @ 13/07/2022 12:25:32.859337
+root - INFO - APPROVAL STATUS checking STARTED for  tag 59461238 at READER 1357137  @ 13/07/2022 12:25:32.859577
+root - INFO - APPROVAL STATUS CHECKED  for  tag 59461238 at READER 1357137  @ 13/07/2022 12:25:32.859842
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 59461238 from 710013 at time 13/07/2022 12:25:32.860105
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 59461238 from 710013 at time 13/07/2022 12:25:32.860237
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:25:32.892398 
+root - INFO - tag b'SA/ele/a5/0004' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:25:32.892489
+root - INFO - tag b'SA/ele/a5/0004' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:25:32.892768...
+root - INFO - Checking of tag 54506162 in ACTIVITY started at  , time @ 13/07/2022 12:25:32.894301
+root - INFO - Checking of tag 54506162  in ACTIVITY Completed at  , time @ 13/07/2022 12:25:32.894618
+root - INFO - APPROVAL STATUS checking STARTED for  tag 54506162 at READER 1357137  @ 13/07/2022 12:25:32.894858
+root - INFO - APPROVAL STATUS CHECKED  for  tag 54506162 at READER 1357137  @ 13/07/2022 12:25:32.895147
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 54506162 from 710013 at time 13/07/2022 12:25:32.895357
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 54506162 from 710013 at time 13/07/2022 12:25:32.895424
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:25:33.981944 
+root - INFO - tag b'SA/ele/a5/0004' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:25:33.982075
+root - INFO - tag b'SA/ele/a5/0004' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:25:33.982475...
+root - INFO - Checking of tag 54506162 in ACTIVITY started at  , time @ 13/07/2022 12:25:33.984093
+root - INFO - Checking of tag 54506162  in ACTIVITY Completed at  , time @ 13/07/2022 12:25:33.984358
+root - INFO - APPROVAL STATUS checking STARTED for  tag 54506162 at READER 1357137  @ 13/07/2022 12:25:33.984597
+root - INFO - APPROVAL STATUS CHECKED  for  tag 54506162 at READER 1357137  @ 13/07/2022 12:25:33.984854
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 54506162 from 710013 at time 13/07/2022 12:25:33.985067
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 54506162 from 710013 at time 13/07/2022 12:25:33.985170
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:25:34.009819 
+root - INFO - tag b'SA/ele/a5/0008' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:25:34.009884
+root - INFO - tag b'SA/ele/a5/0008' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:25:34.010236...
+root - INFO - Checking of tag 59461238 in ACTIVITY started at  , time @ 13/07/2022 12:25:34.011843
+root - INFO - Checking of tag 59461238  in ACTIVITY Completed at  , time @ 13/07/2022 12:25:34.012085
+root - INFO - APPROVAL STATUS checking STARTED for  tag 59461238 at READER 1357137  @ 13/07/2022 12:25:34.012325
+root - INFO - APPROVAL STATUS CHECKED  for  tag 59461238 at READER 1357137  @ 13/07/2022 12:25:34.012592
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 59461238 from 710013 at time 13/07/2022 12:25:34.012808
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 59461238 from 710013 at time 13/07/2022 12:25:34.012890
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:25:34.591934 
+root - INFO - tag b'SA/ele/a5/0008' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:25:34.592035
+root - INFO - tag b'SA/ele/a5/0008' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:25:34.592381...
+root - INFO - Checking of tag 59461238 in ACTIVITY started at  , time @ 13/07/2022 12:25:34.593953
+root - INFO - Checking of tag 59461238  in ACTIVITY Completed at  , time @ 13/07/2022 12:25:34.594169
+root - INFO - APPROVAL STATUS checking STARTED for  tag 59461238 at READER 1357137  @ 13/07/2022 12:25:34.594401
+root - INFO - APPROVAL STATUS CHECKED  for  tag 59461238 at READER 1357137  @ 13/07/2022 12:25:34.594661
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 59461238 from 710013 at time 13/07/2022 12:25:34.594872
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 59461238 from 710013 at time 13/07/2022 12:25:34.594941
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:25:34.618518 
+root - INFO - tag b'SA/ele/a5/0004' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:25:34.618593
+root - INFO - tag b'SA/ele/a5/0004' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:25:34.618920...
+root - INFO - Checking of tag 54506162 in ACTIVITY started at  , time @ 13/07/2022 12:25:34.620577
+root - INFO - Checking of tag 54506162  in ACTIVITY Completed at  , time @ 13/07/2022 12:25:34.620772
+root - INFO - APPROVAL STATUS checking STARTED for  tag 54506162 at READER 1357137  @ 13/07/2022 12:25:34.620938
+root - INFO - APPROVAL STATUS CHECKED  for  tag 54506162 at READER 1357137  @ 13/07/2022 12:25:34.621122
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 54506162 from 710013 at time 13/07/2022 12:25:34.621272
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 54506162 from 710013 at time 13/07/2022 12:25:34.621324
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:25:35.213863 
+root - INFO - tag b'SA/ele/a5/0004' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:25:35.214021
+root - INFO - tag b'SA/ele/a5/0004' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:25:35.214432...
+root - INFO - Checking of tag 54506162 in ACTIVITY started at  , time @ 13/07/2022 12:25:35.216050
+root - INFO - Checking of tag 54506162  in ACTIVITY Completed at  , time @ 13/07/2022 12:25:35.216248
+root - INFO - APPROVAL STATUS checking STARTED for  tag 54506162 at READER 1357137  @ 13/07/2022 12:25:35.216486
+root - INFO - APPROVAL STATUS CHECKED  for  tag 54506162 at READER 1357137  @ 13/07/2022 12:25:35.216757
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 54506162 from 710013 at time 13/07/2022 12:25:35.216977
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 54506162 from 710013 at time 13/07/2022 12:25:35.217040
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:25:35.260766 
+root - INFO - tag b'SA/ele/a5/0008' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:25:35.260833
+root - INFO - tag b'SA/ele/a5/0008' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:25:35.261206...
+root - INFO - Checking of tag 59461238 in ACTIVITY started at  , time @ 13/07/2022 12:25:35.262888
+root - INFO - Checking of tag 59461238  in ACTIVITY Completed at  , time @ 13/07/2022 12:25:35.263200
+root - INFO - APPROVAL STATUS checking STARTED for  tag 59461238 at READER 1357137  @ 13/07/2022 12:25:35.263433
+root - INFO - APPROVAL STATUS CHECKED  for  tag 59461238 at READER 1357137  @ 13/07/2022 12:25:35.263735
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 59461238 from 710013 at time 13/07/2022 12:25:35.263931
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 59461238 from 710013 at time 13/07/2022 12:25:35.263999
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:25:36.311825 
+root - INFO - tag b'SA/ele/a5/0004' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:25:36.311952
+root - INFO - tag b'SA/ele/a5/0004' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:25:36.312375...
+root - INFO - Checking of tag 54506162 in ACTIVITY started at  , time @ 13/07/2022 12:25:36.313922
+root - INFO - Checking of tag 54506162  in ACTIVITY Completed at  , time @ 13/07/2022 12:25:36.314249
+root - INFO - APPROVAL STATUS checking STARTED for  tag 54506162 at READER 1357137  @ 13/07/2022 12:25:36.314436
+root - INFO - APPROVAL STATUS CHECKED  for  tag 54506162 at READER 1357137  @ 13/07/2022 12:25:36.314717
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 54506162 from 710013 at time 13/07/2022 12:25:36.315014
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 54506162 from 710013 at time 13/07/2022 12:25:36.315087
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:25:36.868810 
+root - INFO - tag b'SA/ele/a5/0004' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:25:36.868926
+root - INFO - tag b'SA/ele/a5/0004' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:25:36.869320...
+root - INFO - Checking of tag 54506162 in ACTIVITY started at  , time @ 13/07/2022 12:25:36.871003
+root - INFO - Checking of tag 54506162  in ACTIVITY Completed at  , time @ 13/07/2022 12:25:36.871340
+root - INFO - APPROVAL STATUS checking STARTED for  tag 54506162 at READER 1357137  @ 13/07/2022 12:25:36.871571
+root - INFO - APPROVAL STATUS CHECKED  for  tag 54506162 at READER 1357137  @ 13/07/2022 12:25:36.871826
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 54506162 from 710013 at time 13/07/2022 12:25:36.872072
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 54506162 from 710013 at time 13/07/2022 12:25:36.872142
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:25:45.807463 
+root - INFO - tag b'SA/ele/a5/0008' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:25:45.807574
+root - INFO - tag b'SA/ele/a5/0008' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:25:45.807980...
+root - INFO - Checking of tag 59461238 in ACTIVITY started at  , time @ 13/07/2022 12:25:45.809604
+root - INFO - Checking of tag 59461238  in ACTIVITY Completed at  , time @ 13/07/2022 12:25:45.810014
+root - INFO - APPROVAL STATUS checking STARTED for  tag 59461238 at READER 1357137  @ 13/07/2022 12:25:45.810242
+root - INFO - APPROVAL STATUS CHECKED  for  tag 59461238 at READER 1357137  @ 13/07/2022 12:25:45.810543
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 59461238 from 710013 at time 13/07/2022 12:25:45.810837
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 59461238 from 710013 at time 13/07/2022 12:25:45.810923
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:25:49.001322 
+root - INFO - tag b'SA/ele/a5/0010' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:25:49.001424
+root - INFO - tag b'SA/ele/a5/0010' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:25:49.001773...
+root - INFO - Checking of tag 61938776 in ACTIVITY started at  , time @ 13/07/2022 12:25:49.003361
+root - INFO - Checking of tag 61938776  in ACTIVITY Completed at  , time @ 13/07/2022 12:25:49.003634
+root - INFO - APPROVAL STATUS checking STARTED for  tag 61938776 at READER 1357137  @ 13/07/2022 12:25:49.003841
+root - INFO - APPROVAL STATUS CHECKED  for  tag 61938776 at READER 1357137  @ 13/07/2022 12:25:49.004086
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 61938776 from 710013 at time 13/07/2022 12:25:49.004273
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 61938776 from 710013 at time 13/07/2022 12:25:49.004349
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:25:51.118273 
+root - INFO - tag b'SA/ele/a5/0009' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:25:51.118411
+root - INFO - tag b'SA/ele/a5/0009' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:25:51.118835...
+root - INFO - Checking of tag 60700007 in ACTIVITY started at  , time @ 13/07/2022 12:25:51.120553
+root - INFO - Checking of tag 60700007  in ACTIVITY Completed at  , time @ 13/07/2022 12:25:51.120878
+root - INFO - APPROVAL STATUS checking STARTED for  tag 60700007 at READER 1357137  @ 13/07/2022 12:25:51.121173
+root - INFO - APPROVAL STATUS CHECKED  for  tag 60700007 at READER 1357137  @ 13/07/2022 12:25:51.121444
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 60700007 from 710013 at time 13/07/2022 12:25:51.121746
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 60700007 from 710013 at time 13/07/2022 12:25:51.121808
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:25:52.757230 
+root - INFO - tag b'SA/ele/a5/0008' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:25:52.757335
+root - INFO - tag b'SA/ele/a5/0008' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:25:52.757755...
+root - INFO - Checking of tag 59461238 in ACTIVITY started at  , time @ 13/07/2022 12:25:52.759493
+root - INFO - Checking of tag 59461238  in ACTIVITY Completed at  , time @ 13/07/2022 12:25:52.759773
+root - INFO - APPROVAL STATUS checking STARTED for  tag 59461238 at READER 1357137  @ 13/07/2022 12:25:52.760019
+root - INFO - APPROVAL STATUS CHECKED  for  tag 59461238 at READER 1357137  @ 13/07/2022 12:25:52.760309
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 59461238 from 710013 at time 13/07/2022 12:25:52.760544
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 59461238 from 710013 at time 13/07/2022 12:25:52.760621
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:26:02.762826 
+root - INFO - tag b'SA/ele/a5/0008' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:26:02.762997
+root - INFO - tag b'SA/ele/a5/0008' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:26:02.763398...
+root - INFO - Checking of tag 59461238 in ACTIVITY started at  , time @ 13/07/2022 12:26:02.765119
+root - INFO - Checking of tag 59461238  in ACTIVITY Completed at  , time @ 13/07/2022 12:26:02.765435
+root - INFO - APPROVAL STATUS checking STARTED for  tag 59461238 at READER 1357137  @ 13/07/2022 12:26:02.765698
+root - INFO - APPROVAL STATUS CHECKED  for  tag 59461238 at READER 1357137  @ 13/07/2022 12:26:02.765940
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 59461238 from 710013 at time 13/07/2022 12:26:02.766170
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 59461238 from 710013 at time 13/07/2022 12:26:02.766240
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:26:15.898259 
+root - INFO - tag b'SA/ele/a5/0008' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:26:15.898396
+root - INFO - tag b'SA/ele/a5/0008' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:26:15.898821...
+root - INFO - Checking of tag 59461238 in ACTIVITY started at  , time @ 13/07/2022 12:26:15.900531
+root - INFO - Checking of tag 59461238  in ACTIVITY Completed at  , time @ 13/07/2022 12:26:15.900828
+root - INFO - APPROVAL STATUS checking STARTED for  tag 59461238 at READER 1357137  @ 13/07/2022 12:26:15.901125
+root - INFO - APPROVAL STATUS CHECKED  for  tag 59461238 at READER 1357137  @ 13/07/2022 12:26:15.901316
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 59461238 from 710013 at time 13/07/2022 12:26:15.901495
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 59461238 from 710013 at time 13/07/2022 12:26:15.901566
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:26:16.453328 
+root - INFO - tag b'SA/ele/a5/0008' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:26:16.453430
+root - INFO - tag b'SA/ele/a5/0008' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:26:16.453824...
+root - INFO - Checking of tag 59461238 in ACTIVITY started at  , time @ 13/07/2022 12:26:16.455521
+root - INFO - Checking of tag 59461238  in ACTIVITY Completed at  , time @ 13/07/2022 12:26:16.455799
+root - INFO - APPROVAL STATUS checking STARTED for  tag 59461238 at READER 1357137  @ 13/07/2022 12:26:16.456104
+root - INFO - APPROVAL STATUS CHECKED  for  tag 59461238 at READER 1357137  @ 13/07/2022 12:26:16.456390
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 59461238 from 710013 at time 13/07/2022 12:26:16.456628
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 59461238 from 710013 at time 13/07/2022 12:26:16.456711
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:26:17.012236 
+root - INFO - tag b'SA/ele/a5/0009' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:26:17.012361
+root - INFO - tag b'SA/ele/a5/0009' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:26:17.012753...
+root - INFO - Checking of tag 60700007 in ACTIVITY started at  , time @ 13/07/2022 12:26:17.014472
+root - INFO - Checking of tag 60700007  in ACTIVITY Completed at  , time @ 13/07/2022 12:26:17.014833
+root - INFO - APPROVAL STATUS checking STARTED for  tag 60700007 at READER 1357137  @ 13/07/2022 12:26:17.015125
+root - INFO - APPROVAL STATUS CHECKED  for  tag 60700007 at READER 1357137  @ 13/07/2022 12:26:17.015346
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 60700007 from 710013 at time 13/07/2022 12:26:17.015519
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 60700007 from 710013 at time 13/07/2022 12:26:17.015576
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:26:17.038802 
+root - INFO - tag b'SA/ele/a5/0008' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:26:17.038876
+root - INFO - tag b'SA/ele/a5/0008' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:26:17.039241...
+root - INFO - Checking of tag 59461238 in ACTIVITY started at  , time @ 13/07/2022 12:26:17.040807
+root - INFO - Checking of tag 59461238  in ACTIVITY Completed at  , time @ 13/07/2022 12:26:17.041092
+root - INFO - APPROVAL STATUS checking STARTED for  tag 59461238 at READER 1357137  @ 13/07/2022 12:26:17.041338
+root - INFO - APPROVAL STATUS CHECKED  for  tag 59461238 at READER 1357137  @ 13/07/2022 12:26:17.041590
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 59461238 from 710013 at time 13/07/2022 12:26:17.041835
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 59461238 from 710013 at time 13/07/2022 12:26:17.041900
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:26:19.709153 
+root - INFO - tag b'SA/ele/a5/0009' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:26:19.709297
+root - INFO - tag b'SA/ele/a5/0009' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:26:19.709742...
+root - INFO - Checking of tag 60700007 in ACTIVITY started at  , time @ 13/07/2022 12:26:19.711440
+root - INFO - Checking of tag 60700007  in ACTIVITY Completed at  , time @ 13/07/2022 12:26:19.711750
+root - INFO - APPROVAL STATUS checking STARTED for  tag 60700007 at READER 1357137  @ 13/07/2022 12:26:19.711941
+root - INFO - APPROVAL STATUS CHECKED  for  tag 60700007 at READER 1357137  @ 13/07/2022 12:26:19.712166
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 60700007 from 710013 at time 13/07/2022 12:26:19.712319
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 60700007 from 710013 at time 13/07/2022 12:26:19.712384
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:26:19.740003 
+root - INFO - tag b'SA/ele/a5/0008' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:26:19.740077
+root - INFO - tag b'SA/ele/a5/0008' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:26:19.740424...
+root - INFO - Checking of tag 59461238 in ACTIVITY started at  , time @ 13/07/2022 12:26:19.742016
+root - INFO - Checking of tag 59461238  in ACTIVITY Completed at  , time @ 13/07/2022 12:26:19.742208
+root - INFO - APPROVAL STATUS checking STARTED for  tag 59461238 at READER 1357137  @ 13/07/2022 12:26:19.742357
+root - INFO - APPROVAL STATUS CHECKED  for  tag 59461238 at READER 1357137  @ 13/07/2022 12:26:19.742562
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 59461238 from 710013 at time 13/07/2022 12:26:19.742798
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 59461238 from 710013 at time 13/07/2022 12:26:19.742864
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:26:35.533623 
+root - INFO - tag b'SA/ele/a5/0006' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:26:35.533742
+root - INFO - tag b'SA/ele/a5/0006' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:26:35.534077...
+root - INFO - Checking of tag 56983700 in ACTIVITY started at  , time @ 13/07/2022 12:26:35.535646
+root - INFO - Checking of tag 56983700  in ACTIVITY Completed at  , time @ 13/07/2022 12:26:35.535964
+root - INFO - APPROVAL STATUS checking STARTED for  tag 56983700 at READER 1357137  @ 13/07/2022 12:26:35.536186
+root - INFO - APPROVAL STATUS CHECKED  for  tag 56983700 at READER 1357137  @ 13/07/2022 12:26:35.536476
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 56983700 from 710013 at time 13/07/2022 12:26:35.536705
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 56983700 from 710013 at time 13/07/2022 12:26:35.536778
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:26:35.658099 
+root - INFO - tag b'SA/ele/a5/0004' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:26:35.658202
+root - INFO - tag b'SA/ele/a5/0004' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:26:35.658500...
+root - INFO - Checking of tag 54506162 in ACTIVITY started at  , time @ 13/07/2022 12:26:35.660051
+root - INFO - Checking of tag 54506162  in ACTIVITY Completed at  , time @ 13/07/2022 12:26:35.660264
+root - INFO - APPROVAL STATUS checking STARTED for  tag 54506162 at READER 1357137  @ 13/07/2022 12:26:35.660474
+root - INFO - APPROVAL STATUS CHECKED  for  tag 54506162 at READER 1357137  @ 13/07/2022 12:26:35.660703
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 54506162 from 710013 at time 13/07/2022 12:26:35.660863
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 54506162 from 710013 at time 13/07/2022 12:26:35.660933
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:26:36.320538 
+root - INFO - tag b'SA/ele/a5/0008' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:26:36.320662
+root - INFO - tag b'SA/ele/a5/0008' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:26:36.321056...
+root - INFO - Checking of tag 59461238 in ACTIVITY started at  , time @ 13/07/2022 12:26:36.322718
+root - INFO - Checking of tag 59461238  in ACTIVITY Completed at  , time @ 13/07/2022 12:26:36.323037
+root - INFO - APPROVAL STATUS checking STARTED for  tag 59461238 at READER 1357137  @ 13/07/2022 12:26:36.323270
+root - INFO - APPROVAL STATUS CHECKED  for  tag 59461238 at READER 1357137  @ 13/07/2022 12:26:36.323564
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 59461238 from 710013 at time 13/07/2022 12:26:36.323813
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 59461238 from 710013 at time 13/07/2022 12:26:36.323973
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:26:37.395486 
+root - INFO - tag b'SA/ele/a5/0006' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:26:37.395622
+root - INFO - tag b'SA/ele/a5/0006' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:26:37.396041...
+root - INFO - Checking of tag 56983700 in ACTIVITY started at  , time @ 13/07/2022 12:26:37.397757
+root - INFO - Checking of tag 56983700  in ACTIVITY Completed at  , time @ 13/07/2022 12:26:37.398030
+root - INFO - APPROVAL STATUS checking STARTED for  tag 56983700 at READER 1357137  @ 13/07/2022 12:26:37.398274
+root - INFO - APPROVAL STATUS CHECKED  for  tag 56983700 at READER 1357137  @ 13/07/2022 12:26:37.398589
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 56983700 from 710013 at time 13/07/2022 12:26:37.398817
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 56983700 from 710013 at time 13/07/2022 12:26:37.398967
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:26:37.423093 
+root - INFO - tag b'SA/ele/a5/0004' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:26:37.423153
+root - INFO - tag b'SA/ele/a5/0004' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:26:37.423414...
+root - INFO - Checking of tag 54506162 in ACTIVITY started at  , time @ 13/07/2022 12:26:37.424819
+root - INFO - Checking of tag 54506162  in ACTIVITY Completed at  , time @ 13/07/2022 12:26:37.425028
+root - INFO - APPROVAL STATUS checking STARTED for  tag 54506162 at READER 1357137  @ 13/07/2022 12:26:37.425179
+root - INFO - APPROVAL STATUS CHECKED  for  tag 54506162 at READER 1357137  @ 13/07/2022 12:26:37.425366
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 54506162 from 710013 at time 13/07/2022 12:26:37.425502
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 54506162 from 710013 at time 13/07/2022 12:26:37.425553
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:26:38.002463 
+root - INFO - tag b'SA/ele/a5/0009' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:26:38.002573
+root - INFO - tag b'SA/ele/a5/0009' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:26:38.002979...
+root - INFO - Checking of tag 60700007 in ACTIVITY started at  , time @ 13/07/2022 12:26:38.004657
+root - INFO - Checking of tag 60700007  in ACTIVITY Completed at  , time @ 13/07/2022 12:26:38.004888
+root - INFO - APPROVAL STATUS checking STARTED for  tag 60700007 at READER 1357137  @ 13/07/2022 12:26:38.005078
+root - INFO - APPROVAL STATUS CHECKED  for  tag 60700007 at READER 1357137  @ 13/07/2022 12:26:38.005256
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 60700007 from 710013 at time 13/07/2022 12:26:38.005401
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 60700007 from 710013 at time 13/07/2022 12:26:38.005484
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:26:38.023454 
+root - INFO - tag b'SA/ele/a5/0006' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:26:38.023529
+root - INFO - tag b'SA/ele/a5/0006' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:26:38.023846...
+root - INFO - Checking of tag 56983700 in ACTIVITY started at  , time @ 13/07/2022 12:26:38.025441
+root - INFO - Checking of tag 56983700  in ACTIVITY Completed at  , time @ 13/07/2022 12:26:38.025697
+root - INFO - APPROVAL STATUS checking STARTED for  tag 56983700 at READER 1357137  @ 13/07/2022 12:26:38.025841
+root - INFO - APPROVAL STATUS CHECKED  for  tag 56983700 at READER 1357137  @ 13/07/2022 12:26:38.026029
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 56983700 from 710013 at time 13/07/2022 12:26:38.026216
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 56983700 from 710013 at time 13/07/2022 12:26:38.026286
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:26:38.048422 
+root - INFO - tag b'SA/ele/a5/0008' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:26:38.048482
+root - INFO - tag b'SA/ele/a5/0008' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:26:38.048733...
+root - INFO - Checking of tag 59461238 in ACTIVITY started at  , time @ 13/07/2022 12:26:38.050190
+root - INFO - Checking of tag 59461238  in ACTIVITY Completed at  , time @ 13/07/2022 12:26:38.050408
+root - INFO - APPROVAL STATUS checking STARTED for  tag 59461238 at READER 1357137  @ 13/07/2022 12:26:38.050628
+root - INFO - APPROVAL STATUS CHECKED  for  tag 59461238 at READER 1357137  @ 13/07/2022 12:26:38.050803
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 59461238 from 710013 at time 13/07/2022 12:26:38.050927
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 59461238 from 710013 at time 13/07/2022 12:26:38.050979
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:26:38.081842 
+root - INFO - tag b'SA/ele/a5/0004' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:26:38.081902
+root - INFO - tag b'SA/ele/a5/0004' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:26:38.082099...
+root - INFO - Checking of tag 54506162 in ACTIVITY started at  , time @ 13/07/2022 12:26:38.083430
+root - INFO - Checking of tag 54506162  in ACTIVITY Completed at  , time @ 13/07/2022 12:26:38.083600
+root - INFO - APPROVAL STATUS checking STARTED for  tag 54506162 at READER 1357137  @ 13/07/2022 12:26:38.083786
+root - INFO - APPROVAL STATUS CHECKED  for  tag 54506162 at READER 1357137  @ 13/07/2022 12:26:38.084005
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 54506162 from 710013 at time 13/07/2022 12:26:38.084155
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 54506162 from 710013 at time 13/07/2022 12:26:38.084206
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:26:38.673420 
+root - INFO - tag b'SA/ele/a5/0009' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:26:38.673526
+root - INFO - tag b'SA/ele/a5/0009' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:26:38.673914...
+root - INFO - Checking of tag 60700007 in ACTIVITY started at  , time @ 13/07/2022 12:26:38.675508
+root - INFO - Checking of tag 60700007  in ACTIVITY Completed at  , time @ 13/07/2022 12:26:38.675787
+root - INFO - APPROVAL STATUS checking STARTED for  tag 60700007 at READER 1357137  @ 13/07/2022 12:26:38.675981
+root - INFO - APPROVAL STATUS CHECKED  for  tag 60700007 at READER 1357137  @ 13/07/2022 12:26:38.676289
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 60700007 from 710013 at time 13/07/2022 12:26:38.676541
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 60700007 from 710013 at time 13/07/2022 12:26:38.676608
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:26:38.707226 
+root - INFO - tag b'SA/ele/a5/0006' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:26:38.707286
+root - INFO - tag b'SA/ele/a5/0006' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:26:38.707632...
+root - INFO - Checking of tag 56983700 in ACTIVITY started at  , time @ 13/07/2022 12:26:38.709240
+root - INFO - Checking of tag 56983700  in ACTIVITY Completed at  , time @ 13/07/2022 12:26:38.709548
+root - INFO - APPROVAL STATUS checking STARTED for  tag 56983700 at READER 1357137  @ 13/07/2022 12:26:38.709796
+root - INFO - APPROVAL STATUS CHECKED  for  tag 56983700 at READER 1357137  @ 13/07/2022 12:26:38.709945
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 56983700 from 710013 at time 13/07/2022 12:26:38.710119
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 56983700 from 710013 at time 13/07/2022 12:26:38.710172
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:26:38.740627 
+root - INFO - tag b'SA/ele/a5/0004' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:26:38.740707
+root - INFO - tag b'SA/ele/a5/0004' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:26:38.741063...
+root - INFO - Checking of tag 54506162 in ACTIVITY started at  , time @ 13/07/2022 12:26:38.742608
+root - INFO - Checking of tag 54506162  in ACTIVITY Completed at  , time @ 13/07/2022 12:26:38.742955
+root - INFO - APPROVAL STATUS checking STARTED for  tag 54506162 at READER 1357137  @ 13/07/2022 12:26:38.743267
+root - INFO - APPROVAL STATUS CHECKED  for  tag 54506162 at READER 1357137  @ 13/07/2022 12:26:38.743462
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 54506162 from 710013 at time 13/07/2022 12:26:38.743603
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 54506162 from 710013 at time 13/07/2022 12:26:38.743654
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:26:39.297414 
+root - INFO - tag b'SA/ele/a5/0009' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:26:39.297540
+root - INFO - tag b'SA/ele/a5/0009' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:26:39.297929...
+root - INFO - Checking of tag 60700007 in ACTIVITY started at  , time @ 13/07/2022 12:26:39.299559
+root - INFO - Checking of tag 60700007  in ACTIVITY Completed at  , time @ 13/07/2022 12:26:39.299816
+root - INFO - APPROVAL STATUS checking STARTED for  tag 60700007 at READER 1357137  @ 13/07/2022 12:26:39.300123
+root - INFO - APPROVAL STATUS CHECKED  for  tag 60700007 at READER 1357137  @ 13/07/2022 12:26:39.300407
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 60700007 from 710013 at time 13/07/2022 12:26:39.300615
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 60700007 from 710013 at time 13/07/2022 12:26:39.300685
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:26:39.324885 
+root - INFO - tag b'SA/ele/a5/0006' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:26:39.324966
+root - INFO - tag b'SA/ele/a5/0006' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:26:39.325295...
+root - INFO - Checking of tag 56983700 in ACTIVITY started at  , time @ 13/07/2022 12:26:39.326883
+root - INFO - Checking of tag 56983700  in ACTIVITY Completed at  , time @ 13/07/2022 12:26:39.327202
+root - INFO - APPROVAL STATUS checking STARTED for  tag 56983700 at READER 1357137  @ 13/07/2022 12:26:39.327452
+root - INFO - APPROVAL STATUS CHECKED  for  tag 56983700 at READER 1357137  @ 13/07/2022 12:26:39.327696
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 56983700 from 710013 at time 13/07/2022 12:26:39.327995
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 56983700 from 710013 at time 13/07/2022 12:26:39.328088
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:26:39.357729 
+root - INFO - tag b'SA/ele/a5/0004' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:26:39.357792
+root - INFO - tag b'SA/ele/a5/0004' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:26:39.358017...
+root - INFO - Checking of tag 54506162 in ACTIVITY started at  , time @ 13/07/2022 12:26:39.359458
+root - INFO - Checking of tag 54506162  in ACTIVITY Completed at  , time @ 13/07/2022 12:26:39.359676
+root - INFO - APPROVAL STATUS checking STARTED for  tag 54506162 at READER 1357137  @ 13/07/2022 12:26:39.359861
+root - INFO - APPROVAL STATUS CHECKED  for  tag 54506162 at READER 1357137  @ 13/07/2022 12:26:39.360045
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 54506162 from 710013 at time 13/07/2022 12:26:39.360194
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 54506162 from 710013 at time 13/07/2022 12:26:39.360245
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:26:39.391180 
+root - INFO - tag b'SA/ele/a5/0008' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:26:39.391240
+root - INFO - tag b'SA/ele/a5/0008' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:26:39.391521...
+root - INFO - Checking of tag 59461238 in ACTIVITY started at  , time @ 13/07/2022 12:26:39.392985
+root - INFO - Checking of tag 59461238  in ACTIVITY Completed at  , time @ 13/07/2022 12:26:39.393203
+root - INFO - APPROVAL STATUS checking STARTED for  tag 59461238 at READER 1357137  @ 13/07/2022 12:26:39.393392
+root - INFO - APPROVAL STATUS CHECKED  for  tag 59461238 at READER 1357137  @ 13/07/2022 12:26:39.393616
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 59461238 from 710013 at time 13/07/2022 12:26:39.393775
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 59461238 from 710013 at time 13/07/2022 12:26:39.393825
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:27:11.926180 
+root - INFO - tag b'SA/ele/a5/0004' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:27:11.926321
+root - INFO - tag b'SA/ele/a5/0004' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:27:11.926776...
+root - INFO - Checking of tag 54506162 in ACTIVITY started at  , time @ 13/07/2022 12:27:11.928404
+root - INFO - Checking of tag 54506162  in ACTIVITY Completed at  , time @ 13/07/2022 12:27:11.928730
+root - INFO - APPROVAL STATUS checking STARTED for  tag 54506162 at READER 1357137  @ 13/07/2022 12:27:11.928968
+root - INFO - APPROVAL STATUS CHECKED  for  tag 54506162 at READER 1357137  @ 13/07/2022 12:27:11.929255
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 54506162 from 710013 at time 13/07/2022 12:27:11.929436
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 54506162 from 710013 at time 13/07/2022 12:27:11.929508
+root - INFO - tags scanned successfully at reader 1357137 @ 13/07/2022 12:27:12.618119 
+root - INFO - tag b'SA/ele/a5/0004' VALIDATION STARTED scanned from READER 1357137  at 13/07/2022 12:27:12.618251
+root - INFO - tag b'SA/ele/a5/0004' in VALIDATION ENDS scanned from READER 1357137  @ 13/07/2022 12:27:12.618649...
+root - INFO - Checking of tag 54506162 in ACTIVITY started at  , time @ 13/07/2022 12:27:12.620341
+root - INFO - Checking of tag 54506162  in ACTIVITY Completed at  , time @ 13/07/2022 12:27:12.620595
+root - INFO - APPROVAL STATUS checking STARTED for  tag 54506162 at READER 1357137  @ 13/07/2022 12:27:12.620833
+root - INFO - APPROVAL STATUS CHECKED  for  tag 54506162 at READER 1357137  @ 13/07/2022 12:27:12.621087
+root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 54506162 from 710013 at time 13/07/2022 12:27:12.621344
+root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 54506162 from 710013 at time 13/07/2022 12:27:12.621421
