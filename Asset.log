@@ -17584,3 +17584,6 @@ root - INFO - APPROVAL STATUS checking STARTED for  tag 54506162 at READER 13571
 root - INFO - APPROVAL STATUS CHECKED  for  tag 54506162 at READER 1357137  @ 13/07/2022 12:27:12.621087
 root - INFO - Mqtt sending STARTED for UNAUTHORIZED MOVEMENT of tag 54506162 from 710013 at time 13/07/2022 12:27:12.621344
 root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 54506162 from 710013 at time 13/07/2022 12:27:12.621421
+Status - INFO - mqtt client connected at time 14/07/2022 15:43:09
+Status - INFO - connected to reader 678569 @ 2022-07-14
+Status - INFO - Scanning started for reader 678569 at 14/07/2022 15:43:11

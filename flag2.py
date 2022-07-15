@@ -28,37 +28,37 @@ list3=[]
 
 def insert_tag():
     cursor=cnxn.cursor()
-    cursor.execute("""INSERT INTO test(asset_id,asset_name,tag_id,asset_price)select asset_id,asset_name,tag_id,asset_price from assets""")
-    cursor.execute("""SELECT asset_id,count(asset_id) as count FROM test group by asset_id having count(asset_id)>1""")
+    #cursor.execute("""INSERT INTO test(asset_id,asset_name,tag_id,asset_price)select asset_id,asset_name,tag_id,asset_price from assets""")
+    cursor.execute("""SELECT asset_id,count(asset_id) as count FROM assets group by asset_id having count(asset_id)>1""")
     j=cursor.fetchall()
     for val in j:
         asset_id=val[0]
         count=val[1]
         print(asset_id)
         print(count)
-        cursor.execute("""select asset_price,asset_name from test where asset_id=(?) and asset_price is not null""",asset_id)
+        cursor.execute("""select asset_price,asset_name,location_id from assets where asset_id=(?) and asset_price is not null""",asset_id)
         val=cursor.fetchall()
         for i in val:
             asset_price=i[0]
             asset_name=i[1]
+            location_id=i[2]
             if asset_price==None or asset_name==None:
                 pass
             else:
-                cursor.execute("""UPDATE test SET asset_price=(?),asset_name=(?) where asset_id=(?)""",asset_price,asset_name,asset_id)
-        cursor.execute("""DELETE FROM test where asset_id=(?) and tag_id IS NULL and asset_price IS NOT NULL""",asset_id)
+                cursor.execute("""UPDATE assets SET asset_price=(?),asset_name=(?),location_id=(?) where asset_id=(?)""",asset_price,asset_name,location_id,asset_id)
+        cursor.execute("""DELETE FROM assets where asset_id=(?) and tag_id IS NULL and asset_price IS NOT NULL""",asset_id)
     cnxn.commit()
 
 
 def change_value():
     cursor = cnxn.cursor()
-    cursor.execute("""SELECT asset_id,count(asset_id) as count FROM test group by asset_id having count(asset_id)>1""")
+    cursor.execute("""SELECT asset_id,count(asset_id) as count FROM assets group by asset_id having count(asset_id)>1""")
     i = cursor.fetchall()
     for val in i:
         asset_id=val[0]
         count=val[1]
         cursor.execute("""SELECT asset_name,tag_id from test where asset_id=(?)""", asset_id)
         j = cursor.fetchall()
-        count=0
         for val1 in j:
             name = val1[0]
             tag_id=val1[1]
@@ -119,8 +119,9 @@ def null_check():
 #value_insrt()
 #exist_check()
 #null_check()
-insert_tag()
+#insert_tag()
 change_value()
+
 
 
 

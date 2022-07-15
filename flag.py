@@ -12,7 +12,6 @@ cnxn = py.connect('DRIVER={ODBC Driver 17 for SQL Server};SERVER=' + db_serverna
 list2=[]
 with open("/home/u_admin/RFID  TAG DETAILS - Sheet4.csv",'r',encoding="utf-8") as file:
     reader = csv.reader(file)
-    header=next(reader)
     for row in reader:
         list2.append(row)
 
@@ -29,8 +28,7 @@ def value_insrt():
         elif asset_id=='Asset ID not available ' or asset_id=='':
             pass
         else:
-            #cursor.execute("""INSERT INTO assets(asset_id,asset_name,tag_uuid,dept_id)values(?,?,?,3)""",asset_id,asset_name,tag_uuid)
-            cursor.execute("""INSERT INTO tags(tag_uuid,dept_id)values(?,2)""",tag_uuid)
+            cursor.execute("""INSERT INTO assets(asset_id,asset_name,tag_uuid,dept_id)values(?,?,?,2)""",asset_id,asset_name,tag_uuid)
     cnxn.commit()
 
 
