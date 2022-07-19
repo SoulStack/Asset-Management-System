@@ -2,8 +2,8 @@ import main
 from time import time, sleep
 import os
 
-user_name = os.environ.get('name')
-password = os.environ.get('password')
+user_name = os.environ.get('db_user_name')
+password = os.environ.get('pwd')
 
 reader1 = main.Reader("10.0.160.194",27011,"10.0.2.19",678569,'10.0.2.19',user_name,password,"asset",781013)
 

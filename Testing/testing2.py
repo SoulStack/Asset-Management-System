@@ -1,18 +1,18 @@
-import main
+import version2
 from time import time, sleep
 import os
+
 user_name = os.environ.get('db_user_name')
-#print(user_name)
 password = os.environ.get('db_pwd')
-#print(password)
-reader1 = main.Reader("10.0.160.193",27011,"10.0.2.19",2714273,'10.0.2.19',user_name,password,"asset",497013)
 
+reader1 = version2.Reader("10.0.160.191",27011,"10.0.2.19",3392841,'10.0.2.19',user_name,password,"asset",355013)
 
-
+# reader1 = main.Reader("10.0.160.194",27011,"10.0.2.19",678569,'10.0.2.19','soul_admin','Soulams.svciot',"asset",781013)
 
 def f1() :
     while True :
         sleep(0.5)
+        data_dict ={}
         tags = reader1.scan_tag_capture()
         if tags == None:
             pass
@@ -38,6 +38,8 @@ def f1() :
                         if tag_id == tag_id_in_activity : #checking the same tag is present in activity or not
                             approve = reader1.check_approve_status(tag_id)
                             print(approve)
+                            data = {tag_uuid : approve}
+                            data_dict.update(data)
                             if approve == "Approved" :
 
                                 reader1.insert_into_Log(approve, tag_id)
@@ -45,13 +47,14 @@ def f1() :
                                 reader1.check_tag_destination(tag_id,approve)  # it will change the movement status and approval status of the t>
                         # reader1.tag_alert_email(tag_id, approve)
                             else :
-                                reader1.send_mqtt_to_display(tag_id,approve)
+                                reader1.send_mqtt_for_buzzer(tag_id,approve)
                                 reader1.insert_into_alert(tag_id)
                         else :
                             approve = reader1.check_approve_status(tag_id)
                             print(approve)
-                            reader1.send_mqtt_to_display(tag_id, approve)
+                            reader1.send_mqtt_for_buzzer(tag_id, approve)
                             reader1.insert_into_alert(tag_id)
+            reader1.send_mqtt_to_display(data_dict)
 
 
 if __name__ == "__main__" :

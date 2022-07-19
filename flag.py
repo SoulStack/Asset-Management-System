@@ -1,11 +1,12 @@
+
 import pyodbc as py
 import string
 import csv
 
 db_servername='10.0.2.19'
 db_database='asset'
-db_username='soul_admin'
-db_password='Soulams.svciot'
+db_username='sa'
+db_password='Soulsvciot01'
 
 cnxn = py.connect('DRIVER={ODBC Driver 17 for SQL Server};SERVER=' + db_servername + ';DATABASE=' + db_database + ';UID=' + db_username + ';PWD=' + db_password)
 
@@ -25,11 +26,13 @@ def value_insrt():
         cursor = cnxn.cursor()
         if tag_uuid==None:
             pass
-        elif asset_id=='Asset ID not available ' or asset_id=='':
+        elif asset_id=='sap ID not available  ' or asset_id=='':
             pass
         else:
             cursor.execute("""INSERT INTO assets(asset_id,asset_name,tag_uuid,dept_id)values(?,?,?,2)""",asset_id,asset_name,tag_uuid)
     cnxn.commit()
+
+
 
 
 value_insrt()

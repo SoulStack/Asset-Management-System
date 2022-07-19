@@ -4,8 +4,8 @@ import csv
 
 db_servername='10.0.2.19'
 db_database='asset'
-db_username='soul_admin'
-db_password='Soulams.svciot'
+db_username='sa'
+db_password='Soulsvciot01'
 
 cnxn = py.connect('DRIVER={ODBC Driver 17 for SQL Server};SERVER=' + db_servername + ';DATABASE=' + db_database + ';UID=' + db_username + ';PWD=' + db_password)
 flag=0
@@ -57,7 +57,7 @@ def change_value():
     for val in i:
         asset_id=val[0]
         count=val[1]
-        cursor.execute("""SELECT asset_name,tag_id from test where asset_id=(?)""", asset_id)
+        cursor.execute("""SELECT asset_name,tag_id from assets where asset_id=(?)""", asset_id)
         j = cursor.fetchall()
         for val1 in j:
             name = val1[0]

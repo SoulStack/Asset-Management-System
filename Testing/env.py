@@ -1,10 +1,10 @@
-import main3
+import main
 from time import time, sleep
 import os 
-user_name = os.environ.get('name')
-password = os.environ.get('password')
+user_name = os.environ.get('db_user_name')
+password = os.environ.get('db_pwd')
 print(user_name,password)
-reader1 = main3.Reader("10.2.96.91",27011,"10.0.2.19",678569,'10.0.2.19',user_name,password,"asset",781013)
+reader1 = main.Reader("10.2.96.91",27011,"10.0.2.19",678569,'10.0.2.19',user_name,password,"asset",781013)
 
 
 

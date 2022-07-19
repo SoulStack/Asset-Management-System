@@ -17587,3 +17587,53 @@ root - INFO - Mqtt SENT Successfully for UNAUTHORIZED MOVEMENT of tag 54506162 f
 Status - INFO - mqtt client connected at time 14/07/2022 15:43:09
 Status - INFO - connected to reader 678569 @ 2022-07-14
 Status - INFO - Scanning started for reader 678569 at 14/07/2022 15:43:11
+Status - INFO - mqtt client connected at time 18/07/2022 14:47:18
+Status - INFO - mqtt client connected at time 18/07/2022 14:48:02
+Status - INFO - mqtt client connected at time 18/07/2022 14:49:37
+Status - INFO - mqtt client connected at time 18/07/2022 15:13:13
+Status - INFO - connected to reader 2714273 @ 2022-07-18
+Status - INFO - Scanning started for reader 2714273 at 18/07/2022 15:13:20
+Status - INFO - mqtt client connected at time 18/07/2022 15:16:14
+Status - INFO - connected to reader 2714273 @ 2022-07-18
+Status - INFO - Scanning started for reader 2714273 at 18/07/2022 15:16:21
+Status - INFO - mqtt client connected at time 18/07/2022 15:16:56
+Status - INFO - connected to reader 2714273 @ 2022-07-18
+Status - INFO - Scanning started for reader 2714273 at 18/07/2022 15:17:03
+Status - INFO - mqtt client connected at time 18/07/2022 15:21:33
+Status - INFO - connected to reader 2714273 @ 2022-07-18
+Status - INFO - Scanning started for reader 2714273 at 18/07/2022 15:21:40
+Status - INFO - mqtt client connected at time 18/07/2022 15:22:14
+Status - INFO - mqtt client connected at time 19/07/2022 09:47:59
+Status - INFO - connected to reader 1357137 @ 2022-07-19
+Status - INFO - Scanning started for reader 1357137 at 19/07/2022 09:48:06
+Status - INFO - mqtt client connected at time 19/07/2022 10:09:22
+Status - INFO - connected to reader 2714273 @ 2022-07-19
+Status - INFO - Scanning started for reader 2714273 at 19/07/2022 10:09:24
+Status - INFO - mqtt client connected at time 19/07/2022 10:09:49
+Status - INFO - connected to reader 1357137 @ 2022-07-19
+Status - INFO - Scanning started for reader 1357137 at 19/07/2022 10:09:51
+Status - INFO - mqtt client connected at time 19/07/2022 10:10:24
+Status - INFO - connected to reader 1357137 @ 2022-07-19
+Status - INFO - Scanning started for reader 1357137 at 19/07/2022 10:10:26
+Status - INFO - mqtt client connected at time 19/07/2022 12:53:39
+Status - INFO - mqtt client connected at time 19/07/2022 12:54:41
+Status - INFO - connected to reader 4071409 @ 2022-07-19
+Status - INFO - Scanning started for reader 4071409 at 19/07/2022 12:54:43
+root - INFO - tags scanned successfully at reader 4071409 @ 19/07/2022 12:54:59.515097 
+root - INFO - tag b'SA/ict/a1/0485' VALIDATION STARTED scanned from READER 4071409  at 19/07/2022 12:54:59.515511
+root - INFO - tag b'SA/ict/a1/0485' in VALIDATION ENDS scanned from READER 4071409  @ 19/07/2022 12:54:59.517053...
+root - INFO - tags scanned successfully at reader 4071409 @ 19/07/2022 12:54:59.524834 
+root - INFO - tag b'S\xe1\x05\x00\x01\xfe_j\x16\x00\xee\x00\x01\x0e' VALIDATION STARTED scanned from READER 4071409  at 19/07/2022 12:54:59.525129
+root - INFO - tag b'S\xe1\x05\x00\x01\xfe_j\x16\x00\xee\x00\x01\x0e' in VALIDATION ENDS scanned from READER 4071409  @ 19/07/2022 12:54:59.526328...
+root - INFO - tags scanned successfully at reader 4071409 @ 19/07/2022 12:55:00.038715 
+root - INFO - tag b'SA/ict/a1/0485' VALIDATION STARTED scanned from READER 4071409  at 19/07/2022 12:55:00.039097
+root - INFO - tag b'SA/ict/a1/0485' in VALIDATION ENDS scanned from READER 4071409  @ 19/07/2022 12:55:00.040579...
+root - INFO - tags scanned successfully at reader 4071409 @ 19/07/2022 12:55:00.591928 
+root - INFO - tag b'SA/ict/a1/0485' VALIDATION STARTED scanned from READER 4071409  at 19/07/2022 12:55:00.592328
+root - INFO - tag b'SA/ict/a1/0485' in VALIDATION ENDS scanned from READER 4071409  @ 19/07/2022 12:55:00.593883...
+root - INFO - tags scanned successfully at reader 4071409 @ 19/07/2022 12:55:01.125742 
+root - INFO - tag b'SA/ict/a1/0485' VALIDATION STARTED scanned from READER 4071409  at 19/07/2022 12:55:01.125903
+root - INFO - tag b'SA/ict/a1/0485' in VALIDATION ENDS scanned from READER 4071409  @ 19/07/2022 12:55:01.126547...
+root - INFO - tags scanned successfully at reader 4071409 @ 19/07/2022 12:55:01.655888 
+root - INFO - tag b'SA/ict/a1/0485' VALIDATION STARTED scanned from READER 4071409  at 19/07/2022 12:55:01.656283
+root - INFO - tag b'SA/ict/a1/0485' in VALIDATION ENDS scanned from READER 4071409  @ 19/07/2022 12:55:01.657842...

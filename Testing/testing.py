@@ -1,7 +1,7 @@
 import main
 from time import time, sleep
 
-reader1 = main.Reader("10.2.96.91",27011,"10.0.2.19",678569,'10.0.2.19','soul_admin','Soulams.svciot',"asset",781013)
+reader1 = main.Reader("10.0.160.192",27011,"10.0.2.19",678569,'10.0.2.19','soul_admin','Soulams.svciot',"asset",781013)
 
 
 
